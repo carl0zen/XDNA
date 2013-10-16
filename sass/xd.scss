@@ -317,6 +317,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
 
 
 ==========================================================================**/
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
 
   #main-content{
     width: 100%;
@@ -333,7 +338,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     .panel{
       background: #C6C7C9;
       border:1px solid #C6C7C9;
-      
+      @include background-opacity(#C6C7C9, 0.5);
       h3{
         color:$gray;
       }

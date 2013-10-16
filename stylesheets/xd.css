@@ -402,7 +402,10 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       background: none; }
     body.xd #main-content .panel {
       background: #C6C7C9;
-      border: 1px solid #C6C7C9; }
+      border: 1px solid #C6C7C9;
+      background: #c6c7c9;
+      /* The Fallback */
+      background: rgba(198, 199, 201, 0.5); }
       body.xd #main-content .panel h3 {
         color: #88888c; }
       body.xd #main-content .panel p {
