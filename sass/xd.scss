@@ -366,8 +366,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         display: none;
       }
       &.featured, &[data-panel-id="teamstatus"]{
+       
         @include background-opacity(#00ADEE,0.5);
-        p,a, li, span{
+        p,a, li, span, h3{
           color:$white !important;
         }
       }//.featured
