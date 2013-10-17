@@ -364,6 +364,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
       ul{
         background: none;
+        &.bullet li{
+          background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png') no-repeat top left;
+        }
       }
       &:before{
         display: none;
