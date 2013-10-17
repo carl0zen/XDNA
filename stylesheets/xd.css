@@ -723,7 +723,7 @@ body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .pane
 }
 /* line 494, ../sass/xd.scss */
 body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black {
-  background-position: 0 -75px;
+  background-position: 0 -66px;
 }
 /* line 497, ../sass/xd.scss */
 body.xd .icons-booked {
