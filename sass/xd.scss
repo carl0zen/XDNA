@@ -2,7 +2,8 @@
 @import "settings";
 @import "helpers";
 @import "layout";
-@import "sprite/*.png";
+@import "icons/*.png";
+@include all-icons-sprites;
 
 html{
     background: #efefef;
@@ -267,14 +268,15 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         font-weight: normal;
       }
     }
-    .dynamic-children.hover{
-      background-color: #0088AF;
-    }
+    
     .static.dynamic-children li{
 
       & a:hover{
         background-color: #0088AF
       }
+    }
+    li.static.dynamic-children.hover{
+      background-color: #0088AF;
     }
   }
   .menu-horizontal a.dynamic-children span.additional-background,
