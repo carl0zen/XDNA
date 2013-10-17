@@ -472,12 +472,19 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   .panel .availability .status.red, .panel .color-key .status.red, .panel .multi-bullets .status.red {
     @extend .icons-project-alert; 
   }
-
+  .panel .availability .status.green, .panel .color-key .status.green, .panel .multi-bullets .status.green {
+    @extend .icons-available;
+  }
+  .panel .availability .status.white, .panel .color-key .status.white, .panel .multi-bullets .status.white {
+    @extend .booked;
+  }
 
   /*** ICONS ***/
 
   .icons-sprite, .icons-active, .icons-available, .icons-booked, .icons-half-booked, .icons-incoming, .icons-project-alert, .icons-project-ontrack, .icons-project-warning {
   background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png') no-repeat;
+  width:14px;
+  height: 14px;
   }
   .icons-active {
     background-position: 0 -13px;
