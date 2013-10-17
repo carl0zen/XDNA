@@ -346,6 +346,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       @include background-opacity(#C6C7C9, 0.5);
       h3{
         color:$gray;
+        font-size: 35px;
+        font-weight: 300;
+
       }
       hr{
         display: none;
@@ -425,8 +428,6 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   #carPrev{
     margin-left:0;
     margin-right:0;
-    background-color:#009fd9;
-    border:solid 2px #0088af;
     opacity: .9;
   }
   &:hover, &:active{

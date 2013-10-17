@@ -411,7 +411,9 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       /* The Fallback */
       background: rgba(198, 199, 201, 0.5); }
       body.xd #main-content .panel h3 {
-        color: #88888c; }
+        color: #88888c;
+        font-size: 35px;
+        font-weight: 300; }
       body.xd #main-content .panel hr {
         display: none; }
       body.xd #main-content .panel p, body.xd #main-content .panel a, body.xd #main-content .panel li {
@@ -475,8 +477,6 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   body.xd #carPrev {
     margin-left: 0;
     margin-right: 0;
-    background-color: #009fd9;
-    border: solid 2px #0088af;
     opacity: .9; }
   body.xd:hover, body.xd:active {
     background-color: #00B0E2;
