@@ -413,7 +413,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       body.xd #main-content .panel h3 {
         color: #88888c; }
       body.xd #main-content .panel p, body.xd #main-content .panel a, body.xd #main-content .panel li {
-        color: #333333; }
+        color: #333333 !important; }
       body.xd #main-content .panel:before {
         display: none; }
   body.xd .xd-footer {
