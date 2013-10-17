@@ -424,12 +424,48 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         background: none; }
       body.xd #main-content .panel:before {
         display: none; }
-      body.xd #main-content .panel.featured, body.xd #main-content .panel [data-panel-id="teamstatus"] {
+      body.xd #main-content .panel.featured, body.xd #main-content .panel div[data-panel-id="teamstatus"] {
         background: #00ADEE; }
-        body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel [data-panel-id="teamstatus"] p, body.xd #main-content .panel [data-panel-id="teamstatus"] a, body.xd #main-content .panel [data-panel-id="teamstatus"] li, body.xd #main-content .panel [data-panel-id="teamstatus"] span {
+        body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel div[data-panel-id="teamstatus"] p, body.xd #main-content .panel div[data-panel-id="teamstatus"] a, body.xd #main-content .panel div[data-panel-id="teamstatus"] li, body.xd #main-content .panel div[data-panel-id="teamstatus"] span {
           color: #fefefe !important; }
       body.xd #main-content .panel .thumbCrop {
         border-radius: 100%; }
+  body.xd #carPaginate a:active {
+    box-shadow: none; }
+  body.xd #carNext,
+  body.xd #carPrev {
+    margin-left: 0;
+    margin-right: 0;
+    opacity: .9;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    font-size: 20px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -65px;
+    opacity: 0.5; }
+    body.xd #carNext:hover, body.xd #carNext:focus,
+    body.xd #carPrev:hover,
+    body.xd #carPrev:focus {
+      box-shadow: none;
+      opacity: 1; }
+  body.xd:hover, body.xd:active {
+    background-color: #00B0E2;
+    opacity: 1; }
+  body.xd .caroufredsel_wrapper {
+    margin: 0 auto !important; }
+  body.xd img[id*="_PictureUrlImage"] {
+    width: 60px;
+    height: 60px; }
+  body.xd .s4-ca > div.s4-notdlg.social-bar,
+  body.xd .s4-ca > div.s4-notdlg.xd-title {
+    display: none; }
+  body.xd .s4-tn {
+    max-width: 1280px;
+    margin: 0 auto; }
   body.xd .xd-footer {
     padding: 20px;
     font-size: 0.8em; }
@@ -475,42 +511,6 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     background-color: #fff; }
   body.xd p {
     font-size: 1.2em; }
-  body.xd #carPaginate a:active {
-    box-shadow: none; }
-  body.xd #carNext,
-  body.xd #carPrev {
-    margin-left: 0;
-    margin-right: 0;
-    opacity: .9;
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    border: 0 none;
-    cursor: pointer;
-    font-size: 20px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -65px;
-    opacity: 0.5; }
-    body.xd #carNext:hover, body.xd #carNext:focus,
-    body.xd #carPrev:hover,
-    body.xd #carPrev:focus {
-      box-shadow: none;
-      opacity: 1; }
-  body.xd:hover, body.xd:active {
-    background-color: #00B0E2;
-    opacity: 1; }
-  body.xd .caroufredsel_wrapper {
-    margin: 0 auto !important; }
-  body.xd img[id*="_PictureUrlImage"] {
-    width: 60px;
-    height: 60px; }
-  body.xd .s4-ca > div.s4-notdlg.social-bar,
-  body.xd .s4-ca > div.s4-notdlg.xd-title {
-    display: none; }
-  body.xd .s4-tn {
-    max-width: 1280px;
-    margin: 0 auto; }
 
 /* ==========================================================================
 
