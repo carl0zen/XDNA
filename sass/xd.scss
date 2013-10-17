@@ -426,7 +426,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   /* Main Content & Arrows  */
   #carPaginate a:active {
     box-shadow:none;
-}  
+  }  
   #carNext,
   #carPrev{
     margin-left:0;
@@ -440,8 +440,11 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     position: absolute;
     top: 50%;
     width: auto;
+    margin-top: -65px;
+    opacity: 0.8;
     &:hover, &:focus{
       box-shadow: none;
+      opacity: 1;
     }
   }
   &:hover, &:active{

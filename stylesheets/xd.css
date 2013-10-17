@@ -487,11 +487,14 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     height: auto;
     position: absolute;
     top: 50%;
-    width: auto; }
+    width: auto;
+    margin-top: -65px;
+    opacity: 0.8; }
     body.xd #carNext:hover, body.xd #carNext:focus,
     body.xd #carPrev:hover,
     body.xd #carPrev:focus {
-      box-shadow: none; }
+      box-shadow: none;
+      opacity: 1; }
   body.xd:hover, body.xd:active {
     background-color: #00B0E2;
     opacity: 1; }
