@@ -721,7 +721,7 @@ body.xd .s4-tn {
   margin: 0 auto;
 }
 /* line 436, ../sass/xd.scss */
-body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"], body.xd button {
+body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
   border: none;
   padding: 1.2em 2.2em;
   color: #fff;
