@@ -355,7 +355,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd .xd-menu .s4-tn li {
       line-height: 6px;
       font-weight: normal; }
-    body.xd .xd-menu .static.dynamic-children li a:hover {
+    body.xd .xd-menu .static.dynamic-children li a:hover, body.xd .xd-menu .static.dynamic-children li.hover {
       background-color: #0088af; }
   body.xd .menu-horizontal a.dynamic-children span.additional-background,
   body.xd .menu-horizontal span.dynamic-children span.additional-background {
@@ -430,8 +430,12 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
           color: #fefefe !important; }
       body.xd #main-content .panel .thumbCrop {
         border-radius: 100%; }
-  body.xd #carPaginate a:active {
-    box-shadow: none; }
+  body.xd #carPaginate {
+    margin: 10px auto 25px;
+    height: 5px !important;
+    overflow: hidden; }
+    body.xd #carPaginate a:active {
+      box-shadow: none; }
   body.xd #carNext,
   body.xd #carPrev {
     margin-left: 0;

@@ -269,7 +269,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
     .static.dynamic-children li{
 
-      & a:hover{
+      & a:hover, &.hover{
         background-color: #0088AF
       }
     }
@@ -377,8 +377,13 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
     } //.panel
   }
-  #carPaginate a:active {
-    box-shadow:none;
+  #carPaginate {
+    a:active {
+      box-shadow:none;
+    }
+    margin: 10px auto 25px;
+    height: 5px !important;
+    overflow: hidden;
   }  
   #carNext,
   #carPrev{
