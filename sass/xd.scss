@@ -334,6 +334,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
 
 
   #main-content{
+    ul.color-key.wide{
+      li{font-size:11px;}
+    }
     width: 100%;
     position: relative; 
     @include background-size(cover);
@@ -384,7 +387,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         border-radius:100%;
       }
     } //.panel
-  }
+  }// #main-content
   #carPaginate {
     a:active {
       box-shadow:none;
@@ -481,6 +484,8 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   .panel .availability .status.black, .panel .color-key .status.black, .panel .multi-bullets .status.black {
     @extend .icons-available;
   }
+
+  
   /*** ICONS ***/
 
   .icons-sprite, .icons-active, .icons-available, .icons-booked, .icons-half-booked, .icons-incoming, .icons-project-alert, .icons-project-ontrack, .icons-project-warning {
