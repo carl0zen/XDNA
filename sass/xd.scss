@@ -356,6 +356,12 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       &:before{
         display: none;
       }
+      &.featured{
+        background: #00ADEE;
+        p,a{
+          color:$white;
+        }
+      }
     }
   }
   /* ==========================================================================
