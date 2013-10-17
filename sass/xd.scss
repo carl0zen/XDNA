@@ -437,6 +437,9 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     position: absolute;
     top: 50%;
     width: auto;
+    &:hover, &:focus{
+      box-shadow: none;
+    }
   }
   &:hover, &:active{
     background-color:#00B0E2;
