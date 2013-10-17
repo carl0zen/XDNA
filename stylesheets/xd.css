@@ -428,6 +428,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         background: #00ADEE; }
         body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span {
           color: #fefefe !important; }
+      body.xd #main-content .panel .thumbCrop {
+        border-radius: 100%; }
   body.xd .xd-footer {
     padding: 20px;
     font-size: 0.8em; }

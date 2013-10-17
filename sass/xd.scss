@@ -370,8 +370,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         p,a, li, span{
           color:$white !important;
         }
+      }//.featured
+      .thumbCrop{
+        border-radius:100%;
       }
-    }
+    } //.panel
   }
   /* ==========================================================================
 
