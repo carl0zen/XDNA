@@ -473,10 +473,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     @extend .icons-project-alert; 
   }
   .panel .availability .status.green, .panel .color-key .status.green, .panel .multi-bullets .status.green {
-    @extend .icons-available;
+    @extend .icons-active;
   }
   .panel .availability .status.white, .panel .color-key .status.white, .panel .multi-bullets .status.white {
-    @extend .icons-booked;
+    @extend .icons-incoming;
   }
 
   /*** ICONS ***/
