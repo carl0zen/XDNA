@@ -146,51 +146,6 @@
   background-origin: border-box;
 }
 
-/* line 98, icons/*.png */
-.icons-sprite, .icons-active, .icons-available, .icons-booked, .icons-half-booked, .icons-incoming, .icons-project-alert, .icons-project-ontrack, .icons-project-warning {
-  background: url('/images/icons-s5ee5f4547f.png') no-repeat;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-active {
-  background-position: 0 -13px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-available {
-  background-position: 0 -75px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-booked {
-  background-position: 0 -71px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-half-booked {
-  background-position: 0 -67px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-incoming {
-  background-position: 0 -53px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-project-alert {
-  background-position: 0 0;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-project-ontrack {
-  background-position: 0 -27px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-project-warning {
-  background-position: 0 -40px;
-}
-
 /* line 8, ../sass/xd.scss */
 html {
   background: #efefef;
@@ -271,6 +226,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   
   
   ==========================================================================**/
+  /*** ICONS ***/
   /* ==========================================================================
 
 oooooooooooo                         .                      
@@ -547,7 +503,7 @@ body.xd .xd-menu .static.dynamic-children li a:hover {
 }
 /* line 278, ../sass/xd.scss */
 body.xd .xd-menu li.static.dynamic-children.hover {
-  background-color: #0088AF;
+  background-color: #f9f9f9;
 }
 /* line 283, ../sass/xd.scss */
 body.xd .menu-horizontal a.dynamic-children span.additional-background,
@@ -755,27 +711,63 @@ body.xd input[type="submit"] {
 body.xd input[type="submit"]:hover {
   background-color: #009cc9;
 }
-/* line 477, ../sass/xd.scss */
+/* line 479, ../sass/xd.scss */
+body.xd .icons-sprite, body.xd .icons-active, body.xd .icons-available, body.xd .icons-booked, body.xd .icons-half-booked, body.xd .icons-incoming, body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red, body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue, body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
+  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
+}
+/* line 482, ../sass/xd.scss */
+body.xd .icons-active {
+  background-position: 0 -13px;
+}
+/* line 485, ../sass/xd.scss */
+body.xd .icons-available {
+  background-position: 0 -75px;
+}
+/* line 488, ../sass/xd.scss */
+body.xd .icons-booked {
+  background-position: 0 -71px;
+}
+/* line 491, ../sass/xd.scss */
+body.xd .icons-half-booked {
+  background-position: 0 -67px;
+}
+/* line 494, ../sass/xd.scss */
+body.xd .icons-incoming {
+  background-position: 0 -53px;
+}
+/* line 497, ../sass/xd.scss */
+body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red {
+  background-position: 0 0;
+}
+/* line 500, ../sass/xd.scss */
+body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue {
+  background-position: 0 -27px;
+}
+/* line 503, ../sass/xd.scss */
+body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
+  background-position: 0 -40px;
+}
+/* line 519, ../sass/xd.scss */
 body.xd .xd-footer {
   padding: 20px;
   font-size: 0.8em;
 }
-/* line 482, ../sass/xd.scss */
+/* line 524, ../sass/xd.scss */
 body.xd.v4master {
   overflow: auto;
   width: auto;
   margin: 0 auto;
 }
-/* line 484, ../sass/xd.scss */
+/* line 526, ../sass/xd.scss */
 body.xd.v4master #s4-bodyContainer {
   padding: 0;
 }
-/* line 485, ../sass/xd.scss */
+/* line 527, ../sass/xd.scss */
 body.xd.v4master #ctl00_MSO_ContentDi {
   padding-top: 0;
   width: auto;
 }
-/* line 487, ../sass/xd.scss */
+/* line 529, ../sass/xd.scss */
 body.xd .inner-wrapper {
   font-size: 11px;
   background: #efefef;
@@ -791,7 +783,7 @@ body.xd .inner-wrapper {
   /* Body Buttons and objetcs */
   /* Custom SharePoint Parts */
 }
-/* line 501, ../sass/xd.scss */
+/* line 543, ../sass/xd.scss */
 body.xd .inner-wrapper .columns,
 body.xd .inner-wrapper .columns:before,
 body.xd .inner-wrapper .columns:after {
@@ -799,28 +791,28 @@ body.xd .inner-wrapper .columns:after {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 505, ../sass/xd.scss */
+/* line 547, ../sass/xd.scss */
 body.xd .inner-wrapper a:hover {
   cursor: pointer;
 }
-/* line 506, ../sass/xd.scss */
+/* line 548, ../sass/xd.scss */
 body.xd .inner-wrapper a:focus {
   outline: none;
 }
-/* line 507, ../sass/xd.scss */
+/* line 549, ../sass/xd.scss */
 body.xd .inner-wrapper object, body.xd .inner-wrapper embed {
   height: 100%;
 }
-/* line 512, ../sass/xd.scss */
+/* line 554, ../sass/xd.scss */
 body.xd div.article,
 body.xd div.welcome {
   padding: 0;
 }
-/* line 514, ../sass/xd.scss */
+/* line 556, ../sass/xd.scss */
 body.xd .ms-sbgo.ms-sbcell {
   background-color: #fff;
 }
-/* line 515, ../sass/xd.scss */
+/* line 557, ../sass/xd.scss */
 body.xd p {
   font-size: 1.2em;
 }
@@ -850,37 +842,37 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
    ========================================================================== */
 /* Tablet (landscape) ----------- */
 @media only screen and (max-width: 1024px) {
-  /* line 548, ../sass/xd.scss */
+  /* line 590, ../sass/xd.scss */
   body.xd .xd-header {
     padding: 20px 0;
     height: 100%;
   }
 
-  /* line 552, ../sass/xd.scss */
+  /* line 594, ../sass/xd.scss */
   .xd-menu .s4-tn li.static > .menu-item {
     padding: 10px 14px;
   }
 }
 /* Tablet (portrait) ----------- */
 @media only screen and (max-width: 768px) {
-  /* line 559, ../sass/xd.scss */
+  /* line 601, ../sass/xd.scss */
   body.xd .xd-header h1 {
     font-size: 1.2em;
     position: absolute;
     top: 9px;
   }
 
-  /* line 564, ../sass/xd.scss */
+  /* line 606, ../sass/xd.scss */
   body.xd .xd-header .s4-notdlg img {
     margin-top: 13px;
   }
 
-  /* line 567, ../sass/xd.scss */
+  /* line 609, ../sass/xd.scss */
   body.xd .xd-header h1 {
     top: 21px;
   }
 
-  /* line 570, ../sass/xd.scss */
+  /* line 612, ../sass/xd.scss */
   .xd-menu .s4-tn li.static > .menu-item {
     padding: 20px 10px;
     -webkit-box-sizing: border-box;
@@ -890,12 +882,12 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     box-sizing: border-box;
   }
 
-  /* line 578, ../sass/xd.scss */
+  /* line 620, ../sass/xd.scss */
   .menu-horizontal {
     width: 100%;
   }
 
-  /* line 581, ../sass/xd.scss */
+  /* line 623, ../sass/xd.scss */
   .menu-horizontal li.static, .menu-horizontal a.static, .menu-horizontal span.static {
     width: 100%;
     float: none;
@@ -905,18 +897,18 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
   }
 }
 @media only screen and (min-width: 769px) {
-  /* line 590, ../sass/xd.scss */
+  /* line 632, ../sass/xd.scss */
   body.xd .menu-icon {
     display: none;
   }
 }
 @media only screen and (max-width: 620px) {
-  /* line 595, ../sass/xd.scss */
+  /* line 637, ../sass/xd.scss */
   body.xd .xd-header h1 {
     display: none;
   }
 
-  /* line 598, ../sass/xd.scss */
+  /* line 640, ../sass/xd.scss */
   body.xd #auth {
     text-align: center;
     float: none;
@@ -927,18 +919,18 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     margin-top: 1em;
   }
 
-  /* line 599, ../sass/xd.scss */
+  /* line 641, ../sass/xd.scss */
   body.xd #auth .bold {
     display: block;
     text-align: center;
   }
 
-  /* line 600, ../sass/xd.scss */
+  /* line 642, ../sass/xd.scss */
   body.xd .xd-welcome {
     float: none;
   }
 
-  /* line 601, ../sass/xd.scss */
+  /* line 643, ../sass/xd.scss */
   body.xd #auth .thumb, body.xd #auth > div {
     display: block;
     height: auto;
@@ -949,38 +941,38 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 }
 /* Mobile       ----------- */
 @media only screen and (max-width: 620px) {
-  /* line 606, ../sass/xd.scss */
+  /* line 648, ../sass/xd.scss */
   body.xd #carPaginate.loadFade {
     width: auto !important;
   }
 
-  /* line 609, ../sass/xd.scss */
+  /* line 651, ../sass/xd.scss */
   body.xd .static.dynamic-children:active {
     background: #0088af;
   }
 
-  /* line 612, ../sass/xd.scss */
+  /* line 654, ../sass/xd.scss */
   body.xd .xd-welcome #auth {
     margin-top: 20px;
   }
 
-  /* line 615, ../sass/xd.scss */
+  /* line 657, ../sass/xd.scss */
   body.xd .xd-welcome #auth .thumb {
     margin: 20px auto 0;
   }
 
-  /* line 619, ../sass/xd.scss */
+  /* line 661, ../sass/xd.scss */
   body.xd .menu-horizontal a.dynamic-children span.additional-background:before,
   body.xd .menu-horizontal span.dynamic-children span.additional-background:before {
     margin-right: -6px;
   }
 
-  /* line 622, ../sass/xd.scss */
+  /* line 664, ../sass/xd.scss */
   body.xd .xd-header {
     padding: 2em;
   }
 
-  /* line 625, ../sass/xd.scss */
+  /* line 667, ../sass/xd.scss */
   body.xd .xd-header .xd-search input {
     height: 30px;
     float: none;
@@ -988,7 +980,7 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     background-color: white;
   }
 
-  /* line 641, ../sass/xd.scss */
+  /* line 683, ../sass/xd.scss */
   body.xd .xd-header .columns,
   body.xd .xd-header .xd-welcome,
   body.xd .xd-header .xd-welcome .welcome,
@@ -1006,36 +998,36 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     padding: 0px;
   }
 
-  /* line 647, ../sass/xd.scss */
+  /* line 689, ../sass/xd.scss */
   body.xd .xd-header .xd-search {
     margin: 2em 0;
     display: none;
   }
 
-  /* line 651, ../sass/xd.scss */
+  /* line 693, ../sass/xd.scss */
   body.xd .xd-header .xd-search .ms-sbcell {
     width: 100%;
   }
 
-  /* line 654, ../sass/xd.scss */
+  /* line 696, ../sass/xd.scss */
   body.xd .xd-header .xd-search .ms-sbrow {
     overflow: hidden;
   }
 
-  /* line 657, ../sass/xd.scss */
+  /* line 699, ../sass/xd.scss */
   body.xd .xd-header .xd-search .ms-sbscopes {
     margin-bottom: 2em;
     text-align: left;
     height: 30px;
   }
 
-  /* line 662, ../sass/xd.scss */
+  /* line 704, ../sass/xd.scss */
   body.xd .xd-header .xd-welcome span.welcome {
     font-size: 1.5em;
   }
 
   /* MENU       ----------- */
-  /* line 667, ../sass/xd.scss */
+  /* line 709, ../sass/xd.scss */
   body.xd xd-menu a, body.xd xd-menu li, body.xd .xd-menu, .menu-horizontal {
     display: block;
     width: 100%;
@@ -1044,18 +1036,18 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     padding: 0px;
   }
 
-  /* line 675, ../sass/xd.scss */
+  /* line 717, ../sass/xd.scss */
   .menu-item-text {
     padding-left: 20px;
   }
 
   /* Responsive MENU        ----------- */
-  /* line 679, ../sass/xd.scss */
+  /* line 721, ../sass/xd.scss */
   body.xd .menu-icon {
     display: block;
   }
 
-  /* line 682, ../sass/xd.scss */
+  /* line 724, ../sass/xd.scss */
   body.xd .menu .ul.dynamic {
     display: block !important;
     left: auto !important;
@@ -1064,28 +1056,28 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     clear: both !important;
   }
 
-  /* line 689, ../sass/xd.scss */
+  /* line 731, ../sass/xd.scss */
   body.xd ul.root.static {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 693, ../sass/xd.scss */
+  /* line 735, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu {
     width: 100%;
   }
 
-  /* line 696, ../sass/xd.scss */
+  /* line 738, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu ul {
     width: 100%;
   }
 
-  /* line 699, ../sass/xd.scss */
+  /* line 741, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu ul > li {
     width: 100%;
   }
 
-  /* line 702, ../sass/xd.scss */
+  /* line 744, ../sass/xd.scss */
   body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li {
     width: 100%;
   }
@@ -1094,12 +1086,12 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
    Mobile
    ========================================================================== */
 @media (max-width: 480px) {
-  /* line 713, ../sass/xd.scss */
+  /* line 755, ../sass/xd.scss */
   .menu-icon {
     display: block;
   }
 
-  /* line 716, ../sass/xd.scss */
+  /* line 758, ../sass/xd.scss */
   .menu .ul.dynamic {
     display: block !important;
     left: auto !important;
@@ -1108,25 +1100,25 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     clear: both !important;
   }
 
-  /* line 724, ../sass/xd.scss */
+  /* line 766, ../sass/xd.scss */
   ul.root.static {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 727, ../sass/xd.scss */
+  /* line 769, ../sass/xd.scss */
   #zz15_TopNavigationMenuV4 .menu {
     width: 100%;
   }
-  /* line 731, ../sass/xd.scss */
+  /* line 773, ../sass/xd.scss */
   #zz15_TopNavigationMenuV4 .menu ul {
     width: 100%;
   }
-  /* line 734, ../sass/xd.scss */
+  /* line 776, ../sass/xd.scss */
   #zz15_TopNavigationMenuV4 .menu ul > li {
     width: 100%;
   }
-  /* line 739, ../sass/xd.scss */
+  /* line 781, ../sass/xd.scss */
   #zz15_TopNavigationMenuV4 .menu ul ul > li {
     width: 100%;
   }
@@ -1135,13 +1127,13 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
  Tablet
  ========================================================================== */
 @media only screen and (max-width: 1024px) {
-  /* line 750, ../sass/xd.scss */
+  /* line 792, ../sass/xd.scss */
   .s4-ca {
     margin-top: 70px;
   }
 }
 @media only screen and (min-width: 769px) {
-  /* line 760, ../sass/xd.scss */
+  /* line 802, ../sass/xd.scss */
   .menu-icon {
     display: none;
   }

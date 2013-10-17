@@ -2,8 +2,8 @@
 @import "settings";
 @import "helpers";
 @import "layout";
-@import "icons/*.png";
-@include all-icons-sprites;
+//@import "icons/*.png"; <-- This code generates the sprite!
+// @include all-icons-sprites; // Commented this in order to change image location
 
 html{
     background: #efefef;
@@ -276,7 +276,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
     }
     li.static.dynamic-children.hover{
-      background-color: #0088AF;
+      background-color: #f9f9f9;
     }
   }
   .menu-horizontal a.dynamic-children span.additional-background,
@@ -337,7 +337,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     width: 100%;
     position: relative; 
     @include background-size(cover);
-    background:#FCFCFC url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg') no-repeat center center fixed;
+    background: #FCFCFC url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg') no-repeat center center fixed;
     .welcome-content{
         margin:0;
         padding: 25px 0;
@@ -463,6 +463,48 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       background-color: lighten($middleBlue, 5%);
     }
   }
+  .panel .availability .status.blue, .panel .color-key .status.blue, .panel .multi-bullets .status.blue {
+    @extend .icons-project-ontrack;
+  }
+  .panel .availability .status.yellow, .panel .color-key .status.yellow, .panel .multi-bullets .status.yellow {
+    @extend .icons-project-warning; 
+  }
+  .panel .availability .status.red, .panel .color-key .status.red, .panel .multi-bullets .status.red {
+    @extend .icons-project-alert; 
+  }
+
+
+  /*** ICONS ***/
+
+  .icons-sprite, .icons-active, .icons-available, .icons-booked, .icons-half-booked, .icons-incoming, .icons-project-alert, .icons-project-ontrack, .icons-project-warning {
+  background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png') no-repeat;
+  }
+  .icons-active {
+    background-position: 0 -13px;
+  }
+  .icons-available {
+    background-position: 0 -75px;
+  }
+  .icons-booked {
+    background-position: 0 -71px;
+  }
+  .icons-half-booked {
+    background-position: 0 -67px;
+  }
+  .icons-incoming {
+    background-position: 0 -53px;
+  }
+  .icons-project-alert {
+    background-position: 0 0;
+  }
+  .icons-project-ontrack {
+    background-position: 0 -27px;
+  }
+  .icons-project-warning {
+    background-position: 0 -40px;
+  }
+
+
   /* ==========================================================================
 
 oooooooooooo                         .                      
