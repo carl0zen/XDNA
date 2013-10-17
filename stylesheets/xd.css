@@ -477,7 +477,15 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   body.xd #carPrev {
     margin-left: 0;
     margin-right: 0;
-    opacity: .9; }
+    opacity: .9;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    font-size: 20px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    width: auto; }
   body.xd:hover, body.xd:active {
     background-color: #00B0E2;
     opacity: 1; }
