@@ -423,7 +423,10 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   /* Header Search SharePoint Web Parts*/   
   .ms-sbgo.ms-sbcell  {background-color:#fff}
   p {font-size:1.2em}
-  /* Main Content & Arrows  */  
+  /* Main Content & Arrows  */
+  #carPaginate a:active {
+    box-shadow:none;
+}  
   #carNext,
   #carPrev{
     margin-left:0;

@@ -473,6 +473,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     background-color: #fff; }
   body.xd p {
     font-size: 1.2em; }
+  body.xd #carPaginate a:active {
+    box-shadow: none; }
   body.xd #carNext,
   body.xd #carPrev {
     margin-left: 0;
