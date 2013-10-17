@@ -424,12 +424,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         background: none; }
       body.xd #main-content .panel:before {
         display: none; }
-      body.xd #main-content .panel.featured, body.xd #main-content .panel[data-panel-id="teamstatus"] {
-        background: #00adee;
-        /* The Fallback */
-        background: rgba(0, 173, 238, 0.5); }
-        body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel.featured h3, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span, body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
-          color: #fefefe !important; }
+      body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel.featured h3, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span, body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
+        color: #fefefe !important; }
       body.xd #main-content .panel .thumbCrop {
         border-radius: 100%; }
   body.xd #carPaginate a:active {
