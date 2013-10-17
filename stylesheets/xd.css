@@ -420,7 +420,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         display: none; }
       body.xd #main-content .panel.featured {
         background: #00ADEE; }
-        body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li {
+        body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span {
           color: #fefefe !important; }
   body.xd .xd-footer {
     padding: 20px;
