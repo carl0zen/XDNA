@@ -409,7 +409,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       border: 1px solid transparent;
       background: #c6c7c9;
       /* The Fallback */
-      background: rgba(198, 199, 201, 0.5); }
+      background: rgba(198, 199, 201, 0.4); }
       body.xd #main-content .panel h3 {
         color: #88888c;
         font-size: 35px;
@@ -425,7 +425,9 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       body.xd #main-content .panel:before {
         display: none; }
       body.xd #main-content .panel.featured, body.xd #main-content .panel[data-panel-id="teamstatus"] {
-        background: #00ADEE; }
+        background: #00adee;
+        /* The Fallback */
+        background: rgba(0, 173, 238, 0.5); }
         body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span {
           color: #fefefe !important; }
       body.xd #main-content .panel .thumbCrop {
