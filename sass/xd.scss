@@ -365,7 +365,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       &:before{
         display: none;
       }
-      &.featured, div[data-panel-id="teamstatus"]{
+      &.featured, &[data-panel-id="teamstatus"]{
         background: #00ADEE;
         p,a, li, span{
           color:$white !important;
