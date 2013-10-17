@@ -267,9 +267,12 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         font-weight: normal;
       }
     }
+    .dynamic-children.hover{
+      background-color: #0088AF;
+    }
     .static.dynamic-children li{
 
-      & a:hover, &.hover{
+      & a:hover{
         background-color: #0088AF
       }
     }
@@ -335,7 +338,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     background:#FCFCFC url(https://raw.github.com/carlosepp/XDNA/master/img/bg.jpg) no-repeat center center fixed;
     .welcome-content{
         margin:0;
-        padding-top: 20px;
+        padding: 25px 0;
     }
     #gridBoard{
       background: none;
