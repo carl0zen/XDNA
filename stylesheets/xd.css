@@ -839,4 +839,9 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     margin-top: 70px; } }
 @media only screen and (min-width: 769px) {
   .menu-icon {
-    display: none; } }
+    display: none; }
+
+  #auth span {
+    display: block; }
+  #auth .thumbCrop {
+    margin-top: -15px; } }
