@@ -501,14 +501,21 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd input[type="submit"]:hover {
       background-color: #009cc9; }
   body.xd div[data-panel-id="availableteammembers"] .availability li {
-    display: block; }
+    display: block;
+    clear: both; }
+    body.xd div[data-panel-id="availableteammembers"] .availability li .status {
+      float: right; }
+  body.xd div[data-panel-id="availableteammembers"] .availability .author {
+    clear: both;
+    text-decoration: none;
+    font-size: 26px; }
   body.xd div[data-panel-id="availableteammembers"] .authorLoc {
     width: 60px !important;
     height: 60px !important;
     line-height: 60px;
     text-align: center;
     color: #fefefe !important;
-    float: left;
+    float: left !important;
     display: block;
     font-size: 24px; }
     body.xd div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {

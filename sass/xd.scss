@@ -492,6 +492,15 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     .availability{
       li{
         display: block;
+        clear: both;
+        .status{
+          float: right;
+        }
+      }
+      .author{
+        clear: both;
+        text-decoration: none;
+        font-size: 26px;
       }
     }
     .authorLoc{
@@ -500,7 +509,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       line-height: 60px;
       text-align: center;
       color: $white !important;
-      float: left;
+      float: left !important;
       display: block;
       font-size: 24px;
       &.status.yellow {background: $yellow}
