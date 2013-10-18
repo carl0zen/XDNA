@@ -444,7 +444,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
       background: #27ae60 !important; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .details {
-      width: 300px;
+      width: 83%;
       float: left; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
       display: inline-block;
@@ -452,8 +452,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       font-size: 14px; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
       color: #666; }
-    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a.selected {
-      color: #27ae60 !important; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
+      color: #27ae60; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
       display: block;
       clear: both; }
@@ -471,7 +471,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       float: left;
       clear: both; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
-      width: 60px !important;
+      width: 16.6% !important;
       height: 60px !important;
       line-height: 60px;
       text-align: center;
