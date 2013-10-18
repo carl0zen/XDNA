@@ -193,7 +193,7 @@ body.xd .field-name {
   display: none;
 }
 body.xd .s4-ca {
-  background-color: #006c8c !important;
+  background-color: #18B4EF !important;
 }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
   border: none;
@@ -271,12 +271,9 @@ body.xd #s4-workspace .xd-menu li {
   background-color: #0088af;
   border-bottom: 1px solid #007597;
 }
-body.xd #s4-workspace .s4-tn {
+body.xd #s4-workspace .s4-tn,
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]  {
   background: #0088af;
-}
-
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
-  background: #006c8c;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
   color: #fff;
