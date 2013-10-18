@@ -436,7 +436,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel.featured h3, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span, body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
           color: #fefefe !important; }
         body.xd #main-content .panel.featured .status span.authorTitle, body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
-          color: #333 !important; }
+          color: #444 !important; }
         body.xd #main-content .panel.featured .status p, body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
           padding-left: 80px; }
         body.xd #main-content .panel.featured p, body.xd #main-content .panel[data-panel-id="teamstatus"] p {
