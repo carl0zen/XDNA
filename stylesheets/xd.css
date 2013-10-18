@@ -507,6 +507,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     text-align: center;
     color: #fefefe;
     float: left;
+    display: block;
     font-size: 24px; }
     body.xd .authorLoc.status.yellow {
       background: #f39c12; }
