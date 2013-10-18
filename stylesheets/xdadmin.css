@@ -831,3 +831,10 @@ body.xd.system #s4-workspace .xd-menu li{
 	background-color:#fff;
 	border-bottom:none
 	}	
+body.xd.system .xd-menu {
+    background-color: #FFFFFF;
+    border-top: 2px solid #FE6601 !important;
+    line-height: 10px;
+    overflow: visible;
+    padding: 0 30px;
+}	
