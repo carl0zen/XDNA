@@ -467,7 +467,9 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       float: left;
       display: block;
       font-weight: 300 !important;
-      clear: both; }
+      clear: both;
+      line-height: 120%;
+      color: #333333; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
       margin-top: 13px;
       float: left;
