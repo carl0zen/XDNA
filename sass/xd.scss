@@ -382,6 +382,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         p,a, li, span, h3{
           color:$white !important;
         }
+        .status li span.authorTitle{
+          color: $gray !important;
+        }
         p{
           margin:10px 0;
         }
