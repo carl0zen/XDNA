@@ -449,9 +449,10 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
       display: inline-block;
       margin-right: 13px;
-      font-size: 16px;
+      font-size: 14px; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
       color: #666; }
-    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected {
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a.selected {
       color: #27ae60; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
       display: block;
