@@ -501,7 +501,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     body.xd input[type="submit"]:hover {
       background-color: #009cc9; }
   body.xd div[data-panel-id="availableteammembers"] .details {
-    width: 310px;
+    width: 300px;
     float: left; }
   body.xd div[data-panel-id="availableteammembers"] .availability li {
     display: block;
