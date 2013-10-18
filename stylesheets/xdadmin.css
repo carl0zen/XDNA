@@ -825,6 +825,9 @@ body.xd .xd-menu .s4-tn li.static .menu-item:hover {
     text-decoration: none;
 }*/
 
-body.xd.system #s4-workspace .s4-tn, body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
-	background-color:#fff
-	}
+
+body.xd.system #s4-workspace .s4-tn,
+body.xd.system #s4-workspace .xd-menu li{
+	background-color:#fff;
+	border-bottom:none
+	}	
