@@ -1,3 +1,4 @@
-body.xd.system .xd-menu .s4-tn li.static > .menu-item{
-	color:#black
+body.xd.system #s4-workspace .s4-tn{
+	background:#fff !important
 	}
+	
