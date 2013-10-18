@@ -497,6 +497,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       float:left;
     }
     .availability{
+      .filters{
+        li{display: inline-block;margin-right: 13px; font-size: 16px; color: #666}
+        li.selected{color: $green}
+      }
       li{
         display: block;
         clear: both;
@@ -530,6 +534,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       font-size: 24px;
       &.status.yellow {background: $yellow}
       &.status.green  {background: $green}
+      &.status.red  {background: $red}
     }
   }
   
