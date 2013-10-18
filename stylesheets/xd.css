@@ -500,6 +500,12 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     background-color: #0088af; }
     body.xd input[type="submit"]:hover {
       background-color: #009cc9; }
+  body.xd div[data-panel-id="availableteammembers"] .color-key .status.yellow {
+    background: #f39c12 !important; }
+  body.xd div[data-panel-id="availableteammembers"] .color-key .status.red {
+    background: #e74c3c !important; }
+  body.xd div[data-panel-id="availableteammembers"] .color-key .status.green {
+    background: #27ae60 !important; }
   body.xd div[data-panel-id="availableteammembers"] .details {
     width: 300px;
     float: left; }
