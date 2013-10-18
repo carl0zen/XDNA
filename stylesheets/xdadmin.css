@@ -773,3 +773,7 @@ img[src="/_layouts/images/blank.gif"] {
     display: table-cell;
   }
 }
+
+.xd-menu .s4-tn li.static .menu-item{
+	font-size:10px !important
+	}
