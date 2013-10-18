@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -268,10 +267,11 @@ body.xd #s4-workspace .menu-icon {
 body.xd #s4-workspace .xd-menu {
   border: none;
 }
-body.xd #s4-workspace .xd-menu li {
+
+/*body.xd #s4-workspace .xd-menu li {
   background-color: #0088af;
   border-bottom: 1px solid #007597;
-}
+}*/ 
 body.xd #s4-workspace .s4-tn {
   background: #0088af;
 }
@@ -774,76 +774,3 @@ img[src="/_layouts/images/blank.gif"] {
     display: table-cell;
   }
 }
-
-/* Provitional */
-body.xd.system #s4-workspace .s4-tn,
-body.xd.system #s4-workspace .xd-menu li {
-  background-color: #fff;
-  border-bottom: none;
-}
-
-body.xd.system .xd-menu {
-  background-color: #FFFFFF;
-  border-top: 2px solid #FE6601 !important;
-  line-height: 10px;
-  overflow: visible;
-  padding: 0 30px;
-}
-
-body.xd.system .s4-tn li.static .menu-item {
-  font-weight: normal;
-}
-
-body.xd.system .xd-menu .s4-tn li.static > .menu-item {
-  color: #7FD7F1;
-  font-size: 14px;
-  height: 100%;
-  padding: 17px;
-  text-transform: uppercase;
-}
-=======
-/*
-Syntax error: Invalid CSS after "...coration: none;": expected "}", was ""
-        on line 816 of C:/Users/carlos.perez.priego/Documents/GitHub/XDNA/sass/xdadmin.scss
-
-Backtrace:
-C:/Users/carlos.perez.priego/Documents/GitHub/XDNA/sass/xdadmin.scss:816
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1146:in `expected'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:1079:in `tok!'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:536:in `block'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:529:in `ruleset'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:553:in `block_child'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:546:in `block_contents'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:82:in `stylesheet'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/scss/parser.rb:27:in `parse'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/engine.rb:342:in `_to_tree'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/bin/compass:44:in `call'
-C:/Program Files (x86)/Prepros/ruby_gems/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-C:/Program Files (x86)/Prepros/ruby_gems/bin/prepros-compass:17:in `load'
-C:/Program Files (x86)/Prepros/ruby_gems/bin/prepros-compass:17:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...coration: none;\": expected \"}\", was \"\"\A         on line 816 of C:/Users/carlos.perez.priego/Documents/GitHub/XDNA/sass/xdadmin.scss"; }
->>>>>>> 4074af955148d76dd8bbb6a53bc5a594ffad7660
