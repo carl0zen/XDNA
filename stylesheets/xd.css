@@ -842,6 +842,7 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     display: none; }
 
   #auth span {
-    display: block; }
+    display: block;
+    margin-right: 60px; }
   #auth .thumbCrop {
     margin-top: -15px; } }
