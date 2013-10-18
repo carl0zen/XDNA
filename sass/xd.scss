@@ -496,6 +496,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     text-align: center;
     color: $white;
     float: left;
+    display: block;
     font-size: 24px;
     &.status.yellow {background: $yellow}
     &.status.green  {background: $green}
