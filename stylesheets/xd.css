@@ -837,7 +837,7 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 @media only screen and (max-width: 1024px) {
   .s4-ca {
     margin-top: 70px; } }
-@media only screen and (min-width: 321px) {
+@media (min-width: 320px) {
   #auth span {
     display: block;
     margin-right: 60px; }
