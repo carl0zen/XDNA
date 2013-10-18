@@ -18,7 +18,7 @@ body.xd.system .s4-tn li.static .menu-item{
 	font-weight:normal
 	}
 body.xd.system .xd-menu .s4-tn li.static > .menu-item {
-    color: #7FD7F1;
+    color: #7FD7F1 !important;
     font-size: 14px;
     height: 100%;
     padding: 17px;
