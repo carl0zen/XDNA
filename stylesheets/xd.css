@@ -513,9 +513,11 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     font-size: 26px;
     float: left;
     display: block;
-    font-weight: 300; }
+    font-weight: 300 !important;
+    clear: both; }
   body.xd div[data-panel-id="availableteammembers"] .availability .authorTitle {
-    float: left; }
+    float: left;
+    clear: both; }
   body.xd div[data-panel-id="availableteammembers"] .authorLoc {
     width: 60px !important;
     height: 60px !important;

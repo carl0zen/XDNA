@@ -506,11 +506,13 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         font-size: 26px;
         float: left;
         display: block;
-        font-weight: 300;
+        font-weight: 300 !important;
+        clear: both;
 
       }
       .authorTitle{
         float: left;
+        clear: both;
       }
     }
     .authorLoc{
