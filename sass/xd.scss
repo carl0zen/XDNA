@@ -869,13 +869,8 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 
 
 
-
-
- @include tablet-landscape-and-up{
-    .menu-icon{
-      display: none;
-    }
-    #auth{
+@include mobile-landscape-and-up{
+  #auth{
       span{
         display: block;
         margin-right: 60px;
@@ -884,5 +879,12 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
         margin-top: -15px;
       }
     }
+}
+
+ @include tablet-landscape-and-up{
+    .menu-icon{
+      display: none;
+    }
+
   }
 

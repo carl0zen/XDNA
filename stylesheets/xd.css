@@ -837,12 +837,12 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 @media only screen and (max-width: 1024px) {
   .s4-ca {
     margin-top: 70px; } }
-@media only screen and (min-width: 769px) {
-  .menu-icon {
-    display: none; }
-
+@media only screen and (min-width: 321px) {
   #auth span {
     display: block;
     margin-right: 60px; }
   #auth .thumbCrop {
     margin-top: -15px; } }
+@media only screen and (min-width: 769px) {
+  .menu-icon {
+    display: none; } }
