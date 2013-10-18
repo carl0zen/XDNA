@@ -828,8 +828,8 @@ body.xd .xd-menu .s4-tn li.static .menu-item:hover {
 
 body.xd.system #s4-workspace .s4-tn,
 body.xd.system #s4-workspace .xd-menu li{
-	background-color:#fff;
-	border-bottom:none
+	background-color:#fff !important;
+	border-bottom:none !important
 	}	
 body.xd.system .xd-menu,
 body.xd.system .xd-menu .s4-tn li.static .menu-item {
@@ -839,3 +839,4 @@ body.xd.system .xd-menu .s4-tn li.static .menu-item {
     overflow: visible;
     padding: 0 30px;
 }	
+
