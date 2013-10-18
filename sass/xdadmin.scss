@@ -425,10 +425,14 @@ html:not(.ms-dialog-nr){
 			@include box-sizing(border-box);
     		display: block;
     		width: auto !important;
+    		table-layout: fixed\9;
+    		width:100%\9;
 		}
 		tbody, tr{
 			width: auto !important;
 			display: block;
+			float: left\9; /* IE8+9  */
+			width:100%\9; /*IE8+9 */
 		}
 		td{
 			line-height: 30px;
@@ -446,6 +450,9 @@ html:not(.ms-dialog-nr){
 		}
 		tr.accordion-title{
 			display: block;
+			float: left\9; /* IE8+9  */
+			width:100%\9; /*IE8+9 */
+			clear:both\9; /*IE8+9 */
 			background: $blue;
 			padding: 10px;
 			border-bottom: 1px solid darken($blue, 10%);
@@ -460,6 +467,9 @@ html:not(.ms-dialog-nr){
 			    text-align: left;
 			    text-indent: 1em;
 			    display: block;
+			    float: left\9; /* IE8+9  */
+				width:100%\9; /*IE8+9 */
+				clear:both\9; /*IE8+9 */
 			    width: 100% !important;
 
 			}
@@ -537,6 +547,9 @@ html:not(.ms-dialog-nr){
 			.ms-acal-vcont{
 				td{
 					display: block !important;
+					float: left\9; /* IE8+9  */
+					width:100%\9; /*IE8+9 */
+					clear:both\9; /*IE8+9 */
 				}
 			}
 			.ms-acal-outday{
@@ -684,9 +697,14 @@ html:not(.ms-dialog-nr){
  		> table{
 			width:auto;
 			display: block;
+			table-layout: fixed \9;/* IE8+9  */
+			width:100%\9;/* IE8+9  */
 
 			> tbody, > tbody > tr, > tbody > tr > td{
 				display: block;
+				float: left\9; /* IE8+9  */
+				width:100%\9; /*IE8+9 */
+				clear:both\9; /*IE8+9 */
 				border:none;
 				text-align: center !important;
 				height: auto;
@@ -711,6 +729,14 @@ html:not(.ms-dialog-nr){
 			text-align: center;	
 			width: auto !important;
 			display: block;
+			float: left\9; /* IE8+9  */
+			width:100%\9; /*IE8+9 */
+			clear:both\9; /*IE8+9 */
+
+		}
+		table.ms-listviewtable{
+			table-layout: fixed \9;/* IE8+9  */
+			width:100%\9;/* IE8+9  */
 		}
 		td.ms-vb-itmcbx{
 			text-align: center;
@@ -739,6 +765,9 @@ html:not(.ms-dialog-nr){
 		}
 		.s4-wpTopTable tbody,.s4-wpTopTable  tr, table.s4-wpTopTable, .s4-wpTopTable table , .s4-wpTopTable td{
 			display: block ;
+			float: left\9; /* IE8+9  */
+			width:100%\9; /*IE8+9 */
+			clear:both\9; /*IE8+9 */
 		}
 		.s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody{
 			display: table-row-group;
@@ -748,6 +777,9 @@ html:not(.ms-dialog-nr){
 		} 
 		table.s4-wpTopTable #AsynchronousViewDefault_CalendarView{
 			display: block;
+			table-layout: fixed \9;
+			width:100% \9;
+			clear:both \9;
 		} 
 		.s4-wpTopTable #AsynchronousViewDefault_CalendarView table{
 			display: table;
