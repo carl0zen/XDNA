@@ -435,6 +435,8 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
         background: #00ADEE; }
         body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel.featured h3, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span, body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
           color: #fefefe !important; }
+        body.xd #main-content .panel.featured p, body.xd #main-content .panel[data-panel-id="teamstatus"] p {
+          margin: 5px 0; }
       body.xd #main-content .panel .thumbCrop {
         border-radius: 100%; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
@@ -448,12 +450,12 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
       float: left; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
       display: inline-block;
-      margin-right: 13px;
+      margin-right: 9px;
       font-size: 14px; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
       color: #666; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
-      color: #27ae60; }
+      color: #27ae60 !important; }
     body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
       display: block;
       clear: both; }

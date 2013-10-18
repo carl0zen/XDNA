@@ -382,6 +382,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         p,a, li, span, h3{
           color:$white !important;
         }
+        p{
+          margin:5px 0;
+        }
       }//.featured
       .thumbCrop{
         border-radius:100%;
@@ -397,9 +400,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
       .availability{
         .filters{
-          li {display: inline-block;margin-right: 13px; font-size: 14px; }
+          li {display: inline-block;margin-right: 9px; font-size: 14px; }
           li a{color: #666}
-          li.selected a{color: $green }
+          li.selected a{color: $green !important }
         }
         li{
           display: block;
