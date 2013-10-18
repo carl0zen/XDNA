@@ -488,19 +488,21 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   .panel .availability .status.black, .panel .color-key .status.black, .panel .multi-bullets .status.black {
     @extend .icons-available;
   }
-
-  .authorLoc{
-    width:60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    color: $white;
-    float: left;
-    display: block;
-    font-size: 24px;
-    &.status.yellow {background: $yellow}
-    &.status.green  {background: $green}
+  div[data-panel-id="availableteammembers"]{
+    .authorLoc{
+      width:60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      color: $white;
+      float: left;
+      display: block;
+      font-size: 24px;
+      &.status.yellow {background: $yellow}
+      &.status.green  {background: $green}
+    }
   }
+  
   /*** ICONS ***/
 
   .icons-sprite, .icons-active, .icons-available, .icons-booked, .icons-half-booked, .icons-incoming, .icons-project-alert, .icons-project-ontrack, .icons-project-warning {
