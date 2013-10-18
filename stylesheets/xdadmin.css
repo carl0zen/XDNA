@@ -774,6 +774,46 @@ img[src="/_layouts/images/blank.gif"] {
   }
 }
 
-.xd-menu .s4-tn li.static .menu-item{
-	font-size:10px !important
+body.xd #s4-workspace .s4-tn,
+body.xd #s4-workspace .xd-menu li{
+	background-color:#fff;
+	border-bottom:none
 	}
+body.xd .xd-menu {
+    background-color: #FFFFFF;
+    border-top: 2px solid #FE6601;
+    line-height: 10px;
+    overflow: visible;
+    padding: 0 30px;
+}
+body.xd .xd-menu .s4-tn li.static > .menu-item {
+    color: #7FD7F1;
+    font-size: 14px;
+    height: 100%;
+    padding: 17px;
+    text-transform: uppercase;
+}
+body.xd .xd-menu .menu ul li:first-child .menu-item {
+    color: #999999;
+}
+body.xd .xd-menu .menu li.selected {
+    border-top: 4px solid #FE6601;
+    line-height: 2px;
+}
+body.xd .xd-menu .menu li.selected .menu-item {
+    color: #F9F9FB;
+}
+body.xd .xd-menu .s4-tn ul.dynamic {
+    border: medium none;
+}
+body.xd .xd-menu .s4-tn li.static .menu-item {
+    color: #2F2F2F;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 18px;
+    text-transform: uppercase;
+}
+body.xd .xd-menu .s4-tn li.static .menu-item:hover {
+    background-color: #F9F9F9;
+    text-decoration: none;
+}
