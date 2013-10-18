@@ -387,6 +387,55 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         border-radius:100%;
       }
     } //.panel
+    div[data-panel-id="availableteammembers"]{
+      .color-key .status.yellow { background: $yellow !important }
+      .color-key .status.red { background: $red !important}
+      .color-key .status.green { background: $green !important}
+      .details{
+        width:300px;
+        float:left;
+      }
+      .availability{
+        .filters{
+          li{display: inline-block;margin-right: 13px; font-size: 16px; color: #666}
+          li.selected{color: $green}
+        }
+        li{
+          display: block;
+          clear: both;
+          .status{
+            float: right;
+          }
+        }
+        .author{
+          text-decoration: none !important;
+          font-size: 26px;
+          float: left;
+          display: block;
+          font-weight: 300 !important;
+          clear: both;
+
+        }
+        .authorTitle{
+          margin-top: 13px;
+          float: left;
+          clear: both;
+        }
+      }
+      .authorLoc{
+        width:60px !important;
+        height: 60px !important;
+        line-height: 60px;
+        text-align: center;
+        color: $white !important;
+        float: left !important;
+        display: block;
+        font-size: 24px;
+        &.status.yellow {background: $yellow}
+        &.status.green  {background: $green}
+        &.status.red  {background: $red}
+      }
+    } // div[data-panel-id="availableteammembers"]
   }// #main-content
   #carPaginate {
     a:active {
@@ -488,55 +537,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   .panel .availability .status.black, .panel .color-key .status.black, .panel .multi-bullets .status.black {
     @extend .icons-available;
   }
-  div[data-panel-id="availableteammembers"]{
-    .color-key .status.yellow { background: $yellow !important }
-    .color-key .status.red { background: $red !important}
-    .color-key .status.green { background: $green !important}
-    .details{
-      width:300px;
-      float:left;
-    }
-    .availability{
-      .filters{
-        li{display: inline-block;margin-right: 13px; font-size: 16px; color: #666}
-        li.selected{color: $green}
-      }
-      li{
-        display: block;
-        clear: both;
-        .status{
-          float: right;
-        }
-      }
-      .author{
-        text-decoration: none !important;
-        font-size: 26px;
-        float: left;
-        display: block;
-        font-weight: 300 !important;
-        clear: both;
 
-      }
-      .authorTitle{
-        margin-top: 13px;
-        float: left;
-        clear: both;
-      }
-    }
-    .authorLoc{
-      width:60px !important;
-      height: 60px !important;
-      line-height: 60px;
-      text-align: center;
-      color: $white !important;
-      float: left !important;
-      display: block;
-      font-size: 24px;
-      &.status.yellow {background: $yellow}
-      &.status.green  {background: $green}
-      &.status.red  {background: $red}
-    }
-  }
   
   /*** ICONS ***/
 

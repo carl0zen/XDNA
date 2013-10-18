@@ -437,6 +437,53 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
           color: #fefefe !important; }
       body.xd #main-content .panel .thumbCrop {
         border-radius: 100%; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
+      background: #f39c12 !important; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.red {
+      background: #e74c3c !important; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
+      background: #27ae60 !important; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .details {
+      width: 300px;
+      float: left; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
+      display: inline-block;
+      margin-right: 13px;
+      font-size: 16px;
+      color: #666; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected {
+      color: #27ae60; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
+      display: block;
+      clear: both; }
+      body.xd #main-content div[data-panel-id="availableteammembers"] .availability li .status {
+        float: right; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .author {
+      text-decoration: none !important;
+      font-size: 26px;
+      float: left;
+      display: block;
+      font-weight: 300 !important;
+      clear: both; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
+      margin-top: 13px;
+      float: left;
+      clear: both; }
+    body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
+      width: 60px !important;
+      height: 60px !important;
+      line-height: 60px;
+      text-align: center;
+      color: #fefefe !important;
+      float: left !important;
+      display: block;
+      font-size: 24px; }
+      body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
+        background: #f39c12; }
+      body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.green {
+        background: #27ae60; }
+      body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.red {
+        background: #e74c3c; }
   body.xd #carPaginate {
     margin-bottom: 25px !important;
     height: 5px !important;
@@ -500,53 +547,6 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     background-color: #0088af; }
     body.xd input[type="submit"]:hover {
       background-color: #009cc9; }
-  body.xd div[data-panel-id="availableteammembers"] .color-key .status.yellow {
-    background: #f39c12 !important; }
-  body.xd div[data-panel-id="availableteammembers"] .color-key .status.red {
-    background: #e74c3c !important; }
-  body.xd div[data-panel-id="availableteammembers"] .color-key .status.green {
-    background: #27ae60 !important; }
-  body.xd div[data-panel-id="availableteammembers"] .details {
-    width: 300px;
-    float: left; }
-  body.xd div[data-panel-id="availableteammembers"] .availability .filters li {
-    display: inline-block;
-    margin-right: 13px;
-    font-size: 16px;
-    color: #666; }
-  body.xd div[data-panel-id="availableteammembers"] .availability .filters li.selected {
-    color: #27ae60; }
-  body.xd div[data-panel-id="availableteammembers"] .availability li {
-    display: block;
-    clear: both; }
-    body.xd div[data-panel-id="availableteammembers"] .availability li .status {
-      float: right; }
-  body.xd div[data-panel-id="availableteammembers"] .availability .author {
-    text-decoration: none !important;
-    font-size: 26px;
-    float: left;
-    display: block;
-    font-weight: 300 !important;
-    clear: both; }
-  body.xd div[data-panel-id="availableteammembers"] .availability .authorTitle {
-    margin-top: 13px;
-    float: left;
-    clear: both; }
-  body.xd div[data-panel-id="availableteammembers"] .authorLoc {
-    width: 60px !important;
-    height: 60px !important;
-    line-height: 60px;
-    text-align: center;
-    color: #fefefe !important;
-    float: left !important;
-    display: block;
-    font-size: 24px; }
-    body.xd div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
-      background: #f39c12; }
-    body.xd div[data-panel-id="availableteammembers"] .authorLoc.status.green {
-      background: #27ae60; }
-    body.xd div[data-panel-id="availableteammembers"] .authorLoc.status.red {
-      background: #e74c3c; }
   body.xd .icons-sprite, body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green, body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black, body.xd .icons-booked, body.xd .icons-half-booked, body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white, body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red, body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue, body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
     background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
     width: 14px;
