@@ -781,11 +781,15 @@ body.xd #s4-workspace .xd-menu li{
 	}
 body.xd .xd-menu {
     background-color: #FFFFFF;
-    border-top: 2px solid #FE6601;
+    border-top: 2px solid #FE6601 !important;
     line-height: 10px;
     overflow: visible;
     padding: 0 30px;
 }
+
+body.system .xd-menu .s4-tn li.static .menu-item{
+	font-weight:normal 
+	}
 body.xd .xd-menu .s4-tn li.static > .menu-item {
     color: #7FD7F1;
     font-size: 14px;
