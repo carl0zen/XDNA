@@ -489,6 +489,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     @extend .icons-available;
   }
   div[data-panel-id="availableteammembers"]{
+    .availability{
+      li{
+        display: block;
+      }
+    }
     .authorLoc{
       width:60px !important;
       height: 60px !important;
