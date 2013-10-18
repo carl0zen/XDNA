@@ -399,7 +399,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         .filters{
           li {display: inline-block;margin-right: 13px; font-size: 14px; }
           li a{color: #666}
-          li a.selected{color: $green}
+          li a.selected{color: $green !important}
         }
         li{
           display: block;
