@@ -843,3 +843,7 @@ img[src="/_layouts/images/blank.gif"] {
 body.xd table table.ms-listviewtable > tbody {
   width: 100% !important;
 }
+
+body.xd table table.ms-listviewtable > tbody .ms-itmhover {
+  background-image: none;
+}
