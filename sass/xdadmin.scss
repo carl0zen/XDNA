@@ -293,6 +293,9 @@ img[src="/_layouts/images/blank.gif"]{
 			
 		}
 	}
+	html body.xd.system #main-content[role="main"]{
+		margin-left:0px !important;
+	}
 }
 
 // NO DIALOGOS

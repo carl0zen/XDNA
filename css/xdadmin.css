@@ -353,6 +353,10 @@ img[src="/_layouts/images/blank.gif"] {
   .ms-dialog .ms-formbody {
     background: none !important;
   }
+
+  html body.xd.system #main-content[role="main"] {
+    margin-left: 0px !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   html:not(.ms-dialog-nr) {
