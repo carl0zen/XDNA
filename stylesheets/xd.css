@@ -721,6 +721,7 @@ body.xd .xd-footer {
   text-align: center;
 }
 body.xd.v4master {
+  overflow: auto;
   width: auto;
   margin: 0 auto;
 }
