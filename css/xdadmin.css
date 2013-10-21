@@ -120,50 +120,12 @@
   background-origin: border-box;
 }
 
-.ms-dlgFrameContainer {
-  overflow: hidden !important;
-}
-
-.ms-dialog {
-  /**.ms-ButtonHeightWidth{
-  	 width: 13.2em;
-  }**/
-}
-.ms-dialog .xd-header, .ms-dialog .menu-icon, .ms-dialog .sidebar-button, .ms-dialog .xd-footer {
-  display: none !important;
-}
-.ms-dialog .ms-sectionheader h3.ms-standardheader {
-  font-size: 1.1em;
-  line-height: 1.4;
-}
-.ms-dialog .ms-descriptiontext {
-  font-size: 1em;
-  line-height: 1.3;
-  line-height: 1.7;
-  padding: 7px;
-}
-.ms-dialog .ms-descriptiontext table {
-  text-align: center;
-}
-
 body.xd {
   /**.xd-footer{
   	padding: 20px 0;
   	text-align: center;
   	margin: 30px 0 16px;
   }**/
-}
-body.xd .s4-tn {
-  overflow: visible !important;
-}
-body.xd .s4-specialNavLinkList {
-  border: none;
-}
-body.xd tr.ms-itmhover {
-  display: table-row;
-}
-body.xd .accordion-title {
-  display: none;
 }
 body.xd .fieldName {
   display: none;
@@ -194,9 +156,6 @@ body.xd tr b, body.xd tr td b h3, body.xd .ms-standardheader {
 }
 body.xd .field-name {
   display: none;
-}
-body.xd .s4-ca {
-  background-color: #006c8c !important;
 }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
   border: none;
@@ -245,69 +204,6 @@ body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
 
-body.xd #s4-workspace .mobile-submenu li {
-  background-color: #0096C1 !important;
-  border-bottom: none !important;
-  border-top: 1px solid #007597;
-}
-body.xd #s4-workspace .menu-icon, body.xd #s4-workspace .sidebar-button {
-  background-position: 7% center;
-  box-shadow: none;
-  font-size: 1.3em;
-}
-body.xd #s4-workspace .sidebar-button {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: none;
-  background-color: #006C8C;
-  border-top: 2px solid #004255;
-  border-right: 2px solid #004255;
-}
-body.xd #s4-workspace .menu-icon {
-  border-top: 2px solid #004255;
-}
-body.xd #s4-workspace .xd-menu {
-  border: none;
-}
-body.xd #s4-workspace .xd-menu li {
-  background-color: #0088af;
-  border-bottom: 1px solid #007597;
-}
-body.xd #s4-workspace .s4-tn {
-  background: #0088af;
-}
-
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
-  background: #006c8c;
-}
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
-  color: #fff;
-}
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
-  text-decoration: none;
-}
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li > a {
-  color: #fff;
-  font-weight: bold;
-  line-height: 30px;
-  border-bottom: 2px solid #00485E;
-  font-size: 1.1em;
-}
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul {
-  margin: 0;
-}
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li {
-  background: #007495;
-  border-bottom: 1px solid #00485E;
-}
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
-  font-size: 0.9em;
-  color: #fff;
-  line-height: 30px;
-  text-indent: 1.3em;
-}
-
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: none;
 }
@@ -317,51 +213,6 @@ img[src="/_layouts/images/blank.gif"] {
 }
 
 @media only screen and (max-width: 768px) {
-  .ms-ButtonHeightWidth {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    font-size: 1.5em;
-    height: auto;
-    margin: 0.5em auto;
-    padding: 0.7em;
-    width: 95%;
-  }
-
-  .ms-authoringcontrols input, .ms-authoringcontrols textarea {
-    margin: 0 auto;
-  }
-  .ms-authoringcontrols tbody {
-    width: auto !important;
-  }
-
-  .ms-dialog td {
-    display: block;
-    width: auto !important;
-  }
-  .ms-dialog input, .ms-dialog textarea {
-    width: 100% !important;
-    box-sizing: border-box;
-    padding: 15px;
-    margin: 10px 0;
-    display: block;
-  }
-  .ms-dialog select {
-    display: block;
-  }
-  .ms-dialog .ms-formtable {
-    padding: 15px;
-  }
-  .ms-dialog .ms-formbody {
-    background: none !important;
-  }
-}
-html body.xd.system #main-content[role="main"] {
-  margin-left: 0px !important;
-}
-
-@media only screen and (max-width: 1024px) {
   html:not(.ms-dialog-nr) {
    /**	body.xd #main-content table.ms-listviewtable { 		
    		width: auto; border-collapse: collapse; border-spacing: 0;
@@ -414,35 +265,13 @@ html body.xd.system #main-content[role="main"] {
    		}
    	} **/
   }
-  html:not(.ms-dialog-nr) table {
-    table-layout: auto;
-  }
-  html:not(.ms-dialog-nr) body.system .button {
-    float: right;
-  }
-  html:not(.ms-dialog-nr) table colgroup {
-    display: none;
-  }
-  html:not(.ms-dialog-nr) .ms-propertysheet table {
-    margin: 0 auto;
-  }
   html:not(.ms-dialog-nr) .ms-vb2 table {
     margin: 0 auto !important;
   }
-  html:not(.ms-dialog-nr) table tr.ms-itmhover tr {
-    padding: 20px 0;
-  }
-  html:not(.ms-dialog-nr) table tr.ms-itmhover tr.s4-itm-selected {
-    background: #A5CCE4;
-  }
   html:not(.ms-dialog-nr) .fieldName {
     float: left;
-    margin-right: 10px;
     font-weight: bold;
     display: block;
-    margin-left: -90px;
-    width: 90px;
-    font-size: 0.8em;
   }
   html:not(.ms-dialog-nr) td label {
     display: inline-block !important;
@@ -469,124 +298,7 @@ html body.xd.system #main-content[role="main"] {
     zoom: 1;
   }
   html:not(.ms-dialog-nr) body.xd #main-content {
-    padding: 0 !important;
-    overflow: hidden;
     padding: 10px 0;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover {
-    background-color: #0dbeff !important;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #layoutsTable {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    width: auto !important;
-    table-layout: fixed\9;
-    width: 100% \9;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tbody, html:not(.ms-dialog-nr) body.xd #main-content tr {
-    width: auto !important;
-    display: block;
-    float: left\9;
-    /* IE8+9  */
-    width: 100% !important \9;
-    /*IE8+9 */
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content td {
-    line-height: 30px;
-    position: relative;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content td select {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content td img {
-    max-width: 100%;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-itmhover {
-    display: none;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title {
-    display: block;
-    float: left\9;
-    /* IE8+9  */
-    width: 100% !important;
-    /*IE8+9 */
-    clear: both\9;
-    /*IE8+9 */
-    background: #c2e0f3;
-    padding: 10px;
-    border-bottom: 1px solid #97caeb;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title td {
-    line-height: 25px;
-    font-size: 1.4em;
-    color: #004255;
-    font-size: 1.4em;
-    font-weight: bold;
-    padding: 0;
-    line-height: 30px;
-    text-align: left;
-    text-indent: 1em;
-    display: block;
-    float: left\9;
-    /* IE8+9  */
-    clear: both\9;
-    /*IE8+9 */
-    width: 100% !important;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    border-left: 7px solid #004255;
-    position: absolute;
-    right: 10px;
-    margin-top: 5px;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title.active:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 7px solid #004255;
-    position: absolute;
-    right: 10px;
-    margin-top: 10px;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.accordion-title:hover {
-    background: #d7ebf7;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tr, html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tbody {
-    width: auto !important;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable td {
-    width: 100% !important;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngFieldRptrTable tr {
-    border-bottom: 1px solid #ccc;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #onetidMngCytpeRptrTable td {
-    display: table-cell;
-    padding: 15px 16px;
-    text-indent: 10px;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a {
-    line-height: 52px;
-    font-size: 1.1em;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a:first-child {
-    background: #c2e0f3;
-    color: #fff;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td {
-    background: #d7ebf7 !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table {
     display: table !important;
@@ -596,23 +308,6 @@ html body.xd.system #main-content[role="main"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView tr {
     display: table-row !important;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-detail th {
-    display: table-cell !important;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-vcont td {
-    display: block !important;
-    float: left\9;
-    /* IE8+9  */
-    width: 100% \9;
-    /*IE8+9 */
-    clear: both\9;
-    /*IE8+9 */
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-outday {
-    border-right: solid 1px #d9dde1 !important;
-    border-left: solid 1px #d9dde1 !important;
-    display: table-cell !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-authoringcontrols {
     background: none !important;
@@ -647,12 +342,6 @@ html body.xd.system #main-content[role="main"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar #topPagingCell {
     display: none;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar label {
-    font-size: 1.4em;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar select {
-    display: block;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table {
     width: 100%;
@@ -716,41 +405,17 @@ html body.xd.system #main-content[role="main"] {
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb a {
     font-size: 1.3em;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar td a {
-    color: #0072bc !important;
-    font-size: 12pt;
-    margin: 10px;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-toolbar table:hover {
-    background: #ccc;
-  }
   html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2 {
     width: auto !important;
     padding: 10px 15px;
     font-size: 1em;
-    padding-left: 100px;
-    text-align: left;
-    line-height: 25px;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb2[colspan="3"] .fieldName {
-    display: none;
   }
   html:not(.ms-dialog-nr) body.xd #main-content > table {
     width: auto;
     display: block;
-    table-layout: fixed \9;
-    /* IE8+9  */
-    width: 100% \9;
-    /* IE8+9  */
   }
   html:not(.ms-dialog-nr) body.xd #main-content > table > tbody, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog-nr) body.xd #main-content > table > tbody > tr > td {
     display: block;
-    float: left\9;
-    /* IE8+9  */
-    width: 100% \9;
-    /*IE8+9 */
-    clear: both\9;
-    /*IE8+9 */
     border: none;
     text-align: center !important;
     height: auto;
@@ -763,25 +428,12 @@ html body.xd.system #main-content[role="main"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-vb-icon {
     margin: 0 auto !important;
-    padding: 20px;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tbody > tr > td {
     border: none !important;
     text-align: center;
     width: auto !important;
     display: block;
-    float: left\9;
-    /* IE8+9  */
-    width: 100% \9;
-    /*IE8+9 */
-    clear: both\9;
-    /*IE8+9 */
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable {
-    table-layout: fixed \9;
-    /* IE8+9  */
-    width: 100% \9;
-    /* IE8+9  */
   }
   html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb-itmcbx {
     text-align: center;
@@ -795,24 +447,12 @@ html body.xd.system #main-content[role="main"] {
   html:not(.ms-dialog-nr) body.xd #main-content .ms-gb {
     height: 45px;
   }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-menubuttonactivehover, html:not(.ms-dialog-nr) body.xd #main-content .ms-buttonactivehover {
-    background: #dedede;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content .ms-viewheadertr input[type="checkbox"] {
-    margin-top: 3px;
-  }
   html:not(.ms-dialog-nr) body.xd #main-content .ms-menutoolbar {
     height: auto;
     background: none;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable td {
     display: block;
-    float: left\9;
-    /* IE8+9  */
-    width: 100% \9;
-    /*IE8+9 */
-    clear: both\9;
-    /*IE8+9 */
   }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody {
     display: table-row-group;
@@ -822,26 +462,11 @@ html body.xd.system #main-content[role="main"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView {
     display: block;
-    table-layout: fixed \9;
-    width: 100% \9;
-    clear: both \9;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView table {
     display: table;
   }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td {
     display: table-cell;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  body.system .s4-ca {
-    overflow-x: visible !important;
-    min-height: 1px;
-  }
-
-  html:not(.ms-dialog-nr) body.xd #main-content {
-    overflow: visible !important;
-    min-height: 1px;
   }
 }
