@@ -4,7 +4,22 @@
 @import "layout";
 
 
+.ms-dlgFrameContainer #main-content{
+	margin:0 !important;
+	min-height: 1px;
+}
+@include tablet-landscape-and-below{
+	body.system .s4-ca {
+	    overflow-x: visible;
+	    min-height:1px;
+	}
 
+
+	html:not(.ms-dialog-nr) body.xd #main-content {
+	    overflow: visible;
+	    min-height:1px;
+	}
+}
 
 body.xd
 {	
@@ -440,19 +455,4 @@ html:not(.ms-dialog-nr){
 
 }
 
-.ms-dlgFrameContainer #main-content{
-	margin:0 !important;
-	min-height: 1px;
-}
-@include tablet-landscape-and-below{
-	body.system .s4-ca {
-	    overflow-x: visible;
-	    min-height:1px;
-	}
 
-
-	html:not(.ms-dialog-nr) body.xd #main-content {
-	    overflow: visible;
-	    min-height:1px;
-	}
-}

@@ -120,6 +120,22 @@
   background-origin: border-box;
 }
 
+.ms-dlgFrameContainer #main-content {
+  margin: 0 !important;
+  min-height: 1px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body.system .s4-ca {
+    overflow-x: visible;
+    min-height: 1px;
+  }
+
+  html:not(.ms-dialog-nr) body.xd #main-content {
+    overflow: visible;
+    min-height: 1px;
+  }
+}
 body.xd {
   /**.xd-footer{
   	padding: 20px 0;
@@ -477,22 +493,5 @@ img[src="/_layouts/images/blank.gif"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td {
     display: table-cell;
-  }
-}
-
-.ms-dlgFrameContainer #main-content {
-  margin: 0 !important;
-  min-height: 1px;
-}
-
-@media only screen and (max-width: 1024px) {
-  body.system .s4-ca {
-    overflow-x: visible;
-    min-height: 1px;
-  }
-
-  html:not(.ms-dialog-nr) body.xd #main-content {
-    overflow: visible;
-    min-height: 1px;
   }
 }
