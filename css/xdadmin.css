@@ -153,6 +153,9 @@ body.xd {
   	margin: 30px 0 16px;
   }**/
 }
+body.xd .s4-tn {
+  overflow: visible !important;
+}
 body.xd .s4-specialNavLinkList {
   border: none;
 }
