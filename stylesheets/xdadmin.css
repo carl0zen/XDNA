@@ -842,3 +842,6 @@ img[src="/_layouts/images/blank.gif"] {
     min-height: 1px;
   }
 }
+body.xd table table.ms-listviewtable > tbody {
+  width: 100% !important;
+}
