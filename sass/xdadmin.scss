@@ -432,7 +432,7 @@ html:not(.ms-dialog-nr){
 			width: auto !important;
 			display: block;
 			float: left\9; /* IE8+9  */
-			width:100%\9; /*IE8+9 */
+			width:100% !important\9; /*IE8+9 */
 		}
 		td{
 			line-height: 30px;
@@ -468,7 +468,7 @@ html:not(.ms-dialog-nr){
 			    text-indent: 1em;
 			    display: block;
 			    float: left\9; /* IE8+9  */
-				width:100%\9; /*IE8+9 */
+				width:100% !important\9; /*IE8+9 */
 				clear:both\9; /*IE8+9 */
 			    width: 100% !important;
 
