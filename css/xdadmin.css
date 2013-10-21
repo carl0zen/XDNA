@@ -479,3 +479,13 @@ img[src="/_layouts/images/blank.gif"] {
     display: table-cell;
   }
 }
+
+body.system .s4-ca {
+  overflow-x: visible;
+  min-height: 1px;
+}
+
+html:not(.ms-dialog-nr) body.xd #main-content {
+  overflow: visible;
+  min-height: 1px;
+}
