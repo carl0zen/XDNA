@@ -440,8 +440,9 @@ html:not(.ms-dialog-nr){
 
 }
 
-.ms-dialog html body.xd.system #main-content[role="main"]{
-	margin:0;
+.ms-dlgFrameContainer #main-content{
+	margin:0 !important;
+	min-height: 1px;
 }
 @include tablet-landscape-and-below{
 	body.system .s4-ca {
