@@ -358,7 +358,7 @@ html body.xd.system #main-content[role="main"] {
   margin-left: 0px !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   html:not(.ms-dialog-nr) {
    /**	body.xd #main-content table.ms-listviewtable { 		
    		width: auto; border-collapse: collapse; border-spacing: 0;
