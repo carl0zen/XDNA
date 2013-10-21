@@ -74,9 +74,7 @@ var table = $('#main-content table'),
         titleHtml = $.trim(titleHtml);
       
         var thisParent = $(this).parent();
-        thisParent.before('<tr class="accordion-title"><td>'+titleHtml+'</td></tr>');
-        thisParent.before('<tr class="accordion-title"><td><div>'+titleHtml+'</div></td></tr>');
-
+        thisParent.before('<tr class="accordion-title"><td><div class="header-table">'+titleHtml+'</div></td></tr>');
         //thisParent.hide();
         
 
@@ -109,5 +107,4 @@ var table = $('#main-content table'),
       resetTable();
       $(window).resize(function(e){ resetTable(); });
 });
-
 
