@@ -440,13 +440,15 @@ html:not(.ms-dialog-nr){
 
 }
 
-body.system .s4-ca {
-    overflow-x: visible;
-    min-height:1px;
-}
+@include tablet-landscape-and-below{
+	body.system .s4-ca {
+	    overflow-x: visible;
+	    min-height:1px;
+	}
 
 
-html:not(.ms-dialog-nr) body.xd #main-content {
-    overflow: visible;
-    min-height:1px;
+	html:not(.ms-dialog-nr) body.xd #main-content {
+	    overflow: visible;
+	    min-height:1px;
+	}
 }
