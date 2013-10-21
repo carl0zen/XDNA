@@ -440,6 +440,9 @@ html:not(.ms-dialog-nr){
 
 }
 
+.ms-dialog html body.xd.system #main-content[role="main"]{
+	margin:0;
+}
 @include tablet-landscape-and-below{
 	body.system .s4-ca {
 	    overflow-x: visible;
