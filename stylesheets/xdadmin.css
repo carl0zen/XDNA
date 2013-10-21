@@ -506,7 +506,7 @@ img[src="/_layouts/images/blank.gif"] {
     display: block;
     float: left\9;
     /* IE8+9  */
-    width: 100% \9;
+    width: 100% !important \9;
     /*IE8+9 */
     clear: both\9;
     /*IE8+9 */

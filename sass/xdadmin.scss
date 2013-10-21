@@ -451,7 +451,7 @@ html:not(.ms-dialog-nr){
 		tr.accordion-title{
 			display: block;
 			float: left\9; /* IE8+9  */
-			width:100%\9; /*IE8+9 */
+			width:100% !important\9; /*IE8+9 */
 			clear:both\9; /*IE8+9 */
 			background: $blue;
 			padding: 10px;
