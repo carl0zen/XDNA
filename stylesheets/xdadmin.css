@@ -478,13 +478,15 @@ img[src="/_layouts/images/blank.gif"] {
     table-layout: fixed\9;
     width: 100% \9;
   }
+  html:not(.ms-dialog-nr) body.xd #main-content .ms-listviewtable tbody {
+    width: 100% !important \9;
+    /*IE8+9 */
+  }
   html:not(.ms-dialog-nr) body.xd #main-content tbody, html:not(.ms-dialog-nr) body.xd #main-content tr {
     width: auto !important;
     display: block;
     float: left\9;
     /* IE8+9  */
-    width: 100% !important \9;
-    /*IE8+9 */
   }
   html:not(.ms-dialog-nr) body.xd #main-content td {
     line-height: 30px;

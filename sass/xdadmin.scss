@@ -428,11 +428,14 @@ html:not(.ms-dialog-nr){
     		table-layout: fixed\9;
     		width:100%\9;
 		}
+		.ms-listviewtable tbody{
+			width:100% !important\9; /*IE8+9 */
+		}
 		tbody, tr{
 			width: auto !important;
 			display: block;
 			float: left\9; /* IE8+9  */
-			width:100% !important\9; /*IE8+9 */
+			
 		}
 		td{
 			line-height: 30px;
