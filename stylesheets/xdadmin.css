@@ -492,7 +492,6 @@ img[src="/_layouts/images/blank.gif"] {
     /* IE8+9  */
   }
   html:not(.ms-dialog-nr) body.xd #main-content td {
-    width: 100% !important;
     line-height: 30px;
     position: relative;
   }
@@ -778,6 +777,9 @@ img[src="/_layouts/images/blank.gif"] {
     /* IE8+9  */
     width: 100% \9;
     /* IE8+9  */
+  }
+  html:not(.ms-dialog-nr) body.xd #main-content table.ms-listviewtable tbody tr.ms-itmhover td {
+    width: 100% !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content td.ms-vb-itmcbx {
     text-align: center;

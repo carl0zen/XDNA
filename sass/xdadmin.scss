@@ -744,7 +744,7 @@ html:not(.ms-dialog-nr){
 		table.ms-listviewtable{
 			table-layout: fixed \9;/* IE8+9  */
 			width:100%\9;/* IE8+9  */
-			td{
+			tbody tr.ms-itmhover td{
 				width: 100% !important;
 			}
 		}
