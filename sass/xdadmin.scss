@@ -746,7 +746,7 @@ html:not(.ms-dialog){
 
 
 @include tablet-landscape-and-below{
-	body.system .s4-ca {
+	html:not(.ms-dialog) body.system .s4-ca {
     overflow-x: visible !important;
     min-height:1px;
 	}
@@ -758,20 +758,12 @@ html:not(.ms-dialog){
 	}
 }
 
-body.xd table table.ms-listviewtable > tbody{width:100% !important}
-body.xd table table.ms-listviewtable > tbody .ms-itmhover{background-image:none}
-
-body.xd.system .menu-icon {
-    background-image: url("img/sidebar-icon.png");
-    height: 12px;
-    line-height: 17px;
-}
-
-
-body.xd.system .s4-ca{
-	margin-top:0px !important;
-}
-html:not(.ms-dialog) body.xd.system #sidebarButton{
-	float:none;
-	background-color:#18B4EF
-}
+html:not(.ms-dialog) body.xd table table.ms-listviewtable > tbody{width:100% !important}
+html:not(.ms-dialog) body.xd table table.ms-listviewtable > tbody .ms-itmhover{background-image:none}
+html:not(.ms-dialog) body.xd.system .menu-icon {background-image: url("img/sidebar-icon.png");height: 12px;line-height: 17px;}
+html:not(.ms-dialog) body.xd.system .s4-ca{margin-top:0px !important;}
+html:not(.ms-dialog) body.xd.system #sidebarButton{float:none;background-color:#18B4EF}
+html:not(.ms-dialog) body.xd.system #auth span{margin-right:0px}
+html:not(.ms-dialog) body.system #main-content[role="main"]{border-left:none}
+body.xd .xd-welcome #authñ{ height:40px}
+body.xd .xd-welcome #auth .thumbCrop{ top: 14px}
