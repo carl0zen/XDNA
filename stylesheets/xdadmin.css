@@ -769,6 +769,16 @@ body.xd table table.ms-listviewtable > tbody .ms-itmhover {
 }
 
 body.xd.system .menu-icon {
-  height: auto;
   background-image: url("img/sidebar-icon.png");
+  height: 12px;
+  line-height: 17px;
+}
+
+body.xd.system .s4-ca {
+  margin-top: 0px;
+}
+
+html:not(.ms-dialog) body.xd.system #sidebarButton {
+  float: none;
+  background-color: #18b4ef;
 }

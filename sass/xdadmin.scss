@@ -761,4 +761,17 @@ html:not(.ms-dialog){
 body.xd table table.ms-listviewtable > tbody{width:100% !important}
 body.xd table table.ms-listviewtable > tbody .ms-itmhover{background-image:none}
 
-body.xd.system .menu-icon{ height: auto;  background-image:url("img/sidebar-icon.png"); }
+body.xd.system .menu-icon {
+    background-image: url("img/sidebar-icon.png");
+    height: 12px;
+    line-height: 17px;
+}
+
+
+body.xd.system .s4-ca{
+	margin-top:0px
+}
+html:not(.ms-dialog) body.xd.system #sidebarButton{
+	float:none;
+	background-color:#18B4EF
+}
