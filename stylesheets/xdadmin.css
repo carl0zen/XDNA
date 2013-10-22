@@ -138,8 +138,7 @@ html.ms-dialog .ms-sectionheader h3.ms-standardheader {
 }
 html.ms-dialog .ms-descriptiontext {
   font-size: 1em;
-  line-height: 1.3;
-  line-height: 1.7;
+  line-height: 1.3em;
   padding: 7px;
 }
 html.ms-dialog .ms-descriptiontext table {
@@ -178,6 +177,7 @@ body.xd .ms-descriptiontext {
 }
 body.xd td.ms-authoringcontrols {
   padding: 7px;
+  line-height: 1.7em;
 }
 body.xd td.ms-authoringcontrols label {
   font-size: 1.2em;
