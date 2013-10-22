@@ -147,46 +147,80 @@ body.xd
 	
 	
 }
-	
 
-	
+body.xd #s4-workspace{
+	.mobile-submenu li{
+		background-color: #0096C1 !important;
+		border-bottom: none !important;
+		border-top: 1px solid #007597;
+	}
+	.menu-icon, .sidebar-button{
+		background-position: 7% center;
+		box-shadow: none;
+		font-size: 1.3em;
+		
+	}
+
+	.sidebar-button{
+		@include box-sizing(border-box);
+		border: none;
+		background-color: #006C8C;
+		border-top: 2px solid $darkestBlue;
+		border-right: 2px solid $darkestBlue;
+	}
+	.menu-icon{
+		border-top: 2px solid $darkestBlue;
+
+	}
+	.xd-menu{
+		border:none;
+		li{
+			background-color: $middleBlue;
+			border-bottom: 1px solid #007597;
+		}
+	}
+	.s4-tn{
+		background: $middleBlue;
+	}
+
+}
 
 
 
-	//LeftPanel
-	body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
-			background: $darkBlue;
-			.ms-splinkbutton-text{
-				color:#fff;
-			}
-			.menu > ul > li {
-				a{
-					text-decoration: none;
-					
-				}
-				> a{
-					color: #fff;
-					font-weight: bold;
-					line-height: 30px;
-					border-bottom: 2px solid #00485E;
-					font-size: 1.1em;
-				}
+//LeftPanel
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
+		background: $darkBlue;
+		.ms-splinkbutton-text{
+			color:#fff;
+		}
+		.menu > ul > li {
+			a{
+				text-decoration: none;
 				
 			}
-			.s4-ql ul.root ul {
-				margin: 0;
-				> li {
-						background: #007495;
-						border-bottom: 1px solid #00485E;
-					> a{
-						font-size: 0.9em;
-						color: #fff;
-						line-height: 30px;
-						text-indent: 1.3em;
-					}
+			> a{
+				color: #fff;
+				font-weight: bold;
+				line-height: 30px;
+				border-bottom: 2px solid #00485E;
+				font-size: 1.1em;
+			}
+			
+		}
+		.s4-ql ul.root ul {
+			margin: 0;
+			> li {
+					background: #007495;
+					border-bottom: 1px solid #00485E;
+				> a{
+					font-size: 0.9em;
+					color: #fff;
+					line-height: 30px;
+					text-indent: 1.3em;
 				}
 			}
 		}
+	}
 		
 // Foundation resets
 
