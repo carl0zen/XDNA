@@ -124,11 +124,6 @@
   overflow: hidden !important;
 }
 
-html.ms-dialog {
-  /**.ms-ButtonHeightWidth{
-  	 width: 13.2em;
-  }**/
-}
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
@@ -150,15 +145,7 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   padding: 0;
 }
 
-body.xd {
-  /**.xd-footer{
-  	padding: 20px 0;
-  	text-align: center;
-  	margin: 30px 0 16px;
-  }**/
-}
 body.xd .s4-tn {
-  /*background: $middleBlue;*/
   overflow: visible !important;
 }
 body.xd .s4-specialNavLinkList {
@@ -261,21 +248,23 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul 
   color: #fff;
   font-weight: bold;
   line-height: 30px;
-  border-bottom: 2px solid #00485E;
   font-size: 1.1em;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul {
   margin: 0;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li {
-  background: #007495;
-  border-bottom: 1px solid #00485E;
+  background: #6CCFF4;
+  border-bottom: 1px solid #18b4ef;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
   font-size: 0.9em;
   color: #fff;
   line-height: 30px;
   text-indent: 1.3em;
+}
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul a.selected {
+  color: #fff;
 }
 
 table tr.even, table tr.alt, table tr:nth-of-type(even) {

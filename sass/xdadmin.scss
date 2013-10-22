@@ -3,43 +3,37 @@
 @import "helpers"; 
 @import "layout";
 
-			.ms-dlgFrameContainer {
-				overflow: hidden !important;
-			}
-
-		html.ms-dialog {
-			.xd-header, .menu-icon, .sidebar-button, .xd-footer{
-				display: none !important;
-			}
-			.ms-sectionheader{
-				h3.ms-standardheader{
-					font-size: 1.1em;
-					line-height: 1.4;
-				}
-			}
-			.ms-descriptiontext{
-				font-size: 1em;
-				line-height: 1.3em;
-    			padding: 7px;
-    			table{
-    				text-align: center;
-    			}
-			}
-			#s4-workspace .s4-ca #main-content{
-				margin:0 !important;
-				width: 100%;
-				padding: 0;
-			}
-			
-			/**.ms-ButtonHeightWidth{
-				 width: 13.2em;
-			}**/
+		.ms-dlgFrameContainer {
+			overflow: hidden !important;
 		}
+		html.ms-dialog {
+		.xd-header, .menu-icon, .sidebar-button, .xd-footer{
+			display: none !important;
+		}
+		.ms-sectionheader{
+			h3.ms-standardheader{
+				font-size: 1.1em;
+				line-height: 1.4;
+			}
+		}
+		.ms-descriptiontext{
+			font-size: 1em;
+			line-height: 1.3em;
+			padding: 7px;
+			table{
+				text-align: center;
+			}
+		}
+		#s4-workspace .s4-ca #main-content{
+			margin:0 !important;
+			width: 100%;
+			padding: 0;
+		}
+	}
 
 body.xd
 {	
 	.s4-tn{
-				/*background: $middleBlue;*/
 				overflow: visible !important;
 			}
 	.s4-specialNavLinkList{
@@ -122,15 +116,10 @@ body.xd
 		}
 	}
 	td.ms-linksectionheader, th.ms-linksectionheader {
-		
 		background:none;
-
 		border:none;
 		text-align: left;
-
 		background-color: #E6E7E7;
-
-
 		font-size: 16px;
 		line-height: 175%;
 		font-weight: normal;
@@ -145,17 +134,8 @@ body.xd
 		.ms-pageinformation {
 			padding: 0;
 		}
-			
-		
+				
 	}
-	
-
-
-	/**.xd-footer{
-		padding: 20px 0;
-		text-align: center;
-		margin: 30px 0 16px;
-	}**/
 	
 }
 
@@ -176,8 +156,7 @@ body.xd
 				> a{
 					color: #fff;
 					font-weight: bold;
-					line-height: 30px;
-					border-bottom: 2px solid #00485E;
+					line-height: 30px;					
 					font-size: 1.1em;
 				}
 				
@@ -185,8 +164,8 @@ body.xd
 			.s4-ql ul.root ul {
 				margin: 0;
 				> li {
-						background: #007495;
-						border-bottom: 1px solid #00485E;
+						background: #6CCFF4;
+						border-bottom: 1px solid $newBlue;
 					> a{
 						font-size: 0.9em;
 						color: #fff;
@@ -194,7 +173,11 @@ body.xd
 						text-indent: 1.3em;
 					}
 				}
+				a.selected{
+					color: #fff;
+				}
 			}
+		
 		}
 		
 // Foundation resets
