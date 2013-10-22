@@ -18,7 +18,7 @@
   display: inline-block;
 }
 
-.pointer:hover, body.xd.system .menu-icon:hover {
+.pointer:hover, body.xd .menu-icon:hover {
   cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ html {
   background: #efefef;
 }
 
-body.xd.system {
+body.xd {
   /* ==========================================================================
    INDEX
    1.0 Master Page Wrappers and GLOBAL
@@ -216,14 +216,14 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   /* Header Search SharePoint Web Parts*/
   /* Main Content & Arrows  */
 }
-body.xd.system.reader {
+body.xd.reader {
   overflow: auto;
 }
-body.xd.system.reader #s4-workspace {
+body.xd.reader #s4-workspace {
   overflow: visible;
   height: auto !important;
 }
-body.xd.system .menu-icon {
+body.xd .menu-icon {
   background: #97caeb;
   width: 45px;
   height: 45px;
@@ -244,60 +244,60 @@ body.xd.system .menu-icon {
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
-body.xd.system .menu-icon:hover {
+body.xd .menu-icon:hover {
   background: #add5ef;
 }
-body.xd.system .mobile-submenu {
+body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-body.xd.system div[id*="TopNavigationMenuV4"] {
+body.xd div[id*="TopNavigationMenuV4"] {
   display: none;
 }
-body.xd.system #ctl00_MSO_ContentDiv,
-body.xd.system #s4-bodyContainer {
+body.xd #ctl00_MSO_ContentDiv,
+body.xd #s4-bodyContainer {
   min-width: 320px;
 }
-body.xd.system #s4-leftpanel {
+body.xd #s4-leftpanel {
   display: none;
 }
-body.xd.system .s4-ca {
+body.xd .s4-ca {
   margin-left: 0px;
 }
-body.xd.system hr {
+body.xd hr {
   border-bottom: none;
 }
-body.xd.system .xd-header {
+body.xd .xd-header {
   background-color: #009fd9;
   padding: 30px;
 }
-body.xd.system .xd-header h1 {
+body.xd .xd-header h1 {
   display: inline-block;
   font-weight: lighter;
   margin: 0px;
   margin-top: 0px;
 }
-body.xd.system .xd-header h1 a {
+body.xd .xd-header h1 a {
   color: #fff;
   margin-left: 20px;
   font-size: 0.9em;
   font-family: "Segoe UI";
   font-size: 1.2em;
 }
-body.xd.system .xd-header .s4-notdlg {
+body.xd .xd-header .s4-notdlg {
   display: inline-block;
 }
-body.xd.system .xd-header .s4-notdlg img {
+body.xd .xd-header .s4-notdlg img {
   max-height: 38px;
   max-width: 137px;
 }
-body.xd.system .xd-header .row {
+body.xd .xd-header .row {
   max-width: 1320px;
 }
-body.xd.system .xd-header .s4-clust.ms-viewselector-arrow {
+body.xd .xd-header .s4-clust.ms-viewselector-arrow {
   display: none;
 }
-body.xd.system .xd-welcome {
+body.xd .xd-welcome {
   clear: both;
   overflow: hidden;
   display: inline-block;
@@ -307,65 +307,65 @@ body.xd.system .xd-welcome {
   font-size: 1.2em;
   color: #fff;
 }
-body.xd.system .xd-welcome .ms-welcomeMenu,
-body.xd.system .xd-welcome .s4-trc-container-menu {
+body.xd .xd-welcome .ms-welcomeMenu,
+body.xd .xd-welcome .s4-trc-container-menu {
   background: none;
   padding: 0px;
   margin: 0px;
   font-family: "Segoe UI";
 }
-body.xd.system .xd-welcome #auth {
+body.xd .xd-welcome #auth {
   margin-right: 0px;
   margin-top: 0px;
   line-height: inherit;
 }
-body.xd.system .xd-welcome #auth .thumb {
+body.xd .xd-welcome #auth .thumb {
   margin-left: 20px;
   line-height: inherit;
 }
-body.xd.system .xd-welcome #auth .thumbCrop {
+body.xd .xd-welcome #auth .thumbCrop {
   border-radius: 100%;
   width: 40px;
   height: 40px;
 }
-body.xd.system .xd-welcome #auth img {
+body.xd .xd-welcome #auth img {
   min-height: 1px;
   margin: 0;
 }
-body.xd.system .xd-welcome a {
+body.xd .xd-welcome a {
   color: #fff;
 }
-body.xd.system .xd-welcome > img {
+body.xd .xd-welcome > img {
   margin-left: 20px;
 }
-body.xd.system .xd-welcome .s4-trc-container-menu {
+body.xd .xd-welcome .s4-trc-container-menu {
   margin-top: 22px;
 }
-body.xd.system .xd-welcome #zz16_Menu > span:before {
+body.xd .xd-welcome #zz16_Menu > span:before {
   content: "Ã¢â€“Â¼";
   display: inline-block;
   float: right;
   font-size: 11px;
   margin-right: 0px;
 }
-body.xd.system .xd-welcome .s4-clust.ms-viewselector-arrow > img {
+body.xd .xd-welcome .s4-clust.ms-viewselector-arrow > img {
   display: none;
 }
-body.xd.system .xd-welcome .welcome {
+body.xd .xd-welcome .welcome {
   color: #fff;
   margin-top: 1px;
   display: inline-block;
   font-weight: bold;
 }
-body.xd.system .xd-search {
+body.xd .xd-search {
   display: inline-block;
   float: right;
   display: none;
 }
-body.xd.system .xd-search .ms-sbplain {
+body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
-body.xd.system .xd-search input {
+body.xd .xd-search input {
   margin: 0px;
   padding: 0 0 0 5px;
   height: 19px;
@@ -377,85 +377,85 @@ body.xd.system .xd-search input {
   font-style: normal;
   font-size: 1em;
 }
-body.xd.system .xd-search td img {
+body.xd .xd-search td img {
   display: none;
 }
-body.xd.system .xd-search td:first-child {
+body.xd .xd-search td:first-child {
   display: block;
 }
-body.xd.system .xd-search td:nth-of-type(2) {
+body.xd .xd-search td:nth-of-type(2) {
   background-color: #fff;
 }
-body.xd.system .xd-search td a {
+body.xd .xd-search td a {
   height: 20px;
   width: 20px;
   display: inline-block;
   background: url("img/Search-Find.png") -7px -5px;
 }
-body.xd.system .xd-menu {
+body.xd .xd-menu {
   background-color: #fff;
   padding: 0 30px;
   border-top: solid 2px #fe6601;
   overflow: visible;
   line-height: 10px;
 }
-body.xd.system .xd-menu .s4-tn li.static > .menu-item {
+body.xd .xd-menu .s4-tn li.static > .menu-item {
   height: 100%;
   color: #7FD7F1;
   padding: 17px;
   text-transform: uppercase;
   font-size: 14px;
 }
-body.xd.system .xd-menu .menu ul li:first-child .menu-item {
+body.xd .xd-menu .menu ul li:first-child .menu-item {
   color: #999;
 }
-body.xd.system .xd-menu .menu li.selected {
+body.xd .xd-menu .menu li.selected {
   border-top: 4px solid #fe6601;
   line-height: 2px;
 }
-body.xd.system .xd-menu .menu li.selected .menu-item {
+body.xd .xd-menu .menu li.selected .menu-item {
   color: #F9F9FB;
 }
-body.xd.system .xd-menu .s4-tn ul.dynamic {
+body.xd .xd-menu .s4-tn ul.dynamic {
   border: none;
 }
-body.xd.system .xd-menu .s4-tn li.static .menu-item {
+body.xd .xd-menu .s4-tn li.static .menu-item {
   height: 100%;
   color: #2F2F2F;
   padding: 18px;
   text-transform: uppercase;
   font-size: 1.2em;
 }
-body.xd.system .xd-menu .s4-tn li.static .menu-item:hover {
+body.xd .xd-menu .s4-tn li.static .menu-item:hover {
   background-color: #f9f9f9;
   text-decoration: none;
 }
-body.xd.system .xd-menu .s4-tn li {
+body.xd .xd-menu .s4-tn li {
   line-height: 6px;
   font-weight: normal;
 }
-body.xd.system .xd-menu .static.dynamic-children li a:hover {
+body.xd .xd-menu .static.dynamic-children li a:hover {
   background-color: #0088af;
 }
-body.xd.system .xd-menu li.static.dynamic-children.hover {
+body.xd .xd-menu li.static.dynamic-children.hover {
   background-color: #f9f9f9;
 }
-body.xd.system .menu-horizontal a.dynamic-children span.additional-background,
-body.xd.system .menu-horizontal span.dynamic-children span.additional-background {
+body.xd .menu-horizontal a.dynamic-children span.additional-background,
+body.xd .menu-horizontal span.dynamic-children span.additional-background {
   background-image: none;
   /*background-image:url("img/drop-down-arrow.png");*/
   background-position: right 5px;
   padding-right: 15px;
 }
-body.xd.system .menu-horizontal a.dynamic-children span.additional-background:before,
-body.xd.system .menu-horizontal span.dynamic-children span.additional-background:before {
+body.xd .menu-horizontal a.dynamic-children span.additional-background:before,
+body.xd .menu-horizontal span.dynamic-children span.additional-background:before {
   content: "▼";
   display: inline-block;
   float: right;
   font-size: 11px;
   margin-right: -20px;
 }
-body.xd.system .menu-icon {
+body.xd .menu-icon {
   width: 100%;
   right: 0;
   -webkit-transition: all 0.2s ease;
@@ -472,14 +472,14 @@ body.xd.system .menu-icon {
   color: #2e2e2e;
   height: 3.3em;
 }
-body.xd.system .menu-icon:hover {
+body.xd .menu-icon:hover {
   background-color: #f9f9f9;
 }
-body.xd.system .mobile-submenu {
+body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-body.xd.system #main-content {
+body.xd #main-content {
   width: 100%;
   position: relative;
   -webkit-background-size: cover;
@@ -488,99 +488,99 @@ body.xd.system #main-content {
   background-size: cover;
   background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
 }
-body.xd.system #main-content ul.color-key.wide li {
+body.xd #main-content ul.color-key.wide li {
   font-size: 11px;
 }
-body.xd.system #main-content .welcome-content {
+body.xd #main-content .welcome-content {
   margin: 0;
   padding: 25px 0;
 }
-body.xd.system #main-content #gridBoard {
+body.xd #main-content #gridBoard {
   background: none;
 }
-body.xd.system #main-content .panel {
+body.xd #main-content .panel {
   background: #C6C7C9;
   border: 1px solid transparent;
   background: #c6c7c9;
   /* The Fallback */
   background: rgba(198, 199, 201, 0.4);
 }
-body.xd.system #main-content .panel h3 {
+body.xd #main-content .panel h3 {
   color: #88888c;
   font-size: 35px;
   font-weight: 300;
 }
-body.xd.system #main-content .panel hr {
+body.xd #main-content .panel hr {
   display: none;
 }
-body.xd.system #main-content .panel p, body.xd.system #main-content .panel a, body.xd.system #main-content .panel li {
+body.xd #main-content .panel p, body.xd #main-content .panel a, body.xd #main-content .panel li {
   color: #333333 !important;
 }
-body.xd.system #main-content .panel span {
+body.xd #main-content .panel span {
   color: #666;
 }
-body.xd.system #main-content .panel ul {
+body.xd #main-content .panel ul {
   background: none;
 }
-body.xd.system #main-content .panel ul.bullet li {
+body.xd #main-content .panel ul.bullet li {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png") no-repeat top left;
 }
-body.xd.system #main-content .panel:before {
+body.xd #main-content .panel:before {
   display: none;
 }
-body.xd.system #main-content .panel.featured, body.xd.system #main-content .panel[data-panel-id="teamstatus"] {
+body.xd #main-content .panel.featured, body.xd #main-content .panel[data-panel-id="teamstatus"] {
   background: #00ADEE;
 }
-body.xd.system #main-content .panel.featured h2, body.xd.system #main-content .panel[data-panel-id="teamstatus"] h2 {
+body.xd #main-content .panel.featured h2, body.xd #main-content .panel[data-panel-id="teamstatus"] h2 {
   font-weight: lighter;
 }
-body.xd.system #main-content .panel.featured p, body.xd.system #main-content .panel.featured a, body.xd.system #main-content .panel.featured li, body.xd.system #main-content .panel.featured span, body.xd.system #main-content .panel.featured h3, body.xd.system #main-content .panel[data-panel-id="teamstatus"] p, body.xd.system #main-content .panel[data-panel-id="teamstatus"] a, body.xd.system #main-content .panel[data-panel-id="teamstatus"] li, body.xd.system #main-content .panel[data-panel-id="teamstatus"] span, body.xd.system #main-content .panel[data-panel-id="teamstatus"] h3 {
+body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel.featured h3, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span, body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
   color: #fefefe !important;
 }
-body.xd.system #main-content .panel.featured .status span.authorTitle, body.xd.system #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
+body.xd #main-content .panel.featured .status span.authorTitle, body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
   color: #525252 !important;
 }
-body.xd.system #main-content .panel.featured .status p, body.xd.system #main-content .panel[data-panel-id="teamstatus"] .status p {
+body.xd #main-content .panel.featured .status p, body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
   padding-left: 80px;
 }
-body.xd.system #main-content .panel.featured p, body.xd.system #main-content .panel[data-panel-id="teamstatus"] p {
+body.xd #main-content .panel.featured p, body.xd #main-content .panel[data-panel-id="teamstatus"] p {
   margin: 10px 0;
 }
-body.xd.system #main-content .panel .thumbCrop {
+body.xd #main-content .panel .thumbCrop {
   border-radius: 100%;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
+body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
   background: #f39c12 !important;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .color-key .status.red {
+body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.red {
   background: #e74c3c !important;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
+body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
   background: #27ae60 !important;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .details {
+body.xd #main-content div[data-panel-id="availableteammembers"] .details {
   width: 80%;
   float: left;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
   display: inline-block;
   margin-right: 9px;
   font-size: 14px;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
   color: #666;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
   color: #27ae60 !important;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability li {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
   display: block;
   clear: both;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability li .status {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability li .status {
   float: right;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability .author {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability .author {
   text-decoration: none !important;
   font-size: 26px;
   float: left;
@@ -590,11 +590,11 @@ body.xd.system #main-content div[data-panel-id="availableteammembers"] .availabi
   line-height: 120%;
   color: #333333;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
   float: left;
   clear: both;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .authorLoc {
+body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
   width: 15% !important;
   height: 60px !important;
   line-height: 60px;
@@ -604,28 +604,28 @@ body.xd.system #main-content div[data-panel-id="availableteammembers"] .authorLo
   display: block;
   font-size: 24px;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
+body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
   background: #f39c12;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.green {
+body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.green {
   background: #27ae60;
 }
-body.xd.system #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.red {
+body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.red {
   background: #e74c3c;
 }
-body.xd.system #carPaginate {
+body.xd #carPaginate {
   margin-bottom: 25px !important;
   height: 5px !important;
   overflow: hidden;
 }
-body.xd.system #carPaginate a:active {
+body.xd #carPaginate a:active {
   box-shadow: none;
 }
-body.xd.system #carPaginate a.selected {
+body.xd #carPaginate a.selected {
   background-color: #009fd9;
 }
-body.xd.system #carNext,
-body.xd.system #carPrev {
+body.xd #carNext,
+body.xd #carPrev {
   margin-left: 0;
   margin-right: 0;
   opacity: .9;
@@ -640,32 +640,32 @@ body.xd.system #carPrev {
   margin-top: -65px;
   opacity: 0.5;
 }
-body.xd.system #carNext:hover, body.xd.system #carNext:focus,
-body.xd.system #carPrev:hover,
-body.xd.system #carPrev:focus {
+body.xd #carNext:hover, body.xd #carNext:focus,
+body.xd #carPrev:hover,
+body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
 }
-body.xd.system:hover, body.xd.system:active {
+body.xd:hover, body.xd:active {
   background-color: #00B0E2;
   opacity: 1;
 }
-body.xd.system .caroufredsel_wrapper {
+body.xd .caroufredsel_wrapper {
   margin: 0 auto !important;
 }
-body.xd.system img[id*="_PictureUrlImage"] {
+body.xd img[id*="_PictureUrlImage"] {
   width: 60px;
   height: 60px;
 }
-body.xd.system .s4-ca > div.s4-notdlg.social-bar,
-body.xd.system .s4-ca > div.s4-notdlg.xd-title {
+body.xd .s4-ca > div.s4-notdlg.social-bar,
+body.xd .s4-ca > div.s4-notdlg.xd-title {
   display: none;
 }
-body.xd.system .s4-tn {
+body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
 }
-body.xd.system html input[type="button"], body.xd.system input[type="reset"], body.xd.system input[type="submit"] {
+body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
   border: none;
   padding: 1.2em 2.2em;
   color: #fff;
@@ -675,71 +675,71 @@ body.xd.system html input[type="button"], body.xd.system input[type="reset"], bo
   font-size: 1.4em;
   height: auto;
 }
-body.xd.system input[type="button"] {
+body.xd input[type="button"] {
   background-color: #009fd9;
 }
-body.xd.system input[type="button"]:hover {
+body.xd input[type="button"]:hover {
   background-color: #00b2f3;
 }
-body.xd.system input[type="reset"] {
+body.xd input[type="reset"] {
   background-color: #006c8c;
 }
-body.xd.system input[type="reset"]:hover {
+body.xd input[type="reset"]:hover {
   background-color: #0080a6;
 }
-body.xd.system input[type="submit"] {
+body.xd input[type="submit"] {
   background-color: #0088af;
 }
-body.xd.system input[type="submit"]:hover {
+body.xd input[type="submit"]:hover {
   background-color: #009cc9;
 }
-body.xd.system .icons-sprite, body.xd.system .icons-active, body.xd.system .panel .availability .status.green, body.xd.system .panel .color-key .status.green, body.xd.system .panel .multi-bullets .status.green, body.xd.system .icons-available, body.xd.system .panel .availability .status.black, body.xd.system .panel .color-key .status.black, body.xd.system .panel .multi-bullets .status.black, body.xd.system .icons-booked, body.xd.system .icons-half-booked, body.xd.system .icons-incoming, body.xd.system .panel .availability .status.white, body.xd.system .panel .color-key .status.white, body.xd.system .panel .multi-bullets .status.white, body.xd.system .icons-project-alert, body.xd.system .panel .availability .status.red, body.xd.system .panel .color-key .status.red, body.xd.system .panel .multi-bullets .status.red, body.xd.system .icons-project-ontrack, body.xd.system .panel .availability .status.blue, body.xd.system .panel .color-key .status.blue, body.xd.system .panel .multi-bullets .status.blue, body.xd.system .icons-project-warning, body.xd.system .panel .availability .status.yellow, body.xd.system .panel .color-key .status.yellow, body.xd.system .panel .multi-bullets .status.yellow {
+body.xd .icons-sprite, body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green, body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black, body.xd .icons-booked, body.xd .icons-half-booked, body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white, body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red, body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue, body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
   width: 14px;
   height: 14px;
 }
-body.xd.system .icons-active, body.xd.system .panel .availability .status.green, body.xd.system .panel .color-key .status.green, body.xd.system .panel .multi-bullets .status.green {
+body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green {
   background-position: 0 -13px;
 }
-body.xd.system .icons-available, body.xd.system .panel .availability .status.black, body.xd.system .panel .color-key .status.black, body.xd.system .panel .multi-bullets .status.black {
+body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black {
   background-position: 0 -66px;
 }
-body.xd.system .icons-booked {
+body.xd .icons-booked {
   background-position: 0 -71px;
 }
-body.xd.system .icons-half-booked {
+body.xd .icons-half-booked {
   background-position: 0 -67px;
 }
-body.xd.system .icons-incoming, body.xd.system .panel .availability .status.white, body.xd.system .panel .color-key .status.white, body.xd.system .panel .multi-bullets .status.white {
+body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white {
   background-position: 0 -53px;
 }
-body.xd.system .icons-project-alert, body.xd.system .panel .availability .status.red, body.xd.system .panel .color-key .status.red, body.xd.system .panel .multi-bullets .status.red {
+body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red {
   background-position: 0 0;
 }
-body.xd.system .icons-project-ontrack, body.xd.system .panel .availability .status.blue, body.xd.system .panel .color-key .status.blue, body.xd.system .panel .multi-bullets .status.blue {
+body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue {
   background-position: 0 -27px;
 }
-body.xd.system .icons-project-warning, body.xd.system .panel .availability .status.yellow, body.xd.system .panel .color-key .status.yellow, body.xd.system .panel .multi-bullets .status.yellow {
+body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
   background-position: 0 -40px;
 }
-body.xd.system .xd-footer {
+body.xd .xd-footer {
   padding: 20px;
   font-size: 0.8em;
   text-align: center;
 }
-body.xd.system.v4master {
+body.xd.v4master {
   width: auto;
   margin: 0 auto;
   /*overflow: auto;*/
 }
-body.xd.system.v4master #s4-bodyContainer {
+body.xd.v4master #s4-bodyContainer {
   padding: 0;
 }
-body.xd.system.v4master #ctl00_MSO_ContentDi {
+body.xd.v4master #ctl00_MSO_ContentDi {
   padding-top: 0;
   width: auto;
 }
-body.xd.system .inner-wrapper {
+body.xd .inner-wrapper {
   font-size: 11px;
   background: #efefef;
   color: #222222;
@@ -754,30 +754,30 @@ body.xd.system .inner-wrapper {
   /* Body Buttons and objetcs */
   /* Custom SharePoint Parts */
 }
-body.xd.system .inner-wrapper .columns,
-body.xd.system .inner-wrapper .columns:before,
-body.xd.system .inner-wrapper .columns:after {
+body.xd .inner-wrapper .columns,
+body.xd .inner-wrapper .columns:before,
+body.xd .inner-wrapper .columns:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-body.xd.system .inner-wrapper a:hover {
+body.xd .inner-wrapper a:hover {
   cursor: pointer;
 }
-body.xd.system .inner-wrapper a:focus {
+body.xd .inner-wrapper a:focus {
   outline: none;
 }
-body.xd.system .inner-wrapper object, body.xd.system .inner-wrapper embed {
+body.xd .inner-wrapper object, body.xd .inner-wrapper embed {
   height: 100%;
 }
-body.xd.system div.article,
-body.xd.system div.welcome {
+body.xd div.article,
+body.xd div.welcome {
   padding: 0;
 }
-body.xd.system .ms-sbgo.ms-sbcell {
+body.xd .ms-sbgo.ms-sbcell {
   background-color: #fff;
 }
-body.xd.system p {
+body.xd p {
   font-size: 1.2em;
 }
 
