@@ -238,7 +238,7 @@ body.xd #main-content .ms-pageinformation {
 }
 
 body.xd #s4-workspace .mobile-submenu li {
-  background-color: #0096C1 !important;
+  background-color: #fefefe;
   border-bottom: none !important;
   border-top: 1px solid #007597;
 }
@@ -267,7 +267,7 @@ body.xd #s4-workspace .xd-menu li {
   border-bottom: 1px solid #007597;
 }
 body.xd #s4-workspace .s4-tn {
-  background: #fefefe;
+  background: #fefefe !important;
 }
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
