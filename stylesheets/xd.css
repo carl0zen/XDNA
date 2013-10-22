@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -877,7 +877,6 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
   body.xd #auth .bold {
     display: block;
     text-align: center;
-    width: 100%;
   }
 
   body.xd .xd-welcome {
