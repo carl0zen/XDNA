@@ -7,7 +7,7 @@
 				overflow: hidden !important;
 			}
 
-		.ms-dialog {
+		html.ms-dialog {
 			.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 				display: none !important;
 			}
@@ -26,7 +26,7 @@
     				text-align: center;
     			}
 			}
-			#main-content{
+			#s4-workspace .s4-ca #main-content{
 				margin:0 !important;
 			}
 			
