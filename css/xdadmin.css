@@ -244,39 +244,43 @@ body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
 
-body.xd #s4-workspace .mobile-submenu li {
-  background-color: #0096C1 !important;
-  border-bottom: none !important;
-  border-top: 1px solid #007597;
-}
-body.xd #s4-workspace .menu-icon, body.xd #s4-workspace .sidebar-button {
-  background-position: 7% center;
-  box-shadow: none;
-  font-size: 1.3em;
-}
-body.xd #s4-workspace .sidebar-button {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: none;
-  background-color: #006C8C;
-  border-top: 2px solid #004255;
-  border-right: 2px solid #004255;
-}
-body.xd #s4-workspace .menu-icon {
-  border-top: 2px solid #004255;
-}
-body.xd #s4-workspace .xd-menu {
-  border: none;
-}
-body.xd #s4-workspace .xd-menu li {
-  background-color: #0088af;
-  border-bottom: 1px solid #007597;
-}
-body.xd #s4-workspace .s4-tn {
-  background: #fefefe;
-}
+	/*body.xd #s4-workspace{
+		.mobile-submenu li{
+			background-color: #0096C1 !important;
+			border-bottom: none !important;
+			border-top: 1px solid #007597;
+		}
+		.menu-icon, .sidebar-button{
+			background-position: 7% center;
+			box-shadow: none;
+			font-size: 1.3em;
+			
+		}
 
+		.sidebar-button{
+			@include box-sizing(border-box);
+			border: none;
+			background-color: #006C8C;
+			border-top: 2px solid $darkestBlue;
+			border-right: 2px solid $darkestBlue;
+		}
+		.menu-icon{
+			border-top: 2px solid $darkestBlue;
+
+		}
+		.xd-menu{
+			border:none;
+			li{
+				background-color: $white;
+				border-bottom: 1px solid #007597;
+			}
+		}
+		.s4-tn{
+			background: $white;
+		}
+
+	}
+*/
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #006c8c;
 }
