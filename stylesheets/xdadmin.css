@@ -319,51 +319,6 @@ img[src="/_layouts/images/blank.gif"] {
 }
 
 @media only screen and (max-width: 768px) {
-  .ms-ButtonHeightWidth {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    font-size: 1.5em;
-    height: auto;
-    margin: 0.5em auto;
-    padding: 0.7em;
-    width: 95%;
-  }
-
-  .ms-authoringcontrols input, .ms-authoringcontrols textarea {
-    margin: 0 auto;
-  }
-  .ms-authoringcontrols tbody {
-    width: auto !important;
-  }
-
-  	/**.ms-dialog{
-  		td{
-  			display: block;
-  			width:auto !important; 
-  
-  		}
-  		input, textarea{
-  			width: 100% !important;
-  			box-sizing: border-box;
-  			padding: 15px;
-  			margin: 10px 0;
-  			display: block;
-  		}
-  		select{
-  			display: block;
-  		}
-  		.ms-formtable{
-  			padding: 15px;
-  		}
-  		.ms-formbody{
-  			background: none !important;
-  			
-  		}
-  	}**/
-}
-@media only screen and (max-width: 768px) {
   html:not(.ms-dialog) {
    /**	body.xd #main-content table.ms-listviewtable { 		
    		width: auto; border-collapse: collapse; border-spacing: 0;

@@ -253,7 +253,7 @@ img[src="/_layouts/images/blank.gif"]{
 
 
 
-// DIALOGOS
+/** DIALOGOS
 @include  tablet-portrait-and-below{
 	.ms-ButtonHeightWidth {
 		@include box-sizing(border-box);
@@ -272,7 +272,7 @@ img[src="/_layouts/images/blank.gif"]{
 			width: auto !important;
 		}
 	}
-	/**.ms-dialog{
+	.ms-dialog{
 		td{
 			display: block;
 			width:auto !important; 
@@ -295,11 +295,11 @@ img[src="/_layouts/images/blank.gif"]{
 			background: none !important;
 			
 		}
-	}**/
+	}
 
 }
 
-// NO DIALOGOS
+// NO DIALOGOS**/
 
 
 html:not(.ms-dialog){
