@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -215,13 +215,6 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   /* Custom SharePoint Parts */
   /* Header Search SharePoint Web Parts*/
   /* Main Content & Arrows  */
-}
-body.xd.reader {
-  overflow: auto;
-}
-body.xd.reader #s4-workspace {
-  overflow: visible;
-  height: auto !important;
 }
 body.xd .menu-icon {
   background: #97caeb;
