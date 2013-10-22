@@ -7,7 +7,7 @@
 				overflow: hidden !important;
 			}
 
-		.ms-dialog {
+		html.ms-dialog {
 			.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 				display: none !important;
 			}
@@ -26,7 +26,9 @@
     				text-align: center;
     			}
 			}
-			
+			#s4-workspace .s4-ca #main-content{
+				margin:0 !important;
+			}
 			
 			/**.ms-ButtonHeightWidth{
 				 width: 13.2em;
