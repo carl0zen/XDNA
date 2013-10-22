@@ -768,16 +768,37 @@ html:not(.ms-dialog) body.xd table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
 }
 
-html:not(.ms-dialog) body.xd.system .menu-icon {
-  background-image: url("img/sidebar-icon.png");
-  height: 12px;
-  line-height: 17px;
+body.system #s4-workspace {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-html:not(.ms-dialog) body.xd.system #sidebarButton {
+html:not(.ms-dialog) body.system #main-content[role="main"] {
+  width: auto;
+  position: static;
+  border-left: solid 1px #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  min-height: 471px;
+  padding: 1%;
+  margin-left: 155px;
   float: none;
-  background-color: #18B4EF;
-  background-image: url("img/menu.png");
+}
+
+body.system .s4-ca {
+  min-height: 390px;
+  position: relative;
+}
+
+body.system .sidebar-button.button {
+  background-image: url(img/sidebar-icon.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease;
 }
 
 html:not(.ms-dialog) body.xd.system .s4-ca {
