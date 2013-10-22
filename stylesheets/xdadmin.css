@@ -492,6 +492,7 @@ img[src="/_layouts/images/blank.gif"] {
     /* IE8+9  */
   }
   html:not(.ms-dialog-nr) body.xd #main-content td {
+    width: 100% !important;
     line-height: 30px;
     position: relative;
   }
