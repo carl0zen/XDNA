@@ -429,9 +429,6 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) table tr.ms-itmhover tr {
     padding: 20px 0;
   }
-  html:not(.ms-dialog-nr) table tr.ms-itmhover tr.s4-itm-selected {
-    background: white;
-  }
   html:not(.ms-dialog-nr) .fieldName {
     float: left;
     margin-right: 10px;
@@ -472,6 +469,12 @@ img[src="/_layouts/images/blank.gif"] {
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover {
     background-color: none transparent !important;
+  }
+  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td {
+    background-color: white !important;
+  }
+  html:not(.ms-dialog-nr) body.xd #main-content.s4-itm-selected {
+    background: white !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #layoutsTable {
     -webkit-box-sizing: border-box;
@@ -579,9 +582,6 @@ img[src="/_layouts/images/blank.gif"] {
   html:not(.ms-dialog-nr) body.xd #main-content .ms-propertysheet a:first-child {
     background: #c2e0f3;
     color: #fff;
-  }
-  html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover > td {
-    background-color: white;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #AsynchronousViewDefault_CalendarView table {
     display: table !important;
