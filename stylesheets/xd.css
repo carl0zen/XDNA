@@ -822,11 +822,21 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 10px 0;
-    line-height: 50px;
+    line-height: 1;
     display: block;
+    clear: both;
+  }
+
+  #newPostSubmit {
+    float: left;
+  }
+
+  .topPane {
+    overflow: hidden;
+    margin-bottom: 1.5em;
   }
 }
 /* Tablet (portrait) ----------- */
