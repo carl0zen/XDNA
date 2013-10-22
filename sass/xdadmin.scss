@@ -92,7 +92,6 @@ body.xd
 		thead{
 			background: white
 		}
-
 	}
 	// Override bg injected by global.css 
 	body , body thead td, body tfoot td, body td#header {
@@ -271,7 +270,7 @@ img[src="/_layouts/images/blank.gif"]{
 			width: auto !important;
 		}
 	}
-	.ms-dialog{
+	/**.ms-dialog{
 		td{
 			display: block;
 			width:auto !important; 
@@ -294,12 +293,10 @@ img[src="/_layouts/images/blank.gif"]{
 			background: none !important;
 			
 		}
-	}
+	}**/
 
 }
-	.ms-dialog html body.xd.system #main-content[role="main"]{
-		margin-left:0px !important;
-	}
+
 // NO DIALOGOS
 
 
