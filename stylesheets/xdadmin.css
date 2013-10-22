@@ -150,6 +150,13 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   padding: 0;
 }
 
+body.xd {
+  /**.xd-footer{
+  	padding: 20px 0;
+  	text-align: center;
+  	margin: 30px 0 16px;
+  }**/
+}
 body.xd .s4-tn {
   background: #0088af;
   overflow: visible !important;

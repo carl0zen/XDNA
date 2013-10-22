@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -561,6 +561,9 @@ body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .stat
 body.xd #main-content div[data-panel-id="availableteammembers"] .details {
   width: 80%;
   float: left;
+}
+body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters {
+  display: none;
 }
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
   display: inline-block;

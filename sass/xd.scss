@@ -411,6 +411,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
       .availability{
         .filters{
+          display: none;
           li {display: inline-block;margin-right: 9px; font-size: 14px; }
           li a{color: #666}
           li.selected a{color: $green !important }
