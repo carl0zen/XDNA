@@ -158,7 +158,7 @@ body.xd {
   }**/
 }
 body.xd .s4-tn {
-  background: #0088af;
+  /*background: $middleBlue;*/
   overflow: visible !important;
 }
 body.xd .s4-specialNavLinkList {
