@@ -817,29 +817,26 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     padding: 10px 14px;
   }
 }
+ /**
 @media only screen and (max-width: 420px) {
-  #newPostSubmit, #newPostText {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 80%;
-    height: auto;
-    margin: 10px 0;
-    line-height: 1;
-    display: block;
-    clear: both;
-  }
-
-  #newPostSubmit {
-    float: left !important;
-  }
-
-  .topPane {
-    overflow: hidden;
-    margin-bottom: 1.5em;
-  }
-}
-/* Tablet (portrait) ----------- */
+     #newPostSubmit, #newPostText{
+       @include box-sizing(border-box);
+       width:80%;
+       height:auto;
+       margin:10px 0;
+       line-height: 1;
+       display: block;
+       clear: both;
+     }
+     #newPostSubmit{
+       float: left !important;
+     }
+     .topPane{
+       overflow: hidden;
+       margin-bottom: 1.5em;
+     }
+ }
+ /* Tablet (portrait) ----------- */
 @media only screen and (max-width: 768px) {
   body.xd .xd-header h1 {
     font-size: 1.2em;
