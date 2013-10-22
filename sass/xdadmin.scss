@@ -444,6 +444,7 @@ html:not(.ms-dialog-nr){
 			//width:100% !important\9; /*IE8+9 */
 		}
 		td{
+
 			line-height: 30px;
 			select{
 				 width: 100%;
@@ -743,6 +744,9 @@ html:not(.ms-dialog-nr){
 		table.ms-listviewtable{
 			table-layout: fixed \9;/* IE8+9  */
 			width:100%\9;/* IE8+9  */
+			tbody tr.ms-itmhover td{
+				width: 100% !important;
+			}
 		}
 		td.ms-vb-itmcbx{
 			text-align: center;
