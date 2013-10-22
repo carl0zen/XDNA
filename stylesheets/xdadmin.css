@@ -145,6 +145,9 @@
 .ms-dialog .ms-descriptiontext table {
   text-align: center;
 }
+.ms-dialog #main-content {
+  margin: 0;
+}
 
 body.xd {
   /**.xd-footer{
