@@ -680,7 +680,17 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
       padding:10px 14px;
     }
   }
-
+ 
+ @media only screen and (max-width: 420px) {
+      #newPostSubmit, #newPostText{
+        @include box-sizing(border-box);
+        width:100%;
+        height:auto;
+        margin:10px 0;
+        line-height: 50px;
+        display: block;
+      }
+  }
   /* Tablet (portrait) ----------- */
   @media only screen and (max-width: 768px) {
     body.xd .xd-header h1 {
