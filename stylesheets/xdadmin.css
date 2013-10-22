@@ -805,31 +805,7 @@ html:not(.ms-dialog) body.xd .xd-header h1 a {
 }
 
 @media only screen and (max-width: 768px) {
-  html body.xd.system #s4-workspace .xd-menu {
-    border-top: none;
-  }
-
-  html body.xd.system #s4-workspace .menu-icon,
-  html body.xd.system #s4-workspace #sidebarButton {
-    font-weight: lighter;
-  }
-
-  html body.xd.system #s4-workspace .xd-menu {
-    padding: 0;
-  }
-
-  html body.xd.system #s4-workspace .mobile-submenu li {
-    background-color: #ddd !important;
-    border-top: none;
-    padding-left: 10%;
-  }
-
-  html body.xd.system .xd-menu .s4-tn li.static .menu-item {
-    border-bottom: solid 1px #ccc;
-    color: #666;
-  }
-
-  html body.xd.system .xd-menu .menu li.selected {
+  body.xd .xd-menu .menu li.selected {
     border-top: none;
   }
 }
