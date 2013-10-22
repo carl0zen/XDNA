@@ -3,9 +3,9 @@
 @import "helpers"; 
 @import "layout";
 
-		.ms-dlgFrameContainer {
-			overflow: hidden !important;
-		}
+			.ms-dlgFrameContainer {
+				overflow: hidden !important;
+			}
 
 		html.ms-dialog {
 			.xd-header, .menu-icon, .sidebar-button, .xd-footer{
@@ -35,7 +35,7 @@
 				 width: 13.2em;
 			}**/
 		}
- 
+
 body.xd
 {	
 	.s4-specialNavLinkList{
@@ -145,10 +145,18 @@ body.xd
 		
 	}
 	
+
+
+	/**.xd-footer{
+		padding: 20px 0;
+		text-align: center;
+		margin: 30px 0 16px;
+	}**/
+	
 }
 	body.xd #s4-workspace{
 		.mobile-submenu li{
-			background-color:  $white;
+			background-color: #0096C1 !important;
 			border-bottom: none !important;
 			border-top: 1px solid #007597;
 		}
@@ -173,13 +181,17 @@ body.xd
 		.xd-menu{
 			border:none;
 			li{
-				background-color: $white;
+				background-color: $middleBlue;
 				border-bottom: 1px solid #007597;
 			}
 		}
 		.s4-tn{
-			background: $white !important ; 
+			background: $middleBlue;
 		}
+
+
+
+
 
 	}
 

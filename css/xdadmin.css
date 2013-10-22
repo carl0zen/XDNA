@@ -150,6 +150,13 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   padding: 0;
 }
 
+body.xd {
+  /**.xd-footer{
+  	padding: 20px 0;
+  	text-align: center;
+  	margin: 30px 0 16px;
+  }**/
+}
 body.xd .s4-specialNavLinkList {
   border: none;
 }
@@ -238,7 +245,7 @@ body.xd #main-content .ms-pageinformation {
 }
 
 body.xd #s4-workspace .mobile-submenu li {
-  background-color: #fefefe;
+  background-color: #0096C1 !important;
   border-bottom: none !important;
   border-top: 1px solid #007597;
 }
@@ -263,11 +270,11 @@ body.xd #s4-workspace .xd-menu {
   border: none;
 }
 body.xd #s4-workspace .xd-menu li {
-  background-color: #fefefe;
+  background-color: #0088af;
   border-bottom: 1px solid #007597;
 }
 body.xd #s4-workspace .s4-tn {
-  background: #fefefe !important;
+  background: #0088af;
 }
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
