@@ -158,6 +158,7 @@ body.xd {
   }**/
 }
 body.xd .s4-tn {
+  background: #0088af;
   overflow: visible !important;
 }
 body.xd .s4-specialNavLinkList {
@@ -248,7 +249,7 @@ body.xd #main-content .ms-pageinformation {
 }
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
-  background: #006c8c;
+  background: #18b4ef;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
   color: #fff;
