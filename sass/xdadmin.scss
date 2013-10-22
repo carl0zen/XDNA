@@ -760,3 +760,190 @@ html:not(.ms-dialog){
 
 body.xd table table.ms-listviewtable > tbody{width:100% !important}
 body.xd table table.ms-listviewtable > tbody .ms-itmhover{background-image:none}
+
+
+
+
+
+
+/* AL CSS */
+
+/*  1.0 Global Elements
+		1.1 Tables
+		1.2 Forms
+		1.3 Ribbon
+	2.0 Left Panel
+	4.0 Main Content
+	5.0 Media Queries	
+	   
+   ==========================================================================
+    1.0 Global Elements
+   ========================================================================== */
+	body.system.v4master.xd{width:100%;overflow:hidden}
+	body.system ul, 
+	body.system ol, 
+	body.system dl{line-height:1}
+	body.system .xd-header .row {max-width: 100%;}
+	
+/* ==========================================================================
+   1.1 Tables
+   ========================================================================== */
+	html:not(.ms-dialog) body.system table thead tr th, 
+	html:not(.ms-dialog) body.system table tfoot tr th, 
+	html:not(.ms-dialog) body.system table tbody tr td, 
+	html:not(.ms-dialog) body.system table tr td, 
+	html:not(.ms-dialog) body.system table tfoot tr td{line-height: 1.4;font-size:1em;margin:0;padding:0;color:inherit; padding-bottom:inherit}
+	html:not(.ms-dialog) body.system .ms-vb-icon{ text-align:center}
+	html:not(.ms-dialog) body.system .ms-vb-icon input[type="checkbox"]{ margin-right:0px;}
+	html:not(.ms-dialog) body.system .ms-linksection-level1 td {padding-bottom: 17px;}
+	html:not(.ms-dialog) body.system .ms-listviewtable td{vertical-align: middle}
+	html:not(.ms-dialog) body.system .ms-descriptiontext ul{margin:20px; line-height:1.5em}
+	html:not(.ms-dialog) body.system .ms-WPBody td{ font-size:1em}
+	html:not(.ms-dialog) body.system #main-content table thead tr th, 
+	html:not(.ms-dialog) body.system #main-content table tfoot tr th, 
+	html:not(.ms-dialog) body.system #main-content table tbody tr td, 
+	html:not(.ms-dialog) body.system #main-content table tr td, 
+	html:not(.ms-dialog) body.system #main-content table tfoot tr td{/*background-color:#fff;*/}
+	html:not(.ms-dialog) body.system #main-content .ms-menutoolbar tbody td{background-color:#eee;}
+	html:not(.ms-dialog) body.system #main-content .ms-menubuttonactivehover, 
+	html:not(.ms-dialog) body.system #main-content .ms-buttonactivehover,
+	html:not(.ms-dialog) body.system #main-content .ms-splitbuttonhover .ms-splitbuttondropdown, 
+	html:not(.ms-dialog) body.system #main-content .ms-splitbuttonhover .ms-splitbuttontext,
+	html:not(.ms-dialog) body.system #main-content .ms-splitbuttonhover{background:none !important;background-image:none !important;border:none !important;}
+	html:not(.ms-dialog) body.system #main-content .ms-menubuttoninactivehover, 
+	html:not(.ms-dialog) body.system #main-content .ms-buttoninactivehover{margin:2px}
+	html:not(.ms-dialog) body.system #main-content .ms-splitbutton,
+	html:not(.ms-dialog) body.system #main-content .ms-splitbuttonhover{margin:0}
+/* ==========================================================================
+   1.2 Forms
+   ========================================================================== */	
+	body.system input[type="text"], 
+	body.system input[type="password"], 
+	body.system input[type="date"], 
+	body.system input[type="datetime"], 
+	body.system input[type="datetime-local"], 
+	body.system input[type="month"], 
+	body.system input[type="week"], 
+	body.system input[type="email"], 
+	body.system input[type="number"], 
+	body.system input[type="search"], 
+	body.system input[type="tel"], 
+	body.system input[type="time"], 
+	body.system input[type="url"], 
+	body.system inputtextarea{width:auto;}
+	body.system input[type="file"], 
+	body.system input[type="checkbox"], 
+	body.system input[type="radio"], 
+	body.system select {margin:0 5px 0 0; width: auto;}	
+	body.system select{width: auto; margin-bottom:5px !important}
+	body.system label{display: inline}
+	body.system abbr[title],
+	body.system input[type="checkbox"], 
+	body.system input[type="radio"]{border-bottom: 0 none; margin:0 5px;}
+	body.system .s4-ca .ms-inputformcontrols td{padding:0}
+    body.system .thmx-themes {width: 90%;}
+/* ==========================================================================
+   1.3 Ribbon
+   ========================================================================== */
+	body.system #s4-ribbonrow { overflow: hidden;}	
+	body.system #s4-ribbonrow ul{ line-height: 1.1 !important}
+	body.system #s4-ribbonrow .ms-cui-ct-ul .ms-cui-tt-span{ padding-top:5px}
+	body.system .s4-clust.ms-viewselector-arrow.ms-menu-stdarw {height: 0 !important; width: 0 !important;}
+	body.system .ms-cui-topBar2 ul, 
+	body.system .ms-cui-topBar2 ol, 
+	body.system .ms-cui-topBar2 dl{line-height:auto;}	
+	body.system .ms-cui-tts-scale-2 .ms-cui-tt-a{width:60px}
+	body.system .ms-cui-tt-span {padding-bottom: 8px;}
+	body.system .ms-smallsectionline {border-bottom:1px solid #bfbfbf; height:0px}
+	body.system .ms-sectionheader h3 {padding: 0px;}
+	body.system .ms-cui-tts-scale-2 .ms-cui-cg-t{visibility:visible}	
+/* ==========================================================================
+   2.1 Menu
+   ========================================================================== */
+	body.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea,
+	body.system a span{border:none !important}
+	body.system button:hover, 
+	body.system .button:hover{background-color:#009CC9}
+ 	body.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover{border: solid 1px  transparent}
+	body.system .s4-nothome.s4-bcsep.s4-titlesep img,
+	body.system .s4-clust.ms-ltviewselectormenuseparator img, 
+	body.system .s4-clust.ms-viewselector-arrow.ms-menu-stdarw img{display:none !important	}
+	body.system .s4-pagedescription span a{color:#fff}
+	body.system .ms-MenuUIPopupBody.ms-MenuUIPopupScreen img{margin-top:0px}  
+
+/* ==========================================================================
+   2.2 BreadCrumb
+   ========================================================================== */
+	body.system .xd-header h1, 
+	body.system .xd-header h2,
+	body.system .xd-header h1 a,
+	body.system .xd-header h2 a{margin:0px;padding:0px;line-height:12px;font-size:12px;display:inline;color: #FFFFFF;font-weight: normal; font-family:Arial, Helvetica, sans-serif}
+	body.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector, 
+	body.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover{padding:0px; background:none}
+	body.system .xd-header .s4-clust ms-ltviewselectormenuseparator{width:0px !important; height:0px !important}	
+	/* Drop Left */
+	body.system .xd-header #onetidPageTitleSeparator, 
+	body.system .xd-header .xd-title-area span span:first-child{ border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 5px solid #fff;display:inline-block;margin:-3px 5px 0;width: -1px !important; height: 0 !important; width: auto !important  }
+	body.system .xd-header .xd-title-area .ms-MenuUIPopupBody span:first-child{border:none;margin:auto}
+	/* Drop Down */
+    body.system .xd-header #onetidPageTitleSeparator span span,
+	body.system .xd-header .s4-clust.ms-ltviewselectormenuseparator{display:none !important}
+	body.system .xd-header .s4-clust.ms-viewselector-arrow.ms-menu-stdarw, 
+	body.system .xd-header .ms-menu-althov-active .ms-viewselectorhover{width: 0 !important; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #fff;display:inline-block !important;}	
+/* ==========================================================================
+   3.0 Left Panel
+   ========================================================================== */
+	body.system #s4-leftpanel[role="complementary"]{display: inline-block !important; background-color: #eee;padding:0px 0px;width:155px;float:left;font-size: 1.2em;}			
+	body.system #s4-leftpanel[role="complementary"] .menu-item-text{padding-bottom:1px;}
+	body.system #s4-leftpanel[role="complementary"] .s4-recentchanges{border:none; padding:0px; margin-bottom:0px;}
+/* ==========================================================================
+   4.0 Main Content
+   ========================================================================== */	
+	body.system #s4-workspace{overflow-y:auto; overflow-x:hidden; }	
+	html:not(.ms-dialog) body.system #main-content[role="main"]{width:auto; position:static; border-left:solid 1px #ccc;-webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;background-color:#fff;min-height: 471px;padding: 1%;margin-left: 155px;float:none}
+	body.system .s4-ca{min-height:390px;position:relative}
+	body.system .sidebar-button.button{background-image:url(img/sidebar-icon.png);background-repeat:no-repeat;background-position:90% 50%;transition-duration: 0.2s;transition-property: all;transition-timing-function: ease;}
+/* ==========================================================================
+   5.0 Media Queries
+   ==========================================================================*/   	     	
+	@media only screen and (max-width: 768px){	
+		html:not(.ms-dialog) body.system #auth .thumbCrop{margin-left:auto;}
+		html:not(.ms-dialog) body.system #sidebarButton{ display:block}
+		html:not(.ms-dialog) body.system #s4-leftpanel[role="complementary"]{width:80%;position:absolute;top:0;bottom:0}		
+		html:not(.ms-dialog) body.system #main-content[role="main"]{width:100% !important;position:relative;min-height:391px; left:0; margin-left:0px; height:100% !important}
+		html:not(.ms-dialog) body.system .xd-header h1{display:inline-block;position:static}			
+		html:not(.ms-dialog) body.system .xd-header .row{width:100%}
+		html:not(.ms-dialog) body.system .xd-header .logo{width:100%;display:block	}
+		html:not(.ms-dialog) body.system .xd-header .navigation-description{display:block;text-align:left;width:100%;padding-left:0px; margin-top:15px;}
+		html:not(.ms-dialog) body.system button, 
+		html:not(.ms-dialog) body.system .button{background-color:#0088AF;padding:20px 0;color:#fff;font-size:1.1em;margin:0px;padding:20px 0;border:none;box-shadow:0px;width:50%;display:inline-block;float:left;}	
+		html:not(.ms-dialog) body.system .xd-footer{text-align:center}
+		html:not(.ms-dialog) body.system .s4-ca {overflow-x: hidden;}
+		html:not(.ms-dialog) body.system .ms-pageinformation{width:100% !important; float:none}							
+		
+		html:not(.ms-dialog) body.xd.active #main-content[role="main"]{margin-left:80% !important}
+	}
+	@media only screen and (max-width: 620px){
+		html:not(.ms-dialog) body.system #auth{padding-right:0px}
+		html:not(.ms-dialog) body.system #auth .thumbCrop{ display:block; position:static}
+	 	html:not(.ms-dialog) body.system #auth .thumb, 
+		html:not(.ms-dialog) body.system #auth > div{margin-bottom:0px}
+		html:not(.ms-dialog) body.system #s4-workspace .menu-icon{ width:50% !important;}
+		html:not(.ms-dialog) body.system #s4-workspace .sidebar-button{width:50% !important;}
+		html:not(.ms-dialog) body.system .menu-icon, 
+		html:not(.ms-dialog) body.system .sidebar-button.button{background-position: 93% center;}
+		html:not(.ms-dialog) body.system .xd-header .row .columns,
+		html:not(.ms-dialog) body.system .xd-header .ms-listdescription,
+		html:not(.ms-dialog) body.system .xd-header .navigation-description{width:100%;display:block;text-align:center;float:none}
+		html:not(.ms-dialog) body.system .xd-header .navigation-description{margin-top:2em}
+		html:not(.ms-dialog) body.system .xd-header .s4-pagedescription span{display:block;text-align:center	}
+		html:not(.ms-dialog) body.system .xd-header .s4-pagedescription, 
+		html:not(.ms-dialog) body.system .xd-header .s4-pagedescription span{margin-top: 1em;}	
+		html:not(.ms-dialog) body.system .xd-header .s4-notdlg img{margin-top:0px}	
+	}
+	@media (max-width: 350px) {
+		body.system #auth{display:block}
+		body.system .xd-header .navigation-description{display:none;}		
+		body.system .menu-icon,
+		body.system .sidebar-button{text-indent:-999999px;background-position:50% center !important;}
+	}
