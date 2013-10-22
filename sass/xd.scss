@@ -11,6 +11,10 @@ html{
 
 
 body.xd{
+    &.reader{
+      overflow: auto;
+      #s4-workspace{overflow: visible; height: auto !important;} 
+    }
     .menu-icon{
         background: darken($blue, 10%);
         width:45px;
@@ -31,7 +35,7 @@ body.xd{
   }
   div[id*="TopNavigationMenuV4"]{
     display: none;
-  }
+  } 
 
 
   /* ==========================================================================

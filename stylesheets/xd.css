@@ -10,133 +10,107 @@
 /* ..-------------------------------------------------------...
  |                         HELPER CLASSES                     |
  |..--------------------------------------------------------..|*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\000035}}
 .nodisplay, .hide {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\000036}}
 .inline {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\000037}}
 .pointer:hover, body.xd .menu-icon:hover {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\000038}}
 .center {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\000039}}
 .left {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000310}}
 .right {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000311}}
 .auto {
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000312}}
 .odd {
   background: #FBFBFB;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000313}}
 .even {
   background: #F2F0F1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000314}}
 .letterpressed {
   text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000315}}
 .bold {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000316}}
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000317}}
 .block {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000318}}
 .h100 {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000319}}
 .noOutline {
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000320}}
 .antialiased {
   -webkit-font-smoothing: antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000324}}
 .paddingL {
   padding-left: 1.3%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000325}}
 .paddingB {
   padding-bottom: 1.3%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000326}}
 .paddingR {
   padding-right: 1.3%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000327}}
 .paddingT {
   padding-top: 1.3%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000330}}
 .floatR {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000331}}
 .floatL {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000332}}
 .positionA {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000333}}
 .positionF {
   position: fixed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000334}}
 .positionR {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/_helpers\.scss}line{font-family:\0000349}}
 .fullFixedBg {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -147,12 +121,10 @@
   background-origin: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\000038}}
 html {
   background: #efefef;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000313}}
 body.xd {
   /* ==========================================================================
    INDEX
@@ -244,7 +216,13 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   /* Header Search SharePoint Web Parts*/
   /* Main Content & Arrows  */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000314}}
+body.xd.reader {
+  overflow: auto;
+}
+body.xd.reader #s4-workspace {
+  overflow: visible;
+  height: auto !important;
+}
 body.xd .menu-icon {
   background: #97caeb;
   width: 45px;
@@ -266,49 +244,39 @@ body.xd .menu-icon {
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000323}}
 body.xd .menu-icon:hover {
   background: #add5ef;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000328}}
 body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000332}}
 body.xd div[id*="TopNavigationMenuV4"] {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000351}}
 body.xd #ctl00_MSO_ContentDiv,
 body.xd #s4-bodyContainer {
   min-width: 320px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000353}}
 body.xd #s4-leftpanel {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000354}}
 body.xd .s4-ca {
   margin-left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000355}}
 body.xd hr {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000372}}
 body.xd .xd-header {
   background-color: #009fd9;
   padding: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000375}}
 body.xd .xd-header h1 {
   display: inline-block;
   font-weight: lighter;
   margin: 0px;
   margin-top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000380}}
 body.xd .xd-header h1 a {
   color: #fff;
   margin-left: 20px;
@@ -316,24 +284,19 @@ body.xd .xd-header h1 a {
   font-family: "Segoe UI";
   font-size: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000389}}
 body.xd .xd-header .s4-notdlg {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000391}}
 body.xd .xd-header .s4-notdlg img {
   max-height: 38px;
   max-width: 137px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000396}}
 body.xd .xd-header .row {
   max-width: 1320px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\0000399}}
 body.xd .xd-header .s4-clust.ms-viewselector-arrow {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003117}}
 body.xd .xd-welcome {
   clear: both;
   overflow: hidden;
@@ -344,7 +307,6 @@ body.xd .xd-welcome {
   font-size: 1.2em;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003126}}
 body.xd .xd-welcome .ms-welcomeMenu,
 body.xd .xd-welcome .s4-trc-container-menu {
   background: none;
@@ -352,41 +314,33 @@ body.xd .xd-welcome .s4-trc-container-menu {
   margin: 0px;
   font-family: "Segoe UI";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003132}}
 body.xd .xd-welcome #auth {
   margin-right: 0px;
   margin-top: 0px;
   line-height: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003136}}
 body.xd .xd-welcome #auth .thumb {
   margin-left: 20px;
   line-height: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003141}}
 body.xd .xd-welcome #auth .thumbCrop {
   border-radius: 100%;
   width: 40px;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003146}}
 body.xd .xd-welcome #auth img {
   min-height: 1px;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003151}}
 body.xd .xd-welcome a {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003152}}
 body.xd .xd-welcome > img {
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003153}}
 body.xd .xd-welcome .s4-trc-container-menu {
   margin-top: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003154}}
 body.xd .xd-welcome #zz16_Menu > span:before {
   content: "Ã¢â€“Â¼";
   display: inline-block;
@@ -394,28 +348,23 @@ body.xd .xd-welcome #zz16_Menu > span:before {
   font-size: 11px;
   margin-right: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003161}}
 body.xd .xd-welcome .s4-clust.ms-viewselector-arrow > img {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003162}}
 body.xd .xd-welcome .welcome {
   color: #fff;
   margin-top: 1px;
   display: inline-block;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003183}}
 body.xd .xd-search {
   display: inline-block;
   float: right;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003187}}
 body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003190}}
 body.xd .xd-search input {
   margin: 0px;
   padding: 0 0 0 5px;
@@ -428,26 +377,21 @@ body.xd .xd-search input {
   font-style: normal;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003203}}
 body.xd .xd-search td img {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003204}}
 body.xd .xd-search td:first-child {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003205}}
 body.xd .xd-search td:nth-of-type(2) {
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003206}}
 body.xd .xd-search td a {
   height: 20px;
   width: 20px;
   display: inline-block;
   background: url("img/Search-Find.png") -7px -5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003225}}
 body.xd .xd-menu {
   background-color: #fff;
   padding: 0 30px;
@@ -455,7 +399,6 @@ body.xd .xd-menu {
   overflow: visible;
   line-height: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003232}}
 body.xd .xd-menu .s4-tn li.static > .menu-item {
   height: 100%;
   color: #7FD7F1;
@@ -463,24 +406,19 @@ body.xd .xd-menu .s4-tn li.static > .menu-item {
   text-transform: uppercase;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003239}}
 body.xd .xd-menu .menu ul li:first-child .menu-item {
   color: #999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003243}}
 body.xd .xd-menu .menu li.selected {
   border-top: 4px solid #fe6601;
   line-height: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003246}}
 body.xd .xd-menu .menu li.selected .menu-item {
   color: #F9F9FB;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003250}}
 body.xd .xd-menu .s4-tn ul.dynamic {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003254}}
 body.xd .xd-menu .s4-tn li.static .menu-item {
   height: 100%;
   color: #2F2F2F;
@@ -488,25 +426,20 @@ body.xd .xd-menu .s4-tn li.static .menu-item {
   text-transform: uppercase;
   font-size: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003260}}
 body.xd .xd-menu .s4-tn li.static .menu-item:hover {
   background-color: #f9f9f9;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003266}}
 body.xd .xd-menu .s4-tn li {
   line-height: 6px;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003274}}
 body.xd .xd-menu .static.dynamic-children li a:hover {
   background-color: #0088af;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003278}}
 body.xd .xd-menu li.static.dynamic-children.hover {
   background-color: #f9f9f9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003283}}
 body.xd .menu-horizontal a.dynamic-children span.additional-background,
 body.xd .menu-horizontal span.dynamic-children span.additional-background {
   background-image: none;
@@ -514,7 +447,6 @@ body.xd .menu-horizontal span.dynamic-children span.additional-background {
   background-position: right 5px;
   padding-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003288}}
 body.xd .menu-horizontal a.dynamic-children span.additional-background:before,
 body.xd .menu-horizontal span.dynamic-children span.additional-background:before {
   content: "▼";
@@ -523,7 +455,6 @@ body.xd .menu-horizontal span.dynamic-children span.additional-background:before
   font-size: 11px;
   margin-right: -20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003296}}
 body.xd .menu-icon {
   width: 100%;
   right: 0;
@@ -541,16 +472,13 @@ body.xd .menu-icon {
   color: #2e2e2e;
   height: 3.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003309}}
 body.xd .menu-icon:hover {
   background-color: #f9f9f9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003313}}
 body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003336}}
 body.xd #main-content {
   width: 100%;
   position: relative;
@@ -560,20 +488,16 @@ body.xd #main-content {
   background-size: cover;
   background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003338}}
 body.xd #main-content ul.color-key.wide li {
   font-size: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003344}}
 body.xd #main-content .welcome-content {
   margin: 0;
   padding: 25px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003348}}
 body.xd #main-content #gridBoard {
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003351}}
 body.xd #main-content .panel {
   background: #C6C7C9;
   border: 1px solid transparent;
@@ -581,105 +505,81 @@ body.xd #main-content .panel {
   /* The Fallback */
   background: rgba(198, 199, 201, 0.4);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003355}}
 body.xd #main-content .panel h3 {
   color: #88888c;
   font-size: 35px;
   font-weight: 300;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003361}}
 body.xd #main-content .panel hr {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003364}}
 body.xd #main-content .panel p, body.xd #main-content .panel a, body.xd #main-content .panel li {
   color: #333333 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003367}}
 body.xd #main-content .panel span {
   color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003370}}
 body.xd #main-content .panel ul {
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003372}}
 body.xd #main-content .panel ul.bullet li {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png") no-repeat top left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003376}}
 body.xd #main-content .panel:before {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003379}}
 body.xd #main-content .panel.featured, body.xd #main-content .panel[data-panel-id="teamstatus"] {
   background: #00ADEE;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003380}}
 body.xd #main-content .panel.featured h2, body.xd #main-content .panel[data-panel-id="teamstatus"] h2 {
   font-weight: lighter;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003382}}
 body.xd #main-content .panel.featured p, body.xd #main-content .panel.featured a, body.xd #main-content .panel.featured li, body.xd #main-content .panel.featured span, body.xd #main-content .panel.featured h3, body.xd #main-content .panel[data-panel-id="teamstatus"] p, body.xd #main-content .panel[data-panel-id="teamstatus"] a, body.xd #main-content .panel[data-panel-id="teamstatus"] li, body.xd #main-content .panel[data-panel-id="teamstatus"] span, body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
   color: #fefefe !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003386}}
 body.xd #main-content .panel.featured .status span.authorTitle, body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
   color: #525252 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003389}}
 body.xd #main-content .panel.featured .status p, body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
   padding-left: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003393}}
 body.xd #main-content .panel.featured p, body.xd #main-content .panel[data-panel-id="teamstatus"] p {
   margin: 10px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003397}}
 body.xd #main-content .panel .thumbCrop {
   border-radius: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003402}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
   background: #f39c12 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003403}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.red {
   background: #e74c3c !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003404}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
   background: #27ae60 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003405}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .details {
   width: 80%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003411}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
   display: inline-block;
   margin-right: 9px;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003412}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
   color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003413}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
   color: #27ae60 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003415}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
   display: block;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003418}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability li .status {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003422}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability .author {
   text-decoration: none !important;
   font-size: 26px;
@@ -690,12 +590,10 @@ body.xd #main-content div[data-panel-id="availableteammembers"] .availability .a
   line-height: 120%;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003432}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
   float: left;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003438}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
   width: 15% !important;
   height: 60px !important;
@@ -706,33 +604,26 @@ body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
   display: block;
   font-size: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003447}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
   background: #f39c12;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003448}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.green {
   background: #27ae60;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003449}}
 body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.red {
   background: #e74c3c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003453}}
 body.xd #carPaginate {
   margin-bottom: 25px !important;
   height: 5px !important;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003454}}
 body.xd #carPaginate a:active {
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003457}}
 body.xd #carPaginate a.selected {
   background-color: #009fd9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003466}}
 body.xd #carNext,
 body.xd #carPrev {
   margin-left: 0;
@@ -749,38 +640,31 @@ body.xd #carPrev {
   margin-top: -65px;
   opacity: 0.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003480}}
 body.xd #carNext:hover, body.xd #carNext:focus,
 body.xd #carPrev:hover,
 body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003485}}
 body.xd:hover, body.xd:active {
   background-color: #00B0E2;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003489}}
 body.xd .caroufredsel_wrapper {
   margin: 0 auto !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003493}}
 body.xd img[id*="_PictureUrlImage"] {
   width: 60px;
   height: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003497}}
 body.xd .s4-ca > div.s4-notdlg.social-bar,
 body.xd .s4-ca > div.s4-notdlg.xd-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003500}}
 body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003505}}
 body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
   border: none;
   padding: 1.2em 2.2em;
@@ -791,90 +675,70 @@ body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[ty
   font-size: 1.4em;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003517}}
 body.xd input[type="button"] {
   background-color: #009fd9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003519}}
 body.xd input[type="button"]:hover {
   background-color: #00b2f3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003523}}
 body.xd input[type="reset"] {
   background-color: #006c8c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003525}}
 body.xd input[type="reset"]:hover {
   background-color: #0080a6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003529}}
 body.xd input[type="submit"] {
   background-color: #0088af;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003531}}
 body.xd input[type="submit"]:hover {
   background-color: #009cc9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003558}}
 body.xd .icons-sprite, body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green, body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black, body.xd .icons-booked, body.xd .icons-half-booked, body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white, body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red, body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue, body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
   width: 14px;
   height: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003563}}
 body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green {
   background-position: 0 -13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003566}}
 body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black {
   background-position: 0 -66px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003569}}
 body.xd .icons-booked {
   background-position: 0 -71px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003572}}
 body.xd .icons-half-booked {
   background-position: 0 -67px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003575}}
 body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white {
   background-position: 0 -53px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003578}}
 body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red {
   background-position: 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003581}}
 body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue {
   background-position: 0 -27px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003584}}
 body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
   background-position: 0 -40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003600}}
 body.xd .xd-footer {
   padding: 20px;
   font-size: 0.8em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003606}}
 body.xd.v4master {
   width: auto;
   margin: 0 auto;
   /*overflow: auto;*/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003608}}
 body.xd.v4master #s4-bodyContainer {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003609}}
 body.xd.v4master #ctl00_MSO_ContentDi {
   padding-top: 0;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003611}}
 body.xd .inner-wrapper {
   font-size: 11px;
   background: #efefef;
@@ -890,7 +754,6 @@ body.xd .inner-wrapper {
   /* Body Buttons and objetcs */
   /* Custom SharePoint Parts */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003625}}
 body.xd .inner-wrapper .columns,
 body.xd .inner-wrapper .columns:before,
 body.xd .inner-wrapper .columns:after {
@@ -898,28 +761,22 @@ body.xd .inner-wrapper .columns:after {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003629}}
 body.xd .inner-wrapper a:hover {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003630}}
 body.xd .inner-wrapper a:focus {
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003631}}
 body.xd .inner-wrapper object, body.xd .inner-wrapper embed {
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003636}}
 body.xd div.article,
 body.xd div.welcome {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003638}}
 body.xd .ms-sbgo.ms-sbcell {
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003639}}
 body.xd p {
   font-size: 1.2em;
 }
@@ -949,37 +806,31 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
    ========================================================================== */
 /* Tablet (landscape) ----------- */
 @media only screen and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003672}}
   body.xd .xd-header {
     padding: 20px 0;
     height: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003676}}
   .xd-menu .s4-tn li.static > .menu-item {
     padding: 10px 14px;
   }
 }
 /* Tablet (portrait) ----------- */
 @media only screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003683}}
   body.xd .xd-header h1 {
     font-size: 1.2em;
     position: absolute;
     top: 9px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003688}}
   body.xd .xd-header .s4-notdlg img {
     margin-top: 13px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003691}}
   body.xd .xd-header h1 {
     top: 21px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003694}}
   .xd-menu .s4-tn li.static > .menu-item {
     padding: 20px 10px;
     -webkit-box-sizing: border-box;
@@ -989,12 +840,10 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     box-sizing: border-box;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003702}}
   .menu-horizontal {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003705}}
   .menu-horizontal li.static, .menu-horizontal a.static, .menu-horizontal span.static {
     width: 100%;
     float: none;
@@ -1004,18 +853,15 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
   }
 }
 @media only screen and (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003714}}
   body.xd .menu-icon {
     display: none;
   }
 }
 @media only screen and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003719}}
   body.xd .xd-header h1 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003722}}
   body.xd #auth {
     text-align: center;
     float: none;
@@ -1026,18 +872,15 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     margin-top: 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003723}}
   body.xd #auth .bold {
     display: block;
     text-align: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003724}}
   body.xd .xd-welcome {
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003725}}
   body.xd #auth .thumb, body.xd #auth > div {
     display: block;
     height: auto;
@@ -1048,38 +891,31 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 }
 /* Mobile       ----------- */
 @media only screen and (max-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003730}}
   body.xd #carPaginate.loadFade {
     width: auto !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003733}}
   body.xd .static.dynamic-children:active {
     background: #0088af;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003736}}
   body.xd .xd-welcome #auth {
     margin-top: 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003739}}
   body.xd .xd-welcome #auth .thumb {
     margin: 20px auto 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003743}}
   body.xd .menu-horizontal a.dynamic-children span.additional-background:before,
   body.xd .menu-horizontal span.dynamic-children span.additional-background:before {
     margin-right: -6px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003746}}
   body.xd .xd-header {
     padding: 2em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003749}}
   body.xd .xd-header .xd-search input {
     height: 30px;
     float: none;
@@ -1087,7 +923,6 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     background-color: white;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003765}}
   body.xd .xd-header .columns,
   body.xd .xd-header .xd-welcome,
   body.xd .xd-header .xd-welcome .welcome,
@@ -1105,36 +940,30 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     padding: 0px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003771}}
   body.xd .xd-header .xd-search {
     margin: 2em 0;
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003775}}
   body.xd .xd-header .xd-search .ms-sbcell {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003778}}
   body.xd .xd-header .xd-search .ms-sbrow {
     overflow: hidden;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003781}}
   body.xd .xd-header .xd-search .ms-sbscopes {
     margin-bottom: 2em;
     text-align: left;
     height: 30px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003786}}
   body.xd .xd-header .xd-welcome span.welcome {
     font-size: 1.5em;
   }
 
   /* MENU       ----------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003791}}
   body.xd xd-menu a, body.xd xd-menu li, body.xd .xd-menu, .menu-horizontal {
     display: block;
     width: 100%;
@@ -1143,18 +972,15 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     padding: 0px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003799}}
   .menu-item-text {
     padding-left: 20px;
   }
 
   /* Responsive MENU        ----------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003803}}
   body.xd .menu-icon {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003806}}
   body.xd .menu .ul.dynamic {
     display: block !important;
     left: auto !important;
@@ -1163,28 +989,23 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     clear: both !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003813}}
   body.xd ul.root.static {
     overflow: hidden;
     *zoom: 1;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003817}}
   body.xd #zz15_TopNavigationMenuV4 .menu {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003820}}
   body.xd #zz15_TopNavigationMenuV4 .menu ul {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003823}}
   body.xd #zz15_TopNavigationMenuV4 .menu ul > li {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003826}}
   body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li {
     width: 100%;
   }
@@ -1193,12 +1014,10 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
    Mobile
    ========================================================================== */
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003837}}
   .menu-icon {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003840}}
   .menu .ul.dynamic {
     display: block !important;
     left: auto !important;
@@ -1207,25 +1026,20 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     clear: both !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003848}}
   ul.root.static {
     overflow: hidden;
     *zoom: 1;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003851}}
   #zz15_TopNavigationMenuV4 .menu {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003855}}
   #zz15_TopNavigationMenuV4 .menu ul {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003858}}
   #zz15_TopNavigationMenuV4 .menu ul > li {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003863}}
   #zz15_TopNavigationMenuV4 .menu ul ul > li {
     width: 100%;
   }
@@ -1234,36 +1048,30 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
  Tablet
  ========================================================================== */
 @media only screen and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003874}}
   .s4-ca {
     margin-top: 70px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003877}}
   body.system .s4-ca {
     overflow-x: visible;
     min-height: 1px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003883}}
   html:not(.ms-dialog-nr) body.xd #main-content {
     overflow: visible;
     min-height: 1px;
   }
 }
 @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003894}}
   #auth span {
     display: block;
     margin-right: 60px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003898}}
   #auth .thumbCrop {
     margin-top: -15px;
   }
 }
 @media only screen and (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/omar\.a\.lara\.gonzalez\/Documents\/GitHub\/xdna\/sass\/xd\.scss}line{font-family:\00003905}}
   .menu-icon {
     display: none;
   }
