@@ -146,7 +146,7 @@
   text-align: center;
 }
 .ms-dialog #main-content {
-  margin: 0;
+  margin: 0 !important;
 }
 
 body.xd {
