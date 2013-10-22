@@ -423,7 +423,7 @@ html:not(.ms-dialog-nr){
 		padding: 0 !important;
 		tr.s4-itm-selected, tr.s4-itm-selected:hover {
 			//background-color: lighten($lightBlue, 20%) !important;
-			background-color: white;
+			background-color: none transparent !important;
 		}
 		#layoutsTable{
 			@include box-sizing(border-box);

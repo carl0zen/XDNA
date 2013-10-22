@@ -471,7 +471,7 @@ img[src="/_layouts/images/blank.gif"] {
     padding: 10px 0;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover {
-    background-color: white;
+    background-color: none transparent !important;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #layoutsTable {
     -webkit-box-sizing: border-box;
