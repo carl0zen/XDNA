@@ -430,7 +430,7 @@ img[src="/_layouts/images/blank.gif"] {
     padding: 20px 0;
   }
   html:not(.ms-dialog-nr) table tr.ms-itmhover tr.s4-itm-selected {
-    background: #A5CCE4;
+    background: white;
   }
   html:not(.ms-dialog-nr) .fieldName {
     float: left;
@@ -471,7 +471,7 @@ img[src="/_layouts/images/blank.gif"] {
     padding: 10px 0;
   }
   html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected, html:not(.ms-dialog-nr) body.xd #main-content tr.s4-itm-selected:hover {
-    background-color: transparent;
+    background-color: white;
   }
   html:not(.ms-dialog-nr) body.xd #main-content #layoutsTable {
     -webkit-box-sizing: border-box;

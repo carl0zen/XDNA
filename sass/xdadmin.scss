@@ -327,7 +327,7 @@ html:not(.ms-dialog-nr){
 	table tr.ms-itmhover tr{
 		padding:20px 0;
 		&.s4-itm-selected{
-			background: #A5CCE4;
+			background: white;
 		}
 	}
 	.fieldName{
@@ -423,7 +423,7 @@ html:not(.ms-dialog-nr){
 		padding: 0 !important;
 		tr.s4-itm-selected, tr.s4-itm-selected:hover {
 			//background-color: lighten($lightBlue, 20%) !important;
-			background-color: transparent;
+			background-color: white;
 		}
 		#layoutsTable{
 			@include box-sizing(border-box);
