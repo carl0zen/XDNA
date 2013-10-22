@@ -723,7 +723,7 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
       display:none;
     }   
     body.xd #auth{text-align: center; float: none; clear: both; overflow: hidden; height: auto; line-height: normal; margin-top: 1em;}
-    body.xd #auth .bold{display: block; text-align: center; width:100%;}
+    body.xd #auth .bold{display: block; text-align: center; width:100% !!important;}
     body.xd .xd-welcome{float: none;}
     body.xd  #auth .thumb,    body.xd  #auth > div {display: block; height: auto; line-height: normal; margin: 1em auto; overflow: hidden;}
   }
