@@ -147,6 +147,8 @@ html.ms-dialog .ms-descriptiontext table {
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content {
   margin: 0 !important;
+  width: 100%;
+  padding: 0;
 }
 
 body.xd {
