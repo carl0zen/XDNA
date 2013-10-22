@@ -186,7 +186,7 @@ body.xd .field-name {
   display: none;
 }
 body.xd .s4-ca {
-  background-color: #006c8c !important;
+  background-color: #18b4ef;
 }
 body.xd .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
   border: none;
@@ -766,4 +766,9 @@ body.xd table table.ms-listviewtable > tbody {
 
 body.xd table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
+}
+
+body.xd.system .menu-icon {
+  height: auto;
+  background-image: url("img/sidebar-icon.png");
 }
