@@ -114,6 +114,7 @@ var table = $('#main-content table'),
       var width = $('.ms-dialog #main-content').width(),
           height = $('.ms-dialog #main-content').height();
 
+      alert(width + ' h ' + height);
       $('.ms-dlgFrameContainer').css({
         width: width,
         height: height
