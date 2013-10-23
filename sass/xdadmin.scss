@@ -6,7 +6,7 @@
 		.ms-dlgFrameContainer {
 			overflow: hidden !important;
 		}
-		html.ms-dialog {
+	html.ms-dialog {
 		.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 			display: none !important;
 		}
@@ -24,10 +24,18 @@
 				text-align: center;
 			}
 		}
+		.s4-ca{
+			margin: 0;
+		}
 		#s4-workspace .s4-ca #main-content{
-			margin:0 !important;
+			margin:20px 0 10px 0 !important;
 			width: 100%;
 			padding: 0;
+			background: transparent;
+
+		}
+		body.system.xd #s4-ribbonrow{
+			display: none !important;
 		}
 	}
 
