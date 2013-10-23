@@ -167,6 +167,7 @@ html.ms-dialog .ms-descriptiontext {
   font-size: 1em;
   line-height: 1.3em;
   padding: 7px;
+  display: table-cell;
 }
 html.ms-dialog .ms-descriptiontext table {
   text-align: center;
