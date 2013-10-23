@@ -44,15 +44,17 @@ $(document).ready(function(e){
       counter++;
     });
   });**/
-var table = $('#main-content table'),
+var notie8 = $('html').not('.no-ie8compat').find,
+    table = notie8('#main-content table'),
     heading = {
         number: null,
         value: null
     },
+
     counter = 1;
     var headings= new Array();
     
-    $('#main-content tbody th').each(function(e){
+    notie8('#main-content tbody th').each(function(e){
         var value = $(this).text();
         
         heading.number = counter;
@@ -67,7 +69,7 @@ var table = $('#main-content table'),
 
     // Stacked table approach
 
-    var tableTitle = $('.ms-vb-title');
+    var tableTitle = notie8('.ms-vb-title');
 
     tableTitle.each(function(e){
         var titleHtml = $(this).text();
@@ -80,11 +82,11 @@ var table = $('#main-content table'),
 
     });
 
-    $('.accordion-title')
+    notie8('.accordion-title')
           .on({
             click: function(){
 
-              $('.accordion-title').not(this).removeClass('active').next().slideUp(100);
+              notie8('.accordion-title').not(this).removeClass('active').next().slideUp(100);
 
 
 
@@ -98,10 +100,10 @@ var table = $('#main-content table'),
         var windowSize = $(window).width();
         if (windowSize > 768) {
           //Little fix to avoid display block while showing the element
-           $('.ms-itmhover').show(100,function(e){$(this).removeAttr('style');});
+           notie8('.ms-itmhover').show(100,function(e){$(this).removeAttr('style');});
                
         }else{
-          $('.accordion-title').next().slideUp(100);
+          notie8('.accordion-title').next().slideUp(100);
         }
       }
       resetTable();
