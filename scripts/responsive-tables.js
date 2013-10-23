@@ -44,15 +44,28 @@ $(document).ready(function(e){
       counter++;
     });
   });**/
+<<<<<<< HEAD
 var table = $('#main-content table'),
+=======
+var notie8 = $('html').not('.no-ie8compat').find,
+    table = notie8('#main-content table'),
+>>>>>>> c9bff514aa040f94ea6cdac00010f4b1eb275f72
     heading = {
         number: null,
         value: null
     },
+<<<<<<< HEAD
     counter = 1;
     var headings= new Array();
     
     $('#main-content tbody th').each(function(e){
+=======
+
+    counter = 1;
+    var headings= new Array();
+    
+    notie8('#main-content tbody th').each(function(e){
+>>>>>>> c9bff514aa040f94ea6cdac00010f4b1eb275f72
         var value = $(this).text();
         
         heading.number = counter;
@@ -67,7 +80,11 @@ var table = $('#main-content table'),
 
     // Stacked table approach
 
+<<<<<<< HEAD
     var tableTitle = $('.ms-vb-title');
+=======
+    var tableTitle = notie8('.ms-vb-title');
+>>>>>>> c9bff514aa040f94ea6cdac00010f4b1eb275f72
 
     tableTitle.each(function(e){
         var titleHtml = $(this).text();
@@ -80,11 +97,19 @@ var table = $('#main-content table'),
 
     });
 
+<<<<<<< HEAD
     $('.accordion-title')
           .on({
             click: function(){
 
               $('.accordion-title').not(this).removeClass('active').next().slideUp(100);
+=======
+    notie8('.accordion-title')
+          .on({
+            click: function(){
+
+              notie8('.accordion-title').not(this).removeClass('active').next().slideUp(100);
+>>>>>>> c9bff514aa040f94ea6cdac00010f4b1eb275f72
 
 
 
@@ -98,10 +123,17 @@ var table = $('#main-content table'),
         var windowSize = $(window).width();
         if (windowSize > 768) {
           //Little fix to avoid display block while showing the element
+<<<<<<< HEAD
            $('.ms-itmhover').show(100,function(e){$(this).removeAttr('style');});
                
         }else{
           $('.accordion-title').next().slideUp(100);
+=======
+           notie8('.ms-itmhover').show(100,function(e){$(this).removeAttr('style');});
+               
+        }else{
+          notie8('.accordion-title').next().slideUp(100);
+>>>>>>> c9bff514aa040f94ea6cdac00010f4b1eb275f72
         }
       }
       resetTable();
