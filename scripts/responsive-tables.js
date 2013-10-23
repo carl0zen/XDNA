@@ -120,16 +120,20 @@ var table = $('#main-content table'),
       // Detect IE
 
       // IE feature detection
-    var isIE9 = document.addEventListener,
-    isIE8 = document.querySelector,
-    isIE7 = window.XMLHttpRequest;
-
-    if(isIE9){
-      $('html').addClass('ie9');
-    } else if(isIE8) {
-      $('html').addClass('ie8');
-    } else if(isIE7) {
-      $('html').addClass('ie7');
-    }
+    var ie = (function(){
+ 
+      var undef,
+          v = 3,
+          div = document.createElement('div'),
+          all = div.getElementsByTagName('i');
+      
+      while (
+          div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
+          all[0]
+      );
+      
+      return v > 4 ? v : undef;
+    
+    }());
 });
 
