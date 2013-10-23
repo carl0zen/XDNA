@@ -181,6 +181,7 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   margin: 0;
   padding: 0;
   width: auto;
+  min-height: 1px;
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content table {
   margin: 0;
