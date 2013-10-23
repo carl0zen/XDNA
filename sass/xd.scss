@@ -627,12 +627,25 @@ o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P'
   div[data-panel-id="inpipeline"].panel{
 
     /** INCOMING **/
+    .status{
+      width: 14px;
+      height: 17px;
+    }
     .availability .status.yellow, 
     .color-key .status.yellow, 
     .multi-bullets .status.yellow {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/icoming.png') 0 0 no-repeat;
-      width: 14px;
-      height: 14px;
+      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png');
+      
+    }
+    .availability .status.blue, 
+    .color-key .status.blue, 
+    .multi-bullets .status.blue {
+      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png');
+    }
+    .availability .status.white, 
+    .color-key .status.white, 
+    .multi-bullets .status.white {
+      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png');
     }
 
 

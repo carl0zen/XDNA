@@ -780,12 +780,24 @@ body.xd .panel .multi-bullets .status.yellow {
 body.xd div[data-panel-id="inpipeline"].panel {
   /** INCOMING **/
 }
+body.xd div[data-panel-id="inpipeline"].panel .status {
+  width: 14px;
+  height: 17px;
+}
 body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
 body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
 body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow {
-  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/icoming.png") 0 0 no-repeat;
-  width: 14px;
-  height: 14px;
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png");
+}
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue {
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png");
+}
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png");
 }
 body.xd .xd-footer {
   padding: 20px;
