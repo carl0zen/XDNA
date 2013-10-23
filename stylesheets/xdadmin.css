@@ -173,6 +173,7 @@ html.ms-dialog .ms-descriptiontext table {
 }
 html.ms-dialog .s4-ca {
   margin: 0;
+  background: none;
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
