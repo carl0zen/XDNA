@@ -149,6 +149,34 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   background: transparent;
 }
 
+body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
+  border: none;
+  padding: 1.2em 2.2em;
+  color: #fff;
+  text-highlight: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  height: auto;
+}
+body.xd input[type="button"] {
+  background-color: #009fd9;
+}
+body.xd input[type="button"]:hover {
+  background-color: #00b2f3;
+}
+body.xd input[type="reset"] {
+  background-color: #006c8c;
+}
+body.xd input[type="reset"]:hover {
+  background-color: #0080a6;
+}
+body.xd input[type="submit"] {
+  background-color: #0088af;
+}
+body.xd input[type="submit"]:hover {
+  background-color: #009cc9;
+}
 body.xd .s4-tn {
   overflow: visible !important;
 }

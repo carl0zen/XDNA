@@ -39,6 +39,36 @@
 
 body.xd
 {	
+	html input[type="button"], input[type="reset"], input[type="submit"] {
+	    
+	    border: none;
+	    padding: 1.2em 2.2em;
+	    color: #fff;
+	    text-highlight: none;
+	    font-weight: bold;
+	    font-family: sans-serif;
+	    font-size: 1.4em;
+	    height:auto;
+	  }
+
+	  input[type="button"]{
+	    background-color: $lightBlue;
+	    &:hover{
+	      background-color: lighten($lightBlue, 5%)
+	    }
+	  }
+	  input[type="reset"]{
+	    background-color: $darkBlue;
+	    &:hover{
+	      background-color: lighten($darkBlue, 5%);
+	    }
+	  }
+	  input[type="submit"]{
+	    background-color: $middleBlue;
+	    &:hover{
+	      background-color: lighten($middleBlue, 5%);
+	    }
+	  }
 	.s4-tn{
 				overflow: visible !important;
 			}

@@ -505,36 +505,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     margin:0 auto;
   }
 
-  html input[type="button"], input[type="reset"], input[type="submit"] {
-    
-    border: none;
-    padding: 1.2em 2.2em;
-    color: #fff;
-    text-highlight: none;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 1.4em;
-    height:auto;
-  }
-
-  input[type="button"]{
-    background-color: $lightBlue;
-    &:hover{
-      background-color: lighten($lightBlue, 5%)
-    }
-  }
-  input[type="reset"]{
-    background-color: $darkBlue;
-    &:hover{
-      background-color: lighten($darkBlue, 5%);
-    }
-  }
-  input[type="submit"]{
-    background-color: $middleBlue;
-    &:hover{
-      background-color: lighten($middleBlue, 5%);
-    }
-  }
+  
   .panel .availability .status.blue, .panel .color-key .status.blue, .panel .multi-bullets .status.blue {
     @extend .icons-project-ontrack;
   }
