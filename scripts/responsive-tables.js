@@ -111,11 +111,25 @@ var table = $('#main-content table'),
       // Dialog sizes
 
 
-
+/**
       var width = $('.ms-dialog #main-content').width();
 
       $('.ms-dlgFrameContainer').css({
         width: width + '!important',
-      });
+      }); **/
+      // Detect IE
+
+      // IE feature detection
+    var isIE9 = document.addEventListener,
+    isIE8 = document.querySelector,
+    isIE7 = window.XMLHttpRequest;
+
+    if(isIE9){
+      $('html').addClass('ie9');
+    } else if(isIE8) {
+      $('html').addClass('ie8');
+    } else if(isIE7) {
+      $('html').addClass('ie7');
+    }
 });
 
