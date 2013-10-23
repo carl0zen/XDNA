@@ -780,7 +780,9 @@ body.xd .panel .multi-bullets .status.yellow {
 body.xd div[data-panel-id="inpipeline"].panel {
   /** INCOMING **/
 }
-body.xd div[data-panel-id="inpipeline"].panel .status {
+body.xd div[data-panel-id="inpipeline"].panel .availability .status,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status {
   width: 14px;
   height: 18px;
 }

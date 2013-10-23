@@ -627,7 +627,9 @@ o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P'
   div[data-panel-id="inpipeline"].panel{
 
     /** INCOMING **/
-    .status{
+    .availability .status,
+    .color-key .status,
+    .multi-bullets .status{
       width: 14px;
       height: 18px;
     }
