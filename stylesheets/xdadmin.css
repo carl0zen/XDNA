@@ -120,6 +120,24 @@
   background-origin: border-box;
 }
 
+/**=======================================================
+                                          .            
+                                        .o8            
+oooo d8b  .ooooo.   .oooo.o  .ooooo.  .o888oo  .oooo.o 
+`888""8P d88' `88b d88(  "8 d88' `88b   888   d88(  "8 
+ 888     888ooo888 `"Y88b.  888ooo888   888   `"Y88b.  
+ 888     888    .o o.  )88b 888    .o   888 . o.  )88b 
+d888b    `Y8bod8P' 8""888P' `Y8bod8P'   "888" 8""888P' 
+
+==========================================================**/
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  background: none;
+}
+
+img[src="/_layouts/images/blank.gif"] {
+  display: none;
+}
+
 /**======================================== 
 				
       .o8   o8o            oooo                                
@@ -162,6 +180,51 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   width: auto;
 }
 
+/** DIALOGOS
+@include  tablet-portrait-and-below{
+	.ms-ButtonHeightWidth {
+		@include box-sizing(border-box);
+		display: block;
+	    font-size: 1.5em;
+	    height: auto;
+	    margin: 0.5em auto;
+	    padding: 0.7em;
+	    width: 95%;
+	}
+	.ms-authoringcontrols {
+		input, textarea{
+			margin: 0 auto;
+		}
+		tbody{
+			width: auto !important;
+		}
+	}
+	.ms-dialog{
+		td{
+			display: block;
+			width:auto !important; 
+
+		}
+		input, textarea{
+			width: 100% !important;
+			box-sizing: border-box;
+			padding: 15px;
+			margin: 10px 0;
+			display: block;
+		}
+		select{
+			display: block;
+		}
+		.ms-formtable{
+			padding: 15px;
+		}
+		.ms-formbody{
+			background: none !important;
+			
+		}
+	}
+
+} **/
 body.xd {
   	/**======================================== 
   
@@ -309,136 +372,18 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.r
   color: #fff;
 }
 
-/**=======================================================
-                                          .            
-                                        .o8            
-oooo d8b  .ooooo.   .oooo.o  .ooooo.  .o888oo  .oooo.o 
-`888""8P d88' `88b d88(  "8 d88' `88b   888   d88(  "8 
- 888     888ooo888 `"Y88b.  888ooo888   888   `"Y88b.  
- 888     888    .o o.  )88b 888    .o   888 . o.  )88b 
-d888b    `Y8bod8P' 8""888P' `Y8bod8P'   "888" 8""888P' 
-
-==========================================================**/
-table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: none;
-}
-
-img[src="/_layouts/images/blank.gif"] {
-  display: none;
-}
-
-/** DIALOGOS
-@include  tablet-portrait-and-below{
-	.ms-ButtonHeightWidth {
-		@include box-sizing(border-box);
-		display: block;
-	    font-size: 1.5em;
-	    height: auto;
-	    margin: 0.5em auto;
-	    padding: 0.7em;
-	    width: 95%;
-	}
-	.ms-authoringcontrols {
-		input, textarea{
-			margin: 0 auto;
-		}
-		tbody{
-			width: auto !important;
-		}
-	}
-	.ms-dialog{
-		td{
-			display: block;
-			width:auto !important; 
-
-		}
-		input, textarea{
-			width: 100% !important;
-			box-sizing: border-box;
-			padding: 15px;
-			margin: 10px 0;
-			display: block;
-		}
-		select{
-			display: block;
-		}
-		.ms-formtable{
-			padding: 15px;
-		}
-		.ms-formbody{
-			background: none !important;
-			
-		}
-	}
-
-}
-
 /**====================================
 
-ooooooooo     .ooo    .ooooo.                             
-d"""""""8'   .88'     d88'   `8.                          
-      .8'   d88'      Y88..  .8' oo.ooooo.  oooo    ooo   
-     .8'   d888P"Ybo.  `88888b.   888' `88b  `88b..8P'    
-    .8'    Y88[   ]88 .8'  ``88b  888   888    Y888'      
-   .8'     `Y88   88P `8.   .88P  888   888  .o8"'88b     
-  .8'       `88bod8'   `boood8'   888bod8P' o88'   888o   
-                                  888                     
-                                 o888o  
+                             .o8        o8o  oooo                   .              .o8       oooo                     
+                            "888        `"'  `888                 .o8             "888       `888                     
+ooo. .oo.  .oo.    .ooooo.   888oooo.  oooo   888   .ooooo.     .o888oo  .oooo.    888oooo.   888   .ooooo.   .oooo.o 
+`888P"Y88bP"Y88b  d88' `88b  d88' `88b `888   888  d88' `88b      888   `P  )88b   d88' `88b  888  d88' `88b d88(  "8 
+ 888   888   888  888   888  888   888  888   888  888ooo888      888    .oP"888   888   888  888  888ooo888 `"Y88b.  
+ 888   888   888  888   888  888   888  888   888  888    .o      888 . d8(  888   888   888  888  888    .o o.  )88b 
+o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8o  `Y8bod8P' o888o `Y8bod8P' 8""888P' 
 
 =======================================**/
 @media only screen and (max-width: 768px) {
-  html:not(.ms-dialog) {
-   /**	body.xd #main-content table.ms-listviewtable { 		
-   		width: auto; border-collapse: collapse; border-spacing: 0;
-  
-   		thead:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
-   		th,td  		{margin: 0; vertical-align: top;}
-   		th 			{text-align: left;background: none;}
-   		display: block; position: relative; width: 100%;
-   		thead		{display: block; float: left;}
-   		tbody 		{display: block; width: auto; position: relative; overflow-x: auto !important; overflow-y: hidden; white-space: nowrap;@include clearfix;}
-   		thead tr 	{display: block;}
-   		thead td 	{background: none;}
-   		th 			{
-   			display: block;
-   			height: 30px;
-      		padding: 5px 20px 5px 5px;
-  			font-size: 11px;
-   		}
-   		tbody tr 	{display: inline-block; vertical-align: top;}
-   		td 			{display: block; min-height: 1.25em; text-align: left; border:none}
-  
-   		//Sort out borders
-   		th { border-bottom: 0; border-left: 0; }
-   		th span{
-   			border: none;
-   			background: none;
-   			display: block;
-   			width: auto;
-   		}
-   		th .ms-imnImgTD{
-   			display: none;
-   		}
-   		td { 
-   			border-left: 0; border-right: 0; border-bottom: 0; text-align: center;
-   			font-size: 13px;
-      		line-height: 28px;
-      		padding: 6px;
-   		}
-  
-   		> tbody > tr { border-left: 1px solid #babcbf; }
-   		//th:last-child, td:last-child { border-bottom: 1px solid #babcbf; }
-   		tr td table tbody tr{
-   			border: none;
-   		}
-   		#idSelectAll:before{
-   			content: 'Select All';
-   			margin-left: 24px;
-  			font-size: 11px;
-  			color: #aaa
-   		}
-   	} **/
-  }
   html:not(.ms-dialog) table {
     table-layout: auto;
   }
@@ -448,14 +393,17 @@ d"""""""8'   .88'     d88'   `8.
   html:not(.ms-dialog) table colgroup {
     display: none;
   }
-  html:not(.ms-dialog) .ms-propertysheet table {
-    margin: 0 auto;
-  }
   html:not(.ms-dialog) .ms-vb2 table {
     margin: 0 auto !important;
   }
   html:not(.ms-dialog) table tr.ms-itmhover tr {
     padding: 20px 0;
+  }
+  html:not(.ms-dialog) .ms-separator {
+    display: none !important;
+  }
+  html:not(.ms-dialog) .ms-propertysheet table {
+    margin: 0 auto;
   }
   html:not(.ms-dialog) .fieldName {
     float: left;
@@ -469,9 +417,6 @@ d"""""""8'   .88'     d88'   `8.
   html:not(.ms-dialog) td label {
     display: inline-block !important;
     margin-left: 6px;
-  }
-  html:not(.ms-dialog) .ms-separator {
-    display: none !important;
   }
   html:not(.ms-dialog) button, html:not(.ms-dialog) select {
     font-size: 12px;
