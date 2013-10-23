@@ -422,7 +422,9 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     font-size: 12px;
     padding: 4px;
   }
-  html:not(.ms-dialog) td.ms-authoringcontrols > label, html:not(.ms-dialog) td.ms-authoringcontrols > span > label, html:not(.ms-dialog) td.ms-authoringcontrols > table > tbody > tr > td > label {
+  html:not(.ms-dialog) td.ms-authoringcontrols > label,
+  html:not(.ms-dialog) td.ms-authoringcontrols > span > label,
+  html:not(.ms-dialog) td.ms-authoringcontrols > table > tbody > tr > td > label {
     font-size: 1em;
   }
   html:not(.ms-dialog) .ms-authoringcontrols table {
