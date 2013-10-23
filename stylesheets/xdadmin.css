@@ -120,10 +120,6 @@
   background-origin: border-box;
 }
 
-.ms-dlgFrameContainer {
-  overflow: hidden !important;
-}
-
 /**======================================== 
 				
       .o8   o8o            oooo                                
@@ -137,6 +133,10 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
 
 ===========================================**/
+.ms-dlgFrameContainer {
+  overflow: hidden !important;
+}
+
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
@@ -175,34 +175,6 @@ body.xd {
   
   
   	===========================================**/
-}
-body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
-  border: none;
-  padding: 1.2em 2.2em;
-  color: #fff;
-  text-highlight: none;
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 1.4em;
-  height: auto;
-}
-body.xd input[type="button"] {
-  background-color: #009fd9;
-}
-body.xd input[type="button"]:hover {
-  background-color: #00b2f3;
-}
-body.xd input[type="reset"] {
-  background-color: #006c8c;
-}
-body.xd input[type="reset"]:hover {
-  background-color: #0080a6;
-}
-body.xd input[type="submit"] {
-  background-color: #0088af;
-}
-body.xd input[type="submit"]:hover {
-  background-color: #009cc9;
 }
 body.xd .s4-tn {
   overflow: visible !important;
@@ -294,6 +266,17 @@ body.xd #main-content .ms-pageinformation {
   padding: 0;
 }
 
+/**=============================================================
+
+oooo             .o88o.     .   ooooooooo.                                   oooo  
+`888             888 `"   .o8   `888   `Y88.                                 `888  
+ 888   .ooooo.  o888oo  .o888oo  888   .d88'  .oooo.   ooo. .oo.    .ooooo.   888  
+ 888  d88' `88b  888      888    888ooo88P'  `P  )88b  `888P"Y88b  d88' `88b  888  
+ 888  888ooo888  888      888    888          .oP"888   888   888  888ooo888  888  
+ 888  888    .o  888      888 .  888         d8(  888   888   888  888    .o  888  
+o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o888o 
+
+==============================================================**/
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #18b4ef;
 }
@@ -326,6 +309,16 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.r
   color: #fff;
 }
 
+/**=======================================================
+                                          .            
+                                        .o8            
+oooo d8b  .ooooo.   .oooo.o  .ooooo.  .o888oo  .oooo.o 
+`888""8P d88' `88b d88(  "8 d88' `88b   888   d88(  "8 
+ 888     888ooo888 `"Y88b.  888ooo888   888   `"Y88b.  
+ 888     888    .o o.  )88b 888    .o   888 . o.  )88b 
+d888b    `Y8bod8P' 8""888P' `Y8bod8P'   "888" 8""888P' 
+
+==========================================================**/
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: none;
 }
@@ -334,6 +327,65 @@ img[src="/_layouts/images/blank.gif"] {
   display: none;
 }
 
+/** DIALOGOS
+@include  tablet-portrait-and-below{
+	.ms-ButtonHeightWidth {
+		@include box-sizing(border-box);
+		display: block;
+	    font-size: 1.5em;
+	    height: auto;
+	    margin: 0.5em auto;
+	    padding: 0.7em;
+	    width: 95%;
+	}
+	.ms-authoringcontrols {
+		input, textarea{
+			margin: 0 auto;
+		}
+		tbody{
+			width: auto !important;
+		}
+	}
+	.ms-dialog{
+		td{
+			display: block;
+			width:auto !important; 
+
+		}
+		input, textarea{
+			width: 100% !important;
+			box-sizing: border-box;
+			padding: 15px;
+			margin: 10px 0;
+			display: block;
+		}
+		select{
+			display: block;
+		}
+		.ms-formtable{
+			padding: 15px;
+		}
+		.ms-formbody{
+			background: none !important;
+			
+		}
+	}
+
+}
+
+/**====================================
+
+ooooooooo     .ooo    .ooooo.                             
+d"""""""8'   .88'     d88'   `8.                          
+      .8'   d88'      Y88..  .8' oo.ooooo.  oooo    ooo   
+     .8'   d888P"Ybo.  `88888b.   888' `88b  `88b..8P'    
+    .8'    Y88[   ]88 .8'  ``88b  888   888    Y888'      
+   .8'     `Y88   88P `8.   .88P  888   888  .o8"'88b     
+  .8'       `88bod8'   `boood8'   888bod8P' o88'   888o   
+                                  888                     
+                                 o888o  
+
+=======================================**/
 @media only screen and (max-width: 768px) {
   html:not(.ms-dialog) {
    /**	body.xd #main-content table.ms-listviewtable { 		

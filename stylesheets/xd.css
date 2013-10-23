@@ -667,6 +667,34 @@ body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
 }
+body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
+  border: none;
+  padding: 1.2em 2.2em;
+  color: #fff;
+  text-highlight: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1.4em;
+  height: auto;
+}
+body.xd input[type="button"] {
+  background-color: #009fd9;
+}
+body.xd input[type="button"]:hover {
+  background-color: #00b2f3;
+}
+body.xd input[type="reset"] {
+  background-color: #006c8c;
+}
+body.xd input[type="reset"]:hover {
+  background-color: #0080a6;
+}
+body.xd input[type="submit"] {
+  background-color: #0088af;
+}
+body.xd input[type="submit"]:hover {
+  background-color: #009cc9;
+}
 body.xd .icons-sprite, body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green, body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black, body.xd .icons-booked, body.xd .icons-half-booked, body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white, body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red, body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue, body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
   width: 14px;
