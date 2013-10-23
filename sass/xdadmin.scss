@@ -34,7 +34,7 @@ html.ms-dialog {
 			line-height: 1.4;
 		}
 	}
-	table > td.ms-descriptiontext{
+	table > td.ms-descriptiontext:not(.ms-inputformdescription){
 		font-size: 11px;
 		line-height: 1.1em;
 		padding: 7px;
