@@ -1,0 +1,1000 @@
+@import "compass";
+@import "settings";
+@import "helpers";
+@import "layout";
+//@import "icons/*.png"; <-- This code generates the sprite!
+// @include all-icons-sprites; // Commented this in order to change image location
+
+html{
+    background: #efefef;
+  }
+
+body.xd{
+    &.reader{
+      overflow: auto;
+      #s4-workspace{overflow: visible; height: auto !important;} 
+    }
+    .menu-icon{
+        background: darken($blue, 10%);
+        width:45px;
+        height:45px;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        right: 0;
+        @include animateAll;
+        &:hover{
+          background: darken($blue,5%);
+          @extend .pointer;
+        }
+      }
+  .mobile-submenu{
+    display: none ;
+    clear: both;
+  }
+  div[id*="TopNavigationMenuV4"]{
+    display: none;
+  } 
+
+
+  /* ==========================================================================
+   INDEX
+   1.0 Master Page Wrappers and GLOBAL
+   2.0 Header Styles
+   3.0 Menu
+   4.0 Footer
+   5.0 Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   1.0 Master Page Wrappers
+   ========================================================================== */
+
+  background-color: #efefef;
+  #ctl00_MSO_ContentDiv, 
+  #s4-bodyContainer {min-width: 320px}
+
+  #s4-leftpanel   {display: none;}
+  .s4-ca {margin-left: 0px;}
+  hr {
+    border-bottom: none;
+  }
+
+/* ==========================================================================
+   
+
+ooooo   ooooo                           .o8                     
+`888'   `888'                          "888                     
+ 888     888   .ooooo.   .oooo.    .oooo888   .ooooo.  oooo d8b 
+ 888ooooo888  d88' `88b `P  )88b  d88' `888  d88' `88b `888""8P 
+ 888     888  888ooo888  .oP"888  888   888  888ooo888  888     
+ 888     888  888    .o d8(  888  888   888  888    .o  888     
+o888o   o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b 
+
+
+   ========================================================================== */
+  .xd-header {
+    background-color: #009fd9;
+    padding: 30px;
+    h1 {
+      display: inline-block;
+      font-weight: lighter;
+      margin: 0px;
+      margin-top: 0px;
+      a {
+        color: #fff;
+        margin-left: 20px;
+        font-size: 0.9em;
+        font-family: "Segoe UI"; 
+        font-size: 1.2em;
+      }
+    }
+    
+    .s4-notdlg {
+      display: inline-block;
+      img{
+        max-height:38px;
+        max-width:137px;
+      }
+    }
+    .row {
+      max-width: 1320px;
+    }
+    .s4-clust.ms-viewselector-arrow{
+      display:none
+    }
+  }
+  /* ==========================================================================
+  
+
+oooooo   oooooo     oooo           oooo                                                  
+ `888.    `888.     .8'            `888                                                  
+  `888.   .8888.   .8'    .ooooo.   888   .ooooo.   .ooooo.  ooo. .oo.  .oo.    .ooooo.  
+   `888  .8'`888. .8'    d88' `88b  888  d88' `"Y8 d88' `88b `888P"Y88bP"Y88b  d88' `88b 
+    `888.8'  `888.8'     888ooo888  888  888       888   888  888   888   888  888ooo888 
+     `888'    `888'      888    .o  888  888   .o8 888   888  888   888   888  888    .o 
+      `8'      `8'       `Y8bod8P' o888o `Y8bod8P' `Y8bod8P' o888o o888o o888o `Y8bod8P' 
+
+
+   ========================================================================== */
+  
+  .xd-welcome {
+    clear: both;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    margin-right: -11px;
+    text-align:right;
+    font-size:1.2em; color:#fff;
+    .ms-welcomeMenu,
+    .s4-trc-container-menu {
+      background: none;
+      padding: 0px;
+      margin: 0px;
+      font-family:"Segoe UI"
+    }
+    #auth{
+       margin-right:0px;
+       margin-top: 0px;
+       line-height: inherit;
+       .thumb{
+        margin-left: 20px;
+         line-height: inherit;
+        
+      }
+      .thumbCrop{
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+      }
+      img{
+        min-height: 1px;
+        margin: 0
+      }
+    }
+    a {color:#fff;} 
+    > img {margin-left: 20px;} 
+    .s4-trc-container-menu {margin-top:22px;}
+    #zz16_Menu > span:before{
+      content:"Ã¢â€“Â¼";
+      display:inline-block;   
+      float: right;
+      font-size: 11px;
+      margin-right:0px;  
+    }
+    .s4-clust.ms-viewselector-arrow > img {display:none }
+    .welcome{
+      color:#fff;
+      display:inline-block;
+      font-weight: bold;
+    }
+
+  }
+  /* ==========================================================================
+ 
+ .oooooo..o                                        oooo        
+d8P'    `Y8                                        `888        
+Y88bo.       .ooooo.   .oooo.   oooo d8b  .ooooo.   888 .oo.   
+ `"Y8888o.  d88' `88b `P  )88b  `888""8P d88' `"Y8  888P"Y88b  
+     `"Y88b 888ooo888  .oP"888   888     888        888   888  
+oo     .d8P 888    .o d8(  888   888     888   .o8  888   888  
+8""88888P'  `Y8bod8P' `Y888""8o d888b    `Y8bod8P' o888o o888o 
+                                                               
+  
+   ========================================================================== */
+  
+  .xd-search {
+    display: inline-block;
+    float: right;
+    display:none;
+    .ms-sbplain {
+      background-image: none;
+    }
+    input {
+      margin: 0px;
+      padding: 0 0 0 5px;
+      height: 19px;
+      float: right;
+      background-image: none;
+      background-color: transparent;
+      box-shadow: none;
+      border:none !important;
+      font-style:normal;
+      font-size:1em
+    }
+    td {
+      img {display:none}
+      &:first-child {display:block}
+      &:nth-of-type(2) {background-color:#fff;}
+      a{
+        height:20px;
+        width:20px;
+        display:inline-block;
+        background:url("img/Search-Find.png") -7px -5px;
+      }
+    } 
+  }
+  /* ==========================================================================
+
+ooo        ooooo                                   
+`88.       .888'                                   
+ 888b     d'888   .ooooo.  ooo. .oo.   oooo  oooo  
+ 8 Y88. .P  888  d88' `88b `888P"Y88b  `888  `888  
+ 8  `888'   888  888ooo888  888   888   888   888  
+ 8    Y     888  888    .o  888   888   888   888  
+o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P' 
+
+   ========================================================================== */
+  .xd-menu { 
+    background-color: #fff;
+    padding: 0 30px;
+    border-top: solid 2px $menuBorderColor;
+    overflow:visible;
+    line-height: 10px;
+ 
+    .s4-tn li.static > .menu-item {
+      height: 100%;
+      color: #7FD7F1;
+      padding: 17px;
+      text-transform: uppercase;
+      font-size: 14px;
+    } 
+    .menu ul li:first-child .menu-item {
+      color: #999;
+    }
+
+    .menu li.selected{
+      border-top: 4px solid $menuBorderColor;
+      line-height: 2px;
+      .menu-item{
+        color:#F9F9FB;
+      }
+    }
+    .s4-tn ul.dynamic  {
+      border:none; 
+    }    
+    .s4-tn {
+      li.static .menu-item{
+        height:100%;
+        color:#2F2F2F;
+        padding:18px;
+        text-transform:uppercase;
+        font-size:1.2em;
+        &:hover{
+          background-color:#f9f9f9;
+          text-decoration:none;
+
+        }
+      }
+      li{
+        line-height: 6px;
+        font-weight: normal;
+      }
+    }
+    
+    .static.dynamic-children li{
+
+      & a:hover{
+        background-color: #0088AF
+      }
+    }
+    li.static.dynamic-children.hover{
+      background-color: #f9f9f9;
+    }
+  }
+  .menu-horizontal a.dynamic-children span.additional-background,
+  .menu-horizontal span.dynamic-children span.additional-background{
+    background-image:none;
+    /*background-image:url("img/drop-down-arrow.png");*/
+    background-position: right 5px;
+    padding-right: 15px;
+    &:before{
+      content:"▼";
+      display:inline-block;   
+      float: right;
+      font-size: 11px;
+      margin-right: -20px;    
+    }
+  }
+  .menu-icon {
+    width: 100%;
+    right: 0;
+    @include transition(all 0.2s ease);
+    background-image:url("img/menu.png");
+    background-position:70% center;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    line-height: 3.3em;
+    font-weight: 300;
+    background: #fff;
+    color: #2e2e2e;
+    height:3.3em;
+    &:hover {
+      background-color: #f9f9f9;
+    }
+  }
+  .mobile-submenu {
+    display: none;
+    clear: both;
+  }
+
+/**==========================================================================
+
+    .oooooo.                             .                             .   
+ d8P'  `Y8b                          .o8                           .o8   
+888           .ooooo.  ooo. .oo.   .o888oo  .ooooo.  ooo. .oo.   .o888oo 
+888          d88' `88b `888P"Y88b    888   d88' `88b `888P"Y88b    888   
+888          888   888  888   888    888   888ooo888  888   888    888   
+`88b    ooo  888   888  888   888    888 . 888    .o  888   888    888 . 
+ `Y8bood8P'  `Y8bod8P' o888o o888o   "888" `Y8bod8P' o888o o888o   "888" 
+
+
+==========================================================================**/
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+
+  #main-content{
+    ul.color-key.wide{
+      li{font-size:11px;}
+    }
+    width: 100%;
+    position: relative; 
+    @include background-size(cover);
+    background: #FCFCFC url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg') no-repeat center center fixed;
+    .welcome-content{
+        margin:0;
+        padding: 25px 0;
+    }
+    #gridBoard{
+      background: none;
+    }
+    .panel{
+      background: #C6C7C9;
+      border:1px solid transparent;
+      @include background-opacity(#C6C7C9, 0.4);
+      h3{
+        color:$gray;
+        font-size: 35px;
+        font-weight: 300;
+
+      }
+      hr{
+        display: none;
+      }
+      p,a, li{
+        color: $black !important;
+      }
+      span{
+        color: #666;
+      }
+      ul{
+        background: none;
+        &.bullet li{
+          background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png') no-repeat top left;
+        }
+      }
+      &:before{
+        display: none;
+      }
+      &.featured, &[data-panel-id="teamstatus"]{
+       h2{ font-weight: lighter; }
+        background: #00ADEE;
+        p,a, li, span, h3{
+          color:$white !important;
+        }
+        .status {
+            span.authorTitle{
+              color: #525252 !important;
+            }
+            p{
+              padding-left:80px;
+            }
+        }
+        p{
+          margin:10px 0;
+        }
+      }//.featured
+      .thumbCrop{
+        border-radius:100%;
+      }
+    } //.panel
+    div[data-panel-id="availableteammembers"]{
+      .color-key .status.yellow { background: $yellow !important }
+      .color-key .status.red { background: $red !important}
+      .color-key .status.green { background: $green !important}
+      .details{
+        width:80%;
+        float:left;
+      }
+      .availability{
+        .filters{
+          display: none;
+          li {display: inline-block;margin-right: 9px; font-size: 14px; }
+          li a{color: #666}
+          li.selected a{color: $green !important }
+        }
+        li{
+          display: block;
+          clear: both;
+          .status{
+            float: right;
+          }
+        }
+        .author{
+          text-decoration: none !important;
+          font-size: 26px;
+          float: left;
+          display: block;
+          font-weight: 300 !important;
+          clear: both;
+          line-height: 120%;
+          color:$black;
+        }
+        .authorTitle{
+
+          float: left;
+          clear: both;
+        }
+      }
+      .authorLoc{
+        width:15% !important;
+        height: 60px !important;
+        line-height: 60px;
+        text-align: center;
+        color: $white !important;
+        float: left !important;
+        display: block;
+        font-size: 24px;
+        &.status.yellow {background: $yellow}
+        &.status.green  {background: $green}
+        &.status.red  {background: $red}
+      }
+    } // div[data-panel-id="availableteammembers"]
+  }// #main-content
+  #carPaginate {
+    a:active {
+      box-shadow:none;
+    }
+    a.selected {
+      background-color: $standardBlue;
+    }
+
+    margin-bottom: 25px !important;
+    height: 5px !important;
+    overflow: hidden;
+  }  
+  #carNext,
+  #carPrev{
+    margin-left:0;
+    margin-right:0;
+    opacity: .9;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    font-size: 20px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -65px;
+    opacity: 0.5;
+    &:hover, &:focus{
+      box-shadow: none;
+      opacity: 1;
+    }
+  }
+  &:hover, &:active{
+    background-color:#00B0E2;
+    opacity: 1;
+  }
+  .caroufredsel_wrapper{
+    margin: 0 auto !important;
+  }
+  
+  img[id*="_PictureUrlImage"]{
+    width: 60px; height: 60px;
+  }
+  .s4-ca > div.s4-notdlg.social-bar,
+  .s4-ca > div.s4-notdlg.xd-title {
+    display:none
+  }
+  .s4-tn{
+    max-width: 1320px;
+    margin:0 auto;
+  }
+
+  input[type="button"].ms-ButtonHeightWidth, 
+  input[type="reset"].ms-ButtonHeightWidth, 
+  input[type="submit"].ms-ButtonHeightWidth,
+  input[type="submit"] {
+    
+    border: none;
+    padding: 1.2em 2.2em;
+    color: #fff;
+    text-highlight: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    height:auto;
+    width:auto;
+  }
+
+  input[type="button"]{
+    background-color: $lightBlue;
+    &:hover{
+      background-color: lighten($lightBlue, 5%)
+    }
+  }
+  input[type="reset"]{
+    background-color: $darkBlue;
+    &:hover{
+      background-color: lighten($darkBlue, 5%);
+    }
+  }
+  input[type="submit"]{
+    background-color: $middleBlue;
+    &:hover{
+      background-color: lighten($middleBlue, 5%);
+    }
+  }
+
+
+/**==============================================
+
+ o8o                                           
+ `"'                                           
+oooo   .ooooo.   .ooooo.  ooo. .oo.    .oooo.o 
+`888  d88' `"Y8 d88' `88b `888P"Y88b  d88(  "8 
+ 888  888       888   888  888   888  `"Y88b.  
+ 888  888   .o8 888   888  888   888  o.  )88b 
+o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P' 
+
+
+==============================================**/
+
+  .icons-sprite, 
+  .icons-active, 
+  .icons-available, 
+  .icons-booked, 
+  .icons-half-booked, 
+  .icons-incoming, 
+  .icons-project-alert, 
+  .icons-project-ontrack, 
+  .icons-project-warning {
+    background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png') no-repeat;
+    width:14px;
+    height: 14px;
+  }
+  .icons-active {
+    background-position: 0 -13px;
+  }
+  .icons-available {
+    background-position: 0 -66px;
+  }
+  .icons-booked {
+    background-position: 0 -71px;
+  }
+  .icons-half-booked {
+    background-position: 0 -67px;
+  }
+  .icons-incoming {
+    background-position: 0 -53px;
+  }
+  .icons-project-alert {
+    background-position: 0 0;
+  }
+  .icons-project-ontrack {
+    background-position: 0 -27px;
+  }
+  .icons-project-warning {
+    background-position: 0 -40px;
+  }
+
+  .panel .availability .status.blue, 
+  .panel .color-key .status.blue, 
+  .panel .multi-bullets .status.blue{
+    @extend .icons-project-ontrack;
+  }
+  .panel .availability .status.yellow, 
+  .panel .color-key .status.yellow, 
+  .panel .multi-bullets .status.yellow {
+    @extend .icons-project-warning; 
+  }
+  .panel .availability .status.red, 
+  .panel .color-key .status.red, 
+  .panel .multi-bullets .status.red {
+    @extend .icons-project-alert; 
+  }
+  .panel .availability .status.green, 
+  .panel .color-key .status.green, 
+  .panel .multi-bullets .status.green {
+    @extend .icons-active;
+  }
+  .panel .availability .status.white, 
+  .panel .color-key .status.white, 
+  .panel .multi-bullets .status.white {
+    @extend .icons-incoming;
+  }
+  .panel .availability .status.black, 
+  .panel .color-key .status.black, 
+  .panel .multi-bullets .status.black {
+    @extend .icons-available;
+  }
+
+
+  div[data-panel-id="inpipeline"].panel{
+
+    /** INCOMING **/
+    .availability .status,
+    .color-key .status,
+    .multi-bullets .status{
+      &.yellow, &.blue, &.white{
+        width: 14px;
+        height: 17px;
+      }
+      
+    }
+    .availability .status.yellow, 
+    .color-key .status.yellow, 
+    .multi-bullets .status.yellow {
+      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png');
+      
+    }
+    .availability .status.blue, 
+    .color-key .status.blue, 
+    .multi-bullets .status.blue {
+      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png');
+    }
+    .availability .status.white, 
+    .color-key .status.white, 
+    .multi-bullets .status.white {
+      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png');
+    }
+
+
+  }
+
+
+
+  /* ==========================================================================
+
+oooooooooooo                         .                      
+`888'     `8                       .o8                      
+ 888          .ooooo.   .ooooo.  .o888oo  .ooooo.  oooo d8b 
+ 888oooo8    d88' `88b d88' `88b   888   d88' `88b `888""8P 
+ 888    "    888   888 888   888   888   888ooo888  888     
+ 888         888   888 888   888   888 . 888    .o  888     
+o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b    
+
+   ========================================================================== */
+   .xd-footer {
+    padding:20px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  /* Body Wrappers */
+  &.v4master  {
+    width: auto; margin:0 auto; /*overflow: auto;*/
+    #s4-bodyContainer{padding: 0;}
+    #ctl00_MSO_ContentDi {padding-top: 0; width: auto;}
+  }
+  .inner-wrapper{
+    font-size: 11px;
+    background: #efefef;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
+    position: relative;
+    cursor: default; 
+    .columns,
+    .columns:before,
+    .columns:after {
+        @include box-sizing(border-box);
+      }
+    /* Body Buttons and objetcs */  
+    a:hover   {cursor: pointer} 
+    a:focus   {outline: none}
+    object,embed {height: 100%}
+    /* Custom SharePoint Parts */
+  }
+  /* Custom SharePoint Parts */
+  div.article,
+  div.welcome{padding: 0}
+  /* Header Search SharePoint Web Parts*/   
+  .ms-sbgo.ms-sbcell  {background-color:#fff}
+  p {font-size:1.2em}
+  /* Main Content & Arrows  */
+  
+}
+
+
+
+/* ==========================================================================
+
+
+ooo        ooooo oooooooooooo oooooooooo.   ooooo       .o.       
+`88.       .888' `888'     `8 `888'   `Y8b  `888'      .888.      
+ 888b     d'888   888          888      888  888      .8"888.     
+ 8 Y88. .P  888   888oooo8     888      888  888     .8' `888.    
+ 8  `888'   888   888    "     888      888  888    .88ooo8888.   
+ 8    Y     888   888       o  888     d88'  888   .8'     `888.  
+o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o 
+                                                                  
+                                                                  
+                                                                  
+  .oooooo.                                      o8o                     
+ d8P'  `Y8b                                     `"'                     
+888      888    oooo  oooo   .ooooo.  oooo d8b oooo   .ooooo.   .oooo.o 
+888      888    `888  `888  d88' `88b `888""8P `888  d88' `88b d88(  "8 
+888      888     888   888  888ooo888  888      888  888ooo888 `"Y88b.  
+`88b    d88b     888   888  888    .o  888      888  888    .o o.  )88b 
+ `Y8bood8P'Ybd'  `V88V"V8P' `Y8bod8P' d888b    o888o `Y8bod8P' 8""888P' 
+  
+
+   ========================================================================== */  
+  
+  /* Tablet (landscape) ----------- */
+  @media only screen and (max-width: 1024px) {
+    body.xd .xd-header{
+      padding:20px 0;
+      height:100%   
+    }
+    .xd-menu .s4-tn li.static > .menu-item{
+      padding:10px 14px;
+    }
+  }
+ /**
+ @media only screen and (max-width: 420px) {
+      #newPostSubmit, #newPostText{
+        @include box-sizing(border-box);
+        width:80%;
+        height:auto;
+        margin:10px 0;
+        line-height: 1;
+        display: block;
+        clear: both;
+      }
+      #newPostSubmit{
+        float: left !important;
+      }
+      .topPane{
+        overflow: hidden;
+        margin-bottom: 1.5em;
+      }
+  }
+  /* Tablet (portrait) ----------- */
+  @media only screen and (max-width: 768px) {
+    body.xd .xd-header h1 {
+      font-size:1.2em;
+      position:absolute;
+      top:9px;
+    }
+    body.xd .xd-header .s4-notdlg img{
+      margin-top: 13px
+    }
+    body.xd .xd-header h1{
+      top: 21px
+    }
+    .xd-menu .s4-tn li.static > .menu-item{
+      padding:20px 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing:border-box;
+      -o-box-sizing:border-box;
+      -ms-box-sizing:border-box;
+      box-sizing:border-box;
+    }
+    .menu-horizontal{
+      width: 100%;
+    }
+    .menu-horizontal li.static, .menu-horizontal a.static, .menu-horizontal span.static{    
+      width:100%;
+      float:none;
+      display:block;
+      margin:0px;
+      padding:0px;
+    } 
+  }
+  @media only screen and (min-width: 769px){
+    body.xd .menu-icon {
+        display: none;
+      }
+  }
+  @media only screen and (max-width: 620px) {
+    body.xd .xd-header h1{
+      display:none;
+    }   
+    body.xd #auth{text-align: center; float: none; clear: both; overflow: hidden; height: auto; line-height: normal; margin-top: 1em;}
+    body.xd #auth .bold{display: block; text-align: center; width:100% !important;}
+    body.xd .xd-welcome{float: none;}
+    body.xd  #auth .thumb,    body.xd  #auth > div {display: block; height: auto; line-height: normal; margin: 1em auto; overflow: hidden;}
+  }
+  /* Mobile       ----------- */
+  @media only screen and (max-width: 620px) {
+
+    body.xd #carPaginate.loadFade {
+      width: auto !important;
+    }
+    body.xd .static.dynamic-children:active{
+       background: #0088af;
+    }
+    body.xd .xd-welcome #auth{
+      margin-top: 20px
+    }
+    body.xd .xd-welcome #auth .thumb{
+      margin:20px auto 0;
+    }
+    body.xd .menu-horizontal a.dynamic-children span.additional-background:before, 
+    body.xd .menu-horizontal span.dynamic-children span.additional-background:before{
+      margin-right:-6px
+    }
+    body.xd .xd-header {
+      padding:2em
+    }
+    body.xd .xd-header .xd-search input{
+      height:30px;
+      float:none;
+      width:240px !important;
+      background-color:#fff
+    } 
+    body.xd .xd-header .columns,  
+    body.xd .xd-header .xd-welcome,
+    body.xd .xd-header .xd-welcome .welcome,
+    body.xd .xd-header .xd-welcome .s4-trc-container-menu,
+    body.xd .xd-header .xd-search,
+    body.xd .xd-header .xd-search .s4-notdlg,
+    body.xd .xd-header .xd-search .ms-sbtable.ms-sbtable-ex.s4-search,
+    body.xd .xd-header .xd-search .ms-sbtable.ms-sbtable-ex.s4-search > tbody,
+    body.xd .xd-header .xd-search .ms-sbrow,
+    body.xd .xd-header .xd-search .ms-sbscopes,
+    body.xd .xd-header .xd-search .ms-sbscopes.ms-sbcell {
+      display:block;
+      width:100%;
+      text-align:center;
+      padding:0px
+    }
+    body.xd .xd-header .xd-search{
+      margin:2em 0;
+      display:none
+    } 
+    body.xd .xd-header .xd-search .ms-sbcell{
+      width:100%;
+    }
+    body.xd .xd-header .xd-search .ms-sbrow {
+      overflow: hidden;
+    }
+    body.xd .xd-header .xd-search .ms-sbscopes{
+      margin-bottom:2em;
+      text-align: left;
+      height: 30px;
+    }   
+    body.xd .xd-header .xd-welcome span.welcome{
+      font-size:1.5em
+    }
+
+    /* MENU       ----------- */
+    body.xd xd-menu a, body.xd xd-menu li, body.xd .xd-menu, .menu-horizontal{
+      display:block;
+      width:100%;
+      float:none;
+      margin:0px;
+      padding:0px
+    }     
+      
+    .menu-item-text{
+      padding-left:20px
+    }   
+    /* Responsive MENU        ----------- */
+    body.xd .menu-icon {
+      display: block;
+    }
+    body.xd .menu .ul.dynamic {
+      display: block !important;
+      left: auto !important;
+      top: auto !important;
+      position: static !important;
+      clear: both !important;
+    }
+    body.xd ul.root.static {
+      overflow: hidden;
+      *zoom: 1;
+    }
+    body.xd #zz15_TopNavigationMenuV4 .menu {
+      width: 100%;
+    }
+    body.xd #zz15_TopNavigationMenuV4 .menu ul {
+      width: 100%;
+    }
+    body.xd #zz15_TopNavigationMenuV4 .menu ul > li {
+      width: 100%;
+    }
+    body.xd #zz15_TopNavigationMenuV4 .menu ul ul > li {
+      width: 100%;
+    }
+    
+  }
+  
+/* ==========================================================================
+   Mobile
+   ========================================================================== */
+  @include mobile-only{
+    
+    .menu-icon{
+      display: block;
+    }
+    .menu .ul.dynamic{
+        display: block !important;
+        left: auto !important;
+        top: auto !important;
+        position: static !important;
+        clear: both !important;
+        
+    }
+    ul.root.static{
+      @include clearfix;
+    }  
+    #zz15_TopNavigationMenuV4 .menu{
+      
+    
+      width: 100%;
+      ul{
+      
+        width: 100%;
+        > li{
+          width: 100%;
+
+
+        }
+        ul > li{
+          width: 100%;
+
+        }
+      }
+    }
+  }
+  /* ==========================================================================
+   Tablet
+   ========================================================================== */
+  @include tablet-landscape-and-below{
+    .s4-ca{
+      margin-top: 70px;
+    }
+    body.system .s4-ca {
+        overflow-x: visible;
+        min-height:1px;
+    }
+
+
+    html:not(.ms-dialog-nr) body.xd #main-content {
+        overflow: visible;
+        min-height:1px;
+    }
+
+  }
+
+
+
+@include mobile-portrait-and-up{
+  #auth{
+      span{
+        display: block;
+        margin-right: 60px;
+      }
+      .thumbCrop{
+        margin-top: -15px;
+      }
+    }
+}
+
+ @include tablet-landscape-and-up{
+    .menu-icon{
+      display: none;
+    }
+
+  }
+
