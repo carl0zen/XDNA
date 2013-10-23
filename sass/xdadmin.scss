@@ -776,8 +776,8 @@ ooooo oooooooooooo     .o88o.  o8o
 o888o o888ooooood8    o888o   o888o o88'   888o `Y8bod8P' 8""888P' 
 
 ============================================================================**/
- #thumbCrop > img{visbility:visible \9;}
- tr.ms-itmhover 	{display:table-row !important \9;}
+.lt-ie8 #thumbCrop > img{visbility:visible ;}
+.lt-ie8 tr.ms-itmhover 	{display:table-row !important ;}
 // Foundation resets
 
 
