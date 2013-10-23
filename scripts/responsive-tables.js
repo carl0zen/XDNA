@@ -106,5 +106,17 @@ var table = $('#main-content table'),
       }
       resetTable();
       $(window).resize(function(e){ resetTable(); });
+
+
+      // Dialog sizes
+
+
+      var width = $('.ms-dialog #main-content').width(),
+          height = $('.ms-dialog #main-content').height();
+
+      $('.ms-dlgFrameContainer').css({
+        width: width,
+        height: height
+      })    
 });
 
