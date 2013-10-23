@@ -667,7 +667,11 @@ body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
 }
-body.xd input[type="button"].ms-ButtonHeightWidth, body.xd input[type="reset"].ms-ButtonHeightWidth, body.xd input[type="submit"].ms-ButtonHeightWidth {
+body.xd input[type="button"].ms-ButtonHeightWidth,
+body.xd input[type="reset"].ms-ButtonHeightWidth,
+body.xd input[type="submit"].ms-ButtonHeightWidth,
+body.xd input[type="submit"],
+body.xd input[type="file"] {
   border: none;
   padding: 1.2em 2.2em;
   color: #fff;

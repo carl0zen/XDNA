@@ -505,7 +505,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     margin:0 auto;
   }
 
-  input[type="button"].ms-ButtonHeightWidth, input[type="reset"].ms-ButtonHeightWidth, input[type="submit"].ms-ButtonHeightWidth {
+  input[type="button"].ms-ButtonHeightWidth, 
+  input[type="reset"].ms-ButtonHeightWidth, 
+  input[type="submit"].ms-ButtonHeightWidth,
+  input[type="submit"],
+  input[type="file"] {
     
     border: none;
     padding: 1.2em 2.2em;
