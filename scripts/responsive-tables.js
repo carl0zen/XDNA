@@ -110,19 +110,13 @@ var table = $('#main-content table'),
 
       // Dialog sizes
 
-<<<<<<< HEAD
 /**
 =======
 
->>>>>>> 5caf44d3c6cdba406de02dbe06c0c30193b752a9
       var width = $('.ms-dialog #main-content').width();
 
       $('.ms-dlgFrameContainer').css({
         width: width + '!important',
-<<<<<<< HEAD
       })   **/ 
-=======
-      })    
->>>>>>> 5caf44d3c6cdba406de02dbe06c0c30193b752a9
 });
 
