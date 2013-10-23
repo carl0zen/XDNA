@@ -167,14 +167,14 @@ html.ms-dialog .ms-descriptiontext {
   font-size: 1em;
   line-height: 1.3em;
   padding: 7px;
-  display: table-cell;
+  display: table;
 }
 html.ms-dialog .ms-descriptiontext table {
   text-align: center;
 }
 html.ms-dialog .s4-ca {
   margin: 0;
-  background: none;
+  background: none !important;
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
