@@ -780,11 +780,15 @@ body.xd .panel .multi-bullets .status.yellow {
 body.xd div[data-panel-id="inpipeline"].panel {
   /** INCOMING **/
 }
-body.xd div[data-panel-id="inpipeline"].panel .availability .status,
-body.xd div[data-panel-id="inpipeline"].panel .color-key .status,
-body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status {
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow, body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue, body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
   width: 14px;
-  height: 18px;
+  height: 17px;
 }
 body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
 body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,

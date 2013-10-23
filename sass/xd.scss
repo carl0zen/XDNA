@@ -630,8 +630,11 @@ o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P'
     .availability .status,
     .color-key .status,
     .multi-bullets .status{
-      width: 14px;
-      height: 18px;
+      &.yellow, &.blue, &.white{
+        width: 14px;
+        height: 17px;
+      }
+      
     }
     .availability .status.yellow, 
     .color-key .status.yellow, 
