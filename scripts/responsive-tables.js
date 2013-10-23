@@ -120,20 +120,13 @@ var table = $('#main-content table'),
       // Detect IE
 
       // IE feature detection
-    var ie = (function(){
- 
-      var undef,
-          v = 3,
-          div = document.createElement('div'),
-          all = div.getElementsByTagName('i');
-      
-      while (
-          div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
-          all[0]
-      );
-      
-      return v > 4 ? v : undef;
-    
-    }());
+    if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+     var ieversion=new Number(RegExp.$1);// capture x.x portion and store as a number
+     if (ieversion<=8){
+        $('html').addClass('lt-ie8');
+     }
+     
+    }
+
 });
 
