@@ -505,7 +505,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     margin:0 auto;
   }
 
-  html input[type="button"], input[type="reset"], input[type="submit"] {
+  input[type="button"].ms-ButtonHeightWidth, 
+  input[type="reset"].ms-ButtonHeightWidth, 
+  input[type="submit"].ms-ButtonHeightWidth,
+  input[type="submit"] {
     
     border: none;
     padding: 1.2em 2.2em;
@@ -515,6 +518,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     font-family: sans-serif;
     font-size: 1.4em;
     height:auto;
+    width:auto;
   }
 
   input[type="button"]{
@@ -587,19 +591,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   .icons-project-warning {
     background-position: 0 -40px;
   }
-  #inpipeline .icons-sprite, 
-  #inpipeline .icons-active, 
-  #inpipeline .icons-available, 
-  #inpipeline .icons-booked, 
-  #inpipeline .icons-half-booked,
-  #inpipeline .icons-incoming, 
-  #inpipeline .icons-project-alert, 
-  #inpipeline .icons-project-ontrack, 
-  #inpipeline .icons-project-warning {
-    background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/inflight.png') no-repeat;
-    width:14px;
-    height: 14px;
-  }
+
 
   /* ==========================================================================
 
