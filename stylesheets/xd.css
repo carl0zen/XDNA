@@ -683,10 +683,11 @@ body.xd input[type="reset"].ms-ButtonHeightWidth,
 body.xd input[type="submit"].ms-ButtonHeightWidth,
 body.xd input[type="submit"] {
   border: none;
-  padding: 1.2em 2.2em;
+  padding: 0.7em 1.5em;
   color: #fff;
   text-highlight: none;
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: Segoe UI;
   font-family: sans-serif;
   font-size: 1.4em;
   height: auto;
