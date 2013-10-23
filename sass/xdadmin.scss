@@ -60,6 +60,7 @@ html.ms-dialog {
 				//display: block;
 			}
 		}
+		@include clearfix;
 	}
 	table{
 		font-size: 12px;

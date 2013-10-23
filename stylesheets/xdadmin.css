@@ -164,6 +164,8 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   padding: 15px;
   width: auto;
   min-height: 1px;
+  overflow: hidden;
+  *zoom: 1;
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content > table {
   margin: 0;
