@@ -179,6 +179,9 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   padding: 0;
   width: auto;
 }
+html.ms-dialog table {
+  font-size: 16px;
+}
 
 /** DIALOGOS
 @include  tablet-portrait-and-below{

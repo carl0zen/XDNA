@@ -782,7 +782,7 @@ body.xd div[data-panel-id="inpipeline"].panel {
 }
 body.xd div[data-panel-id="inpipeline"].panel .status {
   width: 14px;
-  height: 17px;
+  height: 18px;
 }
 body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
 body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
