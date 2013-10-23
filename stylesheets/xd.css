@@ -670,8 +670,7 @@ body.xd .s4-tn {
 body.xd input[type="button"].ms-ButtonHeightWidth,
 body.xd input[type="reset"].ms-ButtonHeightWidth,
 body.xd input[type="submit"].ms-ButtonHeightWidth,
-body.xd input[type="submit"],
-body.xd input[type="file"] {
+body.xd input[type="submit"] {
   border: none;
   padding: 1.2em 2.2em;
   color: #fff;
