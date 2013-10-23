@@ -784,6 +784,8 @@ body.xd div[data-panel-id="inpipeline"] .panel .availability .status.yellow,
 body.xd div[data-panel-id="inpipeline"] .panel .color-key .status.yellow,
 body.xd div[data-panel-id="inpipeline"] .panel .multi-bullets .status.yellow {
   background-image: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/icoming.png");
+  width: 14px;
+  height: 14px;
 }
 body.xd .xd-footer {
   padding: 20px;
