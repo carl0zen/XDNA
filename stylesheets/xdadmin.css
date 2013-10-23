@@ -145,13 +145,13 @@ html.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
   line-height: 1.4;
 }
-html.ms-dialog .ms-descriptiontext {
-  font-size: 1em;
-  line-height: 1.3em;
+html.ms-dialog table > td.ms-descriptiontext {
+  font-size: 11px;
+  line-height: 1.1em;
   padding: 7px;
   display: table-cell;
 }
-html.ms-dialog .ms-descriptiontext table {
+html.ms-dialog table > td.ms-descriptiontext table {
   text-align: center;
 }
 html.ms-dialog .s4-ca {
