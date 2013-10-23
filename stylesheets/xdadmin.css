@@ -183,8 +183,12 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   width: auto;
   min-height: 1px;
 }
-html.ms-dialog #s4-workspace .s4-ca #main-content table {
+html.ms-dialog #s4-workspace .s4-ca #main-content > table {
   margin: 0;
+}
+html.ms-dialog #s4-workspace .s4-ca #main-content > table > tbody {
+  margin: 20px;
+  display: block;
 }
 html.ms-dialog table {
   font-size: 12px;

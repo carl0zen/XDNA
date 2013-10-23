@@ -77,8 +77,12 @@ html.ms-dialog {
 		padding: 0;
 		width: auto;
 		min-height: 1px;
-		table{
+		> table{
 			margin:0;
+			>tbody{
+				margin: 20px;
+				display: block;
+			}
 		}
 	}
 	table{
