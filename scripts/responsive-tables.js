@@ -111,13 +111,10 @@ var table = $('#main-content table'),
       // Dialog sizes
 
 
-      var width = $('.ms-dialog #main-content').width(),
-          height = $('.ms-dialog #main-content').height();
+      var width = $('.ms-dialog #main-content').width();
 
-      alert(width + ' h ' + height);
       $('.ms-dlgFrameContainer').css({
-        width: width,
-        height: height
+        width: width + '!important',
       })    
 });
 
