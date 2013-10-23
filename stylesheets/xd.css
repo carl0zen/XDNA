@@ -676,6 +676,7 @@ body.xd input[type="button"].ms-ButtonHeightWidth, body.xd input[type="reset"].m
   font-family: sans-serif;
   font-size: 1.4em;
   height: auto;
+  width: auto;
 }
 body.xd input[type="button"] {
   background-color: #009fd9;
