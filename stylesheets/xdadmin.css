@@ -151,9 +151,6 @@ html.ms-dialog > table > td.ms-descriptiontext {
   padding: 7px;
   display: table-cell;
 }
-html.ms-dialog > table > td.ms-descriptiontext img[src="/_layouts/images/blank.gif"] {
-  display: block;
-}
 html.ms-dialog > table > td.ms-descriptiontext table {
   text-align: center;
 }
