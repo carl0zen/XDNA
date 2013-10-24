@@ -138,9 +138,6 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
   width: auto;
 }
 
-html.ms-dialog img[src="/_layouts/images/blank.gif"] {
-  display: block;
-}
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
@@ -153,6 +150,9 @@ html.ms-dialog > table > td.ms-descriptiontext {
   line-height: 1.1em;
   padding: 7px;
   display: table-cell;
+}
+html.ms-dialog > table > td.ms-descriptiontext img[src="/_layouts/images/blank.gif"] {
+  display: block;
 }
 html.ms-dialog > table > td.ms-descriptiontext table {
   text-align: center;
