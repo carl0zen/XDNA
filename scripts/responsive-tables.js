@@ -134,7 +134,5 @@ var table = $('#main-content table'),
       // Detect IE
 
       // IE feature detection
-   
-
 });
 
