@@ -25,6 +25,9 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 			width:auto;
 		}
 html.ms-dialog {
+	img[src="/_layouts/images/blank.gif"]{
+	display: block;
+	}		
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
 	}
