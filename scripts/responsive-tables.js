@@ -120,7 +120,7 @@ var table = $('#main-content table'),
 
 
       // Dialog sizes
-
+/**
       $(window).load(function(e){
         var width = $('.ms-dialog #main-content').width();
         width = width + 'px !important';
@@ -128,7 +128,7 @@ var table = $('#main-content table'),
         $('.ms-dlgFrameContainer, .ms-dlgFrameContainer iframe, .ms-dlgTitle, .ms-dlgFrame, .ms-dlgBorder').animate({
           width: width
         },200); 
-      });
+      }); **/
 
       
       // Detect IE
