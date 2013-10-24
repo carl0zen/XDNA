@@ -1,3 +1,14 @@
+function init() {
+if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+     var ieversion=new Number(RegExp.$1);// capture x.x portion and store as a number
+     if (ieversion<=8){
+        $('html').addClass('lt-ie8');
+     }
+     
+    }
+}
+window.onload = init;
+ 
 
 $(document).ready(function(e){
 /**var head= $('.ms-viewheadertr'),
@@ -109,15 +120,18 @@ var table = $('#main-content table'),
 
 
       // Dialog sizes
+
+
 /**
-      $(window).load(function(e){
-        var width = $('.ms-dialog #main-content').width();
-        width = width + 'px !important';
-        console.log(width);
-        $('.ms-dlgFrameContainer, .ms-dlgFrameContainer iframe, .ms-dlgTitle, .ms-dlgFrame, .ms-dlgBorder').animate({
-          width: width
-        },200); 
+      var width = $('.ms-dialog #main-content').width();
+
+      $('.ms-dlgFrameContainer').css({
+        width: width + '!important',
       }); **/
+      // Detect IE
+
+      // IE feature detection
+   
 
 });
 
