@@ -126,7 +126,7 @@ var table = $('#main-content table'),
       var width = $('.ms-dialog #main-content').width();
       width = width + 'px !important';
       console.log(width);
-      $('.ms-dlgFrameContainer').css({
+      $('.ms-dlgFrameContainer, .ms-dlgFrameContainer iframe, .ms-dlgTitle').css({
         width: width
       }); 
       // Detect IE
