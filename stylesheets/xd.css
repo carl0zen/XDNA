@@ -681,11 +681,11 @@ body.xd .s4-ca > div.xd-title {
   font-weight: 200;
   line-height: 50px;
 }
-body.xd body.xd.internal .s4-ca > div.xd-title {
+body.xd.internal .s4-ca > div.xd-title {
   display: block;
   max-width: 1320px;
 }
-body.xd body.xd.internal #main-content {
+body.xd.internal #main-content {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
