@@ -142,11 +142,8 @@ var table = $('#main-content table'),
       // Detect IE
 
       // IE feature detection
-   if($("div").attr("id") != "gridBoard") { 
-
-  } 
-  else 
-  {
+   if($("div").attr("id") != "gridBoard") {
+  } else {
     $("body").addClass("internal");
   }
 
