@@ -513,7 +513,8 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
 
 &.internal .s4-ca > div.xd-title {    
     display: block;    
-    max-width: 1320px;
+    max-width: 1320px; margin:0 auto;
+    h1{font-weight: lighter; }
 } 
 &.internal #main-content 
 {

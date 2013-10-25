@@ -684,6 +684,10 @@ body.xd .s4-ca > div.xd-title {
 body.xd.internal .s4-ca > div.xd-title {
   display: block;
   max-width: 1320px;
+  margin: 0 auto;
+}
+body.xd.internal .s4-ca > div.xd-title h1 {
+  font-weight: lighter;
 }
 body.xd.internal #main-content {
   -moz-box-sizing: border-box;
