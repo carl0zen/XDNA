@@ -143,8 +143,9 @@ var table = $('#main-content table'),
 
       // IE feature detection
    if($("div").attr("id") != "gridBoard") {
+    $("body").removeClass("internal");
   } else {
-    $("body").addClass("internal");
+    
   }
 
 });
