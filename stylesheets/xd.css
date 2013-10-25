@@ -676,6 +676,13 @@ body.xd .s4-ca > div.social-bar {
 body.xd .s4-ca > div.xd-title {
   display: none;
 }
+body.xd .s4-ca > div.xd-title {
+  -moz-font-feature-settings: "kern";
+  font-family: 'Segoe UI Semilight','Segoe UI',Tahoma,Helvetica,sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 50px;
+}
 body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
