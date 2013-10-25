@@ -496,14 +496,16 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   img[id*="_PictureUrlImage"]{
     width: 60px; height: 60px;
   }
-  .s4-ca > div.s4-notdlg.social-bar,
-  .s4-ca > div.s4-notdlg.xd-title {
+  .s4-ca > div.social-bar{
+    display:none
+  }
+  .s4-ca > div.xd-title {
     display:none
   }
   .s4-tn{
     max-width: 1320px;
     margin:0 auto;
-  }
+  } 
 
   input[type="button"].ms-ButtonHeightWidth, 
   input[type="reset"].ms-ButtonHeightWidth, 

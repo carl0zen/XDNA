@@ -670,8 +670,10 @@ body.xd img[id*="_PictureUrlImage"] {
   width: 60px;
   height: 60px;
 }
-body.xd .s4-ca > div.s4-notdlg.social-bar,
-body.xd .s4-ca > div.s4-notdlg.xd-title {
+body.xd .s4-ca > div.social-bar {
+  display: none;
+}
+body.xd .s4-ca > div.xd-title {
   display: none;
 }
 body.xd .s4-tn {
