@@ -11,6 +11,17 @@ window.onload = init;
  
 
 $(document).ready(function(e){
+
+
+  if($("div:not").hasClass("caroufredsel_wrapper")){
+
+  }
+  else{
+
+  }
+
+
+
 /**var head= $('.ms-viewheadertr'),
     headText = head.html();
     //**Takking the headers out as thead elements
@@ -131,7 +142,13 @@ var table = $('#main-content table'),
       // Detect IE
 
       // IE feature detection
-   
+   if($("div").attr("id") != "gridBoard") { 
+
+  } 
+  else 
+  {
+    $("body").addClass("internal");
+  }
 
 });
 
