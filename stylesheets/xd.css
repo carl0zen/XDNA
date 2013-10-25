@@ -199,33 +199,6 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   
   
   ==========================================================================**/
-  /*&.internal
-  {
-      .s4-ca > div.xd-title {    
-          display: block;    
-          max-width: 1320px; margin:0 auto !important;
-          
-          h1{
-            font-weight: lighter; 
-          }
-  
-      } 
-  
-    #main-content 
-    {        
-        @include box-sizing(border-box);
-        background: none repeat scroll 0 0 #FFFFFF;
-        margin: 0 auto !important;
-        max-width: 1320px;
-        padding: 20px;      
-    }
-    
-    .ms-WPHeader td, .ms-fakewptitle {
-          background-color: #FAFAFA;   
-          h3{font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; }
-    }
-  
-  }*/
   /**==============================================
   
    o8o                                           
@@ -707,6 +680,31 @@ body.xd .s4-ca > div.xd-title {
   -moz-font-feature-settings: "kern";
   font-weight: 200;
   line-height: 50px;
+}
+body.xd.internal .s4-ca > div.xd-title {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto !important;
+}
+body.xd.internal .s4-ca > div.xd-title h1 {
+  font-weight: lighter;
+}
+body.xd.internal #main-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none repeat scroll 0 0 #FFFFFF;
+  margin: 0 auto !important;
+  max-width: 1320px;
+  padding: 20px;
+}
+body.xd.internal .ms-WPHeader td, body.xd.internal .ms-fakewptitle {
+  background-color: #FAFAFA;
+}
+body.xd.internal .ms-WPHeader td h3, body.xd.internal .ms-fakewptitle h3 {
+  font-size: 1.3em;
+  font-family: Segoe UI;
+  font-weight: lighter;
 }
 body.xd .s4-tn {
   max-width: 1320px;
