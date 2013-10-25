@@ -678,10 +678,22 @@ body.xd .s4-ca > div.xd-title {
 }
 body.xd .s4-ca > div.xd-title {
   -moz-font-feature-settings: "kern";
-  font-family: 'Segoe UI Semilight','Segoe UI',Tahoma,Helvetica,sans-serif;
-  font-size: 40px;
   font-weight: 200;
   line-height: 50px;
+}
+body.xd body.xd.internal .s4-ca > div.xd-title {
+  display: block;
+  max-width: 1320px;
+}
+body.xd body.xd.internal #main-content {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none repeat scroll 0 0 #FFFFFF;
+  margin: 0 auto !important;
+  max-width: 1320px;
+  padding: 20px;
 }
 body.xd .s4-tn {
   max-width: 1320px;
