@@ -510,7 +510,8 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     line-height: 50px;    
 }
 
-&.internal{
+&.internal
+{
     .s4-ca > div.xd-title {    
         display: block;    
         max-width: 1320px; margin:0 auto !important;
@@ -520,20 +521,18 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         }
 
     } 
-    
+
   #main-content 
-  {
-      -moz-box-sizing: border-box;
+  {        
       @include box-sizing(border-box);
       background: none repeat scroll 0 0 #FFFFFF;
       margin: 0 auto !important;
       max-width: 1320px;
       padding: 20px;      
   }
+  
   .ms-WPHeader td, .ms-fakewptitle {
-        background-color: #FAFAFA;
-        border-bottom: 1px solid #EBEBEB;
-        border-collapse: collapse;
+        background-color: #FAFAFA;                
   }
 
 }
