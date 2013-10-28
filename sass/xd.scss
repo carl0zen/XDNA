@@ -536,9 +536,13 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       padding: 20px;      
   }
   
-  .ms-WPHeader td, .ms-fakewptitle {
-        background-color: #FAFAFA;   
-        h3{font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; }
+  .ms-WPHeader td, .ms-fakewptitle 
+  {
+    background-color: #009FD9;   
+      h3{
+        font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; 
+        > a{color:#ffffff}
+      }
   }
 
 }
