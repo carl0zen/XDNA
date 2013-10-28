@@ -484,9 +484,6 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       box-shadow: none;
       opacity: 1;
     }
-    #carPrev{
-      background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/chevron-left.png') ;
-    }
   }
   &:hover, &:active{
     background-color:#00B0E2;
@@ -497,71 +494,28 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   }
   
   img[id*="_PictureUrlImage"]{
-    width: 60px; height: 60px;
+    width: 60px; 
+    height: 60px;
   }
-  .s4-ca > div.social-bar{
-    display:none
+  .s4-ca > div.s4-notdlg.social-bar,
+  .s4-ca > div.s4-notdlg.xd-title {
+    display:none;
   }
-  .s4-ca > div.xd-title {
-    display:none
-  }
-
-  .s4-ca > div.xd-title {
-    -moz-font-feature-settings: "kern";    
-    
-    font-weight: 200;
-    line-height: 50px;    
-}
-
-&.internal
-{
-    .s4-ca > div.xd-title {    
-        display: block;    
-        max-width: 1320px; margin:0 auto !important;
-        
-        h1{
-          font-weight: lighter; 
-        }
-
-    } 
-
-  #main-content 
-  {        
-      @include box-sizing(border-box);
-      background: none repeat scroll 0 0 #FFFFFF;
-      margin: 0 auto !important;
-      max-width: 1320px;
-      padding: 20px;      
-  }
-  
-  .ms-WPHeader td, .ms-fakewptitle {
-        background-color: #FAFAFA;   
-        h3{font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; }
-  }
-
-}
- 
-
   .s4-tn{
     max-width: 1320px;
     margin:0 auto;
-  }   
+  }
 
-  input[type="button"].ms-ButtonHeightWidth, 
-  input[type="reset"].ms-ButtonHeightWidth, 
-  input[type="submit"].ms-ButtonHeightWidth,
-  input[type="submit"] {
+  html input[type="button"], input[type="reset"], input[type="submit"] {
     
     border: none;
-    padding: 0.7em 1.5em;
+    padding: 1.2em 2.2em;
     color: #fff;
     text-highlight: none;
-    font-weight: lighter;
-    font-family: Segoe UI;
+    font-weight: bold;
     font-family: sans-serif;
     font-size: 1.4em;
     height:auto;
-    width:auto;
   }
 
   input[type="button"]{
@@ -582,33 +536,33 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       background-color: lighten($middleBlue, 5%);
     }
   }
+  .panel .availability .status.blue, .panel .color-key .status.blue, .panel .multi-bullets .status.blue {
+    @extend .icons-project-ontrack;
+  }
+  .panel .availability .status.yellow, .panel .color-key .status.yellow, .panel .multi-bullets .status.yellow {
+    @extend .icons-project-warning; 
+  }
+  .panel .availability .status.red, .panel .color-key .status.red, .panel .multi-bullets .status.red {
+    @extend .icons-project-alert; 
+  }
+  .panel .availability .status.green, .panel .color-key .status.green, .panel .multi-bullets .status.green {
+    @extend .icons-active;
+  }
+  .panel .availability .status.white, .panel .color-key .status.white, .panel .multi-bullets .status.white {
+    @extend .icons-incoming;
+  }
+  .panel .availability .status.black, .panel .color-key .status.black, .panel .multi-bullets .status.black {
+    @extend .icons-available;
+  }
 
 
-/**==============================================
+  
+  /*** ICONS ***/
 
- o8o                                           
- `"'                                           
-oooo   .ooooo.   .ooooo.  ooo. .oo.    .oooo.o 
-`888  d88' `"Y8 d88' `88b `888P"Y88b  d88(  "8 
- 888  888       888   888  888   888  `"Y88b.  
- 888  888   .o8 888   888  888   888  o.  )88b 
-o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P' 
-
-
-==============================================**/
-
-  .icons-sprite, 
-  .icons-active, 
-  .icons-available, 
-  .icons-booked, 
-  .icons-half-booked, 
-  .icons-incoming, 
-  .icons-project-alert, 
-  .icons-project-ontrack, 
-  .icons-project-warning {
-    background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png') no-repeat;
-    width:14px;
-    height: 14px;
+  .icons-sprite, .icons-active, .icons-available, .icons-booked, .icons-half-booked, .icons-incoming, .icons-project-alert, .icons-project-ontrack, .icons-project-warning {
+  background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png') no-repeat;
+  width:14px;
+  height: 14px;
   }
   .icons-active {
     background-position: 0 -13px;
@@ -634,72 +588,19 @@ o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P'
   .icons-project-warning {
     background-position: 0 -40px;
   }
-
-  .panel .availability .status.blue, 
-  .panel .color-key .status.blue, 
-  .panel .multi-bullets .status.blue{
-    @extend .icons-project-ontrack;
+  #inpipeline .icons-sprite, 
+  #inpipeline .icons-active, 
+  #inpipeline .icons-available, 
+  #inpipeline .icons-booked, 
+  #inpipeline .icons-half-booked,
+  #inpipeline .icons-incoming, 
+  #inpipeline .icons-project-alert, 
+  #inpipeline .icons-project-ontrack, 
+  #inpipeline .icons-project-warning {
+    background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/inflight.png') no-repeat;
+    width:14px;
+    height: 14px;
   }
-  .panel .availability .status.yellow, 
-  .panel .color-key .status.yellow, 
-  .panel .multi-bullets .status.yellow {
-    @extend .icons-project-warning; 
-  }
-  .panel .availability .status.red, 
-  .panel .color-key .status.red, 
-  .panel .multi-bullets .status.red {
-    @extend .icons-project-alert; 
-  }
-  .panel .availability .status.green, 
-  .panel .color-key .status.green, 
-  .panel .multi-bullets .status.green {
-    @extend .icons-active;
-  }
-  .panel .availability .status.white, 
-  .panel .color-key .status.white, 
-  .panel .multi-bullets .status.white {
-    @extend .icons-incoming;
-  }
-  .panel .availability .status.black, 
-  .panel .color-key .status.black, 
-  .panel .multi-bullets .status.black {
-    @extend .icons-available;
-  }
-
-
-  div[data-panel-id="inpipeline"].panel{
-
-    /** INCOMING **/
-    .availability .status,
-    .color-key .status,
-    .multi-bullets .status{
-      &.yellow, &.blue, &.white{
-        width: 14px;
-        height: 17px;
-      }
-      
-    }
-    .availability .status.yellow, 
-    .color-key .status.yellow, 
-    .multi-bullets .status.yellow {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png');
-      
-    }
-    .availability .status.blue, 
-    .color-key .status.blue, 
-    .multi-bullets .status.blue {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png');
-    }
-    .availability .status.white, 
-    .color-key .status.white, 
-    .multi-bullets .status.white {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png');
-    }
-
-
-  }
-
-
 
   /* ==========================================================================
 

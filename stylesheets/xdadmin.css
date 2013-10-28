@@ -9,133 +9,107 @@
 /* ..-------------------------------------------------------...
  |                         HELPER CLASSES                     |
  |..--------------------------------------------------------..|*/
-/* line 5, ../sass/_helpers.scss */
 .nodisplay, .hide {
   display: none;
 }
 
-/* line 6, ../sass/_helpers.scss */
 .inline {
   display: inline-block;
 }
 
-/* line 7, ../sass/_helpers.scss */
 .pointer:hover {
   cursor: pointer;
 }
 
-/* line 8, ../sass/_helpers.scss */
 .center {
   text-align: center;
 }
 
-/* line 9, ../sass/_helpers.scss */
 .left {
   text-align: left;
 }
 
-/* line 10, ../sass/_helpers.scss */
 .right {
   text-align: right;
 }
 
-/* line 11, ../sass/_helpers.scss */
 .auto {
   margin: 0 auto;
 }
 
-/* line 12, ../sass/_helpers.scss */
 .odd {
   background: #FBFBFB;
 }
 
-/* line 13, ../sass/_helpers.scss */
 .even {
   background: #F2F0F1;
 }
 
-/* line 14, ../sass/_helpers.scss */
 .letterpressed {
   text-shadow: 1px 1px 0 #ccc, -1px -1px- 0 #999;
 }
 
-/* line 15, ../sass/_helpers.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 16, ../sass/_helpers.scss */
 .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 17, ../sass/_helpers.scss */
 .block {
   display: block;
 }
 
-/* line 18, ../sass/_helpers.scss */
 .h100 {
   height: 100%;
 }
 
-/* line 19, ../sass/_helpers.scss */
 .noOutline {
   outline: none;
 }
 
-/* line 20, ../sass/_helpers.scss */
 .antialiased {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 24, ../sass/_helpers.scss */
 .paddingL {
   padding-left: 1.3%;
 }
 
-/* line 25, ../sass/_helpers.scss */
 .paddingB {
   padding-bottom: 1.3%;
 }
 
-/* line 26, ../sass/_helpers.scss */
 .paddingR {
   padding-right: 1.3%;
 }
 
-/* line 27, ../sass/_helpers.scss */
 .paddingT {
   padding-top: 1.3%;
 }
 
-/* line 30, ../sass/_helpers.scss */
 .floatR {
   float: right;
 }
 
-/* line 31, ../sass/_helpers.scss */
 .floatL {
   float: left;
 }
 
-/* line 32, ../sass/_helpers.scss */
 .positionA {
   position: absolute;
 }
 
-/* line 33, ../sass/_helpers.scss */
 .positionF {
   position: fixed;
 }
 
-/* line 34, ../sass/_helpers.scss */
 .positionR {
   position: relative;
 }
 
-/* line 49, ../sass/_helpers.scss */
 .fullFixedBg {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -159,47 +133,38 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
 
 ===========================================**/
-/* line 23, ../sass/xdadmin.scss */
 .ms-dlgFrameContainer {
   overflow: hidden !important;
   width: 100% !important;
 }
 
-/* line 27, ../sass/xdadmin.scss */
 .ms-dglContent {
   width: 100% !important;
 }
 
-/* line 31, ../sass/xdadmin.scss */
 html.ms-dialog #wrapper {
   width: 100%;
 }
-/* line 34, ../sass/xdadmin.scss */
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
-/* line 38, ../sass/xdadmin.scss */
 html.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
   line-height: 1.4;
 }
-/* line 43, ../sass/xdadmin.scss */
 html.ms-dialog > table > td.ms-descriptiontext {
   font-size: 11px;
   line-height: 1.1em;
   padding: 7px;
   display: table;
 }
-/* line 48, ../sass/xdadmin.scss */
 html.ms-dialog > table > td.ms-descriptiontext table {
   text-align: center;
 }
-/* line 52, ../sass/xdadmin.scss */
 html.ms-dialog .s4-ca {
   margin: 0;
   background: none !important;
 }
-/* line 56, ../sass/xdadmin.scss */
 html.ms-dialog #s4-workspace .s4-ca #main-content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   margin: 0;
@@ -207,21 +172,17 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   width: 100%;
   min-height: 1px;
 }
-/* line 63, ../sass/xdadmin.scss */
 html.ms-dialog #s4-workspace .s4-ca #main-content > table {
   margin: 0;
   width: 100% !important;
 }
-/* line 66, ../sass/xdadmin.scss */
 html.ms-dialog #s4-workspace .s4-ca #main-content > table > tbody {
   display: block;
   width: 100%;
 }
-/* line 74, ../sass/xdadmin.scss */
 html.ms-dialog table {
   font-size: 12px;
 }
-/* line 78, ../sass/xdadmin.scss */
 html.ms-dialog .s4-pr {
   width: 100% !important;
 }
@@ -271,7 +232,6 @@ html.ms-dialog .s4-pr {
 	}
 
 } **/
-/* line 133, ../sass/xdadmin.scss */
 body.xd.system {
   	/**======================================== 
   
@@ -286,99 +246,77 @@ body.xd.system {
   
   	===========================================**/
 }
-/* line 147, ../sass/xdadmin.scss */
 body.xd.system .s4-tn {
   overflow: visible !important;
 }
-/* line 150, ../sass/xdadmin.scss */
 body.xd.system .s4-specialNavLinkList {
   border: none;
 }
-/* line 153, ../sass/xdadmin.scss */
 body.xd.system tr.ms-itmhover {
   display: table-row;
 }
-/* line 156, ../sass/xdadmin.scss */
 body.xd.system .accordion-title {
   display: none;
 }
-/* line 159, ../sass/xdadmin.scss */
 body.xd.system .fieldName {
   display: none;
 }
-/* line 163, ../sass/xdadmin.scss */
 body.xd.system .ms-listviewtable .ms-alternating {
   background-color: #f5f5f5;
 }
-/* line 167, ../sass/xdadmin.scss */
 body.xd.system td.ms-authoringcontrols {
   padding: 7px;
   line-height: 1.7em;
 }
-/* line 170, ../sass/xdadmin.scss */
 body.xd.system td.ms-authoringcontrols label {
   font-size: 1.2em;
 }
-/* line 174, ../sass/xdadmin.scss */
 body.xd.system .ms-toolbar {
   padding: 10px;
   height: auto;
 }
-/* line 178, ../sass/xdadmin.scss */
 body.xd.system .ms-smallsectionline {
   background: none;
 }
-/* line 181, ../sass/xdadmin.scss */
 body.xd.system tr b, body.xd.system tr td b h3, body.xd.system .ms-standardheader {
   font-size: 1.5em;
   line-height: 240%;
   font-weight: normal;
 }
-/* line 187, ../sass/xdadmin.scss */
 body.xd.system .field-name {
   display: none;
 }
-/* line 192, ../sass/xdadmin.scss */
 body.xd.system .s4-ca {
   background-color: #18b4ef;
 }
-/* line 196, ../sass/xdadmin.scss */
 body.xd.system .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, body.xd.system .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
   border: none;
 }
-/* line 200, ../sass/xdadmin.scss */
 body.xd.system table.ms-listviewtable thead {
   background: white;
 }
-/* line 205, ../sass/xdadmin.scss */
 body.xd.system body, body.xd.system body thead td, body.xd.system body tfoot td, body.xd.system body td#header {
   background: none !important;
 }
-/* line 208, ../sass/xdadmin.scss */
 body.xd.system .s4-itm-cbx, body.xd.system .s4-itm-inlineedit {
   top: 0;
   position: relative;
 }
-/* line 212, ../sass/xdadmin.scss */
 body.xd.system .ms-gb {
   border: none;
 }
-/* line 213, ../sass/xdadmin.scss */
 body.xd.system .ms-gb h3.ms-standardheader {
   font-size: 2em;
   line-height: 44px;
   color: #555;
   margin: 0;
 }
-/* line 223, ../sass/xdadmin.scss */
 body.xd.system .ms-viewlsts .ms-vb2 {
   line-height: 170%;
 }
-/* line 225, ../sass/xdadmin.scss */
 body.xd.system .ms-viewlsts .ms-vb2 > a {
   font-size: 1.3em;
 }
-/* line 229, ../sass/xdadmin.scss */
 body.xd.system td.ms-linksectionheader, body.xd.system th.ms-linksectionheader {
   background: none;
   border: none;
@@ -390,12 +328,10 @@ body.xd.system td.ms-linksectionheader, body.xd.system th.ms-linksectionheader {
   color: #000;
   text-indent: 10px;
 }
-/* line 241, ../sass/xdadmin.scss */
 body.xd.system #main-content > div > table {
   margin: 20px;
   background: none;
 }
-/* line 245, ../sass/xdadmin.scss */
 body.xd.system #main-content .ms-pageinformation {
   padding: 0;
 }
@@ -411,42 +347,34 @@ oooo             .o88o.     .   ooooooooo.                                   ooo
 o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o888o 
 
 ==============================================================**/
-/* line 265, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #18b4ef;
 }
-/* line 267, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
   color: #fff;
 }
-/* line 271, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
   text-decoration: none;
 }
-/* line 275, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li > a {
   color: #fff;
   font-weight: bold;
   line-height: 30px;
   font-size: 1.1em;
 }
-/* line 283, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul {
   margin: 0;
 }
-/* line 285, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li {
   background: #6CCFF4;
   border-bottom: 1px solid #18b4ef;
 }
-/* line 288, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
   font-size: 0.9em;
   color: #fff;
   line-height: 30px;
   text-indent: 1.3em;
 }
-/* line 295, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul a.selected {
   color: #fff;
 }
@@ -463,35 +391,27 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
 
 =======================================**/
 @media only screen and (max-width: 768px) {
-  /* line 319, ../sass/xdadmin.scss */
   html:not(.ms-dialog) table, html.not-dialog table {
     table-layout: auto;
   }
-  /* line 320, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.system .button, html.not-dialog body.system .button {
     float: right;
   }
-  /* line 321, ../sass/xdadmin.scss */
   html:not(.ms-dialog) table colgroup, html.not-dialog table colgroup {
     display: none;
   }
-  /* line 322, ../sass/xdadmin.scss */
   html:not(.ms-dialog) .ms-vb2 table, html.not-dialog .ms-vb2 table {
     margin: 0 auto !important;
   }
-  /* line 323, ../sass/xdadmin.scss */
   html:not(.ms-dialog) table tr.ms-itmhover tr, html.not-dialog table tr.ms-itmhover tr {
     padding: 20px 0;
   }
-  /* line 324, ../sass/xdadmin.scss */
   html:not(.ms-dialog) .ms-separator, html.not-dialog .ms-separator {
     display: none !important;
   }
-  /* line 326, ../sass/xdadmin.scss */
   html:not(.ms-dialog) .ms-propertysheet table, html.not-dialog .ms-propertysheet table {
     margin: 0 auto;
   }
-  /* line 329, ../sass/xdadmin.scss */
   html:not(.ms-dialog) .fieldName, html.not-dialog .fieldName {
     float: left;
     margin-right: 10px;
@@ -501,17 +421,14 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     width: 90px;
     font-size: 0.8em;
   }
-  /* line 340, ../sass/xdadmin.scss */
   html:not(.ms-dialog) td label, html.not-dialog td label {
     display: inline-block !important;
     margin-left: 6px;
   }
-  /* line 345, ../sass/xdadmin.scss */
   html:not(.ms-dialog) button, html:not(.ms-dialog) select, html.not-dialog button, html.not-dialog select {
     font-size: 12px;
     padding: 4px;
   }
-  /* line 351, ../sass/xdadmin.scss */
   html:not(.ms-dialog) td.ms-authoringcontrols > label,
   html:not(.ms-dialog) td.ms-authoringcontrols > span > label,
   html:not(.ms-dialog) td.ms-authoringcontrols > table > tbody > tr > td > label, html.not-dialog td.ms-authoringcontrols > label,
@@ -519,38 +436,30 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   html.not-dialog td.ms-authoringcontrols > table > tbody > tr > td > label {
     font-size: 1em;
   }
-  /* line 354, ../sass/xdadmin.scss */
   html:not(.ms-dialog) .ms-authoringcontrols table, html.not-dialog .ms-authoringcontrols table {
     margin: 0 auto;
     width: auto;
   }
-  /* line 362, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content table.ms-viewlsts tbody tr:first-child, html.not-dialog body.xd #main-content table.ms-viewlsts tbody tr:first-child {
     display: none;
   }
-  /* line 367, ../sass/xdadmin.scss */
   html:not(.ms-dialog) * html table.ms-listviewtable thead, html.not-dialog * html table.ms-listviewtable thead {
     zoom: 1;
   }
-  /* line 369, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content, html.not-dialog body.xd #main-content {
     padding: 0 !important;
     overflow: hidden;
     padding: 10px 0;
   }
-  /* line 371, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.s4-itm-selected, html:not(.ms-dialog) body.xd #main-content tr.s4-itm-selected:hover, html.not-dialog body.xd #main-content tr.s4-itm-selected, html.not-dialog body.xd #main-content tr.s4-itm-selected:hover {
     background-color: none transparent !important;
   }
-  /* line 375, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.s4-itm-selected > td, html:not(.ms-dialog) body.xd #main-content tr.s4-itm-selected:hover > td, html.not-dialog body.xd #main-content tr.s4-itm-selected > td, html.not-dialog body.xd #main-content tr.s4-itm-selected:hover > td {
     background-color: white !important;
   }
-  /* line 379, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.s4-itm-selected, html.not-dialog body.xd #main-content tr.s4-itm-selected {
     background: white !important;
   }
-  /* line 382, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #layoutsTable, html.not-dialog body.xd #main-content #layoutsTable {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -560,34 +469,28 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     table-layout: fixed\9;
     width: 100% \9;
   }
-  /* line 389, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tbody, html:not(.ms-dialog) body.xd #main-content tr, html.not-dialog body.xd #main-content tbody, html.not-dialog body.xd #main-content tr {
     width: 100% !important;
     display: block;
     float: left\9;
     /* IE8+9  */
   }
-  /* line 395, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content td, html.not-dialog body.xd #main-content td {
     line-height: 30px;
     position: relative;
   }
-  /* line 398, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content td select, html.not-dialog body.xd #main-content td select {
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 403, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content td img, html.not-dialog body.xd #main-content td img {
     max-width: 100%;
   }
-  /* line 407, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-itmhover, html.not-dialog body.xd #main-content .ms-itmhover {
     display: none;
   }
-  /* line 410, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.accordion-title, html.not-dialog body.xd #main-content tr.accordion-title {
     display: block;
     float: left\9;
@@ -600,7 +503,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     padding: 10px;
     border-bottom: 1px solid #97caeb;
   }
-  /* line 418, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.accordion-title td, html.not-dialog body.xd #main-content tr.accordion-title td {
     line-height: 25px;
     font-size: 1.4em;
@@ -618,7 +520,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     /*IE8+9 */
     width: 100% !important;
   }
-  /* line 434, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.accordion-title:before, html.not-dialog body.xd #main-content tr.accordion-title:before {
     content: '';
     width: 0;
@@ -630,7 +531,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     right: 10px;
     margin-top: 5px;
   }
-  /* line 445, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.accordion-title.active:before, html.not-dialog body.xd #main-content tr.accordion-title.active:before {
     content: '';
     width: 0;
@@ -642,55 +542,43 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     right: 10px;
     margin-top: 10px;
   }
-  /* line 456, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr.accordion-title:hover, html.not-dialog body.xd #main-content tr.accordion-title:hover {
     background: #d7ebf7;
   }
-  /* line 463, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #onetidMngFieldRptrTable tr, html:not(.ms-dialog) body.xd #main-content #onetidMngFieldRptrTable tbody, html.not-dialog body.xd #main-content #onetidMngFieldRptrTable tr, html.not-dialog body.xd #main-content #onetidMngFieldRptrTable tbody {
     width: auto !important;
   }
-  /* line 466, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #onetidMngFieldRptrTable td, html.not-dialog body.xd #main-content #onetidMngFieldRptrTable td {
     width: 100% !important;
   }
-  /* line 469, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #onetidMngFieldRptrTable tr, html.not-dialog body.xd #main-content #onetidMngFieldRptrTable tr {
     border-bottom: 1px solid #ccc;
   }
-  /* line 473, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #onetidMngCytpeRptrTable td, html.not-dialog body.xd #main-content #onetidMngCytpeRptrTable td {
     display: table-cell;
     padding: 15px 16px;
     text-indent: 10px;
   }
-  /* line 479, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-propertysheet a, html.not-dialog body.xd #main-content .ms-propertysheet a {
     line-height: 52px;
     font-size: 1.1em;
   }
-  /* line 480, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-propertysheet a:first-child, html.not-dialog body.xd #main-content .ms-propertysheet a:first-child {
     background: #c2e0f3;
     color: #fff;
   }
-  /* line 489, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #AsynchronousViewDefault_CalendarView table, html.not-dialog body.xd #main-content #AsynchronousViewDefault_CalendarView table {
     display: table !important;
   }
-  /* line 492, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #AsynchronousViewDefault_CalendarView td, html.not-dialog body.xd #main-content #AsynchronousViewDefault_CalendarView td {
     display: table-cell !important;
   }
-  /* line 495, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #AsynchronousViewDefault_CalendarView tr, html.not-dialog body.xd #main-content #AsynchronousViewDefault_CalendarView tr {
     display: table-row !important;
   }
-  /* line 499, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-detail th, html.not-dialog body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-detail th {
     display: table-cell !important;
   }
-  /* line 504, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-vcont td, html.not-dialog body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-vcont td {
     display: block !important;
     float: left\9;
@@ -700,153 +588,121 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     clear: both\9;
     /*IE8+9 */
   }
-  /* line 511, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-outday, html.not-dialog body.xd #main-content #AsynchronousViewDefault_CalendarView .ms-acal-outday {
     border-right: solid 1px #d9dde1 !important;
     border-left: solid 1px #d9dde1 !important;
     display: table-cell !important;
   }
-  /* line 517, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-authoringcontrols, html.not-dialog body.xd #main-content .ms-authoringcontrols {
     background: none !important;
     clear: both;
   }
-  /* line 520, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-authoringcontrols br[disabled=true], html:not(.ms-dialog) body.xd #main-content .ms-authoringcontrols td br, html.not-dialog body.xd #main-content .ms-authoringcontrols br[disabled=true], html.not-dialog body.xd #main-content .ms-authoringcontrols td br {
     display: none;
   }
-  /* line 524, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #diidViewColumnHeaderPictureDisp1, html.not-dialog body.xd #main-content #diidViewColumnHeaderPictureDisp1 {
     height: 85px;
   }
-  /* line 529, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .theme-font-pickers, html.not-dialog body.xd #main-content .theme-font-pickers {
     float: none;
   }
-  /* line 532, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tbody > tr > th, html.not-dialog body.xd #main-content tbody > tr > th {
     display: none;
   }
-  /* line 535, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tr td b h3, html.not-dialog body.xd #main-content tr td b h3 {
     text-align: center !important;
   }
-  /* line 538, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .field-name, html.not-dialog body.xd #main-content .field-name {
     font-weight: bold;
     display: block;
   }
-  /* line 542, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content #mngfieldToobar, html.not-dialog body.xd #main-content #mngfieldToobar {
     background: #fff;
     padding: 20px 0;
   }
-  /* line 546, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar, html.not-dialog body.xd #main-content .ms-toolbar {
     background: none;
     border: none;
   }
-  /* line 549, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar #topPagingCell, html.not-dialog body.xd #main-content .ms-toolbar #topPagingCell {
     display: none;
   }
-  /* line 552, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar label, html.not-dialog body.xd #main-content .ms-toolbar label {
     font-size: 1.4em;
   }
-  /* line 555, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar select, html.not-dialog body.xd #main-content .ms-toolbar select {
     display: block;
   }
-  /* line 558, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar table, html.not-dialog body.xd #main-content .ms-toolbar table {
     width: 100%;
     margin: 0 auto !important;
     border: 1px solid #ccc;
     padding: 3px 0;
   }
-  /* line 563, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar table td, html.not-dialog body.xd #main-content .ms-toolbar table td {
     background: #eee;
   }
-  /* line 566, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar table:hover, html.not-dialog body.xd #main-content .ms-toolbar table:hover {
     background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x 0px -431px;
     cursor: pointer;
   }
-  /* line 571, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover, html.not-dialog body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover {
     background: #eee;
     border: 1px solid #ccc;
   }
-  /* line 576, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-sectionheader, html.not-dialog body.xd #main-content .ms-sectionheader {
     height: auto;
   }
-  /* line 578, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-sectionheader .ms-standardheader, html.not-dialog body.xd #main-content .ms-sectionheader .ms-standardheader {
     font-size: 2em;
     text-align: center;
     line-height: 2em;
     font-weight: normal;
   }
-  /* line 586, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content table[id*=PlaceHolderMain], html.not-dialog body.xd #main-content table[id*=PlaceHolderMain] {
     margin: 0 auto;
   }
-  /* line 590, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content > div, html.not-dialog body.xd #main-content > div {
     float: none !important;
     margin: 0 auto !important;
     width: auto !important;
   }
-  /* line 594, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content > div > table, html.not-dialog body.xd #main-content > div > table {
     margin: 0 auto;
   }
-  /* line 601, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-pageinformation th, html:not(.ms-dialog) body.xd #main-content .ms-pageinformation tr, html:not(.ms-dialog) body.xd #main-content .ms-pageinformation td, html:not(.ms-dialog) body.xd #main-content .ms-pageinformation h3, html.not-dialog body.xd #main-content .ms-pageinformation th, html.not-dialog body.xd #main-content .ms-pageinformation tr, html.not-dialog body.xd #main-content .ms-pageinformation td, html.not-dialog body.xd #main-content .ms-pageinformation h3 {
     text-align: center;
     font-size: 1.1em;
   }
-  /* line 605, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-pageinformation h3, html.not-dialog body.xd #main-content .ms-pageinformation h3 {
     font-size: 1.5em;
   }
-  /* line 611, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-linksection-level1 td, html.not-dialog body.xd #main-content .ms-linksection-level1 td {
     height: auto !important;
   }
-  /* line 614, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-linksection-level1 h3, html.not-dialog body.xd #main-content .ms-linksection-level1 h3 {
     font-size: 1.5em;
     font-weight: 100;
     padding: 17px 0 9px 0;
   }
-  /* line 619, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-linksection-level1 ul li a, html.not-dialog body.xd #main-content .ms-linksection-level1 ul li a {
     font-size: 1.1em;
     line-height: 45px;
   }
-  /* line 623, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-linksection-level1 img, html.not-dialog body.xd #main-content .ms-linksection-level1 img {
     margin-top: 13px;
   }
-  /* line 628, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-vb a, html.not-dialog body.xd #main-content .ms-vb a {
     font-size: 1.3em;
   }
-  /* line 633, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-menutoolbar td a, html.not-dialog body.xd #main-content .ms-menutoolbar td a {
     color: #0072bc !important;
     font-size: 12pt;
     margin: 10px;
   }
-  /* line 638, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-toolbar table:hover, html.not-dialog body.xd #main-content .ms-toolbar table:hover {
     background: #ccc;
   }
-  /* line 641, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content td.ms-vb2, html.not-dialog body.xd #main-content td.ms-vb2 {
     width: auto !important;
     padding: 10px 15px;
@@ -855,11 +711,9 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     text-align: left;
     line-height: 25px;
   }
-  /* line 648, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content td.ms-vb2[colspan="3"] .fieldName, html.not-dialog body.xd #main-content td.ms-vb2[colspan="3"] .fieldName {
     display: none;
   }
-  /* line 653, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content > table, html.not-dialog body.xd #main-content > table {
     width: auto;
     display: block;
@@ -868,7 +722,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     width: 100% \9;
     /* IE8+9  */
   }
-  /* line 659, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content > table > tbody, html:not(.ms-dialog) body.xd #main-content > table > tbody > tr, html:not(.ms-dialog) body.xd #main-content > table > tbody > tr > td, html.not-dialog body.xd #main-content > table > tbody, html.not-dialog body.xd #main-content > table > tbody > tr, html.not-dialog body.xd #main-content > table > tbody > tr > td {
     display: block;
     float: left\9;
@@ -881,20 +734,16 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     text-align: center !important;
     height: auto;
   }
-  /* line 672, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-vb2:nth-of-type(2), html.not-dialog body.xd #main-content .ms-vb2:nth-of-type(2) {
     display: block;
   }
-  /* line 675, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-vb2.ms-viewlsts-noitems, html.not-dialog body.xd #main-content .ms-vb2.ms-viewlsts-noitems {
     display: block;
   }
-  /* line 679, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-vb-icon, html.not-dialog body.xd #main-content .ms-vb-icon {
     margin: 0 auto !important;
     padding: 20px;
   }
-  /* line 683, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content tbody > tr > td, html.not-dialog body.xd #main-content tbody > tr > td {
     border: none !important;
     text-align: center;
@@ -907,46 +756,37 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     clear: both\9;
     /*IE8+9 */
   }
-  /* line 693, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content table.ms-listviewtable, html.not-dialog body.xd #main-content table.ms-listviewtable {
     table-layout: fixed \9;
     /* IE8+9  */
     width: 100% \9;
     /* IE8+9  */
   }
-  /* line 696, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content table.ms-listviewtable tbody tr.ms-itmhover td, html.not-dialog body.xd #main-content table.ms-listviewtable tbody tr.ms-itmhover td {
     width: 100% !important;
   }
-  /* line 700, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content td.ms-vb-itmcbx, html.not-dialog body.xd #main-content td.ms-vb-itmcbx {
     text-align: center;
   }
-  /* line 703, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-gb h3.ms-standardheader, html.not-dialog body.xd #main-content .ms-gb h3.ms-standardheader {
     text-align: center;
     font-size: 2em;
     line-height: 44px;
     text-align: center;
   }
-  /* line 709, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-gb, html.not-dialog body.xd #main-content .ms-gb {
     height: 45px;
   }
-  /* line 712, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-menubuttonactivehover, html:not(.ms-dialog) body.xd #main-content .ms-buttonactivehover, html.not-dialog body.xd #main-content .ms-menubuttonactivehover, html.not-dialog body.xd #main-content .ms-buttonactivehover {
     background: #dedede;
   }
-  /* line 717, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-viewheadertr input[type="checkbox"], html.not-dialog body.xd #main-content .ms-viewheadertr input[type="checkbox"] {
     margin-top: 3px;
   }
-  /* line 721, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .ms-menutoolbar, html.not-dialog body.xd #main-content .ms-menutoolbar {
     height: auto;
     background: none;
   }
-  /* line 725, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable tbody, html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable tr, html:not(.ms-dialog) body.xd #main-content table.s4-wpTopTable, html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable table, html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable td, html.not-dialog body.xd #main-content .s4-wpTopTable tbody, html.not-dialog body.xd #main-content .s4-wpTopTable tr, html.not-dialog body.xd #main-content table.s4-wpTopTable, html.not-dialog body.xd #main-content .s4-wpTopTable table, html.not-dialog body.xd #main-content .s4-wpTopTable td {
     display: block;
     float: left\9;
@@ -956,50 +796,41 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     clear: both\9;
     /*IE8+9 */
   }
-  /* line 731, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody, html.not-dialog body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tbody {
     display: table-row-group;
   }
-  /* line 734, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tr, html.not-dialog body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView tr {
     display: table-row;
   }
-  /* line 737, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView, html.not-dialog body.xd #main-content table.s4-wpTopTable #AsynchronousViewDefault_CalendarView {
     display: block;
     table-layout: fixed \9;
     width: 100% \9;
     clear: both \9;
   }
-  /* line 743, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView table, html.not-dialog body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView table {
     display: table;
   }
-  /* line 746, ../sass/xdadmin.scss */
   html:not(.ms-dialog) body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td, html.not-dialog body.xd #main-content .s4-wpTopTable #AsynchronousViewDefault_CalendarView td {
     display: table-cell;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  /* line 757, ../sass/xdadmin.scss */
   body.system .s4-ca {
     overflow-x: visible !important;
     min-height: 1px;
   }
 
-  /* line 763, ../sass/xdadmin.scss */
   html:not(.ms-dialog-nr) body.xd.system #main-content {
     overflow: visible !important;
     min-height: 1px;
   }
 }
-/* line 769, ../sass/xdadmin.scss */
 body.xd.system table table.ms-listviewtable > tbody {
   width: 100% !important;
 }
 
-/* line 770, ../sass/xdadmin.scss */
 body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
 }
@@ -1016,22 +847,18 @@ ooooo oooooooooooo     .o88o.  o8o
 o888o o888ooooood8    o888o   o888o o88'   888o `Y8bod8P' 8""888P' 
 
 ============================================================================**/
-/* line 787, ../sass/xdadmin.scss */
 .lt-ie8 body.xd.system #thumbCrop > img {
   visbility: visible;
 }
 
-/* line 788, ../sass/xdadmin.scss */
 .lt-ie8 body.xd.system tr.ms-itmhover {
   display: table-row !important;
 }
 
-/* line 792, ../sass/xdadmin.scss */
 body.xd.system table tr.even, table tr.alt, table tr:nth-of-type(even) {
   background: none;
 }
 
-/* line 798, ../sass/xdadmin.scss */
 body.xd.system img[src="/_layouts/images/blank.gif"] {
   display: none;
 }
