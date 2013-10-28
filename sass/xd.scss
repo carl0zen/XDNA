@@ -338,6 +338,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
 
   #main-content{
     @include clearfix;
+    height: auto !important;
     ul.color-key.wide{
       li{font-size:11px;}
     }
