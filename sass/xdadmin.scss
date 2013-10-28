@@ -42,6 +42,7 @@ html.ms-dialog {
 		h3.ms-standardheader{
 			font-size: 1.1em;
 			line-height: 1.4;
+			font-weight: bold;
 		}
 	}
 	> table > td.ms-descriptiontext{
@@ -444,7 +445,6 @@ html:not(.ms-dialog), html.not-dialog{
 				    float: left\9; /* IE8+9  */
 					clear:both\9; /*IE8+9 */
 				    width: 100% !important;
-
 				}
 				&:before{
 						content:'';

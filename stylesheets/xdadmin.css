@@ -155,6 +155,7 @@ html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-bu
 html.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
   line-height: 1.4;
+  font-weight: bold;
 }
 html.ms-dialog > table > td.ms-descriptiontext {
   font-size: 11px;
