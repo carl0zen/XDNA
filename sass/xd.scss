@@ -474,10 +474,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     border: 0 none;
     cursor: pointer;
     font-size: 20px;
-    height: auto;
+    height: 65px;
     position: absolute;
     top: 50%;
-    width: auto;
+    width: 34px;
     margin-top: -65px;
     opacity: 0.5;
     &:hover, &:focus{
@@ -964,3 +964,6 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 
   }
 
+html body #main-content #carPrev{
+  background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png')
+}
