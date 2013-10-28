@@ -504,7 +504,7 @@ body.xd #main-content ul.color-key.wide li {
 }
 body.xd #main-content .welcome-content {
   margin: 0;
-  padding: 25px 0;
+  padding: 0 0;
 }
 body.xd #main-content #gridBoard {
   background: none;
@@ -660,6 +660,12 @@ body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
 }
+body.xd #carNext.disabled:hover, body.xd #carNext.disabled:active,
+body.xd #carPrev.disabled:hover,
+body.xd #carPrev.disabled:active {
+  opacity: 0.5;
+  cursor: default;
+}
 body.xd #carPrev {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png");
 }
@@ -684,9 +690,12 @@ body.xd .s4-ca > div.xd-title {
   display: none;
 }
 body.xd .s4-ca > div.xd-title {
-  -moz-font-feature-settings: "kern";
   font-weight: 200;
   line-height: 50px;
+  border-bottom: 1px solid #cccccc;
+}
+body.xd .s4-ca > div.xd-title h1 {
+  font-size: 2em;
 }
 body.xd.internal .s4-ca > div.xd-title {
   display: block;

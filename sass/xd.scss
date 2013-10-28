@@ -346,7 +346,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     background: #FCFCFC url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg') no-repeat center center fixed;
     .welcome-content{
         margin:0;
-        padding: 25px 0;
+        padding: 0 0;
     }
     #gridBoard{
       background: none;
@@ -485,6 +485,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       box-shadow: none;
       opacity: 1;
     }
+    &.disabled:hover, &.disabled:active{    
+    opacity: 0.5; cursor: default;
+    }
   }
   #carPrev{
     background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png');
@@ -510,11 +513,14 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     display:none
   }
 
-  .s4-ca > div.xd-title {
-    -moz-font-feature-settings: "kern";    
-    
+  .s4-ca > div.xd-title {        
     font-weight: 200;
-    line-height: 50px;    
+    line-height: 50px;  
+    border-bottom: 1px solid #ccc ;
+    h1
+    {
+      font-size: 2em
+    }
 }
 &.internal
 {
