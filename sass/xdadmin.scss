@@ -20,6 +20,9 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
 
 ===========================================**/
+html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"]{
+		display: none !important;
+	}
 
 .ms-dlgFrameContainer {
 			overflow: hidden !important;
@@ -32,9 +35,6 @@ html.ms-dialog {
 	#wrapper {
   		width: 100%;
 	}
-	body.xd.system #s4-leftpanel[role="complementary"]{
-		display: none;
-	}
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
 	}
@@ -42,13 +42,14 @@ html.ms-dialog {
 		h3.ms-standardheader{
 			font-size: 1.1em;
 			line-height: 1.4;
+			font-weight: bold;
 		}
 	}
 	> table > td.ms-descriptiontext{
 		font-size: 11px;
 		line-height: 1.1em;
-		padding: 7px;
 		display: table;
+		padding:7px;
 		table{
 			text-align: center;
 		}
@@ -84,6 +85,9 @@ html.ms-dialog {
 		tr{
 			th,td{
 				 padding: 0.3em;
+			}
+			td{
+				padding:7px;
 			}
 		}
 	}
@@ -442,7 +446,6 @@ html:not(.ms-dialog), html.not-dialog{
 				    float: left\9; /* IE8+9  */
 					clear:both\9; /*IE8+9 */
 				    width: 100% !important;
-
 				}
 				&:before{
 						content:'';
@@ -588,6 +591,8 @@ html:not(.ms-dialog), html.not-dialog{
 			}
 			.ms-sectionheader{
 					height: auto;
+					font-weight: bold;
+					padding:7px;
 					.ms-standardheader{
 						font-size: 2em;
 						text-align: center;

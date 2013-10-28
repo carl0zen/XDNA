@@ -133,6 +133,10 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
 
 ===========================================**/
+html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
+  display: none !important;
+}
+
 .ms-dlgFrameContainer {
   overflow: hidden !important;
   width: 100% !important;
@@ -145,21 +149,19 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog #wrapper {
   width: 100%;
 }
-html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
-  display: none;
-}
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
 html.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
   line-height: 1.4;
+  font-weight: bold;
 }
 html.ms-dialog > table > td.ms-descriptiontext {
   font-size: 11px;
   line-height: 1.1em;
-  padding: 7px;
   display: table;
+  padding: 7px;
 }
 html.ms-dialog > table > td.ms-descriptiontext table {
   text-align: center;
@@ -194,6 +196,9 @@ html.ms-dialog table {
 }
 html.ms-dialog table tr th, html.ms-dialog table tr td {
   padding: 0.3em;
+}
+html.ms-dialog table tr td {
+  padding: 7px;
 }
 html.ms-dialog .s4-pr {
   width: 100% !important;
@@ -663,6 +668,8 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
   html:not(.ms-dialog) body.xd #main-content .ms-sectionheader, html.not-dialog body.xd #main-content .ms-sectionheader {
     height: auto;
+    font-weight: bold;
+    padding: 7px;
   }
   html:not(.ms-dialog) body.xd #main-content .ms-sectionheader .ms-standardheader, html.not-dialog body.xd #main-content .ms-sectionheader .ms-standardheader {
     font-size: 2em;
