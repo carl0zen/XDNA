@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -466,6 +466,7 @@ body.xd .menu-horizontal span.dynamic-children span.additional-background:before
   margin-right: -20px;
 }
 body.xd .menu-icon {
+  display: none;
   width: 100%;
   right: 0;
   -webkit-transition: all 0.2s ease;
