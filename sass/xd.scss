@@ -538,7 +538,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   
   .ms-WPHeader td, .ms-fakewptitle 
   {
-    background-color: #009FD9;   
+    background-color: #009FD9;  border-bottom: 2px solid  $menuBorderColor;
       h3{
         font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; 
         > a{color:#ffffff}

@@ -706,6 +706,7 @@ body.xd.internal #main-content {
 }
 body.xd.internal .ms-WPHeader td, body.xd.internal .ms-fakewptitle {
   background-color: #009FD9;
+  border-bottom: 2px solid #fe6601;
 }
 body.xd.internal .ms-WPHeader td h3, body.xd.internal .ms-fakewptitle h3 {
   font-size: 1.3em;
