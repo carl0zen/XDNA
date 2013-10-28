@@ -153,7 +153,7 @@ html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-bu
   display: none !important;
 }
 html.ms-dialog .ms-inputformdescription {
-  padding: 10px;
+  padding: 10px  !important;
 }
 html.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
