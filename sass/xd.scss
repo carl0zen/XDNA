@@ -544,6 +544,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; 
         > a{color:#ffffff}
       }
+      &:hover{ border-bottom: 2px solid  $menuBorderColor;}
   }
 
 }
