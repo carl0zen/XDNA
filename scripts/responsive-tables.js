@@ -133,12 +133,12 @@ var table = $('#main-content table'),
       // Dialog sizes
 
 
-/**
+
       var width = $('.ms-dialog #main-content').width();
 
       $('.ms-dlgFrameContainer').css({
         width: width + '!important',
-      }); **/
+      }); 
       // Detect IE
 
       // IE feature detection
