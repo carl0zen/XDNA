@@ -26,14 +26,14 @@ html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"]{
 
 .ms-dlgFrameContainer {
 			overflow: hidden !important;
-			width:100% !important;
+			width:150% !important;
 		}
 		.ms-dglContent {
-			width:100% !important ;
+			width:150% !important ;
 		}
 html.ms-dialog {
 	#wrapper {
-  		width: 100%;
+  		width: 150%;
 	}
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
@@ -62,7 +62,7 @@ html.ms-dialog {
 		background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 		margin: 0;
 		/* padding: 15px; */
-		width: 100%;
+		width: 15%;
 		min-height: 1px;
 		> table{
 			margin:0;

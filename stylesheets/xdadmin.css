@@ -139,15 +139,15 @@ html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
 
 .ms-dlgFrameContainer {
   overflow: hidden !important;
-  width: 100% !important;
+  width: 150% !important;
 }
 
 .ms-dglContent {
-  width: 100% !important;
+  width: 150% !important;
 }
 
 html.ms-dialog #wrapper {
-  width: 100%;
+  width: 150%;
 }
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
@@ -174,7 +174,7 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   margin: 0;
   /* padding: 15px; */
-  width: 100%;
+  width: 15%;
   min-height: 1px;
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content > table {
