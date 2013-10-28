@@ -506,28 +506,6 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     margin:0 auto;
   }
 
-&.internal
-{
-    .s4-ca > div.xd-title {
-      display: block;
-      max-width: 1320px; margin:0 auto !important;  
-      h1{font-weight: lighter;}
-    }
-
-    #main-content
-    {
-      @include box-sizing(border-box);
-      background: none repeat scroll 0 0 #FFFFFF;
-      margin: 0 auto !important;
-      max-width: 1320px;
-      padding: 20px;
-    }
-    .ms-WPHeader td, .ms-fakewptitle {
-      background-color: #FAFAFA;
-      h3{font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; }
-    }
-}
-
   html input[type="button"], input[type="reset"], input[type="submit"] {
     
     border: none;
@@ -965,8 +943,8 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
   }
 
 html body #main-content #carPrev{
-  background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png');
+  background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png')
 }
-html body #main-content #carPrev{
-  background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-right.png');
+html body #main-content #carNext{
+  background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-right.png')
 }
