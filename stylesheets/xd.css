@@ -733,12 +733,25 @@ body.xd.internal .ms-WPHeader td:hover, body.xd.internal .ms-fakewptitle:hover {
   border-bottom: 2px solid #fe6601;
 }
 body.xd.internal .xd-content-editor h3 {
-  font-size: 1.3em;
+  font-size: 1.7em;
   font-family: Segoe UI;
   font-weight: lighter;
   background-color: #009FD9;
   border-bottom: 2px solid #fe6601;
   color: #ffffff;
+  text-indent: 5px;
+  margin-bottom: 1em;
+}
+body.xd.internal .xd-content-editor > p {
+  font-size: 1em;
+  margin: 0.5em 0;
+  padding: 0 0 0 1em;
+}
+body.xd.internal .xd-content-editor .ms-rteStyle-Highlight {
+  background-color: #FFA500;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0.4em 0.6em;
 }
 body.xd .s4-tn {
   max-width: 1320px;
