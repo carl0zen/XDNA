@@ -1150,3 +1150,7 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 html body #main-content #carPrev {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png");
 }
+
+html body #main-content #carPrev {
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-right.png");
+}
