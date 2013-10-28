@@ -336,6 +336,9 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
 
 
   #main-content{
+     #carPrev{
+      background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/chevron-left.png');
+    }
     ul.color-key.wide{
       li{font-size:11px;}
     }
@@ -483,9 +486,6 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     &:hover, &:focus{
       box-shadow: none;
       opacity: 1;
-    }
-    #carPrev{
-      background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/chevron-left.png') ;
     }
   }
   &:hover, &:active{

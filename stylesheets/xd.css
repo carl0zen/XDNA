@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -528,6 +528,9 @@ body.xd #main-content {
   background-size: cover;
   background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
 }
+body.xd #main-content #carPrev {
+  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/chevron-left.png");
+}
 body.xd #main-content ul.color-key.wide li {
   font-size: 11px;
 }
@@ -688,10 +691,6 @@ body.xd #carPrev:hover,
 body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
-}
-body.xd #carNext #carPrev,
-body.xd #carPrev #carPrev {
-  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/chevron-left.png");
 }
 body.xd:hover, body.xd:active {
   background-color: #00B0E2;
