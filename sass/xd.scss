@@ -543,6 +543,12 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       margin: 0 auto !important;
       max-width: 1320px;
       padding: 20px;      
+      .xd-content-editor 
+      {
+        h3{font-size: 1.7em; font-family: Segoe UI; font-weight: lighter; background-color: #009FD9;  border-bottom: 2px solid  $menuBorderColor; color:#ffffff; text-indent: 5px; margin-bottom: 1em}  
+        p{ font-size: 1em; margin: 0.5em 0; padding: 0 0 0 1em;}
+        .ms-rteStyle-Highlight {background-color: #FFA500; color: #FFFFFF; display: inline-block; padding: 0.4em 0.6em;}
+      }
   }
   
   .ms-WPHeader td, .ms-fakewptitle 
@@ -554,11 +560,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
       &:hover{ border-bottom: 2px solid  $menuBorderColor;}
   }
-  .xd-content-editor {
-      h3{font-size: 1.7em; font-family: Segoe UI; font-weight: lighter; background-color: #009FD9;  border-bottom: 2px solid  $menuBorderColor; color:#ffffff; text-indent: 5px; margin-bottom: 1em}  
-      p{ font-size: 1em; margin: 0.5em 0; padding: 0 0 0 1em;}
-      .ms-rteStyle-Highlight {background-color: #FFA500; color: #FFFFFF; display: inline-block; padding: 0.4em 0.6em;}
-  }
+  
    
 
 }
