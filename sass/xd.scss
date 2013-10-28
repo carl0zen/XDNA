@@ -296,6 +296,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
   }
   .menu-icon {
+    display: none;
     width: 100%;
     right: 0;
     @include transition(all 0.2s ease);
