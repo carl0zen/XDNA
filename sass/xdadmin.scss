@@ -23,7 +23,7 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"]{
 		display: none !important;
 	}
-
+html.ms-dialog body.xd.system .ms-inputformdescription {padding-left: 6px;padding-right: 9px}
 
 .ms-dlgFrameContainer {
 			overflow: hidden !important;
@@ -75,9 +75,6 @@ html.ms-dialog {
 	}
 	.ms-authoringcontrols{
 		background-color: #f6f6f6;
-	}
-	.ms-inputformheader{
-		padding-left: 0px;
 	}
 	table{
 		font-size: 12px;
