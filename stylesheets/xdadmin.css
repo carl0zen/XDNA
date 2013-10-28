@@ -149,9 +149,6 @@ html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
 html.ms-dialog #wrapper {
   width: 100%;
 }
-html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
-  display: none !important;
-}
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
@@ -162,7 +159,6 @@ html.ms-dialog .ms-sectionheader h3.ms-standardheader {
 html.ms-dialog > table > td.ms-descriptiontext {
   font-size: 11px;
   line-height: 1.1em;
-  padding: 7px;
   display: table;
 }
 html.ms-dialog > table > td.ms-descriptiontext table {
@@ -198,6 +194,9 @@ html.ms-dialog table {
 }
 html.ms-dialog table tr th, html.ms-dialog table tr td {
   padding: 0.3em;
+}
+html.ms-dialog table tr td {
+  padding: 7px;
 }
 html.ms-dialog .s4-pr {
   width: 100% !important;

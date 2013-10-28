@@ -35,9 +35,6 @@ html.ms-dialog {
 	#wrapper {
   		width: 100%;
 	}
-	body.xd.system #s4-leftpanel[role="complementary"]{
-		display: none !important;
-	}
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
 	}
@@ -50,7 +47,6 @@ html.ms-dialog {
 	> table > td.ms-descriptiontext{
 		font-size: 11px;
 		line-height: 1.1em;
-		padding: 7px;
 		display: table;
 		table{
 			text-align: center;
@@ -87,6 +83,9 @@ html.ms-dialog {
 		tr{
 			th,td{
 				 padding: 0.3em;
+			}
+			td{
+				padding:7px;
 			}
 		}
 	}
