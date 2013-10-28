@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -199,7 +199,48 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   
   
   ==========================================================================**/
-  /*** ICONS ***/
+  /*
+  &.internal
+  {
+      .s4-ca > div.xd-title {    
+          display: block;    
+          max-width: 1320px; margin:0 auto !important;
+          
+          h1{
+            font-weight: lighter; 
+          }
+  
+      } 
+  
+    #main-content 
+    {        
+        @include box-sizing(border-box);
+        background: none repeat scroll 0 0 #FFFFFF;
+        margin: 0 auto !important;
+        max-width: 1320px;
+        padding: 20px;      
+    }
+    
+    .ms-WPHeader td, .ms-fakewptitle {
+          background-color: #FAFAFA;   
+          h3{font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; }
+    }
+  
+  }
+  
+  */
+  /**==============================================
+  
+   o8o                                           
+   `"'                                           
+  oooo   .ooooo.   .ooooo.  ooo. .oo.    .oooo.o 
+  `888  d88' `"Y8 d88' `88b `888P"Y88b  d88(  "8 
+   888  888       888   888  888   888  `"Y88b.  
+   888  888   .o8 888   888  888   888  o.  )88b 
+  o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P' 
+  
+  
+  ==============================================**/
   /* ==========================================================================
 
 oooooooooooo                         .                      
@@ -663,23 +704,35 @@ body.xd img[id*="_PictureUrlImage"] {
   width: 60px;
   height: 60px;
 }
-body.xd .s4-ca > div.s4-notdlg.social-bar,
-body.xd .s4-ca > div.s4-notdlg.xd-title {
+body.xd .s4-ca > div.social-bar {
   display: none;
+}
+body.xd .s4-ca > div.xd-title {
+  display: none;
+}
+body.xd .s4-ca > div.xd-title {
+  -moz-font-feature-settings: "kern";
+  font-weight: 200;
+  line-height: 50px;
 }
 body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
 }
-body.xd html input[type="button"], body.xd input[type="reset"], body.xd input[type="submit"] {
+body.xd input[type="button"].ms-ButtonHeightWidth,
+body.xd input[type="reset"].ms-ButtonHeightWidth,
+body.xd input[type="submit"].ms-ButtonHeightWidth,
+body.xd input[type="submit"] {
   border: none;
-  padding: 1.2em 2.2em;
+  padding: 0.7em 1.5em;
   color: #fff;
   text-highlight: none;
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: Segoe UI;
   font-family: sans-serif;
   font-size: 1.4em;
   height: auto;
+  width: auto;
 }
 body.xd input[type="button"] {
   background-color: #009fd9;
@@ -699,15 +752,45 @@ body.xd input[type="submit"] {
 body.xd input[type="submit"]:hover {
   background-color: #009cc9;
 }
-body.xd .icons-sprite, body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green, body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black, body.xd .icons-booked, body.xd .icons-half-booked, body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white, body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red, body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue, body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
+body.xd .icons-sprite,
+body.xd .icons-active,
+body.xd .panel .availability .status.green,
+body.xd .panel .color-key .status.green,
+body.xd .panel .multi-bullets .status.green,
+body.xd .icons-available,
+body.xd .panel .availability .status.black,
+body.xd .panel .color-key .status.black,
+body.xd .panel .multi-bullets .status.black,
+body.xd .icons-booked,
+body.xd .icons-half-booked,
+body.xd .icons-incoming,
+body.xd .panel .availability .status.white,
+body.xd .panel .color-key .status.white,
+body.xd .panel .multi-bullets .status.white,
+body.xd .icons-project-alert,
+body.xd .panel .availability .status.red,
+body.xd .panel .color-key .status.red,
+body.xd .panel .multi-bullets .status.red,
+body.xd .icons-project-ontrack,
+body.xd .panel .availability .status.blue,
+body.xd .panel .color-key .status.blue,
+body.xd .panel .multi-bullets .status.blue,
+body.xd .icons-project-warning,
+body.xd .panel .availability .status.yellow,
+body.xd .panel .color-key .status.yellow,
+body.xd .panel .multi-bullets .status.yellow {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
   width: 14px;
   height: 14px;
 }
-body.xd .icons-active, body.xd .panel .availability .status.green, body.xd .panel .color-key .status.green, body.xd .panel .multi-bullets .status.green {
+body.xd .icons-active, body.xd .panel .availability .status.green,
+body.xd .panel .color-key .status.green,
+body.xd .panel .multi-bullets .status.green {
   background-position: 0 -13px;
 }
-body.xd .icons-available, body.xd .panel .availability .status.black, body.xd .panel .color-key .status.black, body.xd .panel .multi-bullets .status.black {
+body.xd .icons-available, body.xd .panel .availability .status.black,
+body.xd .panel .color-key .status.black,
+body.xd .panel .multi-bullets .status.black {
   background-position: 0 -66px;
 }
 body.xd .icons-booked {
@@ -716,66 +799,53 @@ body.xd .icons-booked {
 body.xd .icons-half-booked {
   background-position: 0 -67px;
 }
-body.xd .icons-incoming, body.xd .panel .availability .status.white, body.xd .panel .color-key .status.white, body.xd .panel .multi-bullets .status.white {
+body.xd .icons-incoming, body.xd .panel .availability .status.white,
+body.xd .panel .color-key .status.white,
+body.xd .panel .multi-bullets .status.white {
   background-position: 0 -53px;
 }
-body.xd .icons-project-alert, body.xd .panel .availability .status.red, body.xd .panel .color-key .status.red, body.xd .panel .multi-bullets .status.red {
+body.xd .icons-project-alert, body.xd .panel .availability .status.red,
+body.xd .panel .color-key .status.red,
+body.xd .panel .multi-bullets .status.red {
   background-position: 0 0;
 }
-body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue, body.xd .panel .color-key .status.blue, body.xd .panel .multi-bullets .status.blue {
+body.xd .icons-project-ontrack, body.xd .panel .availability .status.blue,
+body.xd .panel .color-key .status.blue,
+body.xd .panel .multi-bullets .status.blue {
   background-position: 0 -27px;
 }
-body.xd .icons-project-warning, body.xd .panel .availability .status.yellow, body.xd .panel .color-key .status.yellow, body.xd .panel .multi-bullets .status.yellow {
+body.xd .icons-project-warning, body.xd .panel .availability .status.yellow,
+body.xd .panel .color-key .status.yellow,
+body.xd .panel .multi-bullets .status.yellow {
   background-position: 0 -40px;
 }
-body.xd #inpipeline .icons-sprite,
-body.xd #inpipeline .icons-active,
-body.xd #inpipeline .panel .availability .status.green,
-body.xd .panel .availability #inpipeline .status.green,
-body.xd #inpipeline .panel .color-key .status.green,
-body.xd .panel .color-key #inpipeline .status.green,
-body.xd #inpipeline .panel .multi-bullets .status.green,
-body.xd .panel .multi-bullets #inpipeline .status.green,
-body.xd #inpipeline .icons-available,
-body.xd #inpipeline .panel .availability .status.black,
-body.xd .panel .availability #inpipeline .status.black,
-body.xd #inpipeline .panel .color-key .status.black,
-body.xd .panel .color-key #inpipeline .status.black,
-body.xd #inpipeline .panel .multi-bullets .status.black,
-body.xd .panel .multi-bullets #inpipeline .status.black,
-body.xd #inpipeline .icons-booked,
-body.xd #inpipeline .icons-half-booked,
-body.xd #inpipeline .icons-incoming,
-body.xd #inpipeline .panel .availability .status.white,
-body.xd .panel .availability #inpipeline .status.white,
-body.xd #inpipeline .panel .color-key .status.white,
-body.xd .panel .color-key #inpipeline .status.white,
-body.xd #inpipeline .panel .multi-bullets .status.white,
-body.xd .panel .multi-bullets #inpipeline .status.white,
-body.xd #inpipeline .icons-project-alert,
-body.xd #inpipeline .panel .availability .status.red,
-body.xd .panel .availability #inpipeline .status.red,
-body.xd #inpipeline .panel .color-key .status.red,
-body.xd .panel .color-key #inpipeline .status.red,
-body.xd #inpipeline .panel .multi-bullets .status.red,
-body.xd .panel .multi-bullets #inpipeline .status.red,
-body.xd #inpipeline .icons-project-ontrack,
-body.xd #inpipeline .panel .availability .status.blue,
-body.xd .panel .availability #inpipeline .status.blue,
-body.xd #inpipeline .panel .color-key .status.blue,
-body.xd .panel .color-key #inpipeline .status.blue,
-body.xd #inpipeline .panel .multi-bullets .status.blue,
-body.xd .panel .multi-bullets #inpipeline .status.blue,
-body.xd #inpipeline .icons-project-warning,
-body.xd #inpipeline .panel .availability .status.yellow,
-body.xd .panel .availability #inpipeline .status.yellow,
-body.xd #inpipeline .panel .color-key .status.yellow,
-body.xd .panel .color-key #inpipeline .status.yellow,
-body.xd #inpipeline .panel .multi-bullets .status.yellow,
-body.xd .panel .multi-bullets #inpipeline .status.yellow {
-  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/inflight.png") no-repeat;
+body.xd div[data-panel-id="inpipeline"].panel {
+  /** INCOMING **/
+}
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow, body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue, body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
   width: 14px;
-  height: 14px;
+  height: 17px;
+}
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow {
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png");
+}
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue {
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png");
+}
+body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
+body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
+  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png");
 }
 body.xd .xd-footer {
   padding: 20px;

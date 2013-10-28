@@ -1,5 +1,27 @@
+function init() {
+if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+     var ieversion=new Number(RegExp.$1);// capture x.x portion and store as a number
+     if (ieversion<=8){
+        $('html').addClass('lt-ie8');
+     }
+     
+    }
+}
+window.onload = init;
+ 
 
 $(document).ready(function(e){
+
+
+  if($("div:not").hasClass("caroufredsel_wrapper")){
+
+  }
+  else{
+
+  }
+
+
+
 /**var head= $('.ms-viewheadertr'),
     headText = head.html();
     //**Takking the headers out as thead elements
@@ -106,5 +128,25 @@ var table = $('#main-content table'),
       }
       resetTable();
       $(window).resize(function(e){ resetTable(); });
+
+
+      // Dialog sizes
+
+
+/**
+      var width = $('.ms-dialog #main-content').width();
+
+      $('.ms-dlgFrameContainer').css({
+        width: width + '!important',
+      }); **/
+      // Detect IE
+
+      // IE feature detection
+   if($("div").attr("id") != "gridBoard") {
+    $("body").removeClass("internal");
+  } else {
+    
+  }
+
 });
 
