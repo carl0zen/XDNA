@@ -137,6 +137,11 @@ html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
   display: none !important;
 }
 
+html.ms-dialog body.xd.system .ms-inputformdescription {
+  padding-left: 6px;
+  padding-right: 9px;
+}
+
 .ms-dlgFrameContainer {
   overflow: hidden !important;
   width: 100% !important;
@@ -185,9 +190,6 @@ html.ms-dialog #s4-workspace .s4-ca #main-content > table > tbody {
 }
 html.ms-dialog .ms-authoringcontrols {
   background-color: #f6f6f6;
-}
-html.ms-dialog .ms-inputformheader {
-  padding-left: 0px;
 }
 html.ms-dialog table {
   font-size: 12px;
@@ -274,8 +276,8 @@ body.xd.system .ms-listviewtable .ms-alternating {
   background-color: #f5f5f5;
 }
 body.xd.system td.ms-authoringcontrols {
-  padding: 7px;
-  line-height: 1.7em;
+  /*padding: 7px;
+  line-height: 1.7em;*/
 }
 body.xd.system td.ms-authoringcontrols label {
   font-size: 1.2em;
