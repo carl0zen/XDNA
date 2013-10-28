@@ -146,7 +146,7 @@ html.ms-dialog #wrapper {
   width: 100%;
 }
 html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
-  display: none;
+  display: none !important;
 }
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;

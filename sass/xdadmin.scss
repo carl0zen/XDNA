@@ -33,7 +33,7 @@ html.ms-dialog {
   		width: 100%;
 	}
 	body.xd.system #s4-leftpanel[role="complementary"]{
-		display: none;
+		display: none !important;
 	}
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
