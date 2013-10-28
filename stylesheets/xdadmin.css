@@ -555,7 +555,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     border-bottom: 1px solid #ccc;
   }
   html:not(.ms-dialog) body.xd #main-content #onetidMngCytpeRptrTable td, html.not-dialog body.xd #main-content #onetidMngCytpeRptrTable td {
-    display: table-cell;
     padding: 15px 16px;
     text-indent: 10px;
   }
