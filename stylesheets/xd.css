@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -733,7 +733,7 @@ body.xd.internal .ms-WPHeader td:hover, body.xd.internal .ms-fakewptitle:hover {
   border-bottom: 2px solid #fe6601;
 }
 body.xd.internal .xd-content-editor h3 {
-  font-size: 2em;
+  font-size: 1.3em;
   font-family: Segoe UI;
   font-weight: lighter;
   background-color: #009FD9;
