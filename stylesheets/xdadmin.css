@@ -139,18 +139,21 @@ html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
 
 .ms-dlgFrameContainer {
   overflow: hidden !important;
-  width: 150% !important;
+  width: 100% !important;
 }
 
 .ms-dglContent {
-  width: 150% !important;
+  width: 100% !important;
 }
 
 html.ms-dialog #wrapper {
-  width: 150%;
+  width: 100%;
 }
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
+}
+html.ms-dialog .ms-inputformdescription {
+  padding: 10px;
 }
 html.ms-dialog .ms-sectionheader h3.ms-standardheader {
   font-size: 1.1em;
@@ -161,7 +164,6 @@ html.ms-dialog > table > td.ms-descriptiontext {
   font-size: 11px;
   line-height: 1.1em;
   display: table;
-  padding: 7px;
 }
 html.ms-dialog > table > td.ms-descriptiontext table {
   text-align: center;
@@ -174,7 +176,7 @@ html.ms-dialog #s4-workspace .s4-ca #main-content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   margin: 0;
   /* padding: 15px; */
-  width: 150%;
+  width: 100%;
   min-height: 1px;
 }
 html.ms-dialog #s4-workspace .s4-ca #main-content > table {
@@ -193,12 +195,6 @@ html.ms-dialog .ms-inputformheader {
 }
 html.ms-dialog table {
   font-size: 12px;
-}
-html.ms-dialog table tr th, html.ms-dialog table tr td {
-  padding: 0.3em;
-}
-html.ms-dialog table tr td {
-  padding: 7px;
 }
 html.ms-dialog .s4-pr {
   width: 100% !important;
