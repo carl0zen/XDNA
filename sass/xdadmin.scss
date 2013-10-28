@@ -23,33 +23,42 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"]{
 		display: none !important;
 	}
+html.ms-dialog body.xd.system .ms-inputformdescription{
+		padding:10px  !important;
+	}
+html.ms-dialog body.xd.system .ms-descriptiontext{
+	padding-left:7px;
+	padding-right:7px;
+}
 
 .ms-dlgFrameContainer {
 			overflow: hidden !important;
-			width:150% !important;
+			width:100% !important;
 		}
 		.ms-dglContent {
-			width:150% !important ;
+			width:100% !important ;
 		}
 html.ms-dialog {
 	#wrapper {
-  		width: 150%;
+  		width: 100%;
 	}
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
+	}
+	.ms-inputformdescription{
+		padding:10px  !important;
 	}
 	.ms-sectionheader{
 		h3.ms-standardheader{
 			font-size: 1.1em;
 			line-height: 1.4;
-			font-weight: bold;
+			font-weight: bold
 		}
 	}
 	> table > td.ms-descriptiontext{
 		font-size: 11px;
 		line-height: 1.1em;
 		display: table;
-		padding:7px;
 		table{
 			text-align: center;
 		}
@@ -62,7 +71,7 @@ html.ms-dialog {
 		background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 		margin: 0;
 		/* padding: 15px; */
-		width: 150%;
+		width: 100%;
 		min-height: 1px;
 		> table{
 			margin:0;
@@ -82,14 +91,6 @@ html.ms-dialog {
 	}
 	table{
 		font-size: 12px;
-		tr{
-			th,td{
-				 padding: 0.3em;
-			}
-			td{
-				padding:7px;
-			}
-		}
 	}
 	.s4-pr
 	{
