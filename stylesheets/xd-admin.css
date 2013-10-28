@@ -262,7 +262,7 @@ html.not-dialog body.xd.system #main-content[role="main"] {
   overflow: hidden !important;
   /* Table Helpers only in main content */
 }
-html.not-dialog body.xd.system #main-content[role="main"] .sidebar-button.button {
+html.not-dialog body.xd.system #main-content[role="main"] #sidebarButton {
   background-image: url(img/sidebar-icon.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
