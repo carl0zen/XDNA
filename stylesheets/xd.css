@@ -530,6 +530,9 @@ body.xd #main-content .panel hr {
 body.xd #main-content .panel p, body.xd #main-content .panel a, body.xd #main-content .panel li {
   color: #333333 !important;
 }
+body.xd #main-content .panel p {
+  font-size: 1em;
+}
 body.xd #main-content .panel span {
   color: #666;
 }
