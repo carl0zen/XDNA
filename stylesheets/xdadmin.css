@@ -145,6 +145,9 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog #wrapper {
   width: 100%;
 }
+html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
+  display: none;
+}
 html.ms-dialog .xd-header, html.ms-dialog .menu-icon, html.ms-dialog .sidebar-button, html.ms-dialog .xd-footer {
   display: none !important;
 }
@@ -180,8 +183,17 @@ html.ms-dialog #s4-workspace .s4-ca #main-content > table > tbody {
   display: block;
   width: 100%;
 }
+html.ms-dialog .ms-authoringcontrols {
+  background-color: #f6f6f6;
+}
+html.ms-dialog .ms-inputformheader {
+  padding-left: 0px;
+}
 html.ms-dialog table {
   font-size: 12px;
+}
+html.ms-dialog table tr th, html.ms-dialog table tr td {
+  padding: 0.3em;
 }
 html.ms-dialog .s4-pr {
   width: 100% !important;
