@@ -491,6 +491,9 @@ body.xd .mobile-submenu {
   clear: both;
 }
 body.xd #main-content {
+  overflow: hidden;
+  *zoom: 1;
+  height: auto !important;
   width: 100%;
   position: relative;
   -webkit-background-size: cover;
@@ -504,7 +507,7 @@ body.xd #main-content ul.color-key.wide li {
 }
 body.xd #main-content .welcome-content {
   margin: 0;
-  padding: 25px 0;
+  padding: 0 0;
 }
 body.xd #main-content #gridBoard {
   background: none;
@@ -660,6 +663,12 @@ body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
 }
+body.xd #carNext.disabled:hover, body.xd #carNext.disabled:active,
+body.xd #carPrev.disabled:hover,
+body.xd #carPrev.disabled:active {
+  opacity: 0.5;
+  cursor: default;
+}
 body.xd #carPrev {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png");
 }
@@ -684,9 +693,12 @@ body.xd .s4-ca > div.xd-title {
   display: none;
 }
 body.xd .s4-ca > div.xd-title {
-  -moz-font-feature-settings: "kern";
   font-weight: 200;
   line-height: 50px;
+  border-bottom: 1px solid #cccccc;
+}
+body.xd .s4-ca > div.xd-title h1 {
+  font-size: 2em;
 }
 body.xd.internal .s4-ca > div.xd-title {
   display: block;
@@ -707,6 +719,7 @@ body.xd.internal #main-content {
 }
 body.xd.internal .ms-WPHeader td, body.xd.internal .ms-fakewptitle {
   background-color: #009FD9;
+  border-bottom: 2px solid #fe6601;
 }
 body.xd.internal .ms-WPHeader td h3, body.xd.internal .ms-fakewptitle h3 {
   font-size: 1.3em;
@@ -714,6 +727,17 @@ body.xd.internal .ms-WPHeader td h3, body.xd.internal .ms-fakewptitle h3 {
   font-weight: lighter;
 }
 body.xd.internal .ms-WPHeader td h3 > a, body.xd.internal .ms-fakewptitle h3 > a {
+  color: #ffffff;
+}
+body.xd.internal .ms-WPHeader td:hover, body.xd.internal .ms-fakewptitle:hover {
+  border-bottom: 2px solid #fe6601;
+}
+body.xd.internal .xd-content-editor h3 {
+  font-size: 2em;
+  font-family: Segoe UI;
+  font-weight: lighter;
+  background-color: #009FD9;
+  border-bottom: 2px solid #fe6601;
   color: #ffffff;
 }
 body.xd .s4-tn {
@@ -997,9 +1021,9 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     padding: 0px;
   }
 }
-@media only screen and (min-width: 769px) {
-  body.xd .menu-icon {
-    display: none;
+@media only screen and (max-width: 768px) {
+  html body.xd .menu-icon {
+    display: block;
   }
 }
 @media only screen and (max-width: 620px) {
