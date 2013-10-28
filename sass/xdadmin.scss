@@ -31,6 +31,9 @@ html.ms-dialog {
 	#wrapper {
   		width: 100%;
 	}
+	#s4-leftpanel{
+		display: none;
+	}
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
 	}
@@ -54,7 +57,6 @@ html.ms-dialog {
 		background: none !important;
 	}
 	#s4-workspace .s4-ca #main-content{
-
 		background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 		margin: 0;
 		/* padding: 15px; */
@@ -69,10 +71,20 @@ html.ms-dialog {
 				width:100%;
 			}
 		}
-		
+	}
+	.ms-authoringcontrols{
+		background-color: #f6f6f6;
+	}
+	.ms-inputformheader{
+		padding-left: 0px;
 	}
 	table{
 		font-size: 12px;
+		tr{
+			th,td{
+				 padding: 0.3em;
+			}
+		}
 	}
 	.s4-pr
 	{
