@@ -648,6 +648,10 @@ body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
 }
+body.xd #carNext #carPrev,
+body.xd #carPrev #carPrev {
+  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/chevron-left.png");
+}
 body.xd:hover, body.xd:active {
   background-color: #00B0E2;
   opacity: 1;
