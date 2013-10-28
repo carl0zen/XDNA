@@ -262,17 +262,17 @@ html.not-dialog body.xd.system #main-content[role="main"] {
   overflow: hidden !important;
   /* Table Helpers only in main content */
 }
-html.not-dialog body.xd.system #main-content[role="main"] #sidebarButton {
+html.not-dialog body.xd.system #main-content[role="main"] .sidebar-button.button {
   background-image: url(img/sidebar-icon.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
   transition-duration: 0.2s;
   transition-property: all;
   transition-timing-function: ease;
-  display: none;
+  display: none !important;
 }
 html.not-dialog body.xd.system #main-content[role="main"] .button {
-  display: none;
+  display: none !important;
 }
 html.not-dialog body.xd.system #main-content[role="main"] .ms-menutoolbar td {
   padding: 0px 2px;
@@ -580,4 +580,7 @@ html:not(.ms-dialog) body.xd.system td.ms-authoringcontrols label {
     text-indent: -999999px;
     background-position: 50% center !important;
   }
+}
+html body .button {
+  display: none;
 }

@@ -253,17 +253,17 @@
 			float:none;
 			overflow:hidden !important;
 			@extend .box-sizing; 
-			#sidebarButton{
+			.sidebar-button.button{
 				background-image:url(img/sidebar-icon.png);
 				background-repeat:no-repeat;
 				background-position:90% 50%;
 				transition-duration: 0.2s;
 				transition-property: all;
 				transition-timing-function: ease; 
-				display:none;
+				display:none !important;
 			}
 			.button{ 
-				display:none;
+				display:none !important;
 			}
 
 			/* Table Helpers only in main content */
@@ -590,4 +590,9 @@
 				background-position:50% center !important;
 			}
 		}
+	}
+
+
+	html body .button {
+	  display: none;
 	}
