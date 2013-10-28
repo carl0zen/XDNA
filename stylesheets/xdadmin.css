@@ -274,8 +274,8 @@ body.xd.system .ms-listviewtable .ms-alternating {
   background-color: #f5f5f5;
 }
 body.xd.system td.ms-authoringcontrols {
-  padding: 7px;
-  line-height: 1.7em;
+  /*padding: 7px;
+  line-height: 1.7em;*/
 }
 body.xd.system td.ms-authoringcontrols label {
   font-size: 1.2em;
