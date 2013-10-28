@@ -844,7 +844,7 @@ body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
 }
 body.xd .xd-footer {
   padding: 20px;
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
 }
 body.xd.v4master {
