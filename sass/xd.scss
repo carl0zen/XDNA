@@ -500,10 +500,54 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   .s4-ca > div.s4-notdlg.xd-title {
     display:none
   }
+<<<<<<< HEAD
   .s4-tn{
     max-width: 1320px;
     margin:0 auto;
   }
+=======
+
+  .s4-ca > div.xd-title {
+    -moz-font-feature-settings: "kern";    
+    
+    font-weight: 200;
+    line-height: 50px;    
+}
+
+&.internal
+{
+    .s4-ca > div.xd-title {    
+        display: block;    
+        max-width: 1320px; margin:0 auto !important;
+        
+        h1{
+          font-weight: lighter; 
+        }
+
+    } 
+
+  #main-content 
+  {        
+      @include box-sizing(border-box);
+      background: none repeat scroll 0 0 #FFFFFF;
+      margin: 0 auto !important;
+      max-width: 1320px;
+      padding: 20px;      
+  }
+  
+  .ms-WPHeader td, .ms-fakewptitle {
+        background-color: #FAFAFA;   
+        h3{font-size: 1.3em; font-family: Segoe UI; font-weight: lighter; }
+  }
+
+}
+ 
+
+  .s4-tn{
+    max-width: 1320px;
+    margin:0 auto;
+  }   
+>>>>>>> 15ffaa5e87cf11060460e18fae0bd7c36db6eae9
 
   html input[type="button"], input[type="reset"], input[type="submit"] {
     
