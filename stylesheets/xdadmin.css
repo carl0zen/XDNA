@@ -141,6 +141,11 @@ html.ms-dialog body.xd.system .ms-inputformdescription {
   padding: 10px  !important;
 }
 
+html.ms-dialog body.xd.system .ms-descriptiontext {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
 .ms-dlgFrameContainer {
   overflow: hidden !important;
   width: 100% !important;
