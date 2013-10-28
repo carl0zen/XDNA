@@ -14,10 +14,6 @@ body.xd{
       overflow: auto;
       #s4-workspace{overflow: visible; height: auto !important;} 
     }
-    #main-content
-    {
-      p{font-size: 1em}
-    }
     .menu-icon{
         background: darken($blue, 10%);
         width:45px;
@@ -373,7 +369,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       p,a, li{
         color: $black !important;
       }
-      }
+      p{font-size: 1em}
       span{
         color: #666;
       }
