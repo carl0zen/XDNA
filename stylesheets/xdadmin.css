@@ -837,6 +837,8 @@ html.ms-dialog body.xd.system .ms-long {
 html.ms-dialog body.xd.system .ms-inputformdescription {
   padding-left: 6px;
   padding-right: 9px;
+  font-size: 11px;
+  display: block;
 }
 html.ms-dialog body.xd.system .ms-ButtonHeightWidth {
   font: 8pt tahoma;
