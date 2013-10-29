@@ -18,7 +18,7 @@
   display: inline-block;
 }
 
-.pointer:hover, html:not(.ms-dialog) body.xd .menu-icon:hover {
+.pointer:hover, html body.xd .menu-icon:hover {
   cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ html {
   background: #efefef;
 }
 
-html:not(.ms-dialog) body.xd {
+html body.xd {
   /* ==========================================================================
    INDEX
    1.0 Master Page Wrappers and GLOBAL
@@ -227,14 +227,14 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
   /* Header Search SharePoint Web Parts*/
   /* Main Content & Arrows  */
 }
-html:not(.ms-dialog) body.xd.reader {
+html body.xd.reader {
   overflow: auto;
 }
-html:not(.ms-dialog) body.xd.reader #s4-workspace {
+html body.xd.reader #s4-workspace {
   overflow: visible;
   height: auto !important;
 }
-html:not(.ms-dialog) body.xd .menu-icon {
+html body.xd .menu-icon {
   background: #97caeb;
   width: 45px;
   height: 45px;
@@ -255,60 +255,60 @@ html:not(.ms-dialog) body.xd .menu-icon {
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
-html:not(.ms-dialog) body.xd .menu-icon:hover {
+html body.xd .menu-icon:hover {
   background: #add5ef;
 }
-html:not(.ms-dialog) body.xd .mobile-submenu {
+html body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-html:not(.ms-dialog) body.xd div[id*="TopNavigationMenuV4"] {
+html body.xd div[id*="TopNavigationMenuV4"] {
   display: none;
 }
-html:not(.ms-dialog) body.xd #ctl00_MSO_ContentDiv,
-html:not(.ms-dialog) body.xd #s4-bodyContainer {
+html body.xd #ctl00_MSO_ContentDiv,
+html body.xd #s4-bodyContainer {
   min-width: 320px;
 }
-html:not(.ms-dialog) body.xd #s4-leftpanel {
+html body.xd #s4-leftpanel {
   display: none;
 }
-html:not(.ms-dialog) body.xd .s4-ca {
+html body.xd .s4-ca {
   margin-left: 0px;
 }
-html:not(.ms-dialog) body.xd hr {
+html body.xd hr {
   border-bottom: none;
 }
-html:not(.ms-dialog) body.xd .xd-header {
+html body.xd .xd-header {
   background-color: #009fd9;
   padding: 30px;
 }
-html:not(.ms-dialog) body.xd .xd-header h1 {
+html body.xd .xd-header h1 {
   display: inline-block;
   font-weight: lighter;
   margin: 0px;
   margin-top: 0px;
 }
-html:not(.ms-dialog) body.xd .xd-header h1 a {
+html body.xd .xd-header h1 a {
   color: #fff;
   margin-left: 20px;
   font-size: 0.9em;
   font-family: "Segoe UI";
   font-size: 1.2em;
 }
-html:not(.ms-dialog) body.xd .xd-header .s4-notdlg {
+html body.xd .xd-header .s4-notdlg {
   display: inline-block;
 }
-html:not(.ms-dialog) body.xd .xd-header .s4-notdlg img {
+html body.xd .xd-header .s4-notdlg img {
   max-height: 38px;
   max-width: 137px;
 }
-html:not(.ms-dialog) body.xd .xd-header .row {
+html body.xd .xd-header .row {
   max-width: 1320px;
 }
-html:not(.ms-dialog) body.xd .xd-header .s4-clust.ms-viewselector-arrow {
+html body.xd .xd-header .s4-clust.ms-viewselector-arrow {
   display: none;
 }
-html:not(.ms-dialog) body.xd .xd-welcome {
+html body.xd .xd-welcome {
   clear: both;
   overflow: hidden;
   display: inline-block;
@@ -318,64 +318,64 @@ html:not(.ms-dialog) body.xd .xd-welcome {
   font-size: 1.2em;
   color: #fff;
 }
-html:not(.ms-dialog) body.xd .xd-welcome .ms-welcomeMenu,
-html:not(.ms-dialog) body.xd .xd-welcome .s4-trc-container-menu {
+html body.xd .xd-welcome .ms-welcomeMenu,
+html body.xd .xd-welcome .s4-trc-container-menu {
   background: none;
   padding: 0px;
   margin: 0px;
   font-family: "Segoe UI";
 }
-html:not(.ms-dialog) body.xd .xd-welcome #auth {
+html body.xd .xd-welcome #auth {
   margin-right: 0px;
   margin-top: 0px;
   line-height: inherit;
 }
-html:not(.ms-dialog) body.xd .xd-welcome #auth .thumb {
+html body.xd .xd-welcome #auth .thumb {
   margin-left: 20px;
   line-height: inherit;
 }
-html:not(.ms-dialog) body.xd .xd-welcome #auth .thumbCrop {
+html body.xd .xd-welcome #auth .thumbCrop {
   border-radius: 100%;
   width: 40px;
   height: 40px;
 }
-html:not(.ms-dialog) body.xd .xd-welcome #auth img {
+html body.xd .xd-welcome #auth img {
   min-height: 1px;
   margin: 0;
 }
-html:not(.ms-dialog) body.xd .xd-welcome a {
+html body.xd .xd-welcome a {
   color: #fff;
 }
-html:not(.ms-dialog) body.xd .xd-welcome > img {
+html body.xd .xd-welcome > img {
   margin-left: 20px;
 }
-html:not(.ms-dialog) body.xd .xd-welcome .s4-trc-container-menu {
+html body.xd .xd-welcome .s4-trc-container-menu {
   margin-top: 22px;
 }
-html:not(.ms-dialog) body.xd .xd-welcome #zz16_Menu > span:before {
+html body.xd .xd-welcome #zz16_Menu > span:before {
   content: "Ã¢â€“Â¼";
   display: inline-block;
   float: right;
   font-size: 11px;
   margin-right: 0px;
 }
-html:not(.ms-dialog) body.xd .xd-welcome .s4-clust.ms-viewselector-arrow > img {
+html body.xd .xd-welcome .s4-clust.ms-viewselector-arrow > img {
   display: none;
 }
-html:not(.ms-dialog) body.xd .xd-welcome .welcome {
+html body.xd .xd-welcome .welcome {
   color: #fff;
   display: inline-block;
   font-weight: bold;
 }
-html:not(.ms-dialog) body.xd .xd-search {
+html body.xd .xd-search {
   display: inline-block;
   float: right;
   display: none;
 }
-html:not(.ms-dialog) body.xd .xd-search .ms-sbplain {
+html body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
-html:not(.ms-dialog) body.xd .xd-search input {
+html body.xd .xd-search input {
   margin: 0px;
   padding: 0 0 0 5px;
   height: 19px;
@@ -387,85 +387,85 @@ html:not(.ms-dialog) body.xd .xd-search input {
   font-style: normal;
   font-size: 1em;
 }
-html:not(.ms-dialog) body.xd .xd-search td img {
+html body.xd .xd-search td img {
   display: none;
 }
-html:not(.ms-dialog) body.xd .xd-search td:first-child {
+html body.xd .xd-search td:first-child {
   display: block;
 }
-html:not(.ms-dialog) body.xd .xd-search td:nth-of-type(2) {
+html body.xd .xd-search td:nth-of-type(2) {
   background-color: #fff;
 }
-html:not(.ms-dialog) body.xd .xd-search td a {
+html body.xd .xd-search td a {
   height: 20px;
   width: 20px;
   display: inline-block;
   background: url("img/Search-Find.png") -7px -5px;
 }
-html:not(.ms-dialog) body.xd .xd-menu {
+html body.xd .xd-menu {
   background-color: #fff;
   padding: 0 30px;
   border-top: solid 2px #fe6601;
   overflow: visible;
   line-height: 10px;
 }
-html:not(.ms-dialog) body.xd .xd-menu .s4-tn li.static > .menu-item {
+html body.xd .xd-menu .s4-tn li.static > .menu-item {
   height: 100%;
   color: #7FD7F1;
   padding: 17px;
   text-transform: uppercase;
   font-size: 14px;
 }
-html:not(.ms-dialog) body.xd .xd-menu .menu ul li:first-child .menu-item {
+html body.xd .xd-menu .menu ul li:first-child .menu-item {
   color: #999;
 }
-html:not(.ms-dialog) body.xd .xd-menu .menu li.selected {
+html body.xd .xd-menu .menu li.selected {
   border-top: 4px solid #fe6601;
   line-height: 2px;
 }
-html:not(.ms-dialog) body.xd .xd-menu .menu li.selected .menu-item {
+html body.xd .xd-menu .menu li.selected .menu-item {
   color: #F9F9FB;
 }
-html:not(.ms-dialog) body.xd .xd-menu .s4-tn ul.dynamic {
+html body.xd .xd-menu .s4-tn ul.dynamic {
   border: none;
 }
-html:not(.ms-dialog) body.xd .xd-menu .s4-tn li.static .menu-item {
+html body.xd .xd-menu .s4-tn li.static .menu-item {
   height: 100%;
   color: #2F2F2F;
   padding: 18px;
   text-transform: uppercase;
   font-size: 1.2em;
 }
-html:not(.ms-dialog) body.xd .xd-menu .s4-tn li.static .menu-item:hover {
+html body.xd .xd-menu .s4-tn li.static .menu-item:hover {
   background-color: #f9f9f9;
   text-decoration: none;
 }
-html:not(.ms-dialog) body.xd .xd-menu .s4-tn li {
+html body.xd .xd-menu .s4-tn li {
   line-height: 6px;
   font-weight: normal;
 }
-html:not(.ms-dialog) body.xd .xd-menu .static.dynamic-children li a:hover {
+html body.xd .xd-menu .static.dynamic-children li a:hover {
   background-color: #0088af;
 }
-html:not(.ms-dialog) body.xd .xd-menu li.static.dynamic-children.hover {
+html body.xd .xd-menu li.static.dynamic-children.hover {
   background-color: #f9f9f9;
 }
-html:not(.ms-dialog) body.xd .menu-horizontal a.dynamic-children span.additional-background,
-html:not(.ms-dialog) body.xd .menu-horizontal span.dynamic-children span.additional-background {
+html body.xd .menu-horizontal a.dynamic-children span.additional-background,
+html body.xd .menu-horizontal span.dynamic-children span.additional-background {
   background-image: none;
   /*background-image:url("img/drop-down-arrow.png");*/
   background-position: right 5px;
   padding-right: 15px;
 }
-html:not(.ms-dialog) body.xd .menu-horizontal a.dynamic-children span.additional-background:before,
-html:not(.ms-dialog) body.xd .menu-horizontal span.dynamic-children span.additional-background:before {
+html body.xd .menu-horizontal a.dynamic-children span.additional-background:before,
+html body.xd .menu-horizontal span.dynamic-children span.additional-background:before {
   content: "▼";
   display: inline-block;
   float: right;
   font-size: 11px;
   margin-right: -20px;
 }
-html:not(.ms-dialog) body.xd .menu-icon {
+html body.xd .menu-icon {
   display: none;
   width: 100%;
   right: 0;
@@ -483,14 +483,14 @@ html:not(.ms-dialog) body.xd .menu-icon {
   color: #2e2e2e;
   height: 3.3em;
 }
-html:not(.ms-dialog) body.xd .menu-icon:hover {
+html body.xd .menu-icon:hover {
   background-color: #f9f9f9;
 }
-html:not(.ms-dialog) body.xd .mobile-submenu {
+html body.xd .mobile-submenu {
   display: none;
   clear: both;
 }
-html:not(.ms-dialog) body.xd #main-content {
+html body.xd #main-content {
   overflow: hidden;
   *zoom: 1;
   width: 100%;
@@ -501,105 +501,105 @@ html:not(.ms-dialog) body.xd #main-content {
   background-size: cover;
   background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
 }
-html:not(.ms-dialog) body.xd #main-content ul.color-key li {
+html body.xd #main-content ul.color-key li {
   font-size: 11px;
 }
-html:not(.ms-dialog) body.xd #main-content .welcome-content {
+html body.xd #main-content .welcome-content {
   margin: 0;
   padding: 0 0;
 }
-html:not(.ms-dialog) body.xd #main-content #gridBoard {
+html body.xd #main-content #gridBoard {
   background: none;
 }
-html:not(.ms-dialog) body.xd #main-content .panel {
+html body.xd #main-content .panel {
   background: #C6C7C9;
   border: 1px solid transparent;
   background: #c6c7c9;
   /* The Fallback */
   background: rgba(198, 199, 201, 0.4);
 }
-html:not(.ms-dialog) body.xd #main-content .panel h3 {
+html body.xd #main-content .panel h3 {
   color: #88888c;
   font-size: 35px;
   font-weight: 300;
 }
-html:not(.ms-dialog) body.xd #main-content .panel hr {
+html body.xd #main-content .panel hr {
   display: none;
 }
-html:not(.ms-dialog) body.xd #main-content .panel p, html:not(.ms-dialog) body.xd #main-content .panel a, html:not(.ms-dialog) body.xd #main-content .panel li {
+html body.xd #main-content .panel p, html body.xd #main-content .panel a, html body.xd #main-content .panel li {
   color: #333333 !important;
 }
-html:not(.ms-dialog) body.xd #main-content .panel p {
+html body.xd #main-content .panel p {
   font-size: 1em;
 }
-html:not(.ms-dialog) body.xd #main-content .panel span {
+html body.xd #main-content .panel span {
   color: #666;
 }
-html:not(.ms-dialog) body.xd #main-content .panel ul {
+html body.xd #main-content .panel ul {
   background: none;
 }
-html:not(.ms-dialog) body.xd #main-content .panel ul.bullet li {
+html body.xd #main-content .panel ul.bullet li {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png") no-repeat top left;
 }
-html:not(.ms-dialog) body.xd #main-content .panel:before {
+html body.xd #main-content .panel:before {
   display: none;
 }
-html:not(.ms-dialog) body.xd #main-content .panel.featured, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] {
+html body.xd #main-content .panel.featured, html body.xd #main-content .panel[data-panel-id="teamstatus"] {
   background: #00ADEE;
 }
-html:not(.ms-dialog) body.xd #main-content .panel.featured h2, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] h2 {
+html body.xd #main-content .panel.featured h2, html body.xd #main-content .panel[data-panel-id="teamstatus"] h2 {
   font-weight: lighter;
 }
-html:not(.ms-dialog) body.xd #main-content .panel.featured p, html:not(.ms-dialog) body.xd #main-content .panel.featured a, html:not(.ms-dialog) body.xd #main-content .panel.featured li, html:not(.ms-dialog) body.xd #main-content .panel.featured span, html:not(.ms-dialog) body.xd #main-content .panel.featured h3, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] p, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] a, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] li, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] span, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
+html body.xd #main-content .panel.featured p, html body.xd #main-content .panel.featured a, html body.xd #main-content .panel.featured li, html body.xd #main-content .panel.featured span, html body.xd #main-content .panel.featured h3, html body.xd #main-content .panel[data-panel-id="teamstatus"] p, html body.xd #main-content .panel[data-panel-id="teamstatus"] a, html body.xd #main-content .panel[data-panel-id="teamstatus"] li, html body.xd #main-content .panel[data-panel-id="teamstatus"] span, html body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
   color: #fefefe !important;
 }
-html:not(.ms-dialog) body.xd #main-content .panel.featured .status span.authorTitle, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
+html body.xd #main-content .panel.featured .status span.authorTitle, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
   color: #525252 !important;
 }
-html:not(.ms-dialog) body.xd #main-content .panel.featured .status p, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
+html body.xd #main-content .panel.featured .status p, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
   padding-left: 80px;
 }
-html:not(.ms-dialog) body.xd #main-content .panel.featured p, html:not(.ms-dialog) body.xd #main-content .panel[data-panel-id="teamstatus"] p {
+html body.xd #main-content .panel.featured p, html body.xd #main-content .panel[data-panel-id="teamstatus"] p {
   margin: 10px 0;
 }
-html:not(.ms-dialog) body.xd #main-content .panel .thumbCrop {
+html body.xd #main-content .panel .thumbCrop {
   border-radius: 100%;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.yellow {
   background: #f39c12 !important;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.red {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.red {
   background: #e74c3c !important;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .color-key .status.green {
   background: #27ae60 !important;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .details {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .details {
   width: 80%;
   float: left;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters {
   display: none;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li {
   display: inline-block;
   margin-right: 9px;
   font-size: 14px;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li a {
   color: #666;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability .filters li.selected a {
   color: #27ae60 !important;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability li {
   display: block;
   clear: both;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability li .status {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability li .status {
   float: right;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability .author {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability .author {
   text-decoration: none !important;
   font-size: 26px;
   float: left;
@@ -609,11 +609,11 @@ html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembe
   line-height: 120%;
   color: #333333;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .availability .authorTitle {
   float: left;
   clear: both;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc {
   width: 15% !important;
   height: 60px !important;
   line-height: 60px;
@@ -623,28 +623,28 @@ html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembe
   display: block;
   font-size: 24px;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.yellow {
   background: #f39c12;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.green {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.green {
   background: #27ae60;
 }
-html:not(.ms-dialog) body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.red {
+html body.xd #main-content div[data-panel-id="availableteammembers"] .authorLoc.status.red {
   background: #e74c3c;
 }
-html:not(.ms-dialog) body.xd #carPaginate {
+html body.xd #carPaginate {
   margin-bottom: 25px !important;
   height: 5px !important;
   overflow: hidden;
 }
-html:not(.ms-dialog) body.xd #carPaginate a:active {
+html body.xd #carPaginate a:active {
   box-shadow: none;
 }
-html:not(.ms-dialog) body.xd #carPaginate a.selected {
+html body.xd #carPaginate a.selected {
   background-color: #009fd9;
 }
-html:not(.ms-dialog) body.xd #carNext,
-html:not(.ms-dialog) body.xd #carPrev {
+html body.xd #carNext,
+html body.xd #carPrev {
   margin-left: 0;
   margin-right: 0;
   opacity: .9;
@@ -659,58 +659,58 @@ html:not(.ms-dialog) body.xd #carPrev {
   margin-top: -65px;
   opacity: 0.5;
 }
-html:not(.ms-dialog) body.xd #carNext:hover, html:not(.ms-dialog) body.xd #carNext:focus,
-html:not(.ms-dialog) body.xd #carPrev:hover,
-html:not(.ms-dialog) body.xd #carPrev:focus {
+html body.xd #carNext:hover, html body.xd #carNext:focus,
+html body.xd #carPrev:hover,
+html body.xd #carPrev:focus {
   box-shadow: none;
   opacity: 1;
 }
-html:not(.ms-dialog) body.xd #carNext.disabled:hover, html:not(.ms-dialog) body.xd #carNext.disabled:active,
-html:not(.ms-dialog) body.xd #carPrev.disabled:hover,
-html:not(.ms-dialog) body.xd #carPrev.disabled:active {
+html body.xd #carNext.disabled:hover, html body.xd #carNext.disabled:active,
+html body.xd #carPrev.disabled:hover,
+html body.xd #carPrev.disabled:active {
   opacity: 0.5;
   cursor: default;
 }
-html:not(.ms-dialog) body.xd #carPrev {
+html body.xd #carPrev {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png");
 }
-html:not(.ms-dialog) body.xd #carNext {
+html body.xd #carNext {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-right.png");
 }
-html:not(.ms-dialog) body.xd:hover, html:not(.ms-dialog) body.xd:active {
+html body.xd:hover, html body.xd:active {
   background-color: #00B0E2;
   opacity: 1;
 }
-html:not(.ms-dialog) body.xd .caroufredsel_wrapper {
+html body.xd .caroufredsel_wrapper {
   margin: 0 auto !important;
 }
-html:not(.ms-dialog) body.xd img[id*="_PictureUrlImage"] {
+html body.xd img[id*="_PictureUrlImage"] {
   width: 60px;
   height: 60px;
 }
-html:not(.ms-dialog) body.xd .s4-ca > div.social-bar {
+html body.xd .s4-ca > div.social-bar {
   display: none;
 }
-html:not(.ms-dialog) body.xd .s4-ca > div.xd-title {
+html body.xd .s4-ca > div.xd-title {
   display: none;
 }
-html:not(.ms-dialog) body.xd .s4-ca > div.xd-title {
+html body.xd .s4-ca > div.xd-title {
   font-weight: 200;
   line-height: 50px;
   border-bottom: 1px solid #cccccc;
 }
-html:not(.ms-dialog) body.xd .s4-ca > div.xd-title h1 {
+html body.xd .s4-ca > div.xd-title h1 {
   font-size: 2em;
 }
-html:not(.ms-dialog) body.xd.internal .s4-ca > div.xd-title {
+html body.xd.internal .s4-ca > div.xd-title {
   display: block;
   max-width: 1320px;
   margin: 0 auto !important;
 }
-html:not(.ms-dialog) body.xd.internal .s4-ca > div.xd-title h1 {
+html body.xd.internal .s4-ca > div.xd-title h1 {
   font-weight: lighter;
 }
-html:not(.ms-dialog) body.xd.internal #main-content {
+html body.xd.internal #main-content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -719,7 +719,7 @@ html:not(.ms-dialog) body.xd.internal #main-content {
   max-width: 1320px;
   padding: 20px;
 }
-html:not(.ms-dialog) body.xd.internal #main-content .xd-content-editor h3 {
+html body.xd.internal #main-content .xd-content-editor h3 {
   font-size: 1.7em;
   font-family: Segoe UI;
   font-weight: lighter;
@@ -729,40 +729,40 @@ html:not(.ms-dialog) body.xd.internal #main-content .xd-content-editor h3 {
   text-indent: 5px;
   margin-bottom: 1em;
 }
-html:not(.ms-dialog) body.xd.internal #main-content .xd-content-editor p {
+html body.xd.internal #main-content .xd-content-editor p {
   font-size: 1em;
   margin: 0.5em 0;
   padding: 0 0 0 1em;
 }
-html:not(.ms-dialog) body.xd.internal #main-content .xd-content-editor .ms-rteStyle-Highlight {
+html body.xd.internal #main-content .xd-content-editor .ms-rteStyle-Highlight {
   background-color: #FFA500;
   color: #FFFFFF;
   display: inline-block;
   padding: 0.4em 0.6em;
 }
-html:not(.ms-dialog) body.xd.internal .ms-WPHeader td, html:not(.ms-dialog) body.xd.internal .ms-fakewptitle {
+html body.xd.internal .ms-WPHeader td, html body.xd.internal .ms-fakewptitle {
   background-color: #009FD9;
   border-bottom: 2px solid #fe6601;
 }
-html:not(.ms-dialog) body.xd.internal .ms-WPHeader td h3, html:not(.ms-dialog) body.xd.internal .ms-fakewptitle h3 {
+html body.xd.internal .ms-WPHeader td h3, html body.xd.internal .ms-fakewptitle h3 {
   font-size: 1.3em;
   font-family: Segoe UI;
   font-weight: lighter;
 }
-html:not(.ms-dialog) body.xd.internal .ms-WPHeader td h3 > a, html:not(.ms-dialog) body.xd.internal .ms-fakewptitle h3 > a {
+html body.xd.internal .ms-WPHeader td h3 > a, html body.xd.internal .ms-fakewptitle h3 > a {
   color: #ffffff;
 }
-html:not(.ms-dialog) body.xd.internal .ms-WPHeader td:hover, html:not(.ms-dialog) body.xd.internal .ms-fakewptitle:hover {
+html body.xd.internal .ms-WPHeader td:hover, html body.xd.internal .ms-fakewptitle:hover {
   border-bottom: 2px solid #fe6601;
 }
-html:not(.ms-dialog) body.xd .s4-tn {
+html body.xd .s4-tn {
   max-width: 1320px;
   margin: 0 auto;
 }
-html:not(.ms-dialog) body.xd input[type="button"].ms-ButtonHeightWidth,
-html:not(.ms-dialog) body.xd input[type="reset"].ms-ButtonHeightWidth,
-html:not(.ms-dialog) body.xd input[type="submit"].ms-ButtonHeightWidth,
-html:not(.ms-dialog) body.xd input[type="submit"] {
+html body.xd input[type="button"].ms-ButtonHeightWidth,
+html body.xd input[type="reset"].ms-ButtonHeightWidth,
+html body.xd input[type="submit"].ms-ButtonHeightWidth,
+html body.xd input[type="submit"] {
   border: none;
   padding: 0.7em 1.5em;
   color: #fff;
@@ -774,137 +774,137 @@ html:not(.ms-dialog) body.xd input[type="submit"] {
   height: auto;
   width: auto;
 }
-html:not(.ms-dialog) body.xd input[type="button"] {
+html body.xd input[type="button"] {
   background-color: #009fd9;
 }
-html:not(.ms-dialog) body.xd input[type="button"]:hover {
+html body.xd input[type="button"]:hover {
   background-color: #00b2f3;
 }
-html:not(.ms-dialog) body.xd input[type="reset"] {
+html body.xd input[type="reset"] {
   background-color: #006c8c;
 }
-html:not(.ms-dialog) body.xd input[type="reset"]:hover {
+html body.xd input[type="reset"]:hover {
   background-color: #0080a6;
 }
-html:not(.ms-dialog) body.xd input[type="submit"] {
+html body.xd input[type="submit"] {
   background-color: #0088af;
 }
-html:not(.ms-dialog) body.xd input[type="submit"]:hover {
+html body.xd input[type="submit"]:hover {
   background-color: #009cc9;
 }
-html:not(.ms-dialog) body.xd .icons-sprite,
-html:not(.ms-dialog) body.xd .icons-active,
-html:not(.ms-dialog) body.xd .panel .availability .status.green,
-html:not(.ms-dialog) body.xd .panel .color-key .status.green,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.green,
-html:not(.ms-dialog) body.xd .icons-available,
-html:not(.ms-dialog) body.xd .panel .availability .status.black,
-html:not(.ms-dialog) body.xd .panel .color-key .status.black,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.black,
-html:not(.ms-dialog) body.xd .icons-booked,
-html:not(.ms-dialog) body.xd .icons-half-booked,
-html:not(.ms-dialog) body.xd .icons-incoming,
-html:not(.ms-dialog) body.xd .panel .availability .status.white,
-html:not(.ms-dialog) body.xd .panel .color-key .status.white,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.white,
-html:not(.ms-dialog) body.xd .icons-project-alert,
-html:not(.ms-dialog) body.xd .panel .availability .status.red,
-html:not(.ms-dialog) body.xd .panel .color-key .status.red,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.red,
-html:not(.ms-dialog) body.xd .icons-project-ontrack,
-html:not(.ms-dialog) body.xd .panel .availability .status.blue,
-html:not(.ms-dialog) body.xd .panel .color-key .status.blue,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.blue,
-html:not(.ms-dialog) body.xd .icons-project-warning,
-html:not(.ms-dialog) body.xd .panel .availability .status.yellow,
-html:not(.ms-dialog) body.xd .panel .color-key .status.yellow,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.yellow {
+html body.xd .icons-sprite,
+html body.xd .icons-active,
+html body.xd .panel .availability .status.green,
+html body.xd .panel .color-key .status.green,
+html body.xd .panel .multi-bullets .status.green,
+html body.xd .icons-available,
+html body.xd .panel .availability .status.black,
+html body.xd .panel .color-key .status.black,
+html body.xd .panel .multi-bullets .status.black,
+html body.xd .icons-booked,
+html body.xd .icons-half-booked,
+html body.xd .icons-incoming,
+html body.xd .panel .availability .status.white,
+html body.xd .panel .color-key .status.white,
+html body.xd .panel .multi-bullets .status.white,
+html body.xd .icons-project-alert,
+html body.xd .panel .availability .status.red,
+html body.xd .panel .color-key .status.red,
+html body.xd .panel .multi-bullets .status.red,
+html body.xd .icons-project-ontrack,
+html body.xd .panel .availability .status.blue,
+html body.xd .panel .color-key .status.blue,
+html body.xd .panel .multi-bullets .status.blue,
+html body.xd .icons-project-warning,
+html body.xd .panel .availability .status.yellow,
+html body.xd .panel .color-key .status.yellow,
+html body.xd .panel .multi-bullets .status.yellow {
   background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
   width: 14px;
   height: 14px;
 }
-html:not(.ms-dialog) body.xd .icons-active, html:not(.ms-dialog) body.xd .panel .availability .status.green,
-html:not(.ms-dialog) body.xd .panel .color-key .status.green,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.green {
+html body.xd .icons-active, html body.xd .panel .availability .status.green,
+html body.xd .panel .color-key .status.green,
+html body.xd .panel .multi-bullets .status.green {
   background-position: 0 -13px;
 }
-html:not(.ms-dialog) body.xd .icons-available, html:not(.ms-dialog) body.xd .panel .availability .status.black,
-html:not(.ms-dialog) body.xd .panel .color-key .status.black,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.black {
+html body.xd .icons-available, html body.xd .panel .availability .status.black,
+html body.xd .panel .color-key .status.black,
+html body.xd .panel .multi-bullets .status.black {
   background-position: 0 -66px;
 }
-html:not(.ms-dialog) body.xd .icons-booked {
+html body.xd .icons-booked {
   background-position: 0 -71px;
 }
-html:not(.ms-dialog) body.xd .icons-half-booked {
+html body.xd .icons-half-booked {
   background-position: 0 -67px;
 }
-html:not(.ms-dialog) body.xd .icons-incoming, html:not(.ms-dialog) body.xd .panel .availability .status.white,
-html:not(.ms-dialog) body.xd .panel .color-key .status.white,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.white {
+html body.xd .icons-incoming, html body.xd .panel .availability .status.white,
+html body.xd .panel .color-key .status.white,
+html body.xd .panel .multi-bullets .status.white {
   background-position: 0 -53px;
 }
-html:not(.ms-dialog) body.xd .icons-project-alert, html:not(.ms-dialog) body.xd .panel .availability .status.red,
-html:not(.ms-dialog) body.xd .panel .color-key .status.red,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.red {
+html body.xd .icons-project-alert, html body.xd .panel .availability .status.red,
+html body.xd .panel .color-key .status.red,
+html body.xd .panel .multi-bullets .status.red {
   background-position: 0 0;
 }
-html:not(.ms-dialog) body.xd .icons-project-ontrack, html:not(.ms-dialog) body.xd .panel .availability .status.blue,
-html:not(.ms-dialog) body.xd .panel .color-key .status.blue,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.blue {
+html body.xd .icons-project-ontrack, html body.xd .panel .availability .status.blue,
+html body.xd .panel .color-key .status.blue,
+html body.xd .panel .multi-bullets .status.blue {
   background-position: 0 -27px;
 }
-html:not(.ms-dialog) body.xd .icons-project-warning, html:not(.ms-dialog) body.xd .panel .availability .status.yellow,
-html:not(.ms-dialog) body.xd .panel .color-key .status.yellow,
-html:not(.ms-dialog) body.xd .panel .multi-bullets .status.yellow {
+html body.xd .icons-project-warning, html body.xd .panel .availability .status.yellow,
+html body.xd .panel .color-key .status.yellow,
+html body.xd .panel .multi-bullets .status.yellow {
   background-position: 0 -40px;
 }
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel {
+html body.xd div[data-panel-id="inpipeline"].panel {
   /** INCOMING **/
 }
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow, html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue, html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
+html body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow, html body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue, html body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
+html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
+html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
+html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
+html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow,
+html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue,
+html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
   width: 14px;
   height: 17px;
 }
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow {
+html body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
+html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
+html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png");
 }
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue {
+html body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue,
+html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
+html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png");
 }
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
-html:not(.ms-dialog) body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
+html body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
+html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
+html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
   background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png");
 }
-html:not(.ms-dialog) body.xd .xd-footer {
+html body.xd .xd-footer {
   padding: 20px;
   font-size: 1em;
   text-align: center;
 }
-html:not(.ms-dialog) body.xd.v4master {
+html body.xd.v4master {
   width: auto;
   margin: 0 auto;
   /*overflow: auto;*/
 }
-html:not(.ms-dialog) body.xd.v4master #s4-bodyContainer {
+html body.xd.v4master #s4-bodyContainer {
   padding: 0;
 }
-html:not(.ms-dialog) body.xd.v4master #ctl00_MSO_ContentDi {
+html body.xd.v4master #ctl00_MSO_ContentDi {
   padding-top: 0;
   width: auto;
 }
-html:not(.ms-dialog) body.xd .inner-wrapper {
+html body.xd .inner-wrapper {
   font-size: 11px;
   background: #efefef;
   color: #222222;
@@ -919,30 +919,30 @@ html:not(.ms-dialog) body.xd .inner-wrapper {
   /* Body Buttons and objetcs */
   /* Custom SharePoint Parts */
 }
-html:not(.ms-dialog) body.xd .inner-wrapper .columns,
-html:not(.ms-dialog) body.xd .inner-wrapper .columns:before,
-html:not(.ms-dialog) body.xd .inner-wrapper .columns:after {
+html body.xd .inner-wrapper .columns,
+html body.xd .inner-wrapper .columns:before,
+html body.xd .inner-wrapper .columns:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html:not(.ms-dialog) body.xd .inner-wrapper a:hover {
+html body.xd .inner-wrapper a:hover {
   cursor: pointer;
 }
-html:not(.ms-dialog) body.xd .inner-wrapper a:focus {
+html body.xd .inner-wrapper a:focus {
   outline: none;
 }
-html:not(.ms-dialog) body.xd .inner-wrapper object, html:not(.ms-dialog) body.xd .inner-wrapper embed {
+html body.xd .inner-wrapper object, html body.xd .inner-wrapper embed {
   height: 100%;
 }
-html:not(.ms-dialog) body.xd div.article,
-html:not(.ms-dialog) body.xd div.welcome {
+html body.xd div.article,
+html body.xd div.welcome {
   padding: 0;
 }
-html:not(.ms-dialog) body.xd .ms-sbgo.ms-sbcell {
+html body.xd .ms-sbgo.ms-sbcell {
   background-color: #fff;
 }
-html:not(.ms-dialog) body.xd p {
+html body.xd p {
   font-size: 1.2em;
 }
 
