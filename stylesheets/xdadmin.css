@@ -146,6 +146,14 @@ html.ms-dialog body.xd.system .ms-inputformdescription {
   padding-right: 9px;
 }
 
+body.xd input[type="submit"] {
+  background-color: none;
+}
+
+body.xd input.ms-ButtonHeightWidth[type="button"],
+body.xd input.ms-ButtonHeightWidth[type="reset"],
+body.xd input.ms-ButtonHeightWidth[type="submit"],
+body.xd input[type="submit"]
 .ms-dlgFrameContainer {
   overflow: hidden !important;
   width: 100% !important;
