@@ -7,95 +7,17 @@
 		
 
 
-/**======================================== 
-				
-      .o8   o8o            oooo                                
-     "888   `"'            `888                                
- .oooo888  oooo   .oooo.    888   .ooooo.   .oooooooo  .oooo.o 
-d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8 
-888   888   888   .oP"888   888  888   888 888   888  `"Y88b.  
-888   888   888  d8(  888   888  888   888 `88bod8P'  o.  )88b 
-`Y8bod88P" o888o `Y888""8o o888o `Y8bod8P' `8oooooo.  8""888P' 
-                                           d"     YD           
-                                           "Y88888P'           
- 
-===========================================**/
-html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"]{display: none !important;}
-html.ms-dialog body.xd.system .ms-long{width:100%;}	
-html.ms-dialog body.xd.system .ms-inputformdescription {padding-left: 6px;padding-right: 9px}
-html.ms-dialog body.xd.system .ms-ButtonHeightWidth {
-    font: 8pt tahoma;
-    height: 2.1em;
-    padding-bottom: 0.4em;
-    padding-top: 0.1em;
-    width: 14.2em;
-}
+
 body.xd input[type="submit"]{ background-color:none}
-body.xd input.ms-ButtonHeightWidth[type="button"], 
+/*body.xd input.ms-ButtonHeightWidth[type="button"], 
 body.xd input.ms-ButtonHeightWidth[type="reset"], 
 body.xd input.ms-ButtonHeightWidth[type="submit"], 
 body.xd input[type="submit"]
+*/
 
-.ms-dlgFrameContainer {
-			overflow: hidden;
-			width:100%;
-		}
-		.ms-dglContent {
-			width:100% ; 
-		}
-html.ms-dialog {
-	#wrapper {
-  		width: 100%;
-	}
-	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
-		display: none !important;
-	}
-	.ms-sectionheader{ 
-		h3.ms-standardheader{
-			font-size: 1.1em;
-			line-height: 1.4;
-			font-weight: bold
-		}
-	}
-	> table > td.ms-descriptiontext{
-		font-size: 11px;
-		line-height: 1.1em;
-		display: table;
-		table{
-			text-align: center;
-		}
-	}
-	.s4-ca{
-		margin: 0;
-		background: none !important;
-	}
-	#s4-workspace .s4-ca #main-content{
-		background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-		margin: 0;
-		width: 100%;
-		min-height: 1px;
-		> table{
-			margin:0;
-			width:100% !important; 
-			>tbody{
-				//margin: 20px;
-				display: block; 
-				width:100%;
-			}
-		}
-	}
-	.ms-authoringcontrols{
-		background-color: #f6f6f6;
-	}
-	table{
-		font-size: 12px;
-	}
-	.s4-pr
-	{
- 		width:100% !important;
-	}
 
-}
+
+
 
 /** DIALOGOS
 @include  tablet-portrait-and-below{
@@ -815,3 +737,72 @@ body.xd.system table tr.even, table tr.alt, table tr:nth-of-type(even) {
 body.xd.system img[src="/_layouts/images/blank.gif"]{
 	display: none;
 }		
+
+
+
+/**======================================== 
+				
+      .o8   o8o            oooo                                
+     "888   `"'            `888                                
+ .oooo888  oooo   .oooo.    888   .ooooo.   .oooooooo  .oooo.o 
+d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8 
+888   888   888   .oP"888   888  888   888 888   888  `"Y88b.  
+888   888   888  d8(  888   888  888   888 `88bod8P'  o.  )88b 
+`Y8bod88P" o888o `Y888""8o o888o `Y8bod8P' `8oooooo.  8""888P' 
+                                           d"     YD           
+                                           "Y88888P'           
+ 
+===========================================**/
+.ms-dlgFrameContainer {overflow: hidden;width:100%;}
+.ms-dglContent {width:100% ; }
+
+html.ms-dialog
+{	
+    body.xd.system
+    {
+    	#s4-leftpanel[role="complementary"]{display: none !important;}
+    	.ms-long{width:100%;}	
+    	.ms-inputformdescription {padding-left: 6px;padding-right: 9px}
+    	.ms-ButtonHeightWidth {font: 8pt tahoma; height: 2.1em; padding-bottom: 0.4em; padding-top: 0.1em; width: 14.2em;}
+    	#wrapper {width: 100%;}
+		.xd-header, .menu-icon, .sidebar-button, .xd-footer{display: none !important;}
+		.ms-sectionheader{ 
+			h3.ms-standardheader{
+				font-size: 1.1em;
+				line-height: 1.4;
+				font-weight: bold
+			}
+		}
+		> table > td.ms-descriptiontext{
+			font-size: 11px;
+			line-height: 1.1em;
+			display: table;
+			table{text-align: center;}
+		}
+		#s4-workspace
+		{
+			.s4-ca{
+				margin: 0;
+				background: none !important;
+				#main-content{
+					background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+					margin: 0;
+					width: 100%;
+					min-height: 1px;
+					> table{
+						margin:0;
+						width:100% !important; 
+						>tbody{
+							//margin: 20px;
+							display: block; 
+							width:100%;
+						}
+					}
+				}
+			}	
+		}			
+		.ms-authoringcontrols{background-color: #f6f6f6;}
+		table{font-size: 12px;}
+		.s4-pr{width:100% !important;}
+    }
+}
