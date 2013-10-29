@@ -502,7 +502,7 @@ body.xd #main-content {
   background-size: cover;
   background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
 }
-body.xd #main-content ul.color-key.wide li {
+body.xd #main-content ul.color-key li {
   font-size: 11px;
 }
 body.xd #main-content .welcome-content {
@@ -529,6 +529,9 @@ body.xd #main-content .panel hr {
 }
 body.xd #main-content .panel p, body.xd #main-content .panel a, body.xd #main-content .panel li {
   color: #333333 !important;
+}
+body.xd #main-content .panel p {
+  font-size: 1em;
 }
 body.xd #main-content .panel span {
   color: #666;
@@ -717,6 +720,27 @@ body.xd.internal #main-content {
   max-width: 1320px;
   padding: 20px;
 }
+body.xd.internal #main-content .xd-content-editor h3 {
+  font-size: 1.7em;
+  font-family: Segoe UI;
+  font-weight: lighter;
+  background-color: #009FD9;
+  border-bottom: 2px solid #fe6601;
+  color: #ffffff;
+  text-indent: 5px;
+  margin-bottom: 1em;
+}
+body.xd.internal #main-content .xd-content-editor p {
+  font-size: 1em;
+  margin: 0.5em 0;
+  padding: 0 0 0 1em;
+}
+body.xd.internal #main-content .xd-content-editor .ms-rteStyle-Highlight {
+  background-color: #FFA500;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+}
 body.xd.internal .ms-WPHeader td, body.xd.internal .ms-fakewptitle {
   background-color: #009FD9;
   border-bottom: 2px solid #fe6601;
@@ -731,14 +755,6 @@ body.xd.internal .ms-WPHeader td h3 > a, body.xd.internal .ms-fakewptitle h3 > a
 }
 body.xd.internal .ms-WPHeader td:hover, body.xd.internal .ms-fakewptitle:hover {
   border-bottom: 2px solid #fe6601;
-}
-body.xd.internal .xd-content-editor h3 {
-  font-size: 2em;
-  font-family: Segoe UI;
-  font-weight: lighter;
-  background-color: #009FD9;
-  border-bottom: 2px solid #fe6601;
-  color: #ffffff;
 }
 body.xd .s4-tn {
   max-width: 1320px;
