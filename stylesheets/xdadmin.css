@@ -880,7 +880,7 @@ html.ms-dialog body.xd.system #s4-workspace .s4-ca #main-content > table {
 }
 html.ms-dialog body.xd.system #s4-workspace .s4-ca #main-content > table > tbody {
   display: block;
-  width: 100%;
+  width: auto;
 }
 html.ms-dialog body.xd.system .ms-authoringcontrols {
   background-color: #f6f6f6;
