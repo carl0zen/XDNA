@@ -155,9 +155,6 @@ html body.xd.system {
   ===========================================*/
   /* main content */
 }
-html body.xd.system .button {
-  display: none;
-}
 html body.xd.system table table.ms-listviewtable > tbody {
   width: 100% !important;
 }
@@ -187,6 +184,9 @@ html body.xd.system #s4-workspace {
 }
 html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea, html body.xd.system a span {
   border: none !important;
+}
+html body.xd.system img, html body.xd.system object, html body.xd.system embed {
+  max-width: auto;
 }
 html body.xd.system .xd-header {
   background-color: #009fd9;
@@ -547,7 +547,6 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   background: #18b4ef;
   display: inline-block !important;
-  background-color: #eee;
   padding: 0px 0px;
   width: 155px;
   float: left;

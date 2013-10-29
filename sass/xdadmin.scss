@@ -14,9 +14,7 @@ html body.xd.system{
 	    \_____|_|\___/|_.__/ \__,_|_|
 	                                   
 	===========================================*/
-	.button{
-		display: none;
-	}
+
 	table table.ms-listviewtable > tbody{
 		width:100% !important;
 	}
@@ -46,6 +44,9 @@ html body.xd.system{
 	}	
 	#ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea, a span{
 		border:none !important
+	}
+	img, object, embed{
+		max-width: auto
 	}
 	/*======================================== 		
 	    _    _
@@ -433,7 +434,6 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 	background: $newBlue;
 	display: inline-block !important; 
-	background-color: #eee;
 	padding:0px 0px;
 	width:155px;
 	float:left;
