@@ -77,11 +77,7 @@ var table = $('#main-content table'),
 
       
  
-   if($("div").attr("id") != "gridBoard") {
-    $("body").removeClass("internal");
-  } else {
-    
-  }
+  if ($('#gridBoard')){$('body').removeClass('internal')}
 
 /**
     // Dialog sizes
