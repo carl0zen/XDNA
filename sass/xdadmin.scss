@@ -1090,7 +1090,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				bottom:0;
 			}	
 			#main-content[role="main"]{
-				width:100% !important; 
+				width:auto !important; 
+				width:100% !important/9; 
 				position:relative;
 				left:0;
 				margin-left:0px; 

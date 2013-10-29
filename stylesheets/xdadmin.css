@@ -1178,7 +1178,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     bottom: 0;
   }
   html.not-dialog body.xd.system #main-content[role="main"] {
-    width: 100% !important;
+    width: auto !important;
+    width: 100% !important/9;
     position: relative;
     left: 0;
     margin-left: 0px;
