@@ -502,7 +502,7 @@ body.xd #main-content {
   background-size: cover;
   background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
 }
-body.xd #main-content ul.color-key.wide li {
+body.xd #main-content ul.color-key li {
   font-size: 11px;
 }
 body.xd #main-content .welcome-content {
