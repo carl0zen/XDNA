@@ -138,12 +138,20 @@ html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
 }
 
 html.ms-dialog body.xd.system .ms-long {
-  width: auto;
+  width: 100%;
 }
 
 html.ms-dialog body.xd.system .ms-inputformdescription {
   padding-left: 6px;
   padding-right: 9px;
+}
+
+html.ms-dialog body.xd.system .ms-ButtonHeightWidth {
+  font: 8pt tahoma;
+  height: 2.1em;
+  padding-bottom: 0.4em;
+  padding-top: 0.1em;
+  width: 14.2em;
 }
 
 body.xd input[type="submit"] {
@@ -155,12 +163,12 @@ body.xd input.ms-ButtonHeightWidth[type="reset"],
 body.xd input.ms-ButtonHeightWidth[type="submit"],
 body.xd input[type="submit"]
 .ms-dlgFrameContainer {
-  overflow: hidden !important;
-  width: 100% !important;
+  overflow: hidden;
+  width: 100%;
 }
 
 .ms-dglContent {
-  width: 100% !important;
+  width: 100%;
 }
 
 html.ms-dialog #wrapper {
