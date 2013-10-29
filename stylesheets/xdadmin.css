@@ -1176,7 +1176,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     line-height: 1;
   }
   html.not-dialog body.xd.system #s4-leftpanel[role="complementary"] {
-    width: 80%;
+    width: 80% !important;
     position: absolute;
     top: 0;
     bottom: 0;
