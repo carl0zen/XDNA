@@ -120,6 +120,10 @@
   background-origin: border-box;
 }
 
+html body.xd.system img {
+  max-width: auto !important;
+}
+
 html body.xd.system {
   /*======================================== 
        _____ _       _           _ 
