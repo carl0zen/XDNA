@@ -1237,3 +1237,8 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     display: none;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .caroufredsel_wrapper {
+    width: 434px !important;
+  }
+}
