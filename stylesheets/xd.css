@@ -493,7 +493,6 @@ body.xd .mobile-submenu {
 body.xd #main-content {
   overflow: hidden;
   *zoom: 1;
-  height: auto !important;
   width: 100%;
   position: relative;
   -webkit-background-size: cover;
