@@ -9,7 +9,7 @@ html{
     background: #efefef;
   }
 
-html:not(.ms-dialog) body.xd{
+html body.xd{
     &.reader{
       overflow: auto;
       #s4-workspace{overflow: visible; height: auto !important;} 
