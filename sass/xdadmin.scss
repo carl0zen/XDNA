@@ -279,7 +279,8 @@ html body.xd.system{
 
 	/* 5.0 Tables
 	========================================================================== */
-	table{			
+	table{
+		border:none !important;			
 		tr td,
 		thead tr th,
 		tbody tr td,

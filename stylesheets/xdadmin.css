@@ -402,6 +402,9 @@ html body.xd.system #main-content[role="main"] .ms-menubuttoninactivehover,
 html body.xd.system #main-content[role="main"] .ms-buttoninactivehover {
   margin: 2px;
 }
+html body.xd.system table {
+  border: none !important;
+}
 html body.xd.system table tr td,
 html body.xd.system table thead tr th,
 html body.xd.system table tbody tr td,
