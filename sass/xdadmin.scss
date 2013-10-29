@@ -1180,6 +1180,7 @@ html.ms-dialog
 {	
     body.xd.system
     {
+    	input[type="checkbox"], input[type="radio"] {margin: 5px;}
     	#s4-leftpanel[role="complementary"]{display: none !important;}
     	.ms-long{width:100%;}	
     	.ms-inputformdescription {padding-left: 6px;padding-right: 9px}
@@ -1221,7 +1222,13 @@ html.ms-dialog
 				}
 			}	
 		}			
-		.ms-authoringcontrols{background-color: #f6f6f6;}
+		.ms-authoringcontrols{background-color: #f6f6f6;
+			label{
+				font-size: 11px;
+				margin-left: 10px;
+				line-height: 13px;
+			}
+		}
 		table{font-size: 12px;}
 		.s4-pr{width:100% !important;}
     }

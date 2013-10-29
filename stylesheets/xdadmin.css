@@ -1421,6 +1421,9 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
   width: 100%;
 }
 
+html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
+  margin: 5px;
+}
 html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
   display: none !important;
 }
@@ -1477,6 +1480,11 @@ html.ms-dialog body.xd.system #s4-workspace .s4-ca #main-content > table > tbody
 }
 html.ms-dialog body.xd.system .ms-authoringcontrols {
   background-color: #f6f6f6;
+}
+html.ms-dialog body.xd.system .ms-authoringcontrols label {
+  font-size: 11px;
+  margin-left: 10px;
+  line-height: 13px;
 }
 html.ms-dialog body.xd.system table {
   font-size: 12px;
