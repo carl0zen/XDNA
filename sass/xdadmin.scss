@@ -18,7 +18,7 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 `Y8bod88P" o888o `Y888""8o o888o `Y8bod8P' `8oooooo.  8""888P' 
                                            d"     YD           
                                            "Y88888P'           
-
+ 
 ===========================================**/
 html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"]{
 		display: none !important;
@@ -33,7 +33,7 @@ html.ms-dialog body.xd.system .ms-inputformdescription {padding-left: 6px;paddin
 			width:100% !important;
 		}
 		.ms-dglContent {
-			width:100% !important ;
+			width:100% !important ; 
 		}
 html.ms-dialog {
 	#wrapper {
@@ -42,7 +42,7 @@ html.ms-dialog {
 	.xd-header, .menu-icon, .sidebar-button, .xd-footer{
 		display: none !important;
 	}
-	.ms-sectionheader{
+	.ms-sectionheader{ 
 		h3.ms-standardheader{
 			font-size: 1.1em;
 			line-height: 1.4;
@@ -68,10 +68,10 @@ html.ms-dialog {
 		min-height: 1px;
 		> table{
 			margin:0;
-			width:100% !important;
+			width:100% !important; 
 			>tbody{
 				//margin: 20px;
-				display: block;
+				display: block; 
 				width:100%;
 			}
 		}
