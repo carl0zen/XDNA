@@ -138,7 +138,6 @@ html body.xd.system {
      | |  | |  __/ (_| | (_| |  __/ |   
      |_|  |_|\___|\__,_|\__,_|\___|_|                                         
    ===========================================*/
-  /* End of Header */
   	/*============================================================
   	    __  __       _          _____            _             _   
   	   |  \/  |     (_)        / ____|          | |           | |  
@@ -167,7 +166,6 @@ html body.xd.system {
       |____/ \__,_|\__|\__\___/|_| |_|___/
                                           
   	===========================================*/
-  /* main content */
 }
 html body.xd.system table table.ms-listviewtable > tbody {
   width: 100% !important;
@@ -200,7 +198,7 @@ html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleAre
   border: none !important;
 }
 html body.xd.system img, html body.xd.system object, html body.xd.system embed {
-  max-width: auto;
+  max-width: auto !important;
 }
 html body.xd.system .xd-header {
   background-color: #009fd9;
@@ -387,7 +385,7 @@ html body.xd.system #main-content[role="main"] {
   /* Table Helpers only in main content */
 }
 html body.xd.system #main-content[role="main"] .sidebar-button.button {
-  background-image: url(img/sidebar-icon.png);
+  background-image: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
   transition-duration: 0.2s;
@@ -559,8 +557,13 @@ html body.xd.system #main-content > div > table {
 html body.xd.system #main-content .ms-pageinformation {
   padding: 0;
 }
+html body.xd.system .xd-footer {
+  border-top: solid 1px #ccc;
+  padding: 40px 0;
+  margin: 0px;
+  text-align: center;
+}
 
-/* body */
 /**=============================================================
 
 oooo             .o88o.     .   ooooooooo.                                   oooo  
@@ -1149,7 +1152,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   html.not-dialog body.xd.system #sidebarButton {
     display: block;
     color: #fefefe;
-    background: url(img/sidebar-icon.png) no-repeat 10% 50%;
+    background: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png) no-repeat 10% 50%;
     background-color: #18B4EF;
     float: none;
   }
@@ -1164,7 +1167,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     width: 50%;
     display: inline-block;
     float: left;
-    background: url(img/menu.png) no-repeat 10% 50%;
+    background: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/menu.png) no-repeat 10% 50%;
     height: auto;
     line-height: 1;
   }
