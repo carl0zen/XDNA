@@ -87,8 +87,15 @@ html body.xd.system{
 			font-size:12px
 		}
 
-		/* Header Welcome
-		========================================================================== */			
+		/*======================================== 		
+		__          __  _                          
+		\ \        / / | |                         
+		 \ \  /\  / /__| | ___ ___  _ __ ___   ___ 
+		  \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+		   \  /\  /  __/ | (_| (_) | | | | | |  __/
+		    \/  \/ \___|_|\___\___/|_| |_| |_|\___|       
+
+	 	===========================================*/		
 		.xd-welcome{
 			clear:both;
 			overflow:hidden;
@@ -152,9 +159,15 @@ html body.xd.system{
 				}
 			}
 		}
+		/*======================================================
+		  ____                     _                           
+		 |  _ \                   | |                          
+		 | |_) |_ __ ___  __ _  __| | ___ _ __ _   _ _ __ ___  
+		 |  _ <| '__/ _ \/ _` |/ _` |/ __| '__| | | | '_ ` _ \ 
+		 | |_) | | |  __/ (_| | (_| | (__| |  | |_| | | | | | |
+		 |____/|_|  \___|\__,_|\__,_|\___|_|   \__,_|_| |_| |_|
 
-		/* BreadCrumb
-		========================================================================== */
+		========================================================*/
 		h1, h2, h1 a, h2 a{
 			margin:0px;
 			padding:0px;
@@ -216,9 +229,15 @@ html body.xd.system{
 			display:inline-block !important;
 		}						
 	}/* End of Header */
+	/*============================================================
+	    __  __       _          _____            _             _   
+	   |  \/  |     (_)        / ____|          | |           | |  
+	   | \  / | __ _ _ _ __   | |     ___  _ __ | |_ ___ _ __ | |_ 
+	   | |\/| |/ _` | | '_ \  | |    / _ \| '_ \| __/ _ \ '_ \| __|
+	   | |  | | (_| | | | | | | |___| (_) | | | | ||  __/ | | | |_ 
+	   |_|  |_|\__,_|_|_| |_|  \_____\___/|_| |_|\__\___|_| |_|\__|
 
-	/*  Main Content
-	========================================================================== */
+	==============================================================*/
 	#main-content[role="main"]{			
 		width :auto;
 		min-height:600px; 
@@ -277,9 +296,15 @@ html body.xd.system{
 			margin:2px;
 		}
 	}/* main content */
-
-	/* 5.0 Tables
-	========================================================================== */
+	/*============================================================
+	    _______    _     _           
+	   |__   __|  | |   | |          
+	      | | __ _| |__ | | ___  ___ 
+	      | |/ _` | '_ \| |/ _ \/ __|
+	      | | (_| | |_) | |  __/\__ \
+	      |_|\__,_|_.__/|_|\___||___/                                 
+	
+	============================================================*/      
 	table{
 		border:none !important;			
 		tr td,
@@ -307,13 +332,13 @@ html body.xd.system{
 	.ms-WPBody td{ font-size:1.2em} 
 
 	/*======================================== 
-		 .o8                       .       .                                  
-		"888                     .o8     .o8                                  
-		 888oooo.  oooo  oooo  .o888oo .o888oo  .ooooo.  ooo. .oo.    .oooo.o 
-		 d88' `88b `888  `888    888     888   d88' `88b `888P"Y88b  d88(  "8 
-		 888   888  888   888    888     888   888   888  888   888  `"Y88b.  
-		 888   888  888   888    888 .   888 . 888   888  888   888  o.  )88b 
-		 `Y8bod8P'  `V88V"V8P'   "888"   "888" `Y8bod8P' o888o o888o 8""888P'
+     ____        _   _                  
+    |  _ \      | | | |                 
+    | |_) |_   _| |_| |_ ___  _ __  ___ 
+    |  _ <| | | | __| __/ _ \| '_ \/ __|
+    | |_) | |_| | |_| || (_) | | | \__ \
+    |____/ \__,_|\__|\__\___/|_| |_|___/
+                                        
 	===========================================*/
 	
 	.s4-tn{
@@ -478,6 +503,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 		border-bottom:none !important;
 	}
 }
+
 /**====================================
 
                              .o8        o8o  oooo                   .              .o8       oooo                     
@@ -489,16 +515,10 @@ ooo. .oo.  .oo.    .ooooo.   888oooo.  oooo   888   .ooooo.     .o888oo  .oooo. 
 o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8o  `Y8bod8P' o888o `Y8bod8P' 8""888P' 
 
 =======================================**/
-html:not(.ms-dialog),
-html.not-dialog{
-	@include desktop-and-below{
-		#auth .thumbCrop{
-			top:14px
-		}
-	}
-}
-html:not(.ms-dialog),
-html.not-dialog{
+
+
+html:not(.ms-dialog), html.not-dialog{
+
 	@include tablet-portrait-and-below{
 		table 						 {table-layout: auto} //IE Fix
 		body.system .button			 {float: right}
@@ -509,6 +529,7 @@ html.not-dialog{
 		.ms-propertysheet{
 			table {margin:0 auto}
 		}
+		
 		.fieldName{
 			float: left;
 			margin-right: 10px;
@@ -518,10 +539,13 @@ html.not-dialog{
 			width: 90px;
 			font-size: 0.8em;
 		}
+
+
 		td label{
 			display: inline-block !important;
 			margin-left: 6px;
 		}
+		
 		button, select{
 			font-size: 12px;
 			padding: 4px;
@@ -535,16 +559,17 @@ html.not-dialog{
 			margin:0 auto;
 			width:auto;
 		}
-	 	body.xd #main-content {
-	 		table.ms-viewlsts{
-		 		tbody{
-		 			tr:first-child{
-		 				display: none;
-		 			}
-		 		}
-		 	}
-		 }
+	 
+	 	
+	 	body.xd #main-content table.ms-viewlsts{
+	 		tbody{
+	 			tr:first-child{
+	 				display: none;
+	 			}
+	 		}
+	 	}
 	 	* html table.ms-listviewtable thead{ zoom: 1;}
+
 		body.xd #main-content{
 			padding: 0 !important;
 			tr.s4-itm-selected, tr.s4-itm-selected:hover {
@@ -927,14 +952,49 @@ html.not-dialog{
 				display: table-cell;
 
 			}
+
 		}
+	}
+}
+
+
+@include tablet-landscape-and-below{
+	body.system .s4-ca {
+    overflow-x: visible !important;
+    min-height:1px;
+	}
+
+
+	html:not(.ms-dialog-nr) body.xd.system #main-content {
+    	overflow: visible !important;
+    	min-height:1px;
+	}
+}
+
+body.xd.system table table.ms-listviewtable > tbody{width:100% !important}
+body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-image:none}
 
 
 
 
+
+
+
+
+
+
+
+
+	/* =======================================================================
+		7.0 Media Queries 
+	========================================================================== */	
+   	@media only screen and (max-width: 1364px){						
+		html.not-dialog body.xd.system #auth .thumbCrop{
+			top:14px
+		}
+	}		
+	@media only screen and (max-width: 768px) {
 		
-
-		/*    ODCR MEDIA  */
 		html.not-dialog body.xd.system {
 			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
 				margin: auto;
@@ -1098,39 +1158,23 @@ html.not-dialog{
 
 		}	
 		/* Se queda */ 
-		html.not-dialog body.xd.active #main-content[role="main"]{
-			margin-left:80% !important;
-		}
+		html.not-dialog body.xd.active #main-content[role="main"]{margin-left:80% !important}
 	}
-}
-@include tablet-landscape-and-below{
-	body.system .s4-ca {
-    overflow-x: visible !important;
-    min-height:1px;
-	}
-	html:not(.ms-dialog-nr) body.xd.system #main-content {
-    	overflow: visible !important;
-    	min-height:1px;
-	}
-}
 
-@media only screen and (max-width: 350px) {
-	html.not-dialog body.xd.system {
-		#auth{
-			display:block;
-		}
-		.navigation-description{
-			display:none;
-		}
-		.menu-icon, .sidebar-button{
-			text-indent:-999999px;
-			background-position:50% center !important;
+	@media only screen and (max-width: 350px) {
+		html.not-dialog body.xd.system {
+			#auth{
+				display:block;
+			}
+			.navigation-description{
+				display:none;
+			}
+			.menu-icon, .sidebar-button{
+				text-indent:-999999px;
+				background-position:50% center !important;
+			}
 		}
 	}
-}
-
-
-html body .button {display: none;}
 
 
 /**===========================================================================
