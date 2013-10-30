@@ -1110,6 +1110,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   html.not-dialog body.xd.system {
     /* Menu */
   }
+  html.not-dialog body.xd.system #main-content a.ms-addnew {
+    font-size: 2em;
+  }
   html.not-dialog body.xd.system #main-content .ms-authoringcontrols.ms-inputformcontrols table {
     margin: auto;
   }

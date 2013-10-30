@@ -317,6 +317,8 @@ html body.xd.system{
 		.ms-buttoninactivehover{
 			margin:2px;
 		}
+		
+
 	}/* main content */
 	/*============================================================
 	    _______    _     _           
@@ -1019,9 +1021,14 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 	@media only screen and (max-width: 768px) {
 		
 		html.not-dialog body.xd.system {
-			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
-				margin: auto;
-			}
+			#main-content {
+				a.ms-addnew{
+					font-size:2em;
+				}
+				.ms-authoringcontrols.ms-inputformcontrols table{ 
+					margin: auto;
+				}
+			}	
 			.theme-fonts span{ 
 				display:block;
 			}
