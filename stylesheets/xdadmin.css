@@ -1385,7 +1385,7 @@ html.ms-dialog body.xd.system .ms-sectionheader h3.ms-standardheader {
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext {
   font-size: 11px;
   line-height: 1.1em;
-  display: table;
+  display: table-cell;
 }
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext table {
   text-align: center;
