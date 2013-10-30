@@ -3,7 +3,7 @@
 @import "helpers"; 
 @import "layout";
 
-img{max-width: auto !important;}
+
 html body.xd.system{	
 	/*======================================== 
 	     _____ _       _           _ 
@@ -14,7 +14,17 @@ html body.xd.system{
 	    \_____|_|\___/|_.__/ \__,_|_|
 	                                   
 	===========================================*/
-
+	div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge, 
+	div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLargeRtl{
+		width: 45px;
+	}
+	.ms-cui-dd-text, 
+	.ms-cui-cb-input{
+		height: 20px;
+	}
+	.ms-cui-dd-arrow-button{
+		width: 15px;
+	}
 	table table.ms-listviewtable > tbody{
 		width:100% !important;
 	}
@@ -32,8 +42,6 @@ html body.xd.system{
 		max-width: 100%;
 	}
 	.s4-ca{
-		min-height:390px;
-		position:relative;
 		margin-top:0px;  
 		height:100% !important; 
 		/*@extend .box-sizing; */
@@ -183,7 +191,7 @@ html body.xd.system{
 		}
 		div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge, 
 		div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIcon{ 
-			width:25px !important;
+			width:30px !important;
 		}
 		.ms-ltviewselectormenuheader .ms-viewselectorhover,
 		.ms-menu-a span{
@@ -1167,8 +1175,12 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			}
 
 		}	
-		/* Se queda */ 
-		html.not-dialog body.xd.active #main-content[role="main"]{left:80% !important}
+		/* responsive  open close effects  */ 
+		html.not-dialog body.xd.active {
+			.xd-footer, #main-content[role="main"]{
+				left:80% !important;
+			}
+		}
 	}
 
 	@media only screen and (max-width: 350px) {
