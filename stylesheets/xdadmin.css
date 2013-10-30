@@ -404,7 +404,7 @@ html body.xd.system #main-content[role="main"] .ms-menutoolbar td {
   padding: 0px 2px;
 }
 html body.xd.system #main-content[role="main"] .ms-listviewtable td {
-  padding: 10px;
+  line-height: 25px;
   vertical-align: top;
 }
 html body.xd.system #main-content[role="main"] .ms-authoringcontrols.ms-inputformcontrols table {
