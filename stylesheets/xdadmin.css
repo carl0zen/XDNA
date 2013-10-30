@@ -184,6 +184,9 @@ html body.xd.system table table.ms-listviewtable > tbody {
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
 }
+html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover:hover {
+  border: none;
+}
 html body.xd.system input[type="submit"] {
   background-color: none;
 }

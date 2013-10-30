@@ -30,6 +30,9 @@ html body.xd.system{
 	}
 	table table.ms-listviewtable > tbody .ms-itmhover{
 		background-image:none;
+		&:hover{
+			border: none;
+		}
 	}
 	input[type="submit"]{ 
 	 	background-color:none;
