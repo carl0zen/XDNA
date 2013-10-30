@@ -1023,6 +1023,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 	@media only screen and (max-width: 768px) {
 		
 		html.not-dialog body.xd.system {
+			.ms-ltviewselectormenuheader .ms-viewselectorhover{
+				margin-right: 1px;
+			}
 			#main-content {
 				a.ms-addnew{
 					font-size:2em;
@@ -1031,9 +1034,6 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				}
 				.ms-authoringcontrols.ms-inputformcontrols table{ 
 					margin: auto;
-				}
-				.ms-ltviewselectormenuheader .ms-viewselector-arrow {
-					margin-right: 1px;
 				}
 			}	
 			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
