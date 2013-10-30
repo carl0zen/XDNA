@@ -201,10 +201,11 @@ html body.xd.system{
 		}
 
 		.ms-ltviewselectormenuheader .ms-viewselectorhover{
-			border:none !important; 
-			margin-left:1px; 
-			margin-bottom:1px;			
-			margin-top:1px;
+		   border: medium none !important;
+		   margin-bottom: 1px;
+		   margin-right: -11px !important;
+		   margin-top: 1px;
+		   margin-left: 1px;
 		}
 		.ms-menu-a span{
 			border:none !important; 
