@@ -1315,6 +1315,10 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
   width: 100%;
 }
 
+.ms-dlgTitle {
+  background: #009fd9;
+}
+
 html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
   margin: 5px;
 }
