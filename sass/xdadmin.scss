@@ -206,9 +206,6 @@ html body.xd.system{
 			margin-bottom:1px;			
 			margin-top:1px;
 		}
-		.s4-notdlg img{
-			margin-top: auto;
-		}
 		.ms-ltviewselectormenuheader .ms-viewselector,
 		.ms-ltviewselectormenuheader .ms-viewselectorhover{
 			padding:0px; 
@@ -317,8 +314,6 @@ html body.xd.system{
 		.ms-buttoninactivehover{
 			margin:2px;
 		}
-		
-
 	}/* main content */
 	/*============================================================
 	    _______    _     _           
@@ -1021,16 +1016,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 	@media only screen and (max-width: 768px) {
 		
 		html.not-dialog body.xd.system {
-			#main-content {
-				a.ms-addnew{
-					font-size:2em;
-					display: block;
-					padding-bottom: 17px;
-				}
-				.ms-authoringcontrols.ms-inputformcontrols table{ 
-					margin: auto;
-				}
-			}	
+			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
+				margin: auto;
+			}
 			.theme-fonts span{ 
 				display:block;
 			}
@@ -1196,8 +1184,6 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 		}	
 		/* Se queda */ 
 		html.not-dialog body.xd.active {
-			#main-content[role="main"],
-			.xd-footer{
 			#main-content[role="main"]{
 				left:80% !important;
 			}
@@ -1266,6 +1252,8 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 	.ms-dlgTitle { background: #009fd9;}
 	.ms-dlgFrameContainer {overflow: visible;width:100%;}
 }
+
+
 
 
 html.ms-dialog
