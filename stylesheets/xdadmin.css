@@ -1322,17 +1322,15 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
  
 ===========================================**/
-.ms-dlgFrameContainer {
-  overflow: hidden;
+.ms-dlgContent .ms-dlgBorder {
   width: 100%;
 }
-
-.ms-dglContent {
-  width: 100%;
-}
-
-.ms-dlgTitle {
+.ms-dlgContent .ms-dlgBorder .ms-dlgTitle {
   background: #009fd9;
+}
+.ms-dlgContent .ms-dlgBorder .ms-dlgFrameContainer {
+  overflow: visible;
+  width: 100%;
 }
 
 html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
