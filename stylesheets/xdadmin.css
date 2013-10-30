@@ -351,6 +351,9 @@ html body.xd.system .xd-header .ms-menu-a span {
   margin-bottom: 1px;
   margin-top: 1px;
 }
+html body.xd.system .xd-header .s4-notdlg img {
+  margin-top: auto;
+}
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
   padding: 0px;
