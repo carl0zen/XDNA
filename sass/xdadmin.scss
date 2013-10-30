@@ -1022,7 +1022,6 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 	@media only screen and (max-width: 768px) {
 		
 		html.not-dialog body.xd.system {
-<<<<<<< HEAD
 			#main-content {
 				a.ms-addnew{
 					font-size:2em;
@@ -1033,11 +1032,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 					margin: auto;
 				}
 			}	
-=======
 			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
 				margin: auto;
 			}
->>>>>>> b4662fdf2ef76ce5cfcca5fa22cbcb8f1598f489
 			.theme-fonts span{ 
 				display:block;
 			}
@@ -1202,16 +1199,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 
 		}	
 		/* Se queda */ 
-<<<<<<< HEAD
-		html.not-dialog body.xd.active #main-content[role="main"]{		
-			left:80% !important;
-=======
-		html.not-dialog body.xd.active {
-			#main-content[role="main"]{
-				left:80% !important;
-			}
->>>>>>> b4662fdf2ef76ce5cfcca5fa22cbcb8f1598f489
-		}
+		html.not-dialog body.xd.active #main-content[role="main"]{	left:80% !important;}
 	}
 	@media only screen and (max-width: 350px) {
 		html.not-dialog body.xd.system {
