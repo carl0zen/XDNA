@@ -4,7 +4,6 @@
 @import "layout";
 
 body.xd .xd-header .s4-notdlg img{ margin-top:auto}
-body.xd .xd-header .ms-ltviewselectormenuheader .ms-viewselector{ border:none !important}
 html body.xd.system{	
 	/*======================================== 
 	     _____ _       _           _ 
@@ -205,13 +204,6 @@ html body.xd.system{
 		}
 		.s4-clust.ms-viewselector-arrow.ms-menu-hovarw {
     		width: 0 !important;
-		}
-		.ms-ltviewselectormenuheader .ms-viewselectorhover,
-		.ms-menu-a span{
-			border:none !important; 
-			margin-left:1px; 
-			margin-bottom:1px;			
-			margin-top:1px;			
 		}
 		.ms-ltviewselectormenuheader .ms-viewselector,
 		.ms-ltviewselectormenuheader .ms-viewselectorhover{

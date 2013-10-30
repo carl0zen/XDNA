@@ -124,10 +124,6 @@ body.xd .xd-header .s4-notdlg img {
   margin-top: auto;
 }
 
-body.xd .xd-header .ms-ltviewselectormenuheader .ms-viewselector {
-  border: none !important;
-}
-
 html body.xd.system {
   /*======================================== 
        _____ _       _           _ 
@@ -357,13 +353,6 @@ html body.xd.system .xd-header div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner 
 }
 html body.xd.system .xd-header .s4-clust.ms-viewselector-arrow.ms-menu-hovarw {
   width: 0 !important;
-}
-html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover,
-html body.xd.system .xd-header .ms-menu-a span {
-  border: none !important;
-  margin-left: 1px;
-  margin-bottom: 1px;
-  margin-top: 1px;
 }
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
