@@ -3,10 +3,6 @@
 @import "helpers"; 
 @import "layout";
 
-body.xd .xd-header .s4-notdlg img{ margin-top:auto}
-body.xd .xd-header .ms-ltviewselectormenuheader .ms-viewselector-arrow{ margin:auto}
-body.xd .xd-header .ms-ltviewselectormenuheader .ms-viewselector{ border:none}
-body.xd .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover{ border:none}
 html body.xd.system{	
 	/*======================================== 
 	     _____ _       _           _ 
@@ -71,6 +67,11 @@ html body.xd.system{
 	.s4-clust .ms-viewselector-arrow .ms-menu-hovarw{
 		display: none
 	}
+	.ms-ltviewselectormenuheader,
+	.ms-viewselector,
+	.ms-viewselectorhover{ 
+		border:none
+	}
 	/*======================================== 		
 	    _    _
 	   | |  | |              | |          
@@ -108,6 +109,12 @@ html body.xd.system{
 			color:$white;
 			width:100%;
 			font-size:12px
+		}
+		.s4-notdlg img{ 
+			margin-top:auto;
+		}
+		.ms-ltviewselectormenuheader .ms-viewselector-arrow{ 
+			margin:auto;
 		}
 
 		/*======================================== 		
