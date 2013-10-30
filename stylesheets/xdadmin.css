@@ -1251,6 +1251,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     font-size: 1.1em;
     margin: 15px 0px 0px !important;
   }
+  html.not-dialog body.xd.system #s4-workspace {
+    overflow-x: auto;
+  }
   html.not-dialog body.xd.system #s4-workspace .xd-menu {
     border-top: none;
     padding: 0;
