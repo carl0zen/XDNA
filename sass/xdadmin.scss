@@ -54,7 +54,7 @@ html body.xd.system{
 	}
 	#s4-workspace{
 		overflow-y:auto; 
-		overflow-x:hidden; 
+		overflow-x:hidden !important; 
 	}	
 	#ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea, a span{
 		border:none !important;
