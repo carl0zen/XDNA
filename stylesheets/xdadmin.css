@@ -120,6 +120,10 @@
   background-origin: border-box;
 }
 
+body.xd .xd-header .s4-notdlg img {
+  margin-top: auto;
+}
+
 html body.xd.system {
   /*======================================== 
        _____ _       _           _ 
