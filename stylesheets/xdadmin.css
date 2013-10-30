@@ -1321,11 +1321,10 @@ html.ms-dialog body.xd.system .ms-inputformdescription {
   padding-right: 9px;
 }
 html.ms-dialog body.xd.system .ms-ButtonHeightWidth {
-  font: 8pt tahoma;
+  font: 9pt tahoma;
   height: 2.1em;
   padding-bottom: 0.4em;
   padding-top: 0.1em;
-  width: 14.2em;
 }
 html.ms-dialog body.xd.system #wrapper {
   width: 100%;
