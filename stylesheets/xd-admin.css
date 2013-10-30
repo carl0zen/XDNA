@@ -1,0 +1,583 @@
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+.box-sizing, *,
+*:before,
+*:after, html body.xd.system .s4-ca, html body.xd.system #main-content[role="main"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* Global 
+========================================================================== */
+* img {
+  height: auto;
+  max-width: inherit;
+}
+
+* table {
+  border: 0 none;
+  background: none;
+  margin: 0px;
+}
+
+* .columns img {
+  max-width: none !important;
+}
+
+/* 0.0 Give all styles  THE: html.not-dialog body.xd.system
+========================================================================== */
+html body.xd.system {
+  /* 1.0 Header 
+  ========================================================================== */
+  /* 2.0 Left Panel
+  ========================================================================== */
+  /* 3.0 Main Content
+  ========================================================================== */
+  /* 4.0 Footer
+  ========================================================================== */
+  /* 5.0 Tables
+  ========================================================================== */
+}
+html body.xd.system .column, html body.xd.system .columns {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+html body.xd.system .xd-header .row, html body.xd.system .s4-tn {
+  max-width: 100%;
+}
+html body.xd.system .s4-ca {
+  min-height: 390px;
+  position: relative;
+  margin-top: 0px;
+  height: 100% !important;
+}
+html body.xd.system #s4-workspace {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea, html body.xd.system a span {
+  border: none !important;
+}
+html body.xd.system .xd-header {
+  background-color: #009fd9;
+  padding: 30px 0;
+  /* 1.1 Header Welcome
+  ========================================================================== */
+  /* .xd-welcome */
+  /* 1.2 BreadCrumb
+  ========================================================================== */
+  /* 1.3 Drop Left */
+  /* 4.2 Drop Down */
+}
+html body.xd.system .xd-header h1 a {
+  margin-left: 0px;
+}
+html body.xd.system .xd-header a:hover {
+  text-decoration: underline;
+}
+html body.xd.system .xd-header a:link {
+  color: #fff;
+}
+html body.xd.system .xd-header .logo {
+  width: 140px;
+  margin-right: 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+html body.xd.system .xd-header .navigation-description {
+  padding-left: 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+html body.xd.system .xd-header .s4-pagedescription, html body.xd.system .xd-header .s4-pagedescription span {
+  color: white;
+  width: 100%;
+  font-size: 12px;
+}
+html body.xd.system .xd-header .xd-welcome {
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  color: white;
+  min-height: 53px;
+  margin-right: 0px;
+  /* #auth */
+}
+html body.xd.system .xd-header .xd-welcome a {
+  color: white;
+}
+html body.xd.system .xd-header .xd-welcome img[id*="_PictureUrlImage"] {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+html body.xd.system .xd-header .xd-welcome .s4-trc-container-menu {
+  margin-top: 22px;
+}
+html body.xd.system .xd-header .xd-welcome .s4-clust.ms-viewselector-arrow > img {
+  display: none;
+}
+html body.xd.system .xd-header .xd-welcome #auth {
+  margin-right: 0px;
+  margin-top: 0px;
+  line-height: inherit;
+  height: auto;
+  position: relative;
+  padding-right: 85px;
+  /* .thumbCrop */
+}
+html body.xd.system .xd-header .xd-welcome #auth span {
+  margin-right: 0px;
+}
+html body.xd.system .xd-header .xd-welcome #auth .bold {
+  color: white;
+  margin-top: 1px;
+  display: block;
+  font-weight: bold;
+}
+html body.xd.system .xd-header .xd-welcome #auth .thumb {
+  margin-left: 20px;
+  line-height: inherit;
+}
+html body.xd.system .xd-header .xd-welcome #auth .thumbCrop {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  background-position: center center !important;
+  background-repeat: no-repeat;
+  background-size: 115% 100% !important;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  border-radius: 50%;
+  position: absolute;
+}
+html body.xd.system .xd-header .xd-welcome #auth .thumbCrop img {
+  visibility: hidden;
+  width: 100%;
+}
+html body.xd.system .xd-header h1, html body.xd.system .xd-header h2, html body.xd.system .xd-header h1 a, html body.xd.system .xd-header h2 a {
+  margin: 0px;
+  padding: 0px;
+  line-height: 12px;
+  font-size: 12px;
+  display: inline;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html body.xd.system .xd-header div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge,
+html body.xd.system .xd-header div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIcon {
+  width: 25px !important;
+}
+html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover,
+html body.xd.system .xd-header .ms-menu-a span {
+  border: none !important;
+  margin-left: 1px;
+  margin-bottom: 1px;
+}
+html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
+html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
+  padding: 0px;
+  background: none;
+}
+html body.xd.system .xd-header .s4-clust .ms-ltviewselectormenuseparator {
+  width: 0px !important;
+  height: 0px !important;
+}
+html body.xd.system .xd-header #ctl00_PlaceHolderPageDescription_LabelGroupDescription > a {
+  color: white;
+}
+html body.xd.system .xd-header #onetidPageTitleSeparator, html body.xd.system .xd-header .xd-title-area span span:first-child {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid white;
+  display: inline-block;
+  margin: -3px 5px 0;
+  width: -1px !important;
+  height: 0 !important;
+  width: auto !important;
+}
+html body.xd.system .xd-header .xd-title-area .ms-MenuUIPopupBody span:first-child {
+  border: none;
+  margin: auto;
+}
+html body.xd.system .xd-header #onetidPageTitleSeparator span span,
+html body.xd.system .xd-header .s4-clust.ms-ltviewselectormenuseparator {
+  display: none !important;
+}
+html body.xd.system .xd-header .s4-clust.ms-viewselector-arrow.ms-menu-stdarw,
+html body.xd.system .xd-header .ms-menu-althov-active .ms-viewselectorhover {
+  width: 0 !important;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  display: inline-block !important;
+}
+html body.xd.system #s4-leftpanel[role="complementary"] {
+  display: inline-block !important;
+  background-color: #eee;
+  padding: 0px 0px;
+  width: 155px;
+  float: left;
+  font-size: 1.2em;
+}
+html body.xd.system #s4-leftpanel[role="complementary"] .s4-recentchanges {
+  border-bottom: none;
+}
+html body.xd.system #s4-leftpanel[role="complementary"] .s4-ql a.selected {
+  padding: 0;
+  margin: 0;
+  color: #fff !important;
+  background: none;
+}
+html body.xd.system #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
+  text-indent: 0 !important;
+  line-height: 25px;
+}
+html body.xd.system #s4-leftpanel[role="complementary"] .ms-ql-additionaltopsection {
+  border-bottom: none !important;
+}
+html body.xd.system #main-content[role="main"] {
+  width: auto;
+  min-height: 600px;
+  position: static;
+  background-color: white;
+  background-image: none;
+  border-left: 0px;
+  margin-left: 155px;
+  float: none;
+  overflow: hidden !important;
+  /* Table Helpers only in main content */
+}
+html body.xd.system #main-content[role="main"] .sidebar-button.button {
+  background-image: url(img/sidebar-icon.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease;
+  display: none !important;
+}
+html body.xd.system #main-content[role="main"] .button {
+  display: none !important;
+}
+html body.xd.system #main-content[role="main"] .ms-menutoolbar td {
+  padding: 0px 2px;
+}
+html body.xd.system #main-content[role="main"] .ms-listviewtable td {
+  padding: 10px;
+  vertical-align: top;
+}
+html body.xd.system #main-content[role="main"] .ms-authoringcontrols.ms-inputformcontrols table {
+  margin: 1em 0;
+}
+html body.xd.system #main-content[role="main"] .ms-authoringcontrols .areatemplate-select {
+  width: 3in;
+}
+html body.xd.system #main-content[role="main"] .ms-splitbutton, html body.xd.system #main-content[role="main"] .ms-splitbuttonhover {
+  margin: 0;
+}
+html body.xd.system #main-content[role="main"] .ms-menutoolbar tbody td {
+  background-color: #eee;
+}
+html body.xd.system #main-content[role="main"] .ms-menubuttonactivehover,
+html body.xd.system #main-content[role="main"] .ms-buttonactivehover,
+html body.xd.system #main-content[role="main"] .ms-splitbuttonhover .ms-splitbuttondropdown,
+html body.xd.system #main-content[role="main"] .ms-splitbuttonhover .ms-splitbuttontext,
+html body.xd.system #main-content[role="main"] .ms-splitbuttonhover {
+  background: none !important;
+  background-image: none !important;
+  border: none !important;
+}
+html body.xd.system #main-content[role="main"] .ms-menubuttoninactivehover,
+html body.xd.system #main-content[role="main"] .ms-buttoninactivehover {
+  margin: 2px;
+}
+html body.xd.system .xd-footer {
+  border-top: solid 1px #ccc;
+  padding: 40px 0;
+  margin: 0px;
+  text-align: center;
+}
+html body.xd.system table tr td,
+html body.xd.system table thead tr th,
+html body.xd.system table tbody tr td,
+html body.xd.system table tfoot tr th,
+html body.xd.system table tfoot tr td {
+  line-height: 1.4;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  padding-bottom: inherit;
+}
+html body.xd.system tr b, html body.xd.system tr td b h3, html body.xd.system .ms-standardheader {
+  font-size: 1.2em;
+}
+html body.xd.system .ms-vb-icon {
+  text-align: center;
+}
+html body.xd.system .ms-vb-icon input[type="checkbox"] {
+  margin-right: 0px;
+}
+html body.xd.system .ms-linksection-level1 td {
+  padding-bottom: 17px;
+}
+html body.xd.system .ms-listviewtable td {
+  vertical-align: middle;
+}
+html body.xd.system .ms-descriptiontext ul {
+  margin: 20px;
+  line-height: 1.5em;
+}
+html body.xd.system .ms-WPBody td {
+  font-size: 1.2em;
+}
+
+/* html.not-dialog body.xd.system */
+/* =======================================================================
+	6.0 Forms
+========================================================================== */
+html:not(.ms-dialog) body.xd.system input[type="text"],
+html:not(.ms-dialog) body.xd.system input[type="password"],
+html:not(.ms-dialog) body.xd.system input[type="date"],
+html:not(.ms-dialog) body.xd.system input[type="datetime"],
+html:not(.ms-dialog) body.xd.system input[type="datetime-local"],
+html:not(.ms-dialog) body.xd.system input[type="month"],
+html:not(.ms-dialog) body.xd.system input[type="week"],
+html:not(.ms-dialog) body.xd.system input[type="email"],
+html:not(.ms-dialog) body.xd.system input[type="number"],
+html:not(.ms-dialog) body.xd.system input[type="search"],
+html:not(.ms-dialog) body.xd.system input[type="tel"],
+html:not(.ms-dialog) body.xd.system input[type="time"],
+html:not(.ms-dialog) body.xd.system input[type="url"],
+html:not(.ms-dialog) body.xd.system inputtextarea {
+  width: auto;
+}
+html:not(.ms-dialog) body.xd.system input[type="file"],
+html:not(.ms-dialog) body.xd.system input[type="checkbox"],
+html:not(.ms-dialog) body.xd.system input[type="radio"],
+html:not(.ms-dialog) body.xd.system select {
+  margin: 0 5px 0 0;
+  width: auto;
+}
+html:not(.ms-dialog) body.xd.system select {
+  width: auto;
+  margin-bottom: 5px !important;
+}
+html:not(.ms-dialog) body.xd.system label {
+  display: inline;
+}
+html:not(.ms-dialog) body.xd.system abbr[title],
+html:not(.ms-dialog) body.xd.system input[type="checkbox"],
+html:not(.ms-dialog) body.xd.system input[type="radio"] {
+  border-bottom: 0 none;
+  margin: 0 5px;
+}
+html:not(.ms-dialog) body.xd.system .s4-ca .ms-inputformcontrols td {
+  padding: 0;
+}
+html:not(.ms-dialog) body.xd.system .thmx-themes {
+  width: 90%;
+}
+html:not(.ms-dialog) body.xd.system td.ms-authoringcontrols label {
+  font-size: 1em;
+}
+
+/* =======================================================================
+	7.0 Media Queries 
+========================================================================== */
+@media only screen and (max-width: 1364px) {
+  html.not-dialog body.xd.system #auth .thumbCrop {
+    top: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html.not-dialog body.xd.system {
+    /* Menu */
+  }
+  html.not-dialog body.xd.system #main-content .ms-authoringcontrols.ms-inputformcontrols table {
+    margin: auto;
+  }
+  html.not-dialog body.xd.system .theme-fonts span {
+    display: block;
+  }
+  html.not-dialog body.xd.system .ms-v4propertysheetspacing {
+    margin-left: 0px;
+  }
+  html.not-dialog body.xd.system .ms-wikicontent .ms-rtestate-field {
+    padding-right: 0px !important;
+  }
+  html.not-dialog body.xd.system .ms-standardheader.ms-WPTitle > a {
+    display: block;
+    text-align: center;
+  }
+  html.not-dialog body.xd.system .xd-header #auth, html.not-dialog body.xd.system .xd-header .xd-welcome {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  html.not-dialog body.xd.system .xd-header #auth {
+    padding-right: 0px !important;
+    margin-top: 20px !important;
+  }
+  html.not-dialog body.xd.system .xd-header #auth .thumbCrop {
+    margin-top: 10px;
+    display: block !important;
+    position: static !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  html.not-dialog body.xd.system .xd-header h1 {
+    display: inline-block;
+    position: static;
+  }
+  html.not-dialog body.xd.system .xd-header h1 a {
+    font-size: 1em;
+  }
+  html.not-dialog body.xd.system .xd-header .row {
+    width: 100%;
+  }
+  html.not-dialog body.xd.system .xd-header .navigation-description {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 15px;
+    text-align: center;
+    float: none;
+  }
+  html.not-dialog body.xd.system .xd-header .logo {
+    width: 100%;
+    display: block;
+  }
+  html.not-dialog body.xd.system .xd-header .s4-pagedescription span {
+    display: block;
+    text-align: center;
+  }
+  html.not-dialog body.xd.system #sidebarButton {
+    display: block;
+    color: white;
+    background: url(img/sidebar-icon.png) no-repeat 10% 50%;
+    background-color: #18B4EF;
+    float: none;
+  }
+  html.not-dialog body.xd.system .button {
+    background-color: #0088AF;
+    padding: 20px 0;
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 20px 0;
+    border: none;
+    box-shadow: 0px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    background: url(img/menu.png) no-repeat 10% 50%;
+    height: auto;
+    line-height: 1;
+  }
+  html.not-dialog body.xd.system #s4-leftpanel[role="complementary"] {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  html.not-dialog body.xd.system #main-content[role="main"] {
+    width: 100% !important;
+    position: relative;
+    left: 0;
+    margin-left: 0px;
+    float: none;
+    height: auto !important;
+  }
+  html.not-dialog body.xd.system #main-content[role="main"] .ms-vb-icon {
+    padding: 0 !important;
+  }
+  html.not-dialog body.xd.system #main-content[role="main"] td.ms-vb2 {
+    clear: both;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+  }
+  html.not-dialog body.xd.system .s4-ca {
+    overflow: hidden !important;
+  }
+  html.not-dialog body.xd.system .ms-pageinformation {
+    width: 100% !important;
+    float: none;
+  }
+  html.not-dialog body.xd.system .fieldName {
+    float: none;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1em;
+    margin: 15px 0px 0px !important;
+  }
+  html.not-dialog body.xd.system #s4-workspace .xd-menu {
+    border-top: none;
+    padding: 0;
+  }
+  html.not-dialog body.xd.system #s4-workspace .xd-menu .s4-tn li.static .menu-item {
+    border-bottom: solid 1px #ccc;
+    color: #666;
+  }
+  html.not-dialog body.xd.system #s4-workspace .xd-menu .menu li.selected {
+    border-top: none;
+  }
+  html.not-dialog body.xd.system #s4-workspace .mobile-submenu li {
+    background-color: #ddd !important;
+    border-top: none;
+    padding-left: 10%;
+  }
+  html.not-dialog body.xd.system #s4-workspace .static.selected.menu-item {
+    border: 1px;
+  }
+  html.not-dialog body.xd.system #s4-workspace .menu-horizontal li.static, html.not-dialog body.xd.system #s4-workspace .menu-horizontal a.static, html.not-dialog body.xd.system #s4-workspace .menu-horizontal span.static {
+    display: block;
+    width: 100%;
+  }
+  html.not-dialog body.xd.system #auth .thumb,
+  html.not-dialog body.xd.system .row .columns,
+  html.not-dialog body.xd.system .ms-listdescription {
+    width: 100%;
+    display: block;
+    text-align: center;
+    float: none;
+  }
+
+  /* Se queda */
+  html.not-dialog body.xd.active #main-content[role="main"] {
+    margin-left: 80% !important;
+  }
+}
+@media only screen and (max-width: 350px) {
+  html.not-dialog body.xd.system #auth {
+    display: block;
+  }
+  html.not-dialog body.xd.system .navigation-description {
+    display: none;
+  }
+  html.not-dialog body.xd.system .menu-icon, html.not-dialog body.xd.system .sidebar-button {
+    text-indent: -999999px;
+    background-position: 50% center !important;
+  }
+}
+html body .button {
+  display: none;
+}
