@@ -223,6 +223,9 @@ html body.xd.system .ms-viewselector,
 html body.xd.system .ms-viewselectorhover {
   border: none;
 }
+html body.xd.system .ms-cui-topBar2 {
+  height: 44px !important;
+}
 html body.xd.system .xd-header {
   background-color: #009fd9;
   padding: 30px 0;
