@@ -205,10 +205,6 @@ html body.xd.system .s4-ca {
   height: 100% !important;
   /*@extend .box-sizing; */
 }
-html body.xd.system #s4-workspace {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
 html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea, html body.xd.system a span {
   border: none !important;
 }
