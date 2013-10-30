@@ -46,7 +46,6 @@ html body.xd.system{
 		position:relative;
 		margin-top:0px;  
 		height:100% !important; 
-		background-color: $newBlue;
 		/*@extend .box-sizing; */
 	}
 	#s4-workspace{
@@ -400,6 +399,9 @@ html body.xd.system{
 	.field-name{
 		display: none;
 	}
+	.s4-ca{
+		background-color: $newBlue;
+	}
 	.ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer{
 		border:none;
 	}
@@ -492,7 +494,6 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 			font-weight: bold;
 			line-height: 30px;					
 			font-size: 1.1em;
-			background: $newBlue;
 		}				
 	}
 	.s4-ql ul.root ul {
@@ -1124,9 +1125,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				}
 			}
 			.s4-ca{
-				/*overflow: hidden !important;*/
-				background-color:none;
-				min-height:auto;
+				overflow: hidden !important;
 			}
 			.ms-pageinformation{
 				width:100% !important; 
@@ -1178,9 +1177,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			}
 
 		}	
-		/* responsive  open close effects  */ 
+		/* Se queda */ 
 		html.not-dialog body.xd.active {
-			.xd-footer, #main-content[role="main"]{
+			#main-content[role="main"]{
 				left:80% !important;
 			}
 		}
