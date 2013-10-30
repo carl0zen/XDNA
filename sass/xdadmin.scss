@@ -492,6 +492,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 			font-weight: bold;
 			line-height: 30px;					
 			font-size: 1.1em;
+			background: $newBlue;
 		}				
 	}
 	.s4-ql ul.root ul {
@@ -1123,8 +1124,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				}
 			}
 			.s4-ca{
-				overflow: hidden !important;
-				background-color:none
+				/*overflow: hidden !important;*/
+				background-color:none;
+				min-height:auto;
 			}
 			.ms-pageinformation{
 				width:100% !important; 

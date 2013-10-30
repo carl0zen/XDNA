@@ -608,6 +608,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul 
   font-weight: bold;
   line-height: 30px;
   font-size: 1.1em;
+  background: #18b4ef;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul {
   margin: 0;
@@ -1212,8 +1213,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     text-align: center;
   }
   html.not-dialog body.xd.system .s4-ca {
-    overflow: hidden !important;
+    /*overflow: hidden !important;*/
     background-color: none;
+    min-height: auto;
   }
   html.not-dialog body.xd.system .ms-pageinformation {
     width: 100% !important;
