@@ -1254,6 +1254,10 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
  
 ===========================================**/
 
+/* DIalogs */
+.ms-dlgFrameContainer{overflow:visible !important;width:100%;}
+.ms-dlgBorder{width:100% }
+.ms-dlgTitle { background: #009fd9 !important;}
 
 
 
@@ -1281,7 +1285,7 @@ html.ms-dialog
 		> table > td.ms-descriptiontext{
 			font-size: 11px;
 			line-height: 1.1em;
-			display: table;
+			display: table-cell;
 			table{text-align: center;}
 		}
 		#s4-workspace

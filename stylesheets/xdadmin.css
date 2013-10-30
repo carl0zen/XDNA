@@ -1341,6 +1341,20 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
  
 ===========================================**/
+/* DIalogs */
+.ms-dlgFrameContainer {
+  overflow: visible !important;
+  width: 100%;
+}
+
+.ms-dlgBorder {
+  width: 100%;
+}
+
+.ms-dlgTitle {
+  background: #009fd9 !important;
+}
+
 html.ms-dialog body.xd.system #s4-ribboncont {
   background: #009fd9;
 }
@@ -1372,7 +1386,7 @@ html.ms-dialog body.xd.system .ms-sectionheader h3.ms-standardheader {
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext {
   font-size: 11px;
   line-height: 1.1em;
-  display: table;
+  display: table-cell;
 }
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext table {
   text-align: center;
