@@ -11,6 +11,12 @@ window.onload = init;
  
 
 $(document).ready(function(e){
+  if( $('#s4-leftpanel').height() > $('#main-content').height())
+    {
+      var height69 = $('#s4-leftpanel').height()
+      $('html:not(.ms-dialog) #main-content').height(height69)
+    }
+
 var table = $('#main-content table'),
     heading = {
         number: null,
