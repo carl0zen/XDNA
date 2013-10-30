@@ -344,13 +344,7 @@ html body.xd.system .xd-header div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner 
 html body.xd.system .xd-header div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIcon {
   width: 30px !important;
 }
-html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
-  border: medium none !important;
-  margin-bottom: 1px;
-  margin-right: -11px !important;
-  margin-top: 1px;
-  margin-left: 1px;
-}
+html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover,
 html body.xd.system .xd-header .ms-menu-a span {
   border: none !important;
   margin-left: 1px;
