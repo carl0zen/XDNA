@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -745,7 +745,7 @@ html body.xd.internal .ms-WPHeader td, html body.xd.internal .ms-fakewptitle {
   border-bottom: 2px solid #fe6601;
 }
 html body.xd.internal .ms-WPHeader td h3, html body.xd.internal .ms-fakewptitle h3 {
-  font-size: 1.3em;
+  font-size: 2.5em;
   font-family: Segoe UI;
   font-weight: lighter;
 }
