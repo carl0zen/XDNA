@@ -212,6 +212,7 @@ html body.xd.system{
 			margin-bottom:1px;			
 			margin-top:1px;
 			width: 106px !important;
+			margin-right: 1px;
 		}
 		.ms-ltviewselectormenuheader .ms-viewselector,
 		.ms-ltviewselectormenuheader .ms-viewselectorhover{
@@ -1033,8 +1034,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 					margin: auto;
 				}
 				.ms-ltviewselectormenuheader .ms-viewselector-arrow {
-				    margin-right: 0;
-
+					margin-right: 1px;
 				}
 			}	
 			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 

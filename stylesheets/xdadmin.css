@@ -357,6 +357,7 @@ html body.xd.system .xd-header .ms-menu-a span {
   margin-bottom: 1px;
   margin-top: 1px;
   width: 106px !important;
+  margin-right: 1px;
 }
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
@@ -1123,7 +1124,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     margin: auto;
   }
   html.not-dialog body.xd.system #main-content .ms-ltviewselectormenuheader .ms-viewselector-arrow {
-    margin-right: 0;
+    margin-right: 1px;
   }
   html.not-dialog body.xd.system #main-content .ms-authoringcontrols.ms-inputformcontrols table {
     margin: auto;
