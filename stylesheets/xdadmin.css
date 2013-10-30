@@ -195,6 +195,7 @@ html body.xd.system .xd-header .row, html body.xd.system .s4-tn {
   max-width: 100%;
 }
 html body.xd.system .s4-ca {
+  background-color: #18b4ef;
   min-height: 390px;
   position: relative;
   margin-top: 0px;
@@ -770,13 +771,13 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     padding: 0;
     line-height: 30px;
     text-align: left;
-    text-indent: 1em;
     display: block;
     float: left\9;
     /* IE8+9  */
     clear: both\9;
     /*IE8+9 */
     width: 100% !important;
+    padding-left: 1em !important;
   }
   html:not(.ms-dialog) body.xd #main-content tr.accordion-title:before, html.not-dialog body.xd #main-content tr.accordion-title:before {
     content: '';

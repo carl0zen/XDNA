@@ -42,6 +42,7 @@ html body.xd.system{
 		max-width: 100%;
 	}
 	.s4-ca{
+		background-color: $newBlue;
 		min-height:390px;
 		position:relative;
 		margin-top:0px;  
@@ -646,12 +647,12 @@ html:not(.ms-dialog), html.not-dialog{
 				    font-weight: bold;
 				    padding: 0;
 				    line-height: 30px;
-				    text-align: left;
-				    text-indent: 1em;
+				    text-align: left;				    
 				    display: block;
 				    float: left\9; /* IE8+9  */
 					clear:both\9; /*IE8+9 */
 				    width: 100% !important;
+				    padding-left: 1em !important ;
 				}
 				&:before{
 						content:'';
