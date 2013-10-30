@@ -357,7 +357,6 @@ html body.xd.system .xd-header .ms-menu-a span {
   margin-bottom: 1px;
   margin-top: 1px;
   width: 106px !important;
-  margin-right: 1px;
 }
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
@@ -958,7 +957,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     line-height: 45px;
   }
   html:not(.ms-dialog) body.xd #main-content .ms-linksection-level1 img, html.not-dialog body.xd #main-content .ms-linksection-level1 img {
-    margin-top: 13px;
+    margin-top: auto;
   }
   html:not(.ms-dialog) body.xd #main-content .ms-vb a, html.not-dialog body.xd #main-content .ms-vb a {
     font-size: 1.3em;

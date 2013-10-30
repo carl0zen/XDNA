@@ -212,7 +212,6 @@ html body.xd.system{
 			margin-bottom:1px;			
 			margin-top:1px;
 			width: 106px !important;
-			margin-right: 1px;
 		}
 		.ms-ltviewselectormenuheader .ms-viewselector,
 		.ms-ltviewselectormenuheader .ms-viewselectorhover{
@@ -854,7 +853,7 @@ html:not(.ms-dialog), html.not-dialog{
 					line-height: 45px;
 				}
 				img{
-					margin-top: 13px;
+					margin-top: auto;
 				}
 			}
 			.ms-vb{
