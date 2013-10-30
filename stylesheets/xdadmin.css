@@ -120,7 +120,7 @@
   background-origin: border-box;
 }
 
-html body #s4-ribbonrow img {
+img {
   max-width: auto !important;
 }
 
@@ -203,6 +203,9 @@ html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleAre
 }
 html body.xd.system img, html body.xd.system object, html body.xd.system embed {
   max-width: auto !important;
+}
+html body.xd.system .ms-cui-topBar2 {
+  height: 44px;
 }
 html body.xd.system .xd-header {
   background-color: #009fd9;
@@ -335,6 +338,7 @@ html body.xd.system .xd-header .ms-menu-a span {
   border: none !important;
   margin-left: 1px;
   margin-bottom: 1px;
+  margin-top: 1px;
 }
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {
