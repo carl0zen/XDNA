@@ -1193,6 +1193,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     top: 0;
     bottom: 0;
   }
+  html.not-dialog body.xd.system .menu.vertical.menu-vertical {
+    background-color: #18b4ef;
+  }
   html.not-dialog body.xd.system #main-content[role="main"] {
     width: auto !important;
     width: 100% !important/9;
@@ -1214,7 +1217,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     text-align: center;
   }
   html.not-dialog body.xd.system .s4-ca {
-    overflow: hidden !important;
+    /*overflow: hidden !important;*/
+    background-color: #fefefe;
   }
   html.not-dialog body.xd.system .ms-pageinformation {
     width: 100% !important;

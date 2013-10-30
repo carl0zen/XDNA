@@ -1104,6 +1104,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				top:0;
 				bottom:0;
 			}	
+			.menu.vertical.menu-vertical{
+				background-color:$newBlue;
+			}
 			#main-content[role="main"]{
 				width:auto !important; 
 				width:100% !important/9; 
@@ -1125,7 +1128,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				}
 			}
 			.s4-ca{
-				overflow: hidden !important;
+				/*overflow: hidden !important;*/	
+				background-color: #fefefe
 			}
 			.ms-pageinformation{
 				width:100% !important; 
