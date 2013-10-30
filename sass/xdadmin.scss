@@ -199,6 +199,9 @@ html body.xd.system{
 		div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIcon{ 
 			width:30px !important;
 		}
+		.s4-clust.ms-viewselector-arrow.ms-menu-hovarw {
+    		width: 0 !important;
+		}
 		.ms-ltviewselectormenuheader .ms-viewselectorhover,
 		.ms-menu-a span{
 			border:none !important; 
@@ -1024,11 +1027,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			#main-content {
 				a.ms-addnew{
 					font-size:2em;
-<<<<<<< HEAD
 					display: block;
 					padding-bottom: 17px;
-=======
->>>>>>> b4c20137b727925bf6bae7fe3a7c8d752719e53a
 				}
 				.ms-authoringcontrols.ms-inputformcontrols table{ 
 					margin: auto;
@@ -1198,18 +1198,10 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 
 		}	
 		/* Se queda */ 
-		html.not-dialog body.xd.active {
-<<<<<<< HEAD
-			#main-content[role="main"],
-			.xd-footer{
-=======
-			#main-content[role="main"]{
->>>>>>> b4c20137b727925bf6bae7fe3a7c8d752719e53a
-				left:80% !important;
-			}
+		html.not-dialog body.xd.active #main-content[role="main"]{		
+			left:80% !important;
 		}
 	}
-
 	@media only screen and (max-width: 350px) {
 		html.not-dialog body.xd.system {
 			#auth{
