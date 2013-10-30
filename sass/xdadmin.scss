@@ -42,6 +42,8 @@ html body.xd.system{
 		max-width: 100%;
 	}
 	.s4-ca{
+		min-height:390px;
+		position:relative;
 		margin-top:0px;  
 		height:100% !important; 
 		/*@extend .box-sizing; */
@@ -1124,6 +1126,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			}
 			.s4-ca{
 				overflow: hidden !important;
+				background-color:none
 			}
 			.ms-pageinformation{
 				width:100% !important; 

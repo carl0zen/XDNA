@@ -195,6 +195,8 @@ html body.xd.system .xd-header .row, html body.xd.system .s4-tn {
   max-width: 100%;
 }
 html body.xd.system .s4-ca {
+  min-height: 390px;
+  position: relative;
   margin-top: 0px;
   height: 100% !important;
   /*@extend .box-sizing; */
@@ -1213,6 +1215,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   }
   html.not-dialog body.xd.system .s4-ca {
     overflow: hidden !important;
+    background-color: none;
   }
   html.not-dialog body.xd.system .ms-pageinformation {
     width: 100% !important;
