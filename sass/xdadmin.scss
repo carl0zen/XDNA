@@ -1196,7 +1196,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 		}	
 		/* Se queda */ 
 		html.not-dialog body.xd.active {
-			#main-content[role="main"]{
+			#main-content[role="main"],
+			.xd-footer{
 				left:80% !important;
 			}
 		}

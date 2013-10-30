@@ -1273,7 +1273,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   }
 
   /* Se queda */
-  html.not-dialog body.xd.active #main-content[role="main"] {
+  html.not-dialog body.xd.active #main-content[role="main"],
+  html.not-dialog body.xd.active .xd-footer {
     left: 80% !important;
   }
 }
