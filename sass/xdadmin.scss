@@ -3,7 +3,7 @@
 @import "helpers"; 
 @import "layout";
 
-html body.xd.system #s4-ribbonrow img{max-width: auto !important;}
+img{max-width: auto !important;}
 html body.xd.system{	
 	/*======================================== 
 	     _____ _       _           _ 
@@ -47,6 +47,9 @@ html body.xd.system{
 	}
 	img, object, embed{
 		max-width: auto !important;
+	}
+	.ms-cui-topBar2{
+		height: 44px
 	}
 	/*======================================== 		
 	    _    _

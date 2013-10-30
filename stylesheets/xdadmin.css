@@ -120,7 +120,7 @@
   background-origin: border-box;
 }
 
-html body.xd.system #s4-ribbonrow img {
+img {
   max-width: auto !important;
 }
 
@@ -203,6 +203,9 @@ html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleAre
 }
 html body.xd.system img, html body.xd.system object, html body.xd.system embed {
   max-width: auto !important;
+}
+html body.xd.system .ms-cui-topBar2 {
+  height: 44px;
 }
 html body.xd.system .xd-header {
   background-color: #009fd9;
