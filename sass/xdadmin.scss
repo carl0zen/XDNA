@@ -1031,6 +1031,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				.ms-authoringcontrols.ms-inputformcontrols table{ 
 					margin: auto;
 				}
+				.ms-ltviewselectormenuheader .ms-viewselector-arrow {
+				    margin-right: 0;
+				}
 			}	
 			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
 				margin: auto;
@@ -1071,7 +1074,11 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 					a{
 						 font-size:1em;
 					}
+<<<<<<< HEAD
 				}			
+=======
+				}				
+>>>>>>> 59ad8429a15352d74257d5e1b09eff8aa19750b5
 				.row{
 					width:100%;
 				}
