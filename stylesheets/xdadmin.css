@@ -120,7 +120,7 @@
   background-origin: border-box;
 }
 
-html body.xd.system img {
+html body #s4-ribbonrow img {
   max-width: auto !important;
 }
 
