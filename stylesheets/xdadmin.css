@@ -120,7 +120,7 @@
   background-origin: border-box;
 }
 
-html body #s4-ribbonrow img {
+html body.xd.system #s4-ribbonrow img {
   max-width: auto !important;
 }
 
@@ -335,6 +335,7 @@ html body.xd.system .xd-header .ms-menu-a span {
   border: none !important;
   margin-left: 1px;
   margin-bottom: 1px;
+  margin-top: 1px;
 }
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselector,
 html body.xd.system .xd-header .ms-ltviewselectormenuheader .ms-viewselectorhover {

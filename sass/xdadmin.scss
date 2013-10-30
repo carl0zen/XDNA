@@ -3,7 +3,7 @@
 @import "helpers"; 
 @import "layout";
 
-html body #s4-ribbonrow img{max-width: auto !important;}
+html body.xd.system #s4-ribbonrow img{max-width: auto !important;}
 html body.xd.system{	
 	/*======================================== 
 	     _____ _       _           _ 
@@ -184,9 +184,10 @@ html body.xd.system{
 		}
 		.ms-ltviewselectormenuheader .ms-viewselectorhover,
 		.ms-menu-a span{
-			 border:none !important; 
-			 margin-left:1px; 
-			 margin-bottom:1px;
+			border:none !important; 
+			margin-left:1px; 
+			margin-bottom:1px;			
+			margin-top:1px;
 		}
 		.ms-ltviewselectormenuheader .ms-viewselector,
 		.ms-ltviewselectormenuheader .ms-viewselectorhover{
