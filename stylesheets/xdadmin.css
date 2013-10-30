@@ -404,7 +404,7 @@ html body.xd.system #main-content[role="main"] .ms-menutoolbar td {
   padding: 0px 2px;
 }
 html body.xd.system #main-content[role="main"] .ms-listviewtable td {
-  line-height: 25px;
+  line-height: 30px;
   padding: 0;
   vertical-align: top;
 }
