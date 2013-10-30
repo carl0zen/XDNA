@@ -1418,6 +1418,10 @@ html.ms-dialog body.xd.system .ms-authoringcontrols label {
 }
 html.ms-dialog body.xd.system table {
   font-size: 12px;
+  background: none;
+}
+html.ms-dialog body.xd.system .ms-formbody {
+  background: none;
 }
 html.ms-dialog body.xd.system .s4-pr {
   width: 100% !important;

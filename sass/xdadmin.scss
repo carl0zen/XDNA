@@ -1076,7 +1076,8 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 					a{
 						 font-size:1em;
 					}
-				}				
+				}			
+
 				.row{
 					width:100%;
 				}
@@ -1327,7 +1328,8 @@ html.ms-dialog
 				line-height: 13px;
 			}
 		}
-		table{font-size: 12px;}
+		table{font-size: 12px;background: none;}
+		.ms-formbody{background: none;}
 		.s4-pr{width:100% !important;}
     }
 }
