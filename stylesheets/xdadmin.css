@@ -435,6 +435,7 @@ html body.xd.system #main-content[role="main"] .ms-buttoninactivehover {
 }
 html body.xd.system table {
   border: none !important;
+  margin-bottom: 0px;
 }
 html body.xd.system table tr td,
 html body.xd.system table thead tr th,
