@@ -410,6 +410,7 @@ html body.xd.system #main-content[role="main"] {
   margin-left: 155px;
   float: none;
   overflow: hidden !important;
+  overflow-x: scroll !important;
   /*@extend .box-sizing; */
   /* Table Helpers only in main content */
 }
