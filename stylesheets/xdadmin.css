@@ -1340,10 +1340,11 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
  
 ===========================================**/
-.ms-dlgContent .ms-dlgBorder {
+.ms-dlgBorder {
   width: 100%;
 }
-.ms-dlgContent .ms-dlgBorder .ms-dlgFrameContainer {
+
+.ms-dlgFrameContainer {
   overflow: visible;
   width: 100%;
 }
