@@ -1317,9 +1317,6 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
   margin: 5px;
 }
-html.ms-dialog body.xd.system #s4-leftpanel[role="complementary"] {
-  display: none !important;
-}
 html.ms-dialog body.xd.system .ms-long {
   width: 100%;
 }
@@ -1352,21 +1349,24 @@ html.ms-dialog body.xd.system > table > td.ms-descriptiontext {
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext table {
   text-align: center;
 }
-html.ms-dialog body.xd.system #s4-workspace .s4-ca {
+html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca {
   margin: 0;
   background: none !important;
 }
-html.ms-dialog body.xd.system #s4-workspace .s4-ca #main-content {
+html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #s4-leftpanel[role="complementary"] {
+  display: none !important;
+}
+html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   margin: 0;
   width: auto;
   min-height: 1px;
 }
-html.ms-dialog body.xd.system #s4-workspace .s4-ca #main-content > table {
+html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content > table {
   margin: 0;
   width: 100% !important;
 }
-html.ms-dialog body.xd.system #s4-workspace .s4-ca #main-content > table > tbody {
+html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content > table > tbody {
   display: block;
   width: 100%;
 }

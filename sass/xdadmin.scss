@@ -1232,7 +1232,7 @@ html.ms-dialog
     body.xd.system
     {
     	input[type="checkbox"], input[type="radio"] {margin: 5px;}
-    	#s4-leftpanel[role="complementary"]{display: none !important;}
+    	
     	.ms-long{width:100%;}	
     	.ms-inputformdescription {padding-left: 6px;padding-right: 9px}
     	.ms-ButtonHeightWidth {font: 9pt tahoma; height: 2.1em; padding-bottom: 0.4em; padding-top: 0.1em;}
@@ -1253,10 +1253,12 @@ html.ms-dialog
 		}
 		#s4-workspace
 		{
-			.s4-ca{
+			#s4-bodyContainer .s4-ca{
 				margin: 0;
 				background: none !important;
+				#s4-leftpanel[role="complementary"]{display: none !important;}
 				#main-content{
+
 					background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 					margin: 0;
 					width: auto;
