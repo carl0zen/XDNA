@@ -205,6 +205,10 @@ html body.xd.system .s4-ca {
   height: 100% !important;
   /*@extend .box-sizing; */
 }
+html body.xd.system #s4-workspace {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 html body.xd.system #ctl00_PlaceHolderPageTitleInTitleArea_lbPageTitleInTitleArea, html body.xd.system a span {
   border: none !important;
 }
@@ -1246,9 +1250,6 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     width: 100%;
     font-size: 1.1em;
     margin: 15px 0px 0px !important;
-  }
-  html.not-dialog body.xd.system #s4-workspace {
-    overflow-x: auto;
   }
   html.not-dialog body.xd.system #s4-workspace .xd-menu {
     border-top: none;
