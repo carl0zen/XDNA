@@ -1340,19 +1340,6 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
                                            "Y88888P'           
  
 ===========================================**/
-.ms-dlgBorder {
-  width: 100%;
-}
-
-.ms-dlgFrameContainer {
-  overflow: visible;
-  width: 100%;
-}
-
-.ms-dlgTitle {
-  background: #009fd9;
-}
-
 html.ms-dialog body.xd.system #s4-ribboncont {
   background: #009fd9;
 }
@@ -1367,10 +1354,8 @@ html.ms-dialog body.xd.system .ms-inputformdescription {
   padding-right: 9px;
 }
 html.ms-dialog body.xd.system .ms-ButtonHeightWidth {
-  font: 9pt tahoma;
-  height: 2.1em;
-  padding-bottom: 0.4em;
-  padding-top: 0.1em;
+  font: 10pt tahoma;
+  line-height: 2.4em;
 }
 html.ms-dialog body.xd.system #wrapper {
   width: 100%;
