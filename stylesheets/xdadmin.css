@@ -205,7 +205,7 @@ html body.xd.system img, html body.xd.system object, html body.xd.system embed {
   max-width: auto !important;
 }
 html body.xd.system .ms-cui-topBar2 {
-  height: 44px;
+  height: 44px !important;
 }
 html body.xd.system .xd-header {
   background-color: #009fd9;
