@@ -214,6 +214,9 @@ html body.xd.system img, html body.xd.system object, html body.xd.system embed {
 html body.xd.system .ms-cui-topBar2 {
   height: 44px !important;
 }
+html body.xd.system .s4-clust .ms-viewselector-arrow .ms-menu-hovarw {
+  display: none;
+}
 html body.xd.system .xd-header {
   background-color: #009fd9;
   padding: 30px 0;
