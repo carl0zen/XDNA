@@ -124,6 +124,10 @@ body.xd .xd-header .s4-notdlg img {
   margin-top: auto;
 }
 
+body.xd .xd-header .ms-ltviewselectormenuheader .ms-viewselector {
+  border: none !important;
+}
+
 html body.xd.system {
   /*======================================== 
        _____ _       _           _ 
