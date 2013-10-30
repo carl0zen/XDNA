@@ -522,9 +522,6 @@ html body.xd.system tr b, html body.xd.system tr td b h3, html body.xd.system .m
 html body.xd.system .field-name {
   display: none;
 }
-html body.xd.system .s4-ca {
-  background-color: #18b4ef;
-}
 html body.xd.system .ms-cui-ctl-large-groupPopup .ms-cui-ctl-largeIconContainer, html body.xd.system .ms-cui-ctl-large-groupPopup.ms-cui-disabled:hover .ms-cui-ctl-largeIconContainer {
   border: none;
 }
