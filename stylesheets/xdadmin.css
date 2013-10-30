@@ -216,7 +216,10 @@ html body.xd.system img, html body.xd.system object, html body.xd.system embed {
   max-width: auto !important;
 }
 html body.xd.system .ms-cui-topBar2 {
-  height: 44px !important;
+  height: 45px !important;
+}
+html body.xd.system body #s4-ribbonrow {
+  min-height: 45px !important;
 }
 html body.xd.system .s4-clust .ms-viewselector-arrow .ms-menu-hovarw {
   display: none;
