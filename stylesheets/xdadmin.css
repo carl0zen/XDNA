@@ -573,6 +573,7 @@ html body.xd.system .ms-gb h3.ms-standardheader {
 }
 html body.xd.system .ms-viewlsts .ms-vb2 {
   line-height: 170%;
+  padding: 10px 0;
 }
 html body.xd.system .ms-viewlsts .ms-vb2 > a {
   font-size: 1.3em;
