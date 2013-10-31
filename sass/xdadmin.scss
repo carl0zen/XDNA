@@ -522,7 +522,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 				line-height: 25px;
 				text-indent: 0;
 				&:hover{
-					background-color: $darkestBlue;
+					background-color: lighten( $newBlue, 10% );
 				}
 			}
 		}
