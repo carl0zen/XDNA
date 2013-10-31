@@ -630,8 +630,6 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.r
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li {
   background: #6CCFF4;
   border-bottom: 1px solid #18b4ef;
-  transition: all 2s;
-  -webkit-transition: all 2s;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
   font-size: 0.9em;
