@@ -552,7 +552,8 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
 =======================================**/
 
 
-html:not(.ms-dialog), html.not-dialog{
+html:not(.ms-dialog), 
+html.not-dialog{
 
 	@include tablet-portrait-and-below{
 		table 						 {table-layout: auto} //IE Fix
@@ -1109,7 +1110,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			}
 			#main-content[role="main"]{
 				padding-top:40px !important;
-				width:auto !important; 
+				width:100%; 
 				width:100% !important/9; 
 				position:relative;
 				overflow: hidden;
@@ -1184,7 +1185,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 
 		}	
 		/* Se queda */ 
-		html.not-dialog body.xd.active #main-content[role="main"]{	left:80% !important;}
+		/*html.not-dialog body.xd.active #main-content[role="main"]{	left:80% !important;}*/
 	}
 	@media only screen and (max-width: 350px) {
 		html.not-dialog body.xd.system {
