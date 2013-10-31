@@ -401,16 +401,16 @@ html body.xd.system .xd-header .ms-menu-althov-active .ms-viewselectorhover {
   display: inline-block !important;
 }
 html body.xd.system #main-content[role="main"] {
-  width: auto;
-  min-height: 600px;
-  position: static;
   background-color: #fefefe;
   background-image: none;
   border-left: 0px;
-  margin-left: 155px;
   float: none;
-  overflow: hidden !important;
-  overflow-x: scroll !important;
+  margin-left: 155px;
+  min-height: 600px;
+  overflow-x: scroll;
+  overflow-y: hidden !important;
+  position: static;
+  width: auto;
   /*@extend .box-sizing; */
   /* Table Helpers only in main content */
 }
@@ -422,6 +422,12 @@ html body.xd.system #main-content[role="main"] .sidebar-button.button {
   transition-property: all;
   transition-timing-function: ease;
   display: none !important;
+}
+html body.xd.system #main-content[role="main"] > div > table {
+  background: none;
+}
+html body.xd.system #main-content[role="main"] .ms-pageinformation {
+  padding: 0;
 }
 html body.xd.system #main-content[role="main"] .button {
   display: none !important;
@@ -579,12 +585,6 @@ html body.xd.system td.ms-linksectionheader, html body.xd.system th.ms-linksecti
   font-weight: normal;
   color: #000;
   text-indent: 10px;
-}
-html body.xd.system #main-content > div > table {
-  background: none;
-}
-html body.xd.system #main-content .ms-pageinformation {
-  padding: 0;
 }
 html body.xd.system .xd-footer {
   border-top: solid 1px #ccc;
@@ -1095,7 +1095,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
 
   html:not(.ms-dialog-nr) body.xd.system #main-content {
-    overflow: visible !important;
+    overflow: visible;
     min-height: 1px;
   }
 }

@@ -267,16 +267,16 @@ html body.xd.system{
 
 	==============================================================*/
 	#main-content[role="main"]{			
-		width :auto;
-		min-height:600px; 
-		position:static;
 		background-color:$white;
 		background-image:none;
 		border-left:0px;
-		margin-left: 155px;
 		float:none;
-		overflow:hidden !important;
-		overflow-x: scroll !important;
+		margin-left: 155px;
+		min-height:600px; 
+		overflow-x: scroll ;
+		overflow-y: hidden !important;
+		position:static;
+		width :auto;
 		/*@extend .box-sizing; */
 		.sidebar-button.button{
 			background-image:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
@@ -286,6 +286,12 @@ html body.xd.system{
 			transition-property: all;
 			transition-timing-function: ease; 
 			display:none !important;
+		}
+		> div > table{
+			background: none;
+		}
+		.ms-pageinformation {
+			padding: 0;
 		}
 		.button{ 
 			display:none !important;
@@ -462,14 +468,6 @@ html body.xd.system{
 		color: #000;
 		text-indent: 10px;
 	}
-	#main-content{
-		> div > table{
-			background: none;
-		}
-		.ms-pageinformation {
-			padding: 0;
-		}
-	}
 	.xd-footer{
 		border-top:solid 1px #ccc;
 		padding:40px 0;
@@ -561,8 +559,7 @@ html:not(.ms-dialog), html.not-dialog{
 		.ms-separator 				{display: none !important;}
 		.ms-propertysheet{
 			table {margin:0 auto}
-		}
-		
+		}		
 		.fieldName{
 			float: left;
 			margin-right: 10px;
@@ -572,13 +569,10 @@ html:not(.ms-dialog), html.not-dialog{
 			width: 90px;
 			font-size: 0.8em;
 		}
-
-
 		td label{
 			display: inline-block !important;
 			margin-left: 6px;
-		}
-		
+		}		
 		button, select{
 			font-size: 12px;
 			padding: 4px;
@@ -591,9 +585,7 @@ html:not(.ms-dialog), html.not-dialog{
 		.ms-authoringcontrols table{
 			margin:0 auto;
 			width:auto;
-		}
-	 
-	 	
+		}	 	
 	 	body.xd #main-content table.ms-viewlsts{
 	 		tbody{
 	 			tr:first-child{
@@ -602,7 +594,6 @@ html:not(.ms-dialog), html.not-dialog{
 	 		}
 	 	}
 	 	* html table.ms-listviewtable thead{ zoom: 1;}
-
 		body.xd #main-content{
 			padding: 0 !important;
 			tr.s4-itm-selected, tr.s4-itm-selected:hover {
@@ -997,9 +988,8 @@ html:not(.ms-dialog), html.not-dialog{
     min-height:1px;
 	}
 
-
 	html:not(.ms-dialog-nr) body.xd.system #main-content {
-    	overflow: visible !important;
+    	overflow: visible;
     	min-height:1px;
 	}
 }
