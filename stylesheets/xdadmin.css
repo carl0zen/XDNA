@@ -414,7 +414,7 @@ html body.xd.system #main-content[role="main"] {
   /*@extend .box-sizing; */
   /* Table Helpers only in main content */
 }
-html body.xd.system #main-content[role="main"] .sidebar-button.button {
+html body.xd.system #main-content[role="main"] #sidebarButton {
   background-image: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
   background-repeat: no-repeat;
   background-position: 90% 50%;
@@ -1362,6 +1362,9 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
   background: #009fd9 !important;
 }
 
+html.ms-dialog body.xd.system .ms-toolbar {
+  padding: 0px;
+}
 html.ms-dialog body.xd.system #s4-ribboncont {
   background: #009fd9;
 }

@@ -278,7 +278,7 @@ html body.xd.system{
 		position:static;
 		width :auto;
 		/*@extend .box-sizing; */
-		.sidebar-button.button{
+		#sidebarButton{
 			background-image:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
 			background-repeat:no-repeat;
 			background-position:90% 50%;
@@ -1260,8 +1260,10 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 
 html.ms-dialog
 {	
-    body.xd.system
-    {
+    body.xd.system{
+    	.ms-toolbar{
+    		padding: 0px;
+    	}
     	#s4-ribboncont{
     		background: #009fd9;
     	}
