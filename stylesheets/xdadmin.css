@@ -191,7 +191,7 @@ html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
 }
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover .ms-vb-firstCell .s4-itm-cbx {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover:hover {
   border: none;
@@ -447,8 +447,6 @@ html body.xd.system #main-content[role="main"] .ms-menutoolbar td {
 }
 html body.xd.system #main-content[role="main"] .ms-listviewtable td {
   line-height: 20px;
-  padding-top: 10px;
-  vertical-align: top;
 }
 html body.xd.system #main-content[role="main"] .ms-authoringcontrols.ms-inputformcontrols table {
   margin: 1em 0;

@@ -34,7 +34,7 @@ html body.xd.system{
 	}
 	table table.ms-listviewtable > tbody .ms-itmhover{
 		.ms-vb-firstCell .s4-itm-cbx{
-			padding-left: 10px;
+			margin-left: 10px;
 		}
 		background-image:none;
 		&:hover{
@@ -311,8 +311,7 @@ html body.xd.system{
 		}
 		.ms-listviewtable td{ 
 			line-height: 20px;
-			padding-top: 10px;
-			vertical-align:top;
+			
 		}
 		.ms-authoringcontrols.ms-inputformcontrols table{ 
 			margin:1em 0;
