@@ -167,9 +167,6 @@ html body.xd.system {
                                           
   	===========================================*/
 }
-html body.xd.system .ms-vb {
-  line-height: 31px;
-}
 html body.xd.system div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge,
 html body.xd.system div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLargeRtl {
   width: 45px;
@@ -186,6 +183,12 @@ html body.xd.system table table.ms-listviewtable > tbody {
 }
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
+}
+html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover .ms-vb {
+  line-height: 31px;
+}
+html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover .s4-itm-cbx {
+  padding: 10px;
 }
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover:hover {
   border: none;
