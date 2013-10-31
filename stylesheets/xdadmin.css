@@ -190,6 +190,9 @@ html body.xd.system table table.ms-listviewtable > tbody {
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   background-image: none;
 }
+html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover .ms-vb-firstCell .s4-itm-cbx {
+  padding-left: 10px;
+}
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover:hover {
   border: none;
 }

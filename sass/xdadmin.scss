@@ -33,7 +33,9 @@ html body.xd.system{
 		width:100% !important;
 	}
 	table table.ms-listviewtable > tbody .ms-itmhover{
-		
+		.ms-vb-firstCell .s4-itm-cbx{
+			padding-left: 10px;
+		}
 		background-image:none;
 		&:hover{
 			border: none;
