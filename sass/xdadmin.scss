@@ -514,6 +514,8 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 		> li {
 				background: #6CCFF4;
 				border-bottom: 1px solid $newBlue;
+				transition: all 2s;
+				-webkit-transition: all 2s;
 			> a{
 				font-size: 0.9em;
 				color: #fff;
