@@ -499,7 +499,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 	}
 	.menu > ul > li {
 		&:hover{
-			background-color: $darkestBlue; 
+			background-color: lighten( $newBlue, 10% ); 
 		}
 		a{
 			text-decoration: none;					
@@ -1110,6 +1110,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				background-color:$newBlue;
 			}
 			#main-content[role="main"]{
+				padding-top:40px !important;
 				width:auto !important; 
 				width:100% !important/9; 
 				position:relative;

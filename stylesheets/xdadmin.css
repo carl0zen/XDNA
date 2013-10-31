@@ -616,7 +616,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkb
   color: #fff;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li:hover {
-  background-color: #004255;
+  background-color: #48c3f2;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
   text-decoration: none;
@@ -1216,6 +1216,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     background-color: #18b4ef;
   }
   html.not-dialog body.xd.system #main-content[role="main"] {
+    padding-top: 40px !important;
     width: auto !important;
     width: 100% !important/9;
     position: relative;
