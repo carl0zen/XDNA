@@ -167,6 +167,9 @@ html body.xd.system {
                                           
   	===========================================*/
 }
+html body.xd.system .ms-vb {
+  line-height: 31px;
+}
 html body.xd.system div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge,
 html body.xd.system div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLargeRtl {
   width: 45px;
