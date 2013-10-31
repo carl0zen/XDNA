@@ -1282,8 +1282,10 @@ html.ms-dialog
 		> table > td.ms-descriptiontext{
 			font-size: 11px;
 			line-height: 1.1em;
-			display: table-cell;
 			table{text-align: center;}
+		}
+		.ms-descriptiontext{
+			display: table-cell;
 		}
 		#s4-workspace
 		{
