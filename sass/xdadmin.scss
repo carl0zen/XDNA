@@ -521,6 +521,8 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 				color: #fff;
 				line-height: 25px;
 				text-indent: 0;
+				transition: all 2s;
+				-webkit-transition: all 2s;
 				&:hover{
 					background-color: lighten( $newBlue, 10% );
 				}
