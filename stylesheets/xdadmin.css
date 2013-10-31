@@ -1469,6 +1469,11 @@ html.ms-dialog body.xd.system #s4-ribboncont {
 }
 html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
   margin: 5px;
+  float: left;
+}
+html.ms-dialog body.xd.system .ms-RadioText label {
+  float: left;
+  line-height: 215%;
 }
 html.ms-dialog body.xd.system .ms-long {
   width: 100%;
