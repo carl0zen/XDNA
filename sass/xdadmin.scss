@@ -1077,10 +1077,13 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 					width:100%;
 					display:block
 				}
-				.s4-pagedescription span{
-					display:block;
-					text-align:center;
-				}
+				.s4-pagedescription{
+					margin-top:1.5em;  
+					span{
+						display:block;
+						text-align:center;
+					}
+				}	
 			}
 			#sidebarButton{
 				display:block;

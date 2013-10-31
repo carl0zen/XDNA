@@ -1184,6 +1184,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     width: 100%;
     display: block;
   }
+  html.not-dialog body.xd.system .xd-header .s4-pagedescription {
+    margin-top: 1.5em;
+  }
   html.not-dialog body.xd.system .xd-header .s4-pagedescription span {
     display: block;
     text-align: center;
