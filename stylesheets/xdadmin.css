@@ -615,6 +615,9 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
   color: #fff;
 }
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li:hover {
+  background-color: #fff;
+}
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
   text-decoration: none;
 }
@@ -1088,19 +1091,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
 }
 
-/*
-@include tablet-landscape-and-below{
-	body.system .s4-ca {
-    overflow-x: visible !important;
-    min-height:1px;
-	}
-
-	html:not(.ms-dialog-nr) body.xd.system #main-content {
-    	overflow: visible;
-    	min-height:1px;
-	}
-}
-*/
 body.xd.system table table.ms-listviewtable > tbody {
   width: 100% !important;
 }

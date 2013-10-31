@@ -498,6 +498,9 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 		color:#fff;
 	}
 	.menu > ul > li {
+		&:hover{
+			background-color:#fff; 
+		}
 		a{
 			text-decoration: none;					
 		}
@@ -981,19 +984,6 @@ html:not(.ms-dialog), html.not-dialog{
 	}
 }
 
-/*
-@include tablet-landscape-and-below{
-	body.system .s4-ca {
-    overflow-x: visible !important;
-    min-height:1px;
-	}
-
-	html:not(.ms-dialog-nr) body.xd.system #main-content {
-    	overflow: visible;
-    	min-height:1px;
-	}
-}
-*/
 body.xd.system table table.ms-listviewtable > tbody{width:100% !important}
 body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-image:none}
 
