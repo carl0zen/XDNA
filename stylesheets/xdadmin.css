@@ -794,6 +794,11 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   html.not-dialog body.xd #main-content td img {
     max-width: 100%;
   }
+  html:not(.ms-dialog) body.xd #main-content td .ms-addnew,
+  html.not-dialog body.xd #main-content td .ms-addnew {
+    display: block;
+    width: 100% !important;
+  }
   html:not(.ms-dialog) body.xd #main-content .ms-itmhover,
   html.not-dialog body.xd #main-content .ms-itmhover {
     display: none;
