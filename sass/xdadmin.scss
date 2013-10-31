@@ -73,6 +73,15 @@ html body.xd.system{
 	.ms-cui-topBar2{
 		height: 44px !important; 
 	}
+	#sidebarButton{
+		background-image:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
+		background-repeat:no-repeat;
+		background-position:90% 50%;
+		transition-duration: 0.2s;
+		transition-property: all;
+		transition-timing-function: ease; 
+		display:none !important;
+	}
 	/*======================================== 		
 	    _    _
 	   | |  | |              | |          
@@ -278,16 +287,6 @@ html body.xd.system{
 		position:static;
 		width :auto;
 		/*@extend .box-sizing; */
-		#sidebarButton,
-		.sidebar-button.button{
-			background-image:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
-			background-repeat:no-repeat;
-			background-position:90% 50%;
-			transition-duration: 0.2s;
-			transition-property: all;
-			transition-timing-function: ease; 
-			display:none !important;
-		}
 		> div > table{
 			background: none;
 		}

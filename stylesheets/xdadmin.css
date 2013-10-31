@@ -226,6 +226,15 @@ html body.xd.system .ms-viewselectorhover {
 html body.xd.system .ms-cui-topBar2 {
   height: 44px !important;
 }
+html body.xd.system #sidebarButton {
+  background-image: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease;
+  display: none !important;
+}
 html body.xd.system .xd-header {
   background-color: #009fd9;
   padding: 30px 0;
@@ -413,16 +422,6 @@ html body.xd.system #main-content[role="main"] {
   width: auto;
   /*@extend .box-sizing; */
   /* Table Helpers only in main content */
-}
-html body.xd.system #main-content[role="main"] #sidebarButton,
-html body.xd.system #main-content[role="main"] .sidebar-button.button {
-  background-image: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
-  background-repeat: no-repeat;
-  background-position: 90% 50%;
-  transition-duration: 0.2s;
-  transition-property: all;
-  transition-timing-function: ease;
-  display: none !important;
 }
 html body.xd.system #main-content[role="main"] > div > table {
   background: none;
