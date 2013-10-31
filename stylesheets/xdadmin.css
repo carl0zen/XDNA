@@ -616,7 +616,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkb
   color: #fff;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li:hover {
-  background-color: #fff;
+  background-color: darken #18b4ef, 10%;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul > li a {
   text-decoration: none;
@@ -639,6 +639,9 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.r
   color: #fff;
   line-height: 25px;
   text-indent: 0;
+}
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a:hover {
+  background-color: darken #18b4ef, 10%;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul a.selected {
   padding: 0;
