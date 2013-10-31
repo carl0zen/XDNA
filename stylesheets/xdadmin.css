@@ -1088,17 +1088,19 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  body.system .s4-ca {
+/*
+@include tablet-landscape-and-below{
+	body.system .s4-ca {
     overflow-x: visible !important;
-    min-height: 1px;
-  }
+    min-height:1px;
+	}
 
-  html:not(.ms-dialog-nr) body.xd.system #main-content {
-    overflow: visible;
-    min-height: 1px;
-  }
+	html:not(.ms-dialog-nr) body.xd.system #main-content {
+    	overflow: visible;
+    	min-height:1px;
+	}
 }
+*/
 body.xd.system table table.ms-listviewtable > tbody {
   width: 100% !important;
 }
@@ -1221,6 +1223,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     width: auto !important;
     width: 100% !important/9;
     position: relative;
+    overflow: hidden;
     left: 0;
     margin-left: 0px;
     float: none;
