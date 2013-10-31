@@ -627,7 +627,6 @@ html.not-dialog{
 				//width:100% !important\9; /*IE8+9 */
 			}
 			td{
-
 				line-height: 30px;
 				select{
 					 width: 100%;
@@ -636,6 +635,10 @@ html.not-dialog{
 				position: relative;
 				img{
 					max-width: 100%;
+				}
+				.ms-addnew{
+					display: block;
+					width: 100% !important;
 				}
 			}
 			.ms-itmhover{
