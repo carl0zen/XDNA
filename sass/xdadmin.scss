@@ -278,7 +278,8 @@ html body.xd.system{
 		position:static;
 		width :auto;
 		/*@extend .box-sizing; */
-		#sidebarButton{
+		#sidebarButton,
+		.sidebar-button.button{
 			background-image:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
 			background-repeat:no-repeat;
 			background-position:90% 50%;
