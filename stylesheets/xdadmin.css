@@ -443,8 +443,8 @@ html body.xd.system #main-content[role="main"] .ms-menutoolbar td {
   padding: 0px 2px;
 }
 html body.xd.system #main-content[role="main"] .ms-listviewtable td {
-  line-height: 30px;
-  padding: 0;
+  line-height: 20px;
+  padding-top: 10px;
   vertical-align: top;
 }
 html body.xd.system #main-content[role="main"] .ms-authoringcontrols.ms-inputformcontrols table {
