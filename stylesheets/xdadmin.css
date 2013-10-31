@@ -487,7 +487,8 @@ html body.xd.system tr b, html body.xd.system tr td b h3, html body.xd.system .m
   font-size: 1.2em;
 }
 html body.xd.system .ms-vb-icon {
-  text-align: center;
+  text-align: cente;
+  padding: 10px 0 10px 13px !important;
 }
 html body.xd.system .ms-vb-icon input[type="checkbox"] {
   margin-right: 0px;
@@ -575,6 +576,8 @@ html body.xd.system .ms-viewlsts .ms-vb2 {
 }
 html body.xd.system .ms-viewlsts .ms-vb2 > a {
   font-size: 1.3em;
+  margin: 10px;
+  line-height: 35px;
 }
 html body.xd.system td.ms-linksectionheader, html body.xd.system th.ms-linksectionheader {
   background: none;
@@ -1474,6 +1477,11 @@ html.ms-dialog body.xd.system #s4-ribboncont {
 }
 html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
   margin: 5px;
+  float: left;
+}
+html.ms-dialog body.xd.system .ms-RadioText label {
+  float: left;
+  line-height: 215%;
 }
 html.ms-dialog body.xd.system .ms-long {
   width: 100%;

@@ -363,7 +363,7 @@ html body.xd.system{
 	tr b, tr td b h3, .ms-standardheader{ 
 		font-size:1.2em;
 	}
-	.ms-vb-icon{ text-align:center}
+	.ms-vb-icon{ text-align:cente; padding: 10px 0 10px 13px !important; }
 	.ms-vb-icon input[type="checkbox"]{ margin-right:0px;}
 	.ms-linksection-level1 td {padding-bottom: 17px;}
 	.ms-listviewtable td{vertical-align: middle}
@@ -456,6 +456,8 @@ html body.xd.system{
 		line-height: 170%;
 		> a {
 			font-size: 1.3em;
+			margin: 10px;
+			line-height: 35px;
 		}
 	}
 	td.ms-linksectionheader, th.ms-linksectionheader {
@@ -1264,7 +1266,10 @@ html.ms-dialog
     	#s4-ribboncont{
     		background: #009fd9;
     	}
-    	input[type="checkbox"], input[type="radio"] {margin: 5px;}
+    	input[type="checkbox"], input[type="radio"] {margin: 5px; float:left}
+    	.ms-RadioText{
+    		label{float:left; line-height: 215%;}
+    	}
     	
     	.ms-long{width:100%;}	
     	.ms-inputformdescription {padding-left: 6px;padding-right: 9px}
