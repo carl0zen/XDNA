@@ -498,9 +498,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 		color:#fff;
 	}
 	.menu > ul > li {
-		&:hover{
-			background-color: lighten( $newBlue, 10% ); 
-		}
+		
 		a{
 			text-decoration: none;					
 		}
