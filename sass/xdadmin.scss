@@ -499,7 +499,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 	}
 	.menu > ul > li {
 		&:hover{
-			background-color:darken ($newBlue, 10%);; 
+			background-color:$newBlue; 
 		}
 		a{
 			text-decoration: none;					
@@ -522,7 +522,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 				line-height: 25px;
 				text-indent: 0;
 				&:hover{
-					background-color:darken ($newBlue, 10%);
+					background-color:$newBlue;
 				}
 			}
 		}
