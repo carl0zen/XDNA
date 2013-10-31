@@ -192,6 +192,7 @@ html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
 }
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover .ms-vb-firstCell .s4-itm-cbx {
   margin-left: 10px;
+  margin-top: 15px;
 }
 html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover:hover {
   border: none;
