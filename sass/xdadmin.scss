@@ -564,6 +564,10 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
 =======================================**/
 
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 1d64e2d54f3b4e500e75563a9c9ede5e5fab9536
 html.not-dialog{
 
 	@include tablet-portrait-and-below{
@@ -1005,219 +1009,224 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 
 
 
-	/* =======================================================================
-		7.0 Media Queries 
-	========================================================================== */	
-   	@media only screen and (max-width: 1364px){						
-		html.not-dialog body.xd.system #auth .thumbCrop{
-			top:14px
-		}
-	}		
-	@media only screen and (max-width: 768px) {
-		
-		html.not-dialog body.xd.system {
-			#main-content {
-				a.ms-addnew{
-					font-size:2em;
-					display: block;
-					padding-bottom: 17px;
-				}
-				.ms-authoringcontrols.ms-inputformcontrols table{ 
-					margin: auto;
-				}
-			}	
-			#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
+/* =======================================================================
+	  __  __          _ _          ____                  _           
+	 |  \/  |        | (_)        / __ \                (_)          
+	 | \  / | ___  __| |_  __ _  | |  | |_   _  ___ _ __ _  ___  ___ 
+	 | |\/| |/ _ \/ _` | |/ _` | | |  | | | | |/ _ \ '__| |/ _ \/ __|
+	 | |  | |  __/ (_| | | (_| | | |__| | |_| |  __/ |  | |  __/\__ \
+	 |_|  |_|\___|\__,_|_|\__,_|  \___\_\\__,_|\___|_|  |_|\___||___/
+	                                                                 
+========================================================================== */	
+
+@media only screen and (max-width: 1364px){						
+	html.not-dialog body.xd.system #auth .thumbCrop{
+		top:14px
+	}
+}		
+@media only screen and (max-width: 768px) {
+	
+	html.not-dialog body.xd.system {
+		#main-content {
+			a.ms-addnew{
+				font-size:2em;
+				display: block;
+				padding-bottom: 17px;
+			}
+			.ms-authoringcontrols.ms-inputformcontrols table{ 
 				margin: auto;
 			}
-			.theme-fonts span{ 
-				display:block;
-			}
-			.ms-v4propertysheetspacing{ 
-				margin-left:0px;
-			}
-			.ms-wikicontent .ms-rtestate-field{ 
-				padding-right:0px !important;
-			}
-			.ms-standardheader.ms-WPTitle > a {
-				display: block;
-				text-align: center;
-			}
-			.xd-header{
-				#auth, .xd-welcome {
-					float:none;
-					text-align:center; 
-					width:100%;
-				}
-				#auth{
-					padding-right:0px !important;
-					margin-top:20px !important;
-					.thumbCrop{ 
-						margin-top:10px;
-						display:block !important; 
-						position:static !important; 
-						margin-left:auto !important; 
-						margin-right:auto !important;
-					}
-				}
-				h1{
-					display:inline-block;
-					position:static;
-					a{
-						 font-size:1em;
-					}
-				}			
-
-				.row{
-					width:100%;
-				}
-				.navigation-description{
-					display:block;
-					text-align:center;
-					width:100%;
-					padding-left:0px; 
-					margin-top:15px;
-					text-align: center;
-					float:none;
-				}
-				.logo{
-					width:100%;
-					display:block
-				}
-				.s4-pagedescription{
-					margin-top:1.5em;  
-					span{
-						display:block;
-						text-align:center;
-					}
-				}	
-			}
-			#sidebarButton{
-				display:block;
-				color:$white; 
-				background:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png) no-repeat 10% 50%;  
-				background-color:#18B4EF; 
-				float:none
-			}
-			.button{
-				background-color:#0088AF;
-				padding:20px 0;
-				font-size:1.1em;
-				margin:0px;
-				padding:20px 0;
-				border:none;
-				box-shadow:0px;
-				width:50%;
-				display:inline-block;
-				float:left;
-				background:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/menu.png) no-repeat 10% 50%;
-				height:auto;
-				line-height: 1;
-			}	
-			#s4-leftpanel[role="complementary"]{
-				width:80% !important;
-				position:absolute;
-				top:0;
-				bottom:0;
-			}	
-			.menu.vertical.menu-vertical{
-				background-color:$newBlue;
-			}
-			#main-content[role="main"]{
-				padding-top:0px;
-				width:100%; 
-				width:100% !important/9; 
-				position:relative;
-				overflow: hidden;
-				left:0;
-				margin-left:0px; 
-				float:none; 
-				height:auto !important;
-				.ms-vb-icon{ 
-					padding:0 !important;
-				}
-				td.ms-vb2 { 
-					clear:both; 
-					overflow:hidden; 
-					display:block;
-					margin:0; 
-					padding:0px; 
-					text-align:center;
-				}
-			}
-			.s4-ca{
-				/*overflow: hidden !important;*/	
-				background-color: #fefefe
-			}
-			.ms-pageinformation{
-				width:100% !important; 
-				float:none;
-			}
-			.fieldName { 
-				float:none;  
-				text-align: center; 
-				width: 100%;
-				font-size: 1.1em; 
-				margin: 15px 0px 0px !important;
-			}	
-			/* Menu */
-			
-			#s4-workspace {
-				.xd-menu{
-					border-top:none; 
-					padding:0;
-					.s4-tn li.static .menu-item{
-						border-bottom:solid 1px #ccc;
-						color:#666;
-					}	
-					.menu li.selected{
-						border-top:none;
-					}
-				}
-				.mobile-submenu li{
-					background-color:#ddd !important;
-					border-top:none;
-					padding-left:10%;
-				}
-				.static.selected.menu-item{
-					border: 1px;
-				}
-				.menu-horizontal{
-					li.static, a.static, span.static{
-						 display:block; 
-						 width:100%;
-					}
-				}
-			}
-			#auth .thumb, 
-			.row .columns,
-			.ms-listdescription{
-				width:100%;
-				display:block;
-				text-align:center;
-				float:none;
-			}
-
 		}	
-		/* Se queda */ 
-		/*html.not-dialog body.xd.active #main-content[role="main"]{	left:80% !important;}*/
-	}
-	@media only screen and (max-width: 350px) {
-		html.not-dialog body.xd.system {
+		#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
+			margin: auto;
+		}
+		.theme-fonts span{ 
+			display:block;
+		}
+		.ms-v4propertysheetspacing{ 
+			margin-left:0px;
+		}
+		.ms-wikicontent .ms-rtestate-field{ 
+			padding-right:0px !important;
+		}
+		.ms-standardheader.ms-WPTitle > a {
+			display: block;
+			text-align: center;
+		}
+		.xd-header{
+			#auth, .xd-welcome {
+				float:none;
+				text-align:center; 
+				width:100%;
+			}
 			#auth{
-				display:block;
+				padding-right:0px !important;
+				margin-top:20px !important;
+				.thumbCrop{ 
+					margin-top:10px;
+					display:block !important; 
+					position:static !important; 
+					margin-left:auto !important; 
+					margin-right:auto !important;
+				}
+			}
+			h1{
+				display:inline-block;
+				position:static;
+				a{
+					 font-size:1em;
+				}
+			}			
+
+			.row{
+				width:100%;
 			}
 			.navigation-description{
-				display:none;
+				display:block;
+				text-align:center;
+				width:100%;
+				padding-left:0px; 
+				margin-top:15px;
+				text-align: center;
+				float:none;
 			}
-			.menu-icon, .sidebar-button{
-				text-indent:-999999px;
-				background-position:50% center !important;
+			.logo{
+				width:100%;
+				display:block
+			}
+			.s4-pagedescription{
+				margin-top:1.5em;  
+				span{
+					display:block;
+					text-align:center;
+				}
+			}	
+		}
+		#sidebarButton{
+			display:block;
+			color:$white; 
+			background:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png) no-repeat 10% 50%;  
+			background-color:#18B4EF; 
+			float:none
+		}
+		.button{
+			background-color:#0088AF;
+			padding:20px 0;
+			font-size:1.1em;
+			margin:0px;
+			padding:20px 0;
+			border:none;
+			box-shadow:0px;
+			width:50%;
+			display:inline-block;
+			float:left;
+			background:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/menu.png) no-repeat 10% 50%;
+			height:auto;
+			line-height: 1;
+		}	
+		#s4-leftpanel[role="complementary"]{
+			width:80% !important;
+			position:absolute;
+			top:0;
+			bottom:0;
+		}	
+		.menu.vertical.menu-vertical{
+			background-color:$newBlue;
+		}
+		#main-content[role="main"]{
+			padding-top:0px;
+			width:100%; 
+			width:100% !important/9; 
+			position:relative;
+			overflow: hidden;
+			left:0;
+			margin-left:0px; 
+			float:none; 
+			height:auto !important;
+			.ms-vb-icon{ 
+				padding:0 !important;
+			}
+			td.ms-vb2 { 
+				clear:both; 
+				overflow:hidden; 
+				display:block;
+				margin:0; 
+				padding:0px; 
+				text-align:center;
 			}
 		}
+		.s4-ca{
+			/*overflow: hidden !important;*/	
+			background-color: #fefefe
+		}
+		.ms-pageinformation{
+			width:100% !important; 
+			float:none;
+		}
+		.fieldName { 
+			float:none;  
+			text-align: center; 
+			width: 100%;
+			font-size: 1.1em; 
+			margin: 15px 0px 0px !important;
+		}	
+		/* Menu */
+		
+		#s4-workspace {
+			.xd-menu{
+				border-top:none; 
+				padding:0;
+				.s4-tn li.static .menu-item{
+					border-bottom:solid 1px #ccc;
+					color:#666;
+				}	
+				.menu li.selected{
+					border-top:none;
+				}
+			}
+			.mobile-submenu li{
+				background-color:#ddd !important;
+				border-top:none;
+				padding-left:10%;
+			}
+			.static.selected.menu-item{
+				border: 1px;
+			}
+			.menu-horizontal{
+				li.static, a.static, span.static{
+					 display:block; 
+					 width:100%;
+				}
+			}
+		}
+		#auth .thumb, 
+		.row .columns,
+		.ms-listdescription{
+			width:100%;
+			display:block;
+			text-align:center;
+			float:none;
+		}
+
+	}	
+
+}
+@media only screen and (max-width: 350px) {
+	html.not-dialog body.xd.system {
+		#auth{
+			display:block;
+		}
+		.navigation-description{
+			display:none;
+		}
+		.menu-icon, .sidebar-button{
+			text-indent:-999999px;
+			background-position:50% center !important;
+		}
 	}
+}
 
-
-/**===========================================================================
+/*===========================================================================
 
 
 ooooo oooooooooooo     .o88o.  o8o                                 
@@ -1228,7 +1237,7 @@ ooooo oooooooooooo     .o88o.  o8o
  888   888       o     888     888   .o8"'88b   888    .o o.  )88b 
 o888o o888ooooood8    o888o   o888o o88'   888o `Y8bod8P' 8""888P' 
 
-============================================================================**/
+============================================================================*/
 .lt-ie8 body.xd.system #thumbCrop > img{visbility:visible ;}
 .lt-ie8 body.xd.system tr.ms-itmhover 	{display:table-row !important ;}
 // Foundation resets
