@@ -1405,10 +1405,9 @@ html.ms-dialog body.xd.system #wrapper {
 html.ms-dialog body.xd.system .xd-header, html.ms-dialog body.xd.system .menu-icon, html.ms-dialog body.xd.system .sidebar-button, html.ms-dialog body.xd.system .xd-footer {
   display: none !important;
 }
-html.ms-dialog body.xd.system .ms-sectionheader h3.ms-standardheader {
-  font-size: 1.1em;
+html.ms-dialog body.xd.system .ms-standardheader {
+  font-size: 1em !important;
   line-height: 1.4;
-  font-weight: bold;
 }
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext {
   font-size: 11px;
@@ -1453,6 +1452,7 @@ html.ms-dialog body.xd.system .ms-authoringcontrols label {
 html.ms-dialog body.xd.system table {
   font-size: 12px;
   background: none;
+  width: auto;
 }
 html.ms-dialog body.xd.system .ms-formbody {
   background: none;

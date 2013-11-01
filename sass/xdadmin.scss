@@ -1272,6 +1272,7 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog
 {	
     body.xd.system{
+
     	.ms-linksection-level1 td{margin:0 auto \9;}
     	.ms-toolbar{
     		padding: 0px;
@@ -1289,12 +1290,10 @@ html.ms-dialog
     	.ms-ButtonHeightWidth {font: 10pt tahoma;line-height: 1.4em;}
     	#wrapper {width: 100%;}
 		.xd-header, .menu-icon, .sidebar-button, .xd-footer{display: none !important;}
-		.ms-sectionheader{ 
-			h3.ms-standardheader{
-				font-size: 1.1em;
-				line-height: 1.4;
-				font-weight: bold
-			}
+		.ms-standardheader{
+			font-size: 1em !important;
+			line-height: 1.4;
+			
 		}
 		> table > td.ms-descriptiontext{
 			font-size: 11px;
@@ -1336,7 +1335,7 @@ html.ms-dialog
 				line-height: 13px;
 			}
 		}
-		table{font-size: 12px;background: none;}
+		table{font-size: 12px;background: none;width: auto;}
 
 		.ms-formbody{background: none;}
 		.s4-pr{width:100% !important;}
