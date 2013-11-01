@@ -564,7 +564,6 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
 =======================================**/
 
 
-html:not(.ms-dialog), 
 html.not-dialog{
 
 	@include tablet-portrait-and-below{
@@ -1269,6 +1268,7 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 html.ms-dialog
 {	
     body.xd.system{
+    	.ms-linksection-level1 td{margin:0 auto \9;}
     	.ms-toolbar{
     		padding: 0px;
     	}
