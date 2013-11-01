@@ -1539,7 +1539,6 @@ html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-conte
   margin: 0;
   width: auto;
   min-height: 1px;
-  overflow: visible;
 }
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content > table {
   margin: 0;
