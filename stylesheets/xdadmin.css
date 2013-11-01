@@ -996,7 +996,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     background: #ccc;
   }
   html.not-dialog body.xd #main-content td.ms-vb2 {
-    width: auto !important;
+    width: 100% !important;
     padding: 10px 15px;
     font-size: 1em;
     padding-left: 100px;
