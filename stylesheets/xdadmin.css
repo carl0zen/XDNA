@@ -540,6 +540,7 @@ html body.xd.system td.ms-authoringcontrols {
 }
 html body.xd.system td.ms-authoringcontrols label {
   font-size: 1.2em;
+  display: inline;
 }
 html body.xd.system .ms-toolbar {
   padding: 10px;
