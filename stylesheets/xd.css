@@ -553,6 +553,12 @@ html body.xd #main-content .panel.featured h2, html body.xd #main-content .panel
 html body.xd #main-content .panel.featured p, html body.xd #main-content .panel.featured a, html body.xd #main-content .panel.featured li, html body.xd #main-content .panel.featured span, html body.xd #main-content .panel.featured h3, html body.xd #main-content .panel[data-panel-id="teamstatus"] p, html body.xd #main-content .panel[data-panel-id="teamstatus"] a, html body.xd #main-content .panel[data-panel-id="teamstatus"] li, html body.xd #main-content .panel[data-panel-id="teamstatus"] span, html body.xd #main-content .panel[data-panel-id="teamstatus"] h3 {
   color: #fefefe !important;
 }
+html body.xd #main-content .panel.featured .date, html body.xd #main-content .panel[data-panel-id="teamstatus"] .date {
+  display: block;
+  font-size: 1em;
+  color: #eee !important;
+  margin: 0;
+}
 html body.xd #main-content .panel.featured .status span.authorTitle, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
   color: #525252 !important;
 }
