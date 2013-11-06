@@ -565,6 +565,9 @@ html body.xd #main-content .panel.featured .status span.authorTitle, html body.x
 html body.xd #main-content .panel.featured .status p, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
   padding-left: 80px;
 }
+html body.xd #main-content .panel.featured .status li.new, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status li.new {
+  background: none repeat scroll 0 0 #04A5E0;
+}
 html body.xd #main-content .panel.featured p, html body.xd #main-content .panel[data-panel-id="teamstatus"] p {
   margin: 10px 0;
 }
