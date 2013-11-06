@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -400,7 +400,7 @@ html body.xd .xd-search td a {
   height: 20px;
   width: 20px;
   display: inline-block;
-  background: url("img/Search-Find.png") -7px -5px;
+  background: url("../img/Search-Find.png") -7px -5px;
 }
 html body.xd .xd-menu {
   background-color: #fff;
@@ -473,7 +473,7 @@ html body.xd .menu-icon {
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-image: url("img/menu.png");
+  background-image: url("../img/menu.png");
   background-position: 70% center;
   background-repeat: no-repeat;
   font-size: 1.5em;
@@ -499,7 +499,7 @@ html body.xd #main-content {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: #fcfcfc url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg") no-repeat center center fixed;
+  background: #fcfcfc url("../img/bg.jpg") no-repeat center center fixed;
 }
 html body.xd #main-content ul.color-key li {
   font-size: 11px;
@@ -539,7 +539,7 @@ html body.xd #main-content .panel ul {
   background: none;
 }
 html body.xd #main-content .panel ul.bullet li {
-  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png") no-repeat top left;
+  background: url("../img/swap-right.png") no-repeat top left;
 }
 html body.xd #main-content .panel:before {
   display: none;
@@ -678,10 +678,10 @@ html body.xd #carPrev.disabled:active {
   cursor: default;
 }
 html body.xd #carPrev {
-  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png");
+  background: url("../img/chevron-left.png");
 }
 html body.xd #carNext {
-  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-right.png");
+  background: url("../img/chevron-right.png");
 }
 html body.xd:hover, html body.xd:active {
   background-color: #00B0E2;
@@ -825,7 +825,7 @@ html body.xd .icons-project-warning,
 html body.xd .panel .availability .status.yellow,
 html body.xd .panel .color-key .status.yellow,
 html body.xd .panel .multi-bullets .status.yellow {
-  background: url("https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png") no-repeat;
+  background: url("../img/icons-s5ee5f4547f.png") no-repeat;
   width: 14px;
   height: 14px;
 }
@@ -881,17 +881,17 @@ html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white 
 html body.xd div[data-panel-id="inpipeline"].panel .availability .status.yellow,
 html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.yellow,
 html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.yellow {
-  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png");
+  background: url("../img/incoming.png");
 }
 html body.xd div[data-panel-id="inpipeline"].panel .availability .status.blue,
 html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.blue,
 html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.blue {
-  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png");
+  background: url("../img/active.png");
 }
 html body.xd div[data-panel-id="inpipeline"].panel .availability .status.white,
 html body.xd div[data-panel-id="inpipeline"].panel .color-key .status.white,
 html body.xd div[data-panel-id="inpipeline"].panel .multi-bullets .status.white {
-  background: url("https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png");
+  background: url("../img/inactive.png");
 }
 html body.xd .xd-footer {
   padding: 20px;

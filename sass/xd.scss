@@ -209,7 +209,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
         height:20px;
         width:20px;
         display:inline-block;
-        background:url("img/Search-Find.png") -7px -5px;
+        background:url("../img/Search-Find.png") -7px -5px;
       }
     } 
   }
@@ -300,7 +300,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     width: 100%;
     right: 0;
     @include transition(all 0.2s ease);
-    background-image:url("img/menu.png");
+    background-image:url("../img/menu.png");
     background-position:70% center;
     background-repeat: no-repeat;
     font-size: 1.5em;
@@ -345,7 +345,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     width: 100%;
     position: relative; 
     @include background-size(cover);
-    background: #FCFCFC url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/bg.jpg') no-repeat center center fixed;
+    background: #FCFCFC url('../img/bg.jpg') no-repeat center center fixed;
     .welcome-content{
         margin:0;
         padding: 0 0;
@@ -376,7 +376,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       ul{
         background: none;
         &.bullet li{
-          background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/swap-right.png') no-repeat top left;
+          background: url('../img/swap-right.png') no-repeat top left;
         }
       }
       &:before{
@@ -500,10 +500,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
   }
   #carPrev{
-    background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-left.png');
+    background: url('../img/chevron-left.png');
   }
   #carNext{
-    background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/chevron-right.png');
+    background: url('../img/chevron-right.png');
   }
   &:hover, &:active{
     background-color:#00B0E2;
@@ -637,7 +637,7 @@ o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P'
   .icons-project-alert, 
   .icons-project-ontrack, 
   .icons-project-warning {
-    background: url('https://at.avanade.com/organizations/XDNA/Style Library/XD/img/icons-s5ee5f4547f.png') no-repeat;
+    background: url('../img/icons-s5ee5f4547f.png') no-repeat;
     width:14px;
     height: 14px;
   }
@@ -713,18 +713,18 @@ o888o `Y8bod8P' `Y8bod8P' o888o o888o 8""888P'
     .availability .status.yellow, 
     .color-key .status.yellow, 
     .multi-bullets .status.yellow {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/incoming.png');
+      background: url('../img/incoming.png');
       
     }
     .availability .status.blue, 
     .color-key .status.blue, 
     .multi-bullets .status.blue {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/active.png');
+      background: url('../img/active.png');
     }
     .availability .status.white, 
     .color-key .status.white, 
     .multi-bullets .status.white {
-      background: url('https://at.avanade.com/organizations/XDNA/Style%20Library/XD/img/inactive.png');
+      background: url('../img/inactive.png');
     }
 
 
