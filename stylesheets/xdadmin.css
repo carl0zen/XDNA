@@ -237,7 +237,7 @@ html body.xd.system .ms-cui-topBar2 {
   height: 44px !important;
 }
 html body.xd.system #sidebarButton {
-  background-image: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
+  background-image: url("../img/sidebar-icon.png");
   background-repeat: no-repeat;
   background-position: 90% 50%;
   transition-duration: 0.2s;
@@ -934,7 +934,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     background: #eee;
   }
   html.not-dialog body.xd #main-content .ms-toolbar table:hover {
-    background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x 0px -431px;
+    background: url("../img/bgximg.png") repeat-x 0px -431px;
     cursor: pointer;
   }
   html.not-dialog body.xd #main-content .ms-toolbar .ms-menubuttoninactivehover {
@@ -1208,7 +1208,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   html.not-dialog body.xd.system #sidebarButton {
     display: block;
     color: #fefefe;
-    background: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png) no-repeat 10% 50%;
+    background: url("../img/sidebar-icon.png") no-repeat 10% 50%;
     background-color: #18B4EF;
     float: none;
   }
@@ -1223,7 +1223,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     width: 50%;
     display: inline-block;
     float: left;
-    background: url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/menu.png) no-repeat 10% 50%;
+    background: url("../img/menu.png") no-repeat 10% 50%;
     height: auto;
     line-height: 1;
   }

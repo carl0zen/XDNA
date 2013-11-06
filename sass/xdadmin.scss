@@ -82,7 +82,7 @@ html body.xd.system{
 		height: 44px !important; 
 	}
 	#sidebarButton{
-		background-image:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png);
+		background-image:url('../img/sidebar-icon.png');
 		background-repeat:no-repeat;
 		background-position:90% 50%;
 		transition-duration: 0.2s;
@@ -810,7 +810,7 @@ html.not-dialog{
 						background: #eee;
 					}
 					&:hover{
-						background: url("https://at.avanade.com/_layouts/images/bgximg.png") repeat-x -0px -431px;
+						background: url('../img/bgximg.png') repeat-x -0px -431px;
 						cursor: pointer;
 					}
 				}
@@ -1101,7 +1101,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 		#sidebarButton{
 			display:block;
 			color:$white; 
-			background:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/sidebar-icon.png) no-repeat 10% 50%;  
+			background:url('../img/sidebar-icon.png') no-repeat 10% 50%;  
 			background-color:#18B4EF; 
 			float:none
 		}
@@ -1116,7 +1116,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			width:50%;
 			display:inline-block;
 			float:left;
-			background:url(https://at.avanade.com/organizations/XDNA/Style%20Library/XD/styles/img/menu.png) no-repeat 10% 50%;
+			background:url('../img/menu.png') no-repeat 10% 50%;
 			height:auto;
 			line-height: 1;
 		}	
