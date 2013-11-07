@@ -1271,9 +1271,9 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 /* DIalogs */
 .ms-dlgContent{width:40% !important;}
 .ms-dlgFrameContainer{overflow:visible !important;width:100%;}
-.ms-dlgBorder{width:100% }
-.ms-dlgTitle { background: #009fd9 !important;}
-
+.ms-dlgBorder{width:100% !important }
+.ms-dlgTitle { background: #009fd9 !important; width:100% !important}
+.ms-dlgFrame{ width:100% !important}
 
 
 html.ms-dialog
