@@ -1365,6 +1365,10 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
  
 ===========================================**/
 /* DIalogs */
+.ms-dlgContent {
+  width: 40% !important;
+}
+
 .ms-dlgFrameContainer {
   overflow: visible !important;
   width: 100%;

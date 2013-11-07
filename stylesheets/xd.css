@@ -695,6 +695,7 @@ html body.xd:hover, html body.xd:active {
 }
 html body.xd .caroufredsel_wrapper {
   margin: 0 auto !important;
+  max-width: 1321px !important;
 }
 html body.xd img[id*="_PictureUrlImage"] {
   width: 60px;
@@ -983,8 +984,12 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
    ========================================================================== */
 /* Mobile       ----------- */
 @media only screen and (max-width: 620px) {
-  body.xd .xd-header h1 {
+  html body.xd .xd-header h1 {
     display: none;
+  }
+
+  html body.xd .xd-menu {
+    padding: 0px !important;
   }
 
   body.xd #auth {
@@ -1176,18 +1181,12 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     margin-top: 70px;
   }
 
-  body.xd .xd-header h1 {
-    font-size: 1.2em;
-    position: absolute;
-    top: 9px;
-  }
-
   body.xd .xd-header .s4-notdlg img {
     margin-top: 13px;
   }
 
   body.xd .xd-header h1 {
-    top: 21px;
+    display: none;
   }
 
   .xd-menu .s4-tn li.static > .menu-item {
