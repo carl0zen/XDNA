@@ -167,8 +167,11 @@ html body.xd.system {
                                           
   	===========================================*/
 }
-html body.xd.system a {
+html body.xd.system #main-content a {
   color: #0072BC;
+}
+html body.xd.system a:hover {
+  text-decoration: underline;
 }
 html body.xd.system .ms-vb {
   line-height: 31px;

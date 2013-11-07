@@ -14,8 +14,11 @@ html body.xd.system{
 	    \_____|_|\___/|_.__/ \__,_|_|
 	                                   
 	===========================================*/
-	a{
+	#main-content a{
 		color: #0072BC;
+	}
+	a:hover{
+		text-decoration: underline;
 	}
 	.ms-vb{line-height: 31px;}
 	.s4-itm-cbx{padding: 10px;}

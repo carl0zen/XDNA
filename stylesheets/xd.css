@@ -265,6 +265,9 @@ html body.xd .mobile-submenu {
 html body.xd div[id*="TopNavigationMenuV4"] {
   display: none;
 }
+html body.xd #main-content a {
+  color: #0072BC;
+}
 html body.xd #ctl00_MSO_ContentDiv,
 html body.xd #s4-bodyContainer {
   min-width: 320px;
