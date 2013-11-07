@@ -167,6 +167,9 @@ html body.xd.system {
                                           
   	===========================================*/
 }
+html body.xd.system a {
+  color: #0072BC;
+}
 html body.xd.system .ms-vb {
   line-height: 31px;
 }
