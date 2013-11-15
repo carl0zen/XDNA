@@ -774,8 +774,7 @@ html body.xd .s4-tn {
 }
 html body.xd input[type="button"].ms-ButtonHeightWidth,
 html body.xd input[type="reset"].ms-ButtonHeightWidth,
-html body.xd input[type="submit"].ms-ButtonHeightWidth,
-html body.xd input[type="submit"] {
+html body.xd input[type="submit"].ms-ButtonHeightWidth {
   border: none;
   padding: 0.7em 1.5em;
   color: #fff;

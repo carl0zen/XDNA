@@ -14,6 +14,9 @@ html body.xd.system{
 	    \_____|_|\___/|_.__/ \__,_|_|
 	                                   
 	===========================================*/
+
+	font-family:"Myriad Pro", arial !important;
+
 	#main-content a{
 		color: #0072BC;
 	}
@@ -34,6 +37,9 @@ html body.xd.system{
 	.ms-cui-dd-arrow-button{
 		width: 15px;
 	}
+	.ms-inputformheader{
+		 padding-left: 0px;
+	}
 	table table.ms-listviewtable > tbody{
 		width:100% !important;
 	}
@@ -49,6 +55,9 @@ html body.xd.system{
 	}
 	input[type="submit"]{ 
 	 	background-color:none;
+	}
+	input[type="file"], input[type="checkbox"], input[type="radio"], select {
+    	margin: 0 0.5em 0 0;
 	}
 	.column, .columns{
 		padding-left:3em;
@@ -111,9 +120,6 @@ html body.xd.system{
 		h1 a{
 			margin-left:0px
 		}
-		a:hover{
-			text-decoration:underline
-		}
 		a:link{
 			color: #fff;
 		}
@@ -131,7 +137,7 @@ html body.xd.system{
 		.s4-pagedescription, .s4-pagedescription span{
 			color:$white;
 			width:100%;
-			font-size:12px
+			font-size:1em;
 		}
 		.s4-notdlg img{ 
 			margin-top:auto;
@@ -155,7 +161,7 @@ html body.xd.system{
 			display:inline-block;
 			float:right;
 			text-align:right;
-			font-size:1.2em; 
+			font-size:1em; 
 			color:$white; 
 			min-height:53px; 
 			margin-right:0px;
@@ -205,6 +211,7 @@ html body.xd.system{
 					vertical-align: middle;
 					border-radius:50%;						
 					position:absolute;
+					top: 14px;
 					img{
 						visibility:hidden; 
 						width:100%;
@@ -225,7 +232,7 @@ html body.xd.system{
 			margin:0px;
 			padding:0px;
 			line-height:12px;
-			font-size:12px;
+			font-size:1em;
 			display:inline;
 			color: #FFFFFF;
 			font-weight: normal; 
@@ -304,11 +311,23 @@ html body.xd.system{
 		> div > table{
 			background: none;
 		}
+		ul{
+			margin-left:1.5em;
+		}
+		p{
+			line-height: auto;
+			padding:0px;
+			margin-bottom:1.25em;
+			font-size: 1em;
+		}
 		.ms-pageinformation {
 			padding: 0;
 		}
 		.button{ 
 			display:none !important;
+		}
+		.ms-formbody{
+			padding: 1em !important;
 		}
 
 		/* Table Helpers only in main content */
@@ -345,6 +364,27 @@ html body.xd.system{
 		.ms-buttoninactivehover{
 			margin:2px;
 		}
+		.ms-rtestate-field.ms-rtefield{
+			max-width: 480px
+		}
+		input[type="text"], 
+		input[type="password"], 
+		input[type="date"], 
+		input[type="datetime"], 
+		input[type="datetime-local"], 
+		input[type="month"], 
+		input[type="week"], 
+		input[type="email"], 
+		input[type="number"], 
+		input[type="search"], 
+		input[type="tel"], 
+		input[type="time"], 
+		input[type="url"], 
+		textarea,
+		select{
+			width: auto;
+		}
+
 	}/* main content */
 	/*============================================================
 	    _______    _     _           
@@ -374,14 +414,14 @@ html body.xd.system{
 	}
 	
 	tr b, tr td b h3, .ms-standardheader{ 
-		font-size:1.2em;
+		font-size:1em;
 	}
 	.ms-vb-icon{ text-align:cente; padding: 10px 0 10px 13px !important; }
 	.ms-vb-icon input[type="checkbox"]{ margin-right:0px;}
 	.ms-linksection-level1 td {padding-bottom: 17px;}
 	.ms-listviewtable td{vertical-align: middle}
 	.ms-descriptiontext ul{margin:20px; line-height:1.5em}
-	.ms-WPBody td{ font-size:1.2em} 
+	.ms-WPBody td{ font-size:1em} 
 
 	/*======================================== 
      ____        _   _                  
@@ -417,7 +457,7 @@ html body.xd.system{
 		/*padding: 7px;
 		line-height: 1.7em;*/
 		label{
-			font-size: 1.2em;
+			font-size: 1em;
 			display: inline;
 		}
 	}
@@ -429,7 +469,7 @@ html body.xd.system{
 		background: none;
 	}
 	tr b, tr td b h3, .ms-standardheader{
-		font-size: 1.5em;
+		font-size: 1em;
 		line-height: 240%;
 		font-weight: normal;				
 	}
@@ -457,7 +497,7 @@ html body.xd.system{
 	}
 	.ms-gb {
 		h3.ms-standardheader {
-			font-size: 2em;
+			font-size: 1em;
 			line-height: 44px;
 
 			color: #555;
@@ -470,7 +510,7 @@ html body.xd.system{
 		line-height: 170%;
 		padding: 10px 0;
 		> a {
-			font-size: 1.3em;
+			font-size: 1em;
 			margin: 10px;
 			line-height: 35px;
 		}
@@ -480,7 +520,7 @@ html body.xd.system{
 		border:none;
 		text-align: left;
 		background-color: #E6E7E7;
-		font-size: 16px;
+		font-size: 1em;
 		line-height: 175%;
 		font-weight: normal;
 		color: #000;
@@ -511,7 +551,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 	padding:0px 0px;
 	width:155px;
 	float:left;
-	font-size: 1.2em;
+	font-size: 1em;
 	.ms-splinkbutton-text{
 		color:#fff;
 	}
@@ -524,7 +564,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 			color: #fff;
 			font-weight: bold;
 			line-height: 30px;					
-			font-size: 1.1em;
+			font-size: 1em;
 		}				
 	}
 	.s4-ql ul.root ul {
@@ -533,7 +573,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 				background: #6CCFF4;
 				border-bottom: 1px solid $newBlue;				
 			> a{
-				font-size: 0.9em;
+				font-size:1em;
 				color: #fff;
 				line-height: 25px;
 				text-indent: 0;
@@ -554,6 +594,15 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 	}
 	.ms-ql-additionaltopsection{ 
 		border-bottom:none !important;
+	}
+	.ms-quickLaunch{
+		padding-top:0px;
+	}
+	.s4-ql a.selected {
+	    background-color:#009FD9;
+	    border-color:none;
+	    border-width: 0px;
+	    color: #fff !important;	  
 	}
 }
 
@@ -588,14 +637,14 @@ html.not-dialog{
 			display: block;
 			margin-left: -90px;
 			width: 90px;
-			font-size: 0.8em;
+			font-size: 1em;
 		}
 		td label{
 			display: inline-block !important;
 			margin-left: 6px;
 		}		
 		button, select{
-			font-size: 12px;
+			font-size: 1em;
 			padding: 4px;
 		}
 		td.ms-authoringcontrols > label, 
@@ -605,7 +654,7 @@ html.not-dialog{
 		}
 		.ms-authoringcontrols table{
 			margin:0 auto;
-			width:auto;
+			width:100%;
 		}	 	
 	 	body.xd #main-content table.ms-viewlsts{
 	 		tbody{
@@ -669,9 +718,9 @@ html.not-dialog{
 				border-bottom: 1px solid darken($blue, 10%);
 				td{
 					line-height: 25px;
-					font-size: 1.4em;
+					font-size: 1em;
 					color: $darkestBlue;
-				    font-size: 1.4em;
+				    font-size: 1em;
 				    font-weight: bold;
 				    padding: 0;
 				    line-height: 30px;
@@ -733,7 +782,7 @@ html.not-dialog{
 					color:#fff;
 				}
 				line-height: 52px;
-				font-size: 1.1em;
+				font-size: 1em;
 			}
 			
 			#AsynchronousViewDefault_CalendarView{
@@ -801,7 +850,7 @@ html.not-dialog{
 					display: none;
 				}
 				label{
-					font-size: 1.4em;
+					font-size: 1em;
 				}
 				select{
 					display: block;
@@ -829,7 +878,7 @@ html.not-dialog{
 					font-weight: bold;
 					padding:7px;
 					.ms-standardheader{
-						font-size: 2em;
+						font-size: 1em;
 						text-align: center;
 						line-height: 2em;
 						font-weight: normal;
@@ -846,31 +895,28 @@ html.not-dialog{
 				width: auto !important;
 				> table{
 					margin:0 auto;
-					
-
 				}
 			}
 			.ms-pageinformation{
 				th, tr, td, h3{
 					text-align: center;
-					font-size: 1.1em;
+					font-size: 1em;
 				}
 				h3{
-					font-size: 1.5em;
+					font-size: 1em;
 				}
 			}
-
 			.ms-linksection-level1 {
 				td{
 					height:auto !important;
 				}
 				h3 {
-					font-size: 1.5em;
+					font-size: 1em;
 					font-weight: 100;
 					padding: 17px 0 9px 0;
 				}			
 				ul li a {
-					font-size: 1.1em;
+					font-size: 1em;
 					line-height: 45px;
 				}
 				img{
@@ -879,13 +925,12 @@ html.not-dialog{
 			}
 			.ms-vb{
 				a{
-					font-size: 1.3em;
-				}
-				
+					font-size: 1em;
+				}	
 			}
 			.ms-menutoolbar td a {
 				color: #0072bc !important;
-				font-size: 12pt;
+				font-size: 1em;
 				margin: 10px;
 			}
 			.ms-toolbar table:hover{
@@ -902,7 +947,6 @@ html.not-dialog{
 	 				display: none;
 	 			}
 	 		}
-
 	 		> table{
 				width:auto;
 				display: block;
@@ -920,7 +964,6 @@ html.not-dialog{
 				}
 			}
 			.ms-vb2{
-
 				//display: none;
 				&:nth-of-type(2){
 					display: block;
@@ -941,7 +984,6 @@ html.not-dialog{
 				float: left\9; /* IE8+9  */
 				width:100%\9; /*IE8+9 */
 				clear:both\9; /*IE8+9 */
-
 			}
 			table.ms-listviewtable{
 				table-layout: fixed \9;/* IE8+9  */
@@ -955,7 +997,7 @@ html.not-dialog{
 			}
 			.ms-gb h3.ms-standardheader {
 				text-align: center;
-				font-size: 2em;
+				font-size:1em;
 				line-height: 44px;
 				text-align: center;
 			}
@@ -965,7 +1007,6 @@ html.not-dialog{
 			.ms-menubuttonactivehover, .ms-buttonactivehover{
 				background: #dedede;
 			}
-
 			.ms-viewheadertr{
 				input[type="checkbox"]{
 					margin-top: 3px;
@@ -1000,7 +1041,6 @@ html.not-dialog{
 				display: table-cell;
 
 			}
-
 		}
 	}
 }
@@ -1026,11 +1066,41 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 	}
 }		
 @media only screen and (max-width: 768px) {
-	
 	html.not-dialog body.xd.system {
+		.column, .columns{
+			padding-left:5% !important;
+			padding-right:5% !important;			
+		}
 		#main-content {
+			p{
+				font-size:1em;
+			}
+			ul{
+				font-size: 1em;
+				margin-bottom: 1.25em;
+			}
+			li{
+				margin-bottom: 1.25em;
+			}
+			.right-wp-zone-col {
+			    border-top: 3px dotted #CCCCCC;
+			    display: block;
+			    float: none;
+			    font-size: 1em;
+			    margin-bottom: 1.25em;
+			    padding: 1.25em 0 0;
+			    width: 100%;
+			    border-left:none;
+			}
+			.col-fluid-1{
+				float: none;
+			}
+			.col-fluid-2{
+				margin-right: 0px;
+			}
+
 			a.ms-addnew{
-				font-size:2em;
+				font-size:1em;
 				display: block;
 				padding-bottom: 17px;
 			}
@@ -1113,7 +1183,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 		.button{
 			background-color:#0088AF;
 			padding:20px 0;
-			font-size:1.1em;
+			font-size:1em;
 			margin:0px;
 			padding:20px 0;
 			border:none;
@@ -1168,7 +1238,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			float:none;  
 			text-align: center; 
 			width: 100%;
-			font-size: 1.1em; 
+			font-size: 1em; 
 			margin: 15px 0px 0px !important;
 		}	
 		/* Menu */
@@ -1275,11 +1345,21 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 .ms-dlgTitle { background: #009fd9 !important; width:100% !important}
 .ms-dlgFrame{ width:100% !important}
 
-
+html.ms-dialog body.xd input[type="submit"]{
+	background-color:none !important;
+}
 html.ms-dialog
 {	
     body.xd.system{
-
+		input[type="submit"]{
+			background-color: none !important;
+			border:auto !important;
+			font-size: 100%;
+			padding:auto !important; 
+		}
+		input[type="submit"]:hover{
+			background-color: none !important;
+		}
     	.ms-linksection-level1 td{margin:0 auto \9;}
     	.ms-toolbar{
     		padding: 0px;
@@ -1303,7 +1383,7 @@ html.ms-dialog
 			
 		}
 		> table > td.ms-descriptiontext{
-			font-size: 11px;
+			font-size: 1em;
 			line-height: 1.1em;
 			table{text-align: center;}
 		}
@@ -1337,12 +1417,12 @@ html.ms-dialog
 		}			
 		.ms-authoringcontrols{background-color: #f6f6f6;
 			label{
-				font-size: 11px;
+				font-size: 1em;
 				margin-left: 10px;
 				line-height: 13px;
 			}
 		}
-		table{font-size: 12px;background: none;width: auto;}
+		table{font-size:1em;background: none;width: auto;}
 
 		.ms-formbody{background: none;}
 		.s4-pr{width:100% !important;}

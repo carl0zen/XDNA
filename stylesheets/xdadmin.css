@@ -130,6 +130,7 @@ html body.xd.system {
       \_____|_|\___/|_.__/ \__,_|_|
                                      
   ===========================================*/
+  font-family: "Myriad Pro", arial !important;
   /*======================================== 		
       _    _
      | |  | |              | |          
@@ -190,6 +191,9 @@ html body.xd.system .ms-cui-cb-input {
 html body.xd.system .ms-cui-dd-arrow-button {
   width: 15px;
 }
+html body.xd.system .ms-inputformheader {
+  padding-left: 0px;
+}
 html body.xd.system table table.ms-listviewtable > tbody {
   width: 100% !important;
 }
@@ -205,6 +209,9 @@ html body.xd.system table table.ms-listviewtable > tbody .ms-itmhover:hover {
 }
 html body.xd.system input[type="submit"] {
   background-color: none;
+}
+html body.xd.system input[type="file"], html body.xd.system input[type="checkbox"], html body.xd.system input[type="radio"], html body.xd.system select {
+  margin: 0 0.5em 0 0;
 }
 html body.xd.system .column, html body.xd.system .columns {
   padding-left: 3em;
@@ -278,9 +285,6 @@ html body.xd.system .xd-header {
 html body.xd.system .xd-header h1 a {
   margin-left: 0px;
 }
-html body.xd.system .xd-header a:hover {
-  text-decoration: underline;
-}
 html body.xd.system .xd-header a:link {
   color: #fff;
 }
@@ -298,7 +302,7 @@ html body.xd.system .xd-header .navigation-description {
 html body.xd.system .xd-header .s4-pagedescription, html body.xd.system .xd-header .s4-pagedescription span {
   color: #fefefe;
   width: 100%;
-  font-size: 12px;
+  font-size: 1em;
 }
 html body.xd.system .xd-header .s4-notdlg img {
   margin-top: auto;
@@ -312,7 +316,7 @@ html body.xd.system .xd-header .xd-welcome {
   display: inline-block;
   float: right;
   text-align: right;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #fefefe;
   min-height: 53px;
   margin-right: 0px;
@@ -364,6 +368,7 @@ html body.xd.system .xd-header .xd-welcome #auth .thumbCrop {
   vertical-align: middle;
   border-radius: 50%;
   position: absolute;
+  top: 14px;
 }
 html body.xd.system .xd-header .xd-welcome #auth .thumbCrop img {
   visibility: hidden;
@@ -373,7 +378,7 @@ html body.xd.system .xd-header h1, html body.xd.system .xd-header h2, html body.
   margin: 0px;
   padding: 0px;
   line-height: 12px;
-  font-size: 12px;
+  font-size: 1em;
   display: inline;
   color: #FFFFFF;
   font-weight: normal;
@@ -443,11 +448,23 @@ html body.xd.system #main-content[role="main"] {
 html body.xd.system #main-content[role="main"] > div > table {
   background: none;
 }
+html body.xd.system #main-content[role="main"] ul {
+  margin-left: 1.5em;
+}
+html body.xd.system #main-content[role="main"] p {
+  line-height: auto;
+  padding: 0px;
+  margin-bottom: 1.25em;
+  font-size: 1em;
+}
 html body.xd.system #main-content[role="main"] .ms-pageinformation {
   padding: 0;
 }
 html body.xd.system #main-content[role="main"] .button {
   display: none !important;
+}
+html body.xd.system #main-content[role="main"] .ms-formbody {
+  padding: 1em !important;
 }
 html body.xd.system #main-content[role="main"] .ms-menutoolbar td {
   padding: 0px 2px;
@@ -482,6 +499,26 @@ html body.xd.system #main-content[role="main"] .ms-menubuttoninactivehover,
 html body.xd.system #main-content[role="main"] .ms-buttoninactivehover {
   margin: 2px;
 }
+html body.xd.system #main-content[role="main"] .ms-rtestate-field.ms-rtefield {
+  max-width: 480px;
+}
+html body.xd.system #main-content[role="main"] input[type="text"],
+html body.xd.system #main-content[role="main"] input[type="password"],
+html body.xd.system #main-content[role="main"] input[type="date"],
+html body.xd.system #main-content[role="main"] input[type="datetime"],
+html body.xd.system #main-content[role="main"] input[type="datetime-local"],
+html body.xd.system #main-content[role="main"] input[type="month"],
+html body.xd.system #main-content[role="main"] input[type="week"],
+html body.xd.system #main-content[role="main"] input[type="email"],
+html body.xd.system #main-content[role="main"] input[type="number"],
+html body.xd.system #main-content[role="main"] input[type="search"],
+html body.xd.system #main-content[role="main"] input[type="tel"],
+html body.xd.system #main-content[role="main"] input[type="time"],
+html body.xd.system #main-content[role="main"] input[type="url"],
+html body.xd.system #main-content[role="main"] textarea,
+html body.xd.system #main-content[role="main"] select {
+  width: auto;
+}
 html body.xd.system table {
   border: none !important;
   margin-bottom: 0px;
@@ -500,7 +537,7 @@ html body.xd.system table tfoot tr td {
   padding-bottom: inherit;
 }
 html body.xd.system tr b, html body.xd.system tr td b h3, html body.xd.system .ms-standardheader {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 html body.xd.system .ms-vb-icon {
   text-align: cente;
@@ -520,7 +557,7 @@ html body.xd.system .ms-descriptiontext ul {
   line-height: 1.5em;
 }
 html body.xd.system .ms-WPBody td {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 html body.xd.system .s4-tn {
   overflow: visible !important;
@@ -545,7 +582,7 @@ html body.xd.system td.ms-authoringcontrols {
   line-height: 1.7em;*/
 }
 html body.xd.system td.ms-authoringcontrols label {
-  font-size: 1.2em;
+  font-size: 1em;
   display: inline;
 }
 html body.xd.system .ms-toolbar {
@@ -556,7 +593,7 @@ html body.xd.system .ms-smallsectionline {
   background: none;
 }
 html body.xd.system tr b, html body.xd.system tr td b h3, html body.xd.system .ms-standardheader {
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 240%;
   font-weight: normal;
 }
@@ -583,7 +620,7 @@ html body.xd.system .ms-gb {
   border: none;
 }
 html body.xd.system .ms-gb h3.ms-standardheader {
-  font-size: 2em;
+  font-size: 1em;
   line-height: 44px;
   color: #555;
   margin: 0;
@@ -593,7 +630,7 @@ html body.xd.system .ms-viewlsts .ms-vb2 {
   padding: 10px 0;
 }
 html body.xd.system .ms-viewlsts .ms-vb2 > a {
-  font-size: 1.3em;
+  font-size: 1em;
   margin: 10px;
   line-height: 35px;
 }
@@ -602,7 +639,7 @@ html body.xd.system td.ms-linksectionheader, html body.xd.system th.ms-linksecti
   border: none;
   text-align: left;
   background-color: #E6E7E7;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 175%;
   font-weight: normal;
   color: #000;
@@ -632,7 +669,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   padding: 0px 0px;
   width: 155px;
   float: left;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {
   color: #fff;
@@ -644,7 +681,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .menu > ul 
   color: #fff;
   font-weight: bold;
   line-height: 30px;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul {
   margin: 0;
@@ -654,7 +691,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.r
   border-bottom: 1px solid #18b4ef;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql ul.root ul > li > a {
-  font-size: 0.9em;
+  font-size: 1em;
   color: #fff;
   line-height: 25px;
   text-indent: 0;
@@ -673,6 +710,15 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-recentc
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-ql-additionaltopsection {
   border-bottom: none !important;
+}
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-quickLaunch {
+  padding-top: 0px;
+}
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .s4-ql a.selected {
+  background-color: #009FD9;
+  border-color: none;
+  border-width: 0px;
+  color: #fff !important;
 }
 
 /**====================================
@@ -715,14 +761,14 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     display: block;
     margin-left: -90px;
     width: 90px;
-    font-size: 0.8em;
+    font-size: 1em;
   }
   html.not-dialog td label {
     display: inline-block !important;
     margin-left: 6px;
   }
   html.not-dialog button, html.not-dialog select {
-    font-size: 12px;
+    font-size: 1em;
     padding: 4px;
   }
   html.not-dialog td.ms-authoringcontrols > label,
@@ -732,7 +778,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
   html.not-dialog .ms-authoringcontrols table {
     margin: 0 auto;
-    width: auto;
+    width: 100%;
   }
   html.not-dialog body.xd #main-content table.ms-viewlsts tbody tr:first-child {
     display: none;
@@ -803,9 +849,9 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
   html.not-dialog body.xd #main-content tr.accordion-title td {
     line-height: 25px;
-    font-size: 1.4em;
+    font-size: 1em;
     color: #004255;
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: bold;
     padding: 0;
     line-height: 30px;
@@ -858,7 +904,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
   html.not-dialog body.xd #main-content .ms-propertysheet a {
     line-height: 52px;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   html.not-dialog body.xd #main-content .ms-propertysheet a:first-child {
     background: #c2e0f3;
@@ -925,7 +971,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     display: none;
   }
   html.not-dialog body.xd #main-content .ms-toolbar label {
-    font-size: 1.4em;
+    font-size: 1em;
   }
   html.not-dialog body.xd #main-content .ms-toolbar select {
     display: block;
@@ -953,7 +999,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
     padding: 7px;
   }
   html.not-dialog body.xd #main-content .ms-sectionheader .ms-standardheader {
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     line-height: 2em;
     font-weight: normal;
@@ -971,32 +1017,32 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
   html.not-dialog body.xd #main-content .ms-pageinformation th, html.not-dialog body.xd #main-content .ms-pageinformation tr, html.not-dialog body.xd #main-content .ms-pageinformation td, html.not-dialog body.xd #main-content .ms-pageinformation h3 {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   html.not-dialog body.xd #main-content .ms-pageinformation h3 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   html.not-dialog body.xd #main-content .ms-linksection-level1 td {
     height: auto !important;
   }
   html.not-dialog body.xd #main-content .ms-linksection-level1 h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 100;
     padding: 17px 0 9px 0;
   }
   html.not-dialog body.xd #main-content .ms-linksection-level1 ul li a {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 45px;
   }
   html.not-dialog body.xd #main-content .ms-linksection-level1 img {
     margin-top: auto;
   }
   html.not-dialog body.xd #main-content .ms-vb a {
-    font-size: 1.3em;
+    font-size: 1em;
   }
   html.not-dialog body.xd #main-content .ms-menutoolbar td a {
     color: #0072bc !important;
-    font-size: 12pt;
+    font-size: 1em;
     margin: 10px;
   }
   html.not-dialog body.xd #main-content .ms-toolbar table:hover {
@@ -1069,7 +1115,7 @@ o888o o888o o888o `Y8bod8P'  `Y8bod8P' o888o o888o `Y8bod8P'      "888" `Y888""8
   }
   html.not-dialog body.xd #main-content .ms-gb h3.ms-standardheader {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     line-height: 44px;
     text-align: center;
   }
@@ -1141,8 +1187,38 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   html.not-dialog body.xd.system {
     /* Menu */
   }
+  html.not-dialog body.xd.system .column, html.not-dialog body.xd.system .columns {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  html.not-dialog body.xd.system #main-content p {
+    font-size: 1em;
+  }
+  html.not-dialog body.xd.system #main-content ul {
+    font-size: 1em;
+    margin-bottom: 1.25em;
+  }
+  html.not-dialog body.xd.system #main-content li {
+    margin-bottom: 1.25em;
+  }
+  html.not-dialog body.xd.system #main-content .right-wp-zone-col {
+    border-top: 3px dotted #CCCCCC;
+    display: block;
+    float: none;
+    font-size: 1em;
+    margin-bottom: 1.25em;
+    padding: 1.25em 0 0;
+    width: 100%;
+    border-left: none;
+  }
+  html.not-dialog body.xd.system #main-content .col-fluid-1 {
+    float: none;
+  }
+  html.not-dialog body.xd.system #main-content .col-fluid-2 {
+    margin-right: 0px;
+  }
   html.not-dialog body.xd.system #main-content a.ms-addnew {
-    font-size: 2em;
+    font-size: 1em;
     display: block;
     padding-bottom: 17px;
   }
@@ -1221,7 +1297,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
   html.not-dialog body.xd.system .button {
     background-color: #0088AF;
     padding: 20px 0;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0px;
     padding: 20px 0;
     border: none;
@@ -1276,7 +1352,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover {
     float: none;
     text-align: center;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 15px 0px 0px !important;
   }
   html.not-dialog body.xd.system #s4-workspace .xd-menu {
@@ -1387,6 +1463,19 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
   width: 100% !important;
 }
 
+html.ms-dialog body.xd input[type="submit"] {
+  background-color: none !important;
+}
+
+html.ms-dialog body.xd.system input[type="submit"] {
+  background-color: none !important;
+  border: auto !important;
+  font-size: 100%;
+  padding: auto !important;
+}
+html.ms-dialog body.xd.system input[type="submit"]:hover {
+  background-color: none !important;
+}
 html.ms-dialog body.xd.system .ms-linksection-level1 td {
   margin: 0 auto \9;
 }
@@ -1426,7 +1515,7 @@ html.ms-dialog body.xd.system .ms-standardheader {
   line-height: 1.4;
 }
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext {
-  font-size: 11px;
+  font-size: 1em;
   line-height: 1.1em;
 }
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext table {
@@ -1461,12 +1550,12 @@ html.ms-dialog body.xd.system .ms-authoringcontrols {
   background-color: #f6f6f6;
 }
 html.ms-dialog body.xd.system .ms-authoringcontrols label {
-  font-size: 11px;
+  font-size: 1em;
   margin-left: 10px;
   line-height: 13px;
 }
 html.ms-dialog body.xd.system table {
-  font-size: 12px;
+  font-size: 1em;
   background: none;
   width: auto;
 }
