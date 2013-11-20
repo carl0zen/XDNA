@@ -138,6 +138,9 @@ html body.xd.system{
 			color:$white;
 			width:100%;
 			font-size:1em;
+			a{
+				color:$white;
+			}
 		}
 		.s4-notdlg img{ 
 			margin-top:auto;
@@ -304,14 +307,17 @@ html body.xd.system{
 		min-height:600px; 
 		overflow-x: auto ;
 		overflow-y: hidden !important;
-		padding-top:40px;
+		padding-top:20px;
 		position:static;
 		width :auto;
 		/*@extend .box-sizing; */
 		> div > table{
 			background: none;
 		}
-		ul{
+		h2{
+			font-weight: 100;
+		}
+		.edit-mode-border ul{
 			margin-left:1.5em;
 		}
 		p{
@@ -320,8 +326,12 @@ html body.xd.system{
 			margin-bottom:1.25em;
 			font-size: 1em;
 		}
-		.ms-pageinformation {
-			padding: 0;
+		.page-title-area{
+			font-weight:lighter;
+    		padding-left:8px;
+    		a:hover{
+				text-decoration: none;
+    		}
 		}
 		.button{ 
 			display:none !important;
@@ -362,7 +372,7 @@ html body.xd.system{
 		}
 		.ms-menubuttoninactivehover, 
 		.ms-buttoninactivehover{
-			margin:2px;
+			margin:2px !important; 			
 		}
 		.ms-rtestate-field.ms-rtefield{
 			max-width: 480px
@@ -421,7 +431,7 @@ html body.xd.system{
 	.ms-linksection-level1 td {padding-bottom: 17px;}
 	.ms-listviewtable td{vertical-align: middle}
 	.ms-descriptiontext ul{margin:20px; line-height:1.5em}
-	.ms-WPBody td{ font-size:1em} 
+	.ms-WPBody td{ font-size:1.4em} 
 
 	/*======================================== 
      ____        _   _                  
@@ -869,8 +879,7 @@ html.not-dialog{
 					}
 				}
 				.ms-menubuttoninactivehover{
-					background: #eee;
-					border: 1px solid #ccc;
+					background: #eee;			
 				}
 			}
 			.ms-sectionheader{
@@ -911,7 +920,7 @@ html.not-dialog{
 					height:auto !important;
 				}
 				h3 {
-					font-size: 1em;
+					
 					font-weight: 100;
 					padding: 17px 0 9px 0;
 				}			
@@ -939,7 +948,7 @@ html.not-dialog{
 			td.ms-vb2{
 	 			width: 100% !important;
 	 			padding: 10px 15px;
-	 			font-size: 1em;
+	 			font-size: 1.4em; 
 	 			padding-left: 100px;
 	 			text-align: left;
 	 			line-height: 25px;
@@ -1071,7 +1080,16 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			padding-left:5% !important;
 			padding-right:5% !important;			
 		}
+		.ms-dlgContent{width:90% !important;}
 		#main-content {
+			h2{
+				text-align: center;
+				padding:1em 0;
+				font-size: 2em;
+			}
+			h3{
+				text-align: center !important;
+			}
 			p{
 				font-size:1em;
 			}
@@ -1107,10 +1125,31 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			.ms-authoringcontrols.ms-inputformcontrols table{ 
 				margin: auto;
 			}
+			.ms-vb, .ms-vb2, .ms-vb-user, .ms-vb-tall, .ms-pb, .ms-pb-selected{
+				width: 100%;
+			}
+			.ms-featurestatustext{
+				display: inline-block;
+			}
+			input[type="text"], 
+			input[type="password"], 
+			input[type="date"], 
+			input[type="datetime"], 
+			input[type="datetime-local"], 
+			input[type="month"], 
+			input[type="week"], 
+			input[type="email"], 
+			input[type="number"], 
+			input[type="search"], 
+			input[type="tel"], 
+			input[type="time"], 
+			input[type="url"], 
+			textarea,
+			select{
+				width: 90%;
+				margin: 0 auto;
+			}
 		}	
-		#main-content .ms-authoringcontrols.ms-inputformcontrols table{ 
-			margin: auto;
-		}
 		.theme-fonts span{ 
 			display:block;
 		}
@@ -1224,6 +1263,9 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 				margin:0; 
 				padding:0px; 
 				text-align:center;
+				div{
+					text-align: center;
+				}
 			}
 		}
 		.s4-ca{
