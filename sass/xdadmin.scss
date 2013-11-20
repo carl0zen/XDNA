@@ -314,6 +314,12 @@ html body.xd.system{
 		> div > table{
 			background: none;
 		}
+		td{
+			max-width: 200px 
+		}
+		td:nth-child(4) img{
+		    width:100% !important;
+		}
 		h2{
 			font-weight: 100;
 		}

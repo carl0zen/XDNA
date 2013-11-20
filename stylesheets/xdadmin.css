@@ -451,6 +451,12 @@ html body.xd.system #main-content[role="main"] {
 html body.xd.system #main-content[role="main"] > div > table {
   background: none;
 }
+html body.xd.system #main-content[role="main"] td {
+  max-width: 200px;
+}
+html body.xd.system #main-content[role="main"] td:nth-child(4) img {
+  width: 100% !important;
+}
 html body.xd.system #main-content[role="main"] h2 {
   font-weight: 100;
 }
