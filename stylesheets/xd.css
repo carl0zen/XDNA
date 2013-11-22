@@ -732,15 +732,20 @@ html body.xd.internal #main-content {
   max-width: 1320px;
   padding: 20px;
 }
-html body.xd.internal #main-content .xd-content-editor h3 {
-  font-size: 1.7em;
+html body.xd.internal #main-content .s4-wpcell:hover .ms-WPHeader .ms-wpTdSpace, html body.xd.internal #main-content td.ms-wpTdSpace {
+  border: none;
+}
+html body.xd.internal #main-content h3 {
+  font-size: 18px;
   font-family: Segoe UI;
-  font-weight: lighter;
-  background-color: #009FD9;
-  border-bottom: 2px solid #fe6601;
+  font-weight: bold;
   color: #ffffff;
   text-indent: 5px;
   margin-bottom: 1em;
+  color: #222;
+}
+html body.xd.internal #main-content h3 a {
+  color: #222 !important;
 }
 html body.xd.internal #main-content .xd-content-editor p {
   font-size: 1em;
@@ -753,9 +758,11 @@ html body.xd.internal #main-content .xd-content-editor .ms-rteStyle-Highlight {
   display: inline-block;
   padding: 0.4em 0.6em;
 }
+html body.xd.internal .s4-wpcell:hover .ms-WPHeader .ms-wpTdSpace {
+  border: auto;
+}
 html body.xd.internal .ms-WPHeader td, html body.xd.internal .ms-fakewptitle {
-  background-color: #009FD9;
-  border-bottom: 2px solid #fe6601;
+  border-bottom: 2px solid #FE6601;
 }
 html body.xd.internal .ms-WPHeader td h3, html body.xd.internal .ms-fakewptitle h3 {
   font-size: 2.5em;
@@ -922,7 +929,7 @@ html body.xd .inner-wrapper {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: Segoe UI, Helvetica, Arial !important;
   font-weight: normal;
   font-style: normal;
   line-height: 1.2;

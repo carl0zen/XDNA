@@ -551,7 +551,23 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     } 
 
   #main-content 
-  {        
+  {   
+    .s4-wpcell:hover .ms-WPHeader .ms-wpTdSpace, td.ms-wpTdSpace {
+      border:none;
+    }
+    h3{
+        font-size: 18px; 
+        font-family: Segoe UI; 
+        font-weight: bold;       
+        color:#ffffff; 
+        text-indent: 5px; 
+        margin-bottom: 1em;
+        color: #222;
+        a{
+          color: #222 !important;
+        }
+      }  
+
       @include box-sizing(border-box);
       background: none repeat scroll 0 0 #FFFFFF;
       margin: 0 auto !important;
@@ -559,20 +575,21 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       padding: 20px;      
       .xd-content-editor 
       {
-        h3{font-size: 1.7em; font-family: Segoe UI; font-weight: lighter; background-color: #009FD9;  border-bottom: 2px solid  $menuBorderColor; color:#ffffff; text-indent: 5px; margin-bottom: 1em}  
         p{ font-size: 1em; margin: 0.5em 0; padding: 0 0 0 1em;}
         .ms-rteStyle-Highlight {background-color: #FFA500; color: #FFFFFF; display: inline-block; padding: 0.4em 0.6em;} 
       } 
   }
-  
+  .s4-wpcell:hover .ms-WPHeader .ms-wpTdSpace{
+    border:auto;
+  }
   .ms-WPHeader td, .ms-fakewptitle 
-  {
-    background-color: #009FD9;  border-bottom: 2px solid  $menuBorderColor;
-      h3{
-        font-size: 2.5em; font-family: Segoe UI; font-weight: lighter; 
-        > a{color:#ffffff}
-      }
-      &:hover{ border-bottom: 2px solid  $menuBorderColor;}
+  {   
+    border-bottom: 2px solid #FE6601;
+    h3{
+      font-size: 2.5em; font-family: Segoe UI; font-weight: lighter; 
+      > a{color:#ffffff}
+    }
+    &:hover{ border-bottom: 2px solid  $menuBorderColor;}
   }
   
    
@@ -764,7 +781,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     color: #222222;
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: Segoe UI, Helvetica, Arial !important;
     font-weight: normal;
     font-style: normal;
     line-height: 1.2;

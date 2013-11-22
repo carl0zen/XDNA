@@ -15,8 +15,7 @@ html body.xd.system{
 	                                   
 	===========================================*/
 
-	font-family:"Myriad Pro", arial !important;
-
+	font-family: Segoe UI, Helvetica, Arial !important;
 	#main-content a{
 		color: #0072BC;
 	}
@@ -25,7 +24,6 @@ html body.xd.system{
 	}
 	.ms-vb{line-height: 31px;}
 	.s4-itm-cbx{padding: 10px;}
-
 	div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge, 
 	div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLargeRtl{
 		width: 45px;
@@ -70,9 +68,8 @@ html body.xd.system{
 		background-color: $newBlue;
 		min-height:390px;
 		position:relative;
-		margin-top:0px;  
-		height:100% !important; 
-		/*@extend .box-sizing; */
+		margin-top:0px;
+		height:100% !important;
 	}
 	#s4-workspace{
 		overflow-y:auto; 
@@ -112,11 +109,9 @@ html body.xd.system{
 	   | |  | |  __/ (_| | (_| |  __/ |   
 	   |_|  |_|\___|\__,_|\__,_|\___|_|                                         
 	 ===========================================*/
-
 	.xd-header{
 		background-color:#009fd9;
 		padding:30px 0;
-
 		h1 a{
 			margin-left:0px
 		}
@@ -148,7 +143,6 @@ html body.xd.system{
 		.ms-ltviewselectormenuheader .ms-viewselector-arrow{ 
 			margin:auto;
 		}
-
 		/*======================================== 		
 		__          __  _                          
 		\ \        / / | |                         
@@ -239,7 +233,7 @@ html body.xd.system{
 			display:inline;
 			color: #FFFFFF;
 			font-weight: normal; 
-			font-family:Arial, Helvetica, sans-serif;
+			font-family: Segoe UI, Helvetica, Arial;
 		}
 		div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIconLarge, 
 		div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL a span.ms-MenuUIIcon{ 
@@ -287,6 +281,7 @@ html body.xd.system{
 			border-right: 5px solid transparent; 
 			border-top: 5px solid $white;
 			display:inline-block !important;
+			background:none;
 		}						
 	}
 	/*============================================================
@@ -307,21 +302,23 @@ html body.xd.system{
 		min-height:600px; 
 		overflow-x: auto ;
 		overflow-y: hidden !important;
-		padding-top:20px;
+		padding-top:10px;
 		position:static;
 		width :auto;
 		/*@extend .box-sizing; */
 		> div > table{
 			background: none;
 		}
-		td{
-			max-width: 200px 
-		}
-		td:nth-child(4) img{
-		    width:100% !important;
-		}
 		h2{
 			font-weight: 100;
+			color: #FE6601;
+		    font-family: Segoe UI, Helvetica, Arial;
+		    font-size: 2.3125em;
+		    margin-top: 0;
+		    padding-top: 0;
+		    a{
+		    	color: #FE6601;
+		    }
 		}
 		.edit-mode-border ul{
 			margin-left:1.5em;
@@ -382,6 +379,14 @@ html body.xd.system{
 		}
 		.ms-rtestate-field.ms-rtefield{
 			max-width: 480px
+		}
+		.ms-missinglink{
+			border-bottom:none;
+		}
+		.ms-viewheadertr{
+			tr{
+				background-color: #f6f6f6;
+			}
 		}
 		input[type="text"], 
 		input[type="password"], 
@@ -1026,6 +1031,9 @@ html.not-dialog{
 				input[type="checkbox"]{
 					margin-top: 3px;
 				}
+				tr{
+					/*background-color: #f6f6f6;*/
+				}
 			}
 			.ms-menutoolbar{
 				height: auto;
@@ -1105,6 +1113,13 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 			}
 			li{
 				margin-bottom: 1.25em;
+			}
+			td{
+				max-width: 100%;
+			}
+			.ms-menutoolbar a{
+				display: block;
+				margin: 0px;
 			}
 			.right-wp-zone-col {
 			    border-top: 3px dotted #CCCCCC;
@@ -1445,15 +1460,20 @@ html.ms-dialog
 				background: none !important;
 				#s4-leftpanel[role="complementary"]{display: none !important;}
 				#main-content{
+					.page-title-area{
+						display: none;
+					}
 					padding:15px;
 					background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 					margin: 0;
 					width: auto;
 					min-height: 1px;
-
 					> table{
 						margin:0;
-						width:100% !important; 
+						width:100% !important;
+						td{
+							max-width: auto !important;
+						}
 						>tbody{
 							//margin: 20px;
 							display: block; 
