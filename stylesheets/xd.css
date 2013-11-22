@@ -558,9 +558,10 @@ html body.xd #main-content .panel ul.bullet li {
 }
 html body.xd #main-content .panel #newPostSubmit {
   background-color: #65C16B;
-  box-shadow: 0 2px 0 #7ccb83 inset;
-  height: 35px;
-  border: none;
+  border: medium none;
+  box-shadow: 0 2px 0 #7CCB83 inset;
+  height: 32px;
+  width: 20px;
 }
 html body.xd #main-content .panel .author {
   text-decoration: none;

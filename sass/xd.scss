@@ -396,10 +396,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         }
       }
       #newPostSubmit{
-        background-color:#65C16B;
-        box-shadow:0 2px 0 rgba(124, 203, 131, 1) inset;
-        height: 35px;
-        border:none;        
+        background-color: #65C16B;
+        border: medium none;
+        box-shadow: 0 2px 0 #7CCB83 inset;
+        height: 32px;
+        width: 20px;        
       }
       .author{
         text-decoration: none;
