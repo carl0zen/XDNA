@@ -281,6 +281,9 @@ html body.xd .s4-ca {
 html body.xd hr {
   border-bottom: none;
 }
+html body.xd #newPostText {
+  padding: 11px !important;
+}
 html body.xd .xd-header {
   background-color: #009fd9;
   padding: 30px;
@@ -313,7 +316,7 @@ html body.xd .xd-header .s4-clust.ms-viewselector-arrow {
 }
 html body.xd .xd-welcome {
   clear: both;
-  overflow: hidden;
+  overflow: visible;
   display: inline-block;
   float: right;
   margin-right: -11px;
@@ -339,8 +342,16 @@ html body.xd .xd-welcome #auth .thumb {
 }
 html body.xd .xd-welcome #auth .thumbCrop {
   border-radius: 100%;
-  width: 40px;
-  height: 40px;
+  margin-top: -17px;
+  background-position: center center !important;
+  background-size: auto !important;
+  display: inline-block;
+  height: 60px;
+  margin-left: 15px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 60px;
+  border-radius: 100%;
 }
 html body.xd .xd-welcome #auth img {
   min-height: 1px;
@@ -525,6 +536,7 @@ html body.xd #main-content .panel h3 {
   color: #88888c;
   font-size: 35px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 html body.xd #main-content .panel hr {
   display: none;
@@ -533,7 +545,7 @@ html body.xd #main-content .panel p, html body.xd #main-content .panel a, html b
   color: #333333 !important;
 }
 html body.xd #main-content .panel p {
-  font-size: 1em;
+  line-height: 1.4em;
 }
 html body.xd #main-content .panel span {
   color: #666;
@@ -543,6 +555,17 @@ html body.xd #main-content .panel ul {
 }
 html body.xd #main-content .panel ul.bullet li {
   background: url("../img/swap-right.png") no-repeat top left;
+}
+html body.xd #main-content .panel #newPostSubmit {
+  background-color: #65C16B;
+  box-shadow: 0 2px 0 #7ccb83 inset;
+  height: 35px;
+  border: none;
+}
+html body.xd #main-content .panel .author {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
 }
 html body.xd #main-content .panel:before {
   display: none;
@@ -559,17 +582,22 @@ html body.xd #main-content .panel.featured p, html body.xd #main-content .panel.
 html body.xd #main-content .panel.featured .date, html body.xd #main-content .panel[data-panel-id="teamstatus"] .date {
   display: block;
   font-size: 1em;
-  color: #eee !important;
+  color: #B9EAF9 !important;
   margin: 0;
 }
 html body.xd #main-content .panel.featured .status span.authorTitle, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status span.authorTitle {
-  color: #525252 !important;
+  color: #B9EAF9 !important;
+  font-size: 16px;
 }
 html body.xd #main-content .panel.featured .status p, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status p {
   padding-left: 80px;
 }
+html body.xd #main-content .panel.featured .status li, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status li {
+  border-bottom: solid 1px #6CCFF4;
+}
 html body.xd #main-content .panel.featured .status li.new, html body.xd #main-content .panel[data-panel-id="teamstatus"] .status li.new {
   background: none repeat scroll 0 0 #04A5E0;
+  font-size: 13px;
 }
 html body.xd #main-content .panel.featured p, html body.xd #main-content .panel[data-panel-id="teamstatus"] p {
   margin: 10px 0;
@@ -994,6 +1022,14 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     display: none;
   }
 
+  html.not-dialog body.xd .xd-header #auth .thumbCrop {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px;
+    position: static !important;
+  }
+
   html body.xd .xd-menu {
     padding: 0px !important;
   }
@@ -1243,10 +1279,10 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
 @media (min-width: 320px) {
   #auth span {
     display: block;
-    margin-right: 60px;
+    margin-right: 75px;
   }
   #auth .thumbCrop {
-    margin-top: -15px;
+    margin-top: -17px;
   }
 }
 @media only screen and (min-width: 769px) {

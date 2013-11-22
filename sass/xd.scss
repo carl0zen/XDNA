@@ -60,6 +60,9 @@ html body.xd{
   hr {
     border-bottom: none;
   }
+  #newPostText{
+      padding:11px !important;
+  }
 
 /* ==========================================================================
    
@@ -121,7 +124,7 @@ oooooo   oooooo     oooo           oooo
   
   .xd-welcome {
     clear: both;
-    overflow: hidden;
+    overflow: visible;
     display: inline-block;
     float: right;
     margin-right: -11px;
@@ -145,8 +148,16 @@ oooooo   oooooo     oooo           oooo
       }
       .thumbCrop{
         border-radius: 100%;
-        width: 40px;
-        height: 40px;
+        margin-top:-17px;
+        background-position: center center !important;
+        background-size: auto !important;
+        display: inline-block;
+        height: 60px;
+        margin-left: 15px;
+        overflow: hidden;
+        vertical-align: middle;
+        width: 60px;
+        border-radius:100%; 
       }
       img{
         min-height: 1px;
@@ -363,7 +374,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         color:$gray;
         font-size: 35px;
         font-weight: 300;
-
+        margin-bottom: 20px;
       }
       hr{
         display: none;
@@ -371,7 +382,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       p,a, li{
         color: $black !important;
       }
-      p{font-size: 1em}
+      p{
+       
+        line-height: 1.4em;
+      }
       span{
         color: #666;
       }
@@ -380,6 +394,17 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         &.bullet li{
           background: url('../img/swap-right.png') no-repeat top left;
         }
+      }
+      #newPostSubmit{
+        background-color:#65C16B;
+        box-shadow:0 2px 0 rgba(124, 203, 131, 1) inset;
+        height: 35px;
+        border:none;        
+      }
+      .author{
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 16px;
       }
       &:before{
         display: none;
@@ -393,19 +418,24 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         .date{
           display: block;
           font-size: 1em;
-          color: #eee !important;
+          color: #B9EAF9 !important;
           margin: 0;
 
         }
         .status {
             span.authorTitle{
-              color: #525252 !important;
+              color:#B9EAF9 !important;
+              font-size: 16px;
             }
             p{
               padding-left:80px;
             }
+            li{
+               border-bottom: solid 1px #6CCFF4;
+            }
             li.new{
               background: none repeat scroll 0 0 #04A5E0;
+              font-size: 13px;
             }
         }
         p{
@@ -840,6 +870,13 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     html body.xd .xd-header h1{
       display:none;
     }   
+    html.not-dialog body.xd .xd-header #auth .thumbCrop {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-top: 10px;
+      position: static !important;
+    }
     html body.xd .xd-menu{
       padding:0px !important; 
     }
@@ -1054,10 +1091,10 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
   #auth{
       span{
         display: block;
-        margin-right: 60px;
+        margin-right: 75px;
       }
       .thumbCrop{
-        margin-top: -15px;
+        margin-top: -17px;
       }
     }
 }
