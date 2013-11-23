@@ -85,6 +85,7 @@ o888o   o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b
       font-weight: lighter;
       margin: 0px;
       margin-top: 0px;
+      vertical-align: middle;
       a {
         color: #fff;
         margin-left: 20px;
@@ -130,6 +131,7 @@ oooooo   oooooo     oooo           oooo
     margin-right: -11px;
     text-align:right;
     font-size:1.2em; color:#fff;
+    position: relative;
     .ms-welcomeMenu,
     .s4-trc-container-menu {
       background: none;
@@ -138,9 +140,13 @@ oooooo   oooooo     oooo           oooo
       font-family:"Segoe UI"
     }
     #auth{
-       margin-right:0px;
-       margin-top: 0px;
        line-height: inherit;
+       height: 100%;
+       margin-right: 64px; 
+       margin-top:0px; 
+       span{
+       margin-right: 0px !important; 
+       }
        .thumb{
         margin-left: 20px;
          line-height: inherit;
@@ -148,16 +154,15 @@ oooooo   oooooo     oooo           oooo
       }
       .thumbCrop{
         border-radius: 100%;
-        margin-top:-17px;
         background-position: center center !important;
         background-size: auto !important;
-        display: inline-block;
         height: 60px;
-        margin-left: 15px;
         overflow: hidden;
-        vertical-align: middle;
         width: 60px;
-        border-radius:100%; 
+        border-radius:100%;
+        position: absolute;
+        top: -13px;
+        right: 0px; 
       }
       img{
         min-height: 1px;
@@ -443,9 +448,6 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
           margin:10px 0;
         }
       }//.featured
-      .thumbCrop{
-        border-radius:100%;
-      }
     } //.panel
     div[data-panel-id="availableteammembers"]{
       .color-key .status.yellow { background: $yellow !important }
@@ -1093,9 +1095,6 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
       span{
         display: block;
         margin-right: 75px;
-      }
-      .thumbCrop{
-        margin-top: -17px;
       }
     }
 }

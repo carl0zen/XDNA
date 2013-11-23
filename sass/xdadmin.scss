@@ -168,12 +168,6 @@ html body.xd.system{
 				display:none;
 			} 
 			#auth{
-				margin-right:0px; 
-				margin-top: 0px;
-				line-height: inherit; 
-				height:auto;
-				position:relative;
-				padding-right:85px;
 				.bold{
 					color:$white;
 					margin-top:1px;
@@ -181,7 +175,6 @@ html body.xd.system{
 					font-weight: bold;
 				}
 				.thumbCrop {
-					margin-top: -28px;
 					img{
 						display: none;
 					}
@@ -1054,12 +1047,7 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 	 |_|  |_|\___|\__,_|_|\__,_|  \___\_\\__,_|\___|_|  |_|\___||___/
 	                                                                 
 ========================================================================== */	
-
-@media only screen and (max-width: 1364px){						
-	html.not-dialog body.xd.system #auth .thumbCrop{
-		top:14px
-	}
-}		
+	
 @media only screen and (max-width: 768px) {
 	html.not-dialog body.xd.system {
 		.column, .columns{
