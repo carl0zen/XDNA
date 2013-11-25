@@ -560,8 +560,9 @@ html body.xd #main-content .panel #newPostSubmit {
   background-color: #65C16B;
   border: medium none;
   box-shadow: 0 2px 0 #7CCB83 inset;
-  height: 32px;
+  height: 31px;
   width: 20px;
+  font-size: 1em;
 }
 html body.xd #main-content .panel .author {
   text-decoration: none;
