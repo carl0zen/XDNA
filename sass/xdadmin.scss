@@ -15,6 +15,7 @@ html body.xd.system{
 	                                   
 	===========================================*/
 
+
 	font-family: Segoe UI, Helvetica, Arial !important;
 	#main-content a{
 		color: #0072BC;
@@ -259,6 +260,7 @@ html body.xd.system{
 
 	==============================================================*/
 	#main-content[role="main"]{			
+
 		background-color:$white;
 		background-image:none;
 		border-left:0px;
@@ -532,10 +534,14 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 ==============================================================**/
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
+	div[id~="SettingLink"]{
+		li{ line-height: 30px}
+		a{ font-size: 13px;font-family: Segoe UI}
+	}
 	background: $newBlue;
 	display: inline-block !important; 
 	padding:0px 0px;
-	width:155px;
+	width:190px;
 	float:left;
 	font-size: 1em;
 	.ms-splinkbutton-text{
@@ -1196,9 +1202,10 @@ body.xd.system table table.ms-listviewtable > tbody .ms-itmhover{background-imag
 		}	
 		#s4-leftpanel[role="complementary"]{
 			width:80% !important;
-			position:absolute;
+			position:fixed;
 			top:0;
 			bottom:0;
+			overflow: auto;
 		}	
 		.menu.vertical.menu-vertical{
 			background-color:$newBlue;
