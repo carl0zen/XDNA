@@ -785,13 +785,13 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] {
   font-size: 1em;
 }
 /* line 538, ../sass/xdadmin.scss */
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id~="SettingLink"] li {
-  line-height: 30px;
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] table[id*="SettingLinksV4"] li {
+  line-height: 30px !important;
 }
 /* line 539, ../sass/xdadmin.scss */
-body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id~="SettingLink"] a {
-  font-size: 13px;
-  font-family: Segoe UI;
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] table[id*="SettingLinksV4"] a {
+  font-size: 13px !important;
+  font-family: Segoe UI !important;
 }
 /* line 547, ../sass/xdadmin.scss */
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-splinkbutton-text {

@@ -534,9 +534,9 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 ==============================================================**/
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
-	div[id~="SettingLink"]{
-		li{ line-height: 30px}
-		a{ font-size: 13px;font-family: Segoe UI}
+	table[id*="SettingLinksV4"]{
+		li{ line-height: 30px !important}
+		a{ font-size: 13px !important;font-family: Segoe UI !important}
 	}
 	background: $newBlue;
 	display: inline-block !important; 
