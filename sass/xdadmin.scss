@@ -534,6 +534,40 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 ==============================================================**/
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
+	.ms-KFMenu{
+		width: 100% !important;
+		background: none;
+		border: none;
+		@include box-sizing(border-box);
+		padding: 10px;
+		margin: 0;
+		table{
+			width: auto;
+		}
+		.ms-KFLabel{
+	    	line-height: 28px;
+	    	color: white;
+	    	font-size: 14px;
+  		}
+  		.ms-inputuserfield{
+  			line-height: 25px;
+  		}
+  		.ms-KFHead button{
+  			color: white;
+			padding: 4px;
+			font-weight: normal;
+  		}
+  		#idKeyFiltersTitle{
+  			font-size: 16px;
+			font-weight: normal;
+			color: white;
+  		}
+  		select{
+  			padding: 4px;
+			margin: 10px 0;
+			border: none;
+  		}
+	}
 	table[id*="SettingLinksV4"]{
 		li{ line-height: 30px !important}
 		a{ font-size: 13px !important;font-family: Segoe UI !important}
