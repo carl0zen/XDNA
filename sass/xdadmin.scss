@@ -534,13 +534,47 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 ==============================================================**/
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
+	
 	.ms-KFMenu{
+
 		width: 100% !important;
 		background: none;
 		border: none;
 		@include box-sizing(border-box);
 		padding: 10px;
 		margin: 0;
+		.ms-usereditor{
+			> tbody > tr {
+				> td:first-child{
+				width:68% !important;
+				}
+				> td:nth-of-type(2){
+					padding-top: 5px;
+					a{
+						background-color: #57C8F2;
+						background-position: center;
+						background-repeat: no-repeat;
+						padding: 6px 13px;
+						&[title="Check Names"]{
+							background-image: url('../img/checknames.png');
+						}
+						&[title="Browse"]{
+							background-image: url('../img/directory.png');
+						}
+						> img{
+							display: none;
+						}
+					}
+				}	
+			}
+		}
+		.ms-dtinput{
+			padding: 0;
+			img{ opacity:0}
+			a{background: #57C8F2 url('../img/calendar.png') no-repeat center;padding:5px;}
+			input{margin-top: 7px;border: none;}
+		}
+		
 		table{
 			width: auto;
 		}
@@ -568,6 +602,7 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 			border: none;
   		}
 	}
+	
 	table[id*="SettingLinksV4"]{
 		li{ line-height: 30px !important}
 		a{ font-size: 13px !important;font-family: Segoe UI !important}
