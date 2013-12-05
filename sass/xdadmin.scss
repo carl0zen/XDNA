@@ -172,7 +172,7 @@ html body.xd.system{
 				.bold{
 					color:$white;
 					margin-top:1px;
-					display:block;
+					//display:block;
 					font-weight: bold;
 				}
 				.thumbCrop {
@@ -534,6 +534,10 @@ o888o `Y8bod8P' o888o     "888" o888o        `Y888""8o o888o o888o `Y8bod8P' o88
 ==============================================================**/
 
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
+	div[id*="TreeViewRememberScroll"]{
+		a{padding-left: 10px;}
+		a, a:hover{color:white !important;}
+	}
 	
 	.ms-KFMenu{
 

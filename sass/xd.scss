@@ -6,6 +6,9 @@
 // @include all-icons-sprites; // Commented this in order to change image location
 
 html{
+  #s4-ribbonrow{
+    min-width: 200px;
+  }
   background: #efefef;
   } 
   body.xd{
@@ -40,10 +43,10 @@ html{
   } 
   #main-content a{
     color:#18B3EE;
-    font-weight: 600;
+    //font-weight: 600;
   }
   #ctl00_MSO_ContentDiv, 
-  #s4-bodyContainer {min-width: 320px}
+  #s4-bodyContainer {min-width: 320px;max-width: 1280px;margin: 0 auto;}
 
   #s4-leftpanel   {display: none;}
   .s4-ca {margin-left: 0px;}
@@ -70,6 +73,7 @@ o888o   o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b
   .xd-header {
     background-color: #009fd9;
     padding: 30px;
+    min-width: 200px;
     h1 {
       display: inline-block;
       font-weight: lighter;
@@ -890,8 +894,8 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
     html body.xd .xd-menu{
       padding:0px !important; 
     }
-    body.xd #auth{text-align: center; float: none; clear: both; overflow: hidden; height: auto; line-height: normal; margin-top: 1em;}
-    body.xd #auth .bold{display: block; text-align: center; width:100% !important;}
+    body.xd #auth{font-size:11px;text-align: center; float: none; clear: both; overflow: hidden; height: auto; line-height: normal; margin-top: 1em;}
+    //body.xd #auth .bold{display: block; text-align: center; width:100% !important;}
     body.xd .xd-welcome{float: none;}
     body.xd  #auth .thumb,    body.xd  #auth > div {display: block; height: auto; line-height: normal; margin: 1em auto; overflow: hidden;}
     body.xd #carPaginate.loadFade {
