@@ -14,7 +14,10 @@ html body.xd.system{
 	    \_____|_|\___/|_.__/ \__,_|_|
 	                                   
 	===========================================*/
-
+	#s4-bodycontainer {
+  		max-width: 1280px;
+  		margin: 0 auto;
+	}
 
 	font-family: Segoe UI, Helvetica, Arial !important;
 	#main-content a{
