@@ -303,8 +303,6 @@ body.xd #main-content a {
 body.xd #ctl00_MSO_ContentDiv,
 body.xd #s4-bodyContainer {
   min-width: 320px;
-  max-width: 1280px;
-  margin: 0 auto;
 }
 /* line 51, ../sass/xd.scss */
 body.xd #s4-leftpanel {
