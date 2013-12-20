@@ -18,7 +18,6 @@ html body.xd.system{
   		max-width: 1280px;
   		margin: 0 auto;
 	}
-
 	font-family: Segoe UI, Helvetica, Arial !important;
 	#main-content a{
 		color: #0072BC;
@@ -104,6 +103,17 @@ html body.xd.system{
 		transition-property: all;
 		transition-timing-function: ease; 
 		display:none;
+	}
+	.ms-wpadder {
+		button{
+			padding: inherit !important;
+		}
+		table{
+			background: none;
+		}
+		.ms-wpadder-sectionhead {
+    		padding: 1px 0;
+		}
 	}
 	/*======================================== 		
 	    _    _
@@ -389,7 +399,7 @@ html body.xd.system{
 	table{
 		border:none !important;
 		margin-bottom: 0px;
-		background:none;
+		background:none !important;
 		tr td,
 		thead tr th,
 		tbody tr td,
