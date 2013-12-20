@@ -680,7 +680,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
   }
   input[type="submit"]{
-    background-color: $middleBlue;
+    /*background-color: $middleBlue;*/
     &:hover{
       background-color: lighten($middleBlue, 5%);
     }

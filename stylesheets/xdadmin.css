@@ -513,6 +513,7 @@ html body.xd.system #main-content[role="main"] input[type="url"],
 html body.xd.system #main-content[role="main"] textarea,
 html body.xd.system #main-content[role="main"] select {
   width: auto;
+  font-size: 1.3em;
 }
 html body.xd.system table {
   border: none !important;
@@ -532,7 +533,7 @@ html body.xd.system table tfoot tr td {
   padding-bottom: inherit;
 }
 html body.xd.system tr b, html body.xd.system tr td b h3, html body.xd.system .ms-standardheader {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 html body.xd.system .ms-vb-icon {
   text-align: cente;

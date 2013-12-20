@@ -384,6 +384,7 @@ html body.xd.system{
 		textarea,
 		select{
 			width: auto;
+			font-size: 1.3em;
 		}
 
 	}/* main content */
@@ -415,7 +416,7 @@ html body.xd.system{
 	}
 	
 	tr b, tr td b h3, .ms-standardheader{ 
-		font-size:1em;
+		font-size:1.3em;
 	}
 	.ms-vb-icon{ text-align:cente; padding: 10px 0 10px 13px !important; }
 	.ms-vb-icon input[type="checkbox"]{ margin-right:0px;}

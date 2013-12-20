@@ -1,4 +1,4 @@
-@charset "IBM437";
+@charset "UTF-8";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -857,7 +857,7 @@ body.xd input[type="reset"]:hover {
   background-color: #0080a6;
 }
 body.xd input[type="submit"] {
-  background-color: #0088af;
+  /*background-color: $middleBlue;*/
 }
 body.xd input[type="submit"]:hover {
   background-color: #009cc9;
