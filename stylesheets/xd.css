@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -444,6 +444,14 @@ body.xd .xd-menu .menu li.selected .menu-item {
 }
 body.xd .xd-menu .s4-tn ul.dynamic {
   border: none;
+  background-color: #E9ECED;
+  margin-top: 2px;
+}
+body.xd .xd-menu .s4-tn ul.dynamic li a {
+  color: #333 !important;
+}
+body.xd .xd-menu .s4-tn ul.dynamic li:hover {
+  background-color: #D9DEDF;
 }
 body.xd .xd-menu .s4-tn li.static .menu-item {
   height: 100%;
@@ -453,7 +461,7 @@ body.xd .xd-menu .s4-tn li.static .menu-item {
   font-size: 1.2em;
 }
 body.xd .xd-menu .s4-tn li.static .menu-item:hover {
-  background-color: #f9f9f9;
+  background-color: #E9ECED;
   text-decoration: none;
 }
 body.xd .xd-menu .s4-tn li {

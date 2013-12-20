@@ -5,7 +5,7 @@
 //@import "icons/*.png"; <-- This code generates the sprite!
 // @include all-icons-sprites; // Commented this in order to change image location
 
-html{
+html{ 
   #s4-ribbonrow{
     min-width: 200px;
     height: auto !important;
@@ -264,6 +264,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
     .s4-tn ul.dynamic  {
       border:none; 
+      background-color: #E9ECED; margin-top: 2px;
+      li{
+        a{color:#333 !important}
+        &:hover{background-color: #D9DEDF;}
+      }       
     }    
     .s4-tn {
       li.static .menu-item{
@@ -273,7 +278,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         text-transform:uppercase;
         font-size:1.2em;
         &:hover{
-          background-color:#f9f9f9;
+          background-color:#E9ECED;
           text-decoration:none;
 
         }
