@@ -262,16 +262,16 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         color:#F9F9FB;
       }
     }
-    .s4-tn ul.dynamic  {
+    .s4-tn ul.dynamic{
       border:none; 
-      background-color: #E9ECED; margin-top: 2px;
+      background-color: #E9ECED; margin-top: -4px; margin-left: 1px;
       li{ 
           color:#333333 !important;
         a
         {
             color:#333333 !important
-        }
-        &:hover{background-color: #D9DEDF;}
+        }        
+        li.static .menu-item:hover{background-color: #CED5D7}
       }       
     }    
     .s4-tn {
@@ -296,10 +296,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     .static.dynamic-children li{
 
       & a:hover{
-        background-color: #0088AF
+        background-color: #0088AF;
       }
     }
-    li.static.dynamic-children.hover{
+    li.static.dynamic-children.hover{ 
       background-color:#E9ECED;
     }
   }
