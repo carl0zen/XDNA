@@ -384,25 +384,42 @@ body.xd .xd-welcome .welcome {
   font-weight: bold;
 }
 body.xd #SearchBarXD.row {
-  max-width: 1320px;
+  max-width: inherit;
+  padding: 5px;
+  background: none #0090C7;
 }
 body.xd .xd-search {
-  float: right;
+  text-align: right;
+  float: none;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+body.xd .xd-search .s4-wpTopTable {
+  display: inline;
 }
 body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
+body.xd .xd-search .ms-sbscopes.ms-sbcell {
+  border: 0 none !important;
+  border-right: 1px solid transparent;
+  margin-right: -9px;
+  font-size: 15px;
+  font-weight: lighter;
+  height: auto;
+}
 body.xd .xd-search input {
-  margin: 0px;
-  padding: 0 0 0 5px;
-  height: 19px;
-  float: right;
+  background-color: rgba(0, 0, 0, 0);
   background-image: none;
-  background-color: transparent;
+  border: medium none !important;
   box-shadow: none;
-  border: none !important;
+  float: right;
+  font-size: 16px;
   font-style: normal;
-  font-size: 1em;
+  font-weight: lighter;
+  height: auto;
+  margin: 0;
+  padding: 0 0 0 5px;
 }
 body.xd .xd-search td img {
   display: none;
@@ -414,10 +431,13 @@ body.xd .xd-search td:nth-of-type(2) {
   background-color: #fff;
 }
 body.xd .xd-search td a {
-  height: 20px;
-  width: 20px;
+  background: url("../img/Search-Find.png") repeat scroll -7px -5px rgba(0, 0, 0, 0);
   display: inline-block;
-  background: url("../img/Search-Find.png") -7px -5px;
+  height: 19px;
+  margin-right: 2px;
+  margin-top: 3px;
+  padding: 3px;
+  width: 20px;
 }
 body.xd .xd-menu {
   background-color: #fff;
@@ -862,10 +882,10 @@ body.xd input[type="reset"]:hover {
   background-color: #0080a6;
 }
 body.xd input[type="submit"] {
-  /*background-color: $middleBlue;*/
-}
-body.xd input[type="submit"]:hover {
-  background-color: #009cc9;
+  /*background-color: $middleBlue;
+  &:hover{
+    background-color: lighten($middleBlue, 5%);
+  }*/
 }
 body.xd .icons-sprite,
 body.xd .icons-active,

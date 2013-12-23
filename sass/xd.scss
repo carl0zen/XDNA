@@ -194,36 +194,53 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
                                                                
   
    ========================================================================== */
-   #SearchBarXD.row{max-width: 1320px;}
+   #SearchBarXD.row{max-width: inherit; padding: 5px; background: none #0090C7;}
 
   .xd-search {
-   
-    float: right;
-   
+    text-align:right;
+    float: none;
+    margin: 0 auto;
+    max-width: 1320px;
+    
+    .s4-wpTopTable{display: inline;}
+
     .ms-sbplain {
       background-image: none;
     }
-    input {
-      margin: 0px;
-      padding: 0 0 0 5px;
-      height: 19px;
-      float: right;
-      background-image: none;
-      background-color: transparent;
-      box-shadow: none;
-      border:none !important;
-      font-style:normal;
-      font-size:1em
+    .ms-sbscopes.ms-sbcell
+    {
+      border: 0 none !important;
+      border-right:1px solid transparent; margin-right: -9px;
+       font-size: 15px;
+      font-weight: lighter;
+      height: auto;
     }
-    td {
+    input {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    border: medium none !important;
+    box-shadow: none;
+    float: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    height: auto;
+    margin: 0;
+    padding: 0 0 0 5px;
+
+    }
+    td{
       img {display:none}
       &:first-child {display:block}
       &:nth-of-type(2) {background-color:#fff;}
       a{
-        height:20px;
-        width:20px;
-        display:inline-block;
-        background:url("../img/Search-Find.png") -7px -5px;
+        background: url("../img/Search-Find.png") repeat scroll -7px -5px rgba(0, 0, 0, 0);
+        display: inline-block;
+        height: 19px;
+        margin-right: 2px;
+        margin-top: 3px;
+        padding: 3px;
+        width: 20px;
       }
     } 
   }
@@ -685,10 +702,10 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     }
   }
   input[type="submit"]{
-    /*background-color: $middleBlue;*/
+    /*background-color: $middleBlue;
     &:hover{
       background-color: lighten($middleBlue, 5%);
-    }
+    }*/
   }
 
 
