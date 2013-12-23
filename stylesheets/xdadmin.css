@@ -1865,105 +1865,106 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 */
 /* line 1443, ../sass/xdadmin.scss */
 .ms-dlgFrameContainer {
+  overflow: visible !important;
   -webkit-box-sizing: padding-box !important;
   -moz-box-sizing: padding-box !important;
   box-sizing: padding-box !important;
 }
 
-/* line 1448, ../sass/xdadmin.scss */
+/* line 1449, ../sass/xdadmin.scss */
 .ms-dlgTitle {
   background: #009fd9 !important;
   width: 100% !important;
 }
 
-/* line 1450, ../sass/xdadmin.scss */
+/* line 1451, ../sass/xdadmin.scss */
 html.ms-dialog body.xd input[type="submit"] {
   background-color: none !important;
 }
 
-/* line 1456, ../sass/xdadmin.scss */
+/* line 1457, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system input[type="submit"] {
   background-color: none !important;
   border: auto !important;
   font-size: 100%;
   padding: auto !important;
 }
-/* line 1462, ../sass/xdadmin.scss */
+/* line 1463, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system input[type="submit"]:hover {
   background-color: none !important;
 }
-/* line 1465, ../sass/xdadmin.scss */
+/* line 1466, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-linksection-level1 td {
   margin: 0 auto \9;
 }
-/* line 1466, ../sass/xdadmin.scss */
+/* line 1467, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-toolbar {
   padding: 0px;
 }
-/* line 1469, ../sass/xdadmin.scss */
+/* line 1470, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-ribboncont {
   background: #009fd9;
 }
-/* line 1472, ../sass/xdadmin.scss */
+/* line 1473, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system input[type="checkbox"], html.ms-dialog body.xd.system input[type="radio"] {
   margin: 5px;
   float: left;
 }
-/* line 1474, ../sass/xdadmin.scss */
+/* line 1475, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-RadioText label {
   float: left;
   line-height: 215%;
 }
-/* line 1477, ../sass/xdadmin.scss */
+/* line 1478, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-long {
   width: 100%;
 }
-/* line 1478, ../sass/xdadmin.scss */
+/* line 1479, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-inputformdescription {
   padding-left: 6px;
   padding-right: 9px;
 }
-/* line 1479, ../sass/xdadmin.scss */
+/* line 1480, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-ButtonHeightWidth {
   font: 10pt tahoma;
   line-height: 1.4em;
 }
-/* line 1480, ../sass/xdadmin.scss */
+/* line 1481, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #wrapper {
   width: 100%;
 }
-/* line 1481, ../sass/xdadmin.scss */
+/* line 1482, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .xd-header, html.ms-dialog body.xd.system .menu-icon, html.ms-dialog body.xd.system .sidebar-button, html.ms-dialog body.xd.system .xd-footer {
   display: none !important;
 }
-/* line 1482, ../sass/xdadmin.scss */
+/* line 1483, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-standardheader {
   font-size: 1em !important;
   line-height: 3.4;
 }
-/* line 1487, ../sass/xdadmin.scss */
+/* line 1488, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext {
   font-size: 1em;
   line-height: 1.1em;
 }
-/* line 1490, ../sass/xdadmin.scss */
+/* line 1491, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system > table > td.ms-descriptiontext table {
   text-align: center;
 }
-/* line 1492, ../sass/xdadmin.scss */
+/* line 1493, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-descriptiontext {
   display: table-cell;
 }
-/* line 1497, ../sass/xdadmin.scss */
+/* line 1498, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca {
   margin: 0;
   background: none !important;
 }
-/* line 1500, ../sass/xdadmin.scss */
+/* line 1501, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #s4-leftpanel[role="complementary"] {
   display: none !important;
 }
-/* line 1501, ../sass/xdadmin.scss */
+/* line 1502, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content {
   padding: 15px;
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -1971,44 +1972,44 @@ html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-conte
   width: auto;
   min-height: 1px;
 }
-/* line 1502, ../sass/xdadmin.scss */
+/* line 1503, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content .page-title-area {
   display: none;
 }
-/* line 1510, ../sass/xdadmin.scss */
+/* line 1511, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content > table {
   margin: 0;
   width: 100% !important;
 }
-/* line 1513, ../sass/xdadmin.scss */
+/* line 1514, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content > table td {
   max-width: auto !important;
 }
-/* line 1516, ../sass/xdadmin.scss */
+/* line 1517, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system #s4-workspace #s4-bodyContainer .s4-ca #main-content > table > tbody {
   display: block;
   width: 100%;
 }
-/* line 1525, ../sass/xdadmin.scss */
+/* line 1526, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-authoringcontrols {
   background-color: #f6f6f6;
 }
-/* line 1526, ../sass/xdadmin.scss */
+/* line 1527, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-authoringcontrols label {
   font-size: 1em;
   margin-left: 10px;
   line-height: 13px;
 }
-/* line 1532, ../sass/xdadmin.scss */
+/* line 1533, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system table {
   font-size: 1em;
   background: none;
 }
-/* line 1534, ../sass/xdadmin.scss */
+/* line 1535, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .ms-formbody {
   background: none;
 }
-/* line 1535, ../sass/xdadmin.scss */
+/* line 1536, ../sass/xdadmin.scss */
 html.ms-dialog body.xd.system .s4-pr {
   width: 100% !important;
 }
