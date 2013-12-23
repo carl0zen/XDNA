@@ -17,6 +17,7 @@ html{
       border-left:0px;
       padding-left: 20px
     }
+    body #s4-workspace{ overflow-y:auto}
     &.reader{
       overflow: auto;
       #s4-workspace{overflow: visible; height: auto !important;} 
@@ -194,14 +195,18 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
                                                                
   
    ========================================================================== */
-   #SearchBarXD.row{max-width: inherit; padding: 5px; background: none #0090C7;}
+  #SearchBarXD.row
+  {
+    max-width: inherit; padding: 5px; background: none #0090C7; 
+    @include box-sizing(border-box);
+  }
 
   .xd-search {
     text-align:right;
     float: none;
-    margin: 0 auto;
+    margin: 0 auto; padding: 0;
     max-width: 1320px;
-     
+    @include box-sizing(border-box);
     .s4-wpTopTable{display: inline;}
 
     .ms-sbplain {
@@ -211,7 +216,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
     {
       border: 0 none !important;
       border-right:1px solid transparent; margin-right: -9px;
-       font-size: 16px; padding: 1px 1px 0 0 ;
+       font-size: 16px; padding: 2px ;
       font-weight: lighter;
       height: auto; width: auto;
     }
