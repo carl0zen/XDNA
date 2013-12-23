@@ -383,10 +383,11 @@ body.xd .xd-welcome .welcome {
   display: inline-block;
   font-weight: bold;
 }
+body.xd #SearchBarXD.row {
+  max-width: 1320px;
+}
 body.xd .xd-search {
-  display: inline-block;
   float: right;
-  display: none;
 }
 body.xd .xd-search .ms-sbplain {
   background-image: none;

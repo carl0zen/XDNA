@@ -194,11 +194,12 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
                                                                
   
    ========================================================================== */
-  
+   #SearchBarXD.row{max-width: 1320px;}
+
   .xd-search {
-    display: inline-block;
+   
     float: right;
-    display:none;
+   
     .ms-sbplain {
       background-image: none;
     }
@@ -262,7 +263,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
         color:#F9F9FB;
       }
     }
-    .s4-tn ul.dynamic{
+    .s4-tn ul.dynamic{ 
       border:none; 
       background-color: #E9ECED; margin-top: -4px; margin-left: 1px;
       li{ 
@@ -949,7 +950,7 @@ o8o        o888o o888ooooood8 o888bood8P'   o888o o88o     o8888o
       width:100%;
       text-align:center;
       padding:0px
-    }
+    }   
     body.xd .xd-header .xd-search{
       margin:2em 0;
       display:none
