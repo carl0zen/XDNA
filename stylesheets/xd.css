@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM437";
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -445,7 +445,8 @@ body.xd .xd-menu .menu li.selected .menu-item {
 body.xd .xd-menu .s4-tn ul.dynamic {
   border: none;
   background-color: #E9ECED;
-  margin-top: 2px;
+  margin-top: -4px;
+  margin-left: 1px;
 }
 body.xd .xd-menu .s4-tn ul.dynamic li {
   color: #333333 !important;
@@ -453,8 +454,8 @@ body.xd .xd-menu .s4-tn ul.dynamic li {
 body.xd .xd-menu .s4-tn ul.dynamic li a {
   color: #333333 !important;
 }
-body.xd .xd-menu .s4-tn ul.dynamic li:hover {
-  background-color: #D9DEDF;
+body.xd .xd-menu .s4-tn ul.dynamic li li.static .menu-item:hover {
+  background-color: #CED5D7;
 }
 body.xd .xd-menu .s4-tn li.static .menu-item {
   height: 100%;
@@ -472,7 +473,7 @@ body.xd .xd-menu .s4-tn li {
   font-weight: normal;
 }
 body.xd .xd-menu .static.dynamic-children li a:hover {
-  background-color: #0088af;
+  background-color: #0088AF;
 }
 body.xd .xd-menu li.static.dynamic-children.hover {
   background-color: #E9ECED;
