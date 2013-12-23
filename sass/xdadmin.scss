@@ -1440,8 +1440,11 @@ d88' `888  `888  `P  )88b   888  d88' `88b 888' `88b  d88(  "8
 .ms-dlgTitle { background: #009fd9 !important; width:100% !important}
 .ms-dlgFrame{ width:100% !important}
 */
-
-
+.ms-dlgFrameContainer{
+-webkit-box-sizing: padding-box !important;
+   -moz-box-sizing: padding-box !important;
+        box-sizing: padding-box !important;
+}
 .ms-dlgTitle { background: #009fd9 !important; width:100% !important}
 
 html.ms-dialog body.xd input[type="submit"]{
