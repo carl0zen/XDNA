@@ -1,5 +1,6 @@
 /**/ 
 
-#SRSB {float: right;}
+body.xd .xd-search .s4-wpTopTable{width: 320px; float: right;}
 
-#SRSB input{margin-right: 10px; font-size: 13px;}
+body.xd .xd-search .ms-sbscopes.ms-sbcell .ms-sbscopes{margin-right: 15px; font-size: 14px;}
+
