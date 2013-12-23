@@ -207,13 +207,13 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
     .ms-sbplain {
       background-image: none;
     }
-    .ms-sbscopes.ms-sbcell
+    .ms-sbscopes.ms-sbcell .ms-sbscopes
     {
       border: 0 none !important;
       border-right:1px solid transparent; margin-right: -9px;
-       font-size: 15px;
+       font-size: 16px; padding: 1px 1px 0 0 ;
       font-weight: lighter;
-      height: auto;
+      height: auto; width: auto;
     }
     input {
     background-color: rgba(0, 0, 0, 0);
@@ -226,7 +226,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
     font-weight: lighter;
     height: auto;
     margin: 0;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 5px; position: relative; top: 2px;
 
     }
     td{

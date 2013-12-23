@@ -400,13 +400,15 @@ body.xd .xd-search .s4-wpTopTable {
 body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
-body.xd .xd-search .ms-sbscopes.ms-sbcell {
+body.xd .xd-search .ms-sbscopes.ms-sbcell .ms-sbscopes {
   border: 0 none !important;
   border-right: 1px solid transparent;
   margin-right: -9px;
-  font-size: 15px;
+  font-size: 16px;
+  padding: 1px 1px 0 0;
   font-weight: lighter;
   height: auto;
+  width: auto;
 }
 body.xd .xd-search input {
   background-color: rgba(0, 0, 0, 0);
@@ -420,6 +422,8 @@ body.xd .xd-search input {
   height: auto;
   margin: 0;
   padding: 0 0 0 5px;
+  position: relative;
+  top: 2px;
 }
 body.xd .xd-search td img {
   display: none;
