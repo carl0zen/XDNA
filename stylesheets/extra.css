@@ -1,1 +1,3 @@
-body.xd #SearchBarXD .xd-search .s4-wpTopTable{ width:300px; float:right;}
+#SearchBarXD .xd-search table{ width:300px; float:right;}
+
+#SearchBarXD .xd-search table #SRSB input{ margin-right:15px;}
