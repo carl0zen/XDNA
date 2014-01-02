@@ -1,4 +1,4 @@
-body.xd .xd-search {
+body.xd #SearchBarXD .xd-search {
   display: inline;
   float:right;
   width:300px;
