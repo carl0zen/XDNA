@@ -1,5 +1,5 @@
-body.xd #SearchBarXD .xd-search {
-  display: inline;
+body.xd #SearchBarXD.row .xd-search {
+  display: block;
   float:right;
   width:300px;
   background:#007AA8;
