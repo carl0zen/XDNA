@@ -89,8 +89,8 @@ o888o   o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b
         font-family: "Segoe UI"; 
         font-size: 1.2em;
       }
-    }
-    
+    }  
+    h2.xd-title-area label{ color: #FFFFFF;  display: inline; font-size:1em;}
     .s4-notdlg {
       display: inline-block;
       img{
@@ -199,6 +199,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
   {
     max-width: inherit; padding: 5px; background: none #0090C7; 
     @include box-sizing(border-box);
+    *{font-family: Segoe UI, Helvetica, Arial;}
   }
 
   .xd-search {
@@ -208,7 +209,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
     max-width: 1320px;
     @include box-sizing(border-box);
     .s4-wpTopTable{display: inline;}
-
+    .ms-sbtable-ex{float: right;}
     .ms-sbplain {
       background-image: none;
     }
@@ -239,7 +240,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
       &:first-child {display:block}
       &:nth-of-type(2) {background-color:#fff;}
       a{
-        background: url("../img/Search-Find.png") repeat scroll -7px -5px rgba(0, 0, 0, 0);
+        background: url("../img/Search-Find.png") repeat scroll -7px -5px transparent;
         display: inline-block;
         height: 19px;
         margin-right: 2px;
@@ -247,8 +248,16 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
         padding: 3px;
         width: 20px;
       }
-    } 
+    }  
   }
+.srch-WPBody
+{
+  .srch-Title3
+  {
+    a{color: #009FD9 !important; font-family: "Segoe UI";}
+  }
+  .srch-URL2{color:#FF6600 !important; font-family: "Segoe UI";} 
+}
   /* ==========================================================================
 
 ooo        ooooo                                   
