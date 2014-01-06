@@ -681,6 +681,10 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id*="Tr
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id*="TreeViewRememberScroll"] a, body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id*="TreeViewRememberScroll"] a:hover {
   color: white !important;
 }
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-tvselected a.ms-navitem {
+  background: none;
+  border: none;
+}
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-KFMenu {
   width: 100% !important;
   background: none;
