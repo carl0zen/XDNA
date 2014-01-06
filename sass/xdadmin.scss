@@ -557,7 +557,10 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"]{
 		a{padding-left: 10px;}
 		a, a:hover{color:white !important;}
 	}
-	
+	.ms-tvselected a.ms-navitem{
+		background:none;
+		border:none;
+	}
 	.ms-KFMenu{
 
 		width: 100% !important;

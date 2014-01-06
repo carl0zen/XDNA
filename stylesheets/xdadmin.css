@@ -168,7 +168,6 @@ html body.xd.system {
                                           
   	===========================================*/
 }
-<<<<<<< HEAD
 html body.xd.system .xd-search {
   max-width: inherit;
   padding: 0 !important;
@@ -177,8 +176,6 @@ html body.xd.system .xd-search input {
   top: 0;
   padding: 0 0 0 10px;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 html body.xd.system #s4-bodycontainer {
   max-width: 1280px;
   margin: 0 auto;
@@ -683,6 +680,10 @@ body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id*="Tr
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id*="TreeViewRememberScroll"] a, body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] div[id*="TreeViewRememberScroll"] a:hover {
   color: white !important;
+}
+body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-tvselected a.ms-navitem {
+  background: none;
+  border: none;
 }
 body.xd.system #s4-bodyContainer #s4-leftpanel[role="complementary"] .ms-KFMenu {
   width: 100% !important;

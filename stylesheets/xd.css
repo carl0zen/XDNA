@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@charset "IBM437";
-=======
 @charset "UTF-8";
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -306,14 +302,11 @@ body.xd .xd-header h1 a {
   font-family: "Segoe UI";
   font-size: 1.2em;
 }
-<<<<<<< HEAD
 body.xd .xd-header h2.xd-title-area label {
   color: #FFFFFF;
   display: inline;
   font-size: 1em;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-header .s4-notdlg {
   display: inline-block;
 }
@@ -406,12 +399,9 @@ body.xd #SearchBarXD.row {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 body.xd #SearchBarXD.row * {
   font-family: Segoe UI, Helvetica, Arial;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-search {
   text-align: right;
   float: none;
@@ -425,12 +415,9 @@ body.xd .xd-search {
 body.xd .xd-search .s4-wpTopTable {
   display: inline;
 }
-<<<<<<< HEAD
 body.xd .xd-search .ms-sbtable-ex {
   float: right;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
@@ -477,7 +464,6 @@ body.xd .xd-search td a {
   padding: 3px;
   width: 20px;
 }
-<<<<<<< HEAD
 body.xd .srch-WPBody .srch-Title3 a {
   color: #009FD9 !important;
   font-family: "Segoe UI";
@@ -486,8 +472,6 @@ body.xd .srch-WPBody .srch-URL2 {
   color: #FF6600 !important;
   font-family: "Segoe UI";
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-menu {
   background-color: #fff;
   padding: 0 30px;
