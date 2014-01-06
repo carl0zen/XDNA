@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @charset "IBM437";
-=======
-@charset "UTF-8";
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -173,6 +169,9 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
   
    ========================================================================== */
   /* ==========================================================================
+}
+}
+}
 
 ooo        ooooo                                   
 `88.       .888'                                   
@@ -306,14 +305,11 @@ body.xd .xd-header h1 a {
   font-family: "Segoe UI";
   font-size: 1.2em;
 }
-<<<<<<< HEAD
 body.xd .xd-header h2.xd-title-area label {
   color: #FFFFFF;
   display: inline;
   font-size: 1em;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-header .s4-notdlg {
   display: inline-block;
 }
@@ -406,12 +402,9 @@ body.xd #SearchBarXD.row {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 body.xd #SearchBarXD.row * {
   font-family: Segoe UI, Helvetica, Arial;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-search {
   text-align: right;
   float: none;
@@ -425,12 +418,9 @@ body.xd .xd-search {
 body.xd .xd-search .s4-wpTopTable {
   display: inline;
 }
-<<<<<<< HEAD
 body.xd .xd-search .ms-sbtable-ex {
   float: right;
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
 body.xd .xd-search .ms-sbplain {
   background-image: none;
 }
@@ -477,7 +467,6 @@ body.xd .xd-search td a {
   padding: 3px;
   width: 20px;
 }
-<<<<<<< HEAD
 body.xd .srch-WPBody .srch-Title3 a {
   color: #009FD9 !important;
   font-family: "Segoe UI";
@@ -486,8 +475,38 @@ body.xd .srch-WPBody .srch-URL2 {
   color: #FF6600 !important;
   font-family: "Segoe UI";
 }
-=======
->>>>>>> d5b02d37b128729bbb1bfa7f257c45966b860b18
+body.xd .ms-searchref-categoryname {
+  height: auto;
+}
+body.xd .ms-osssearch-SearchAreaTd {
+  background-color: transparent;
+}
+body.xd #s4-searcharea .s4-search input.ms-sbplain {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #E3E3E3 !important;
+  box-shadow: 0 0 rgba(0, 0, 0, 0);
+  font-family: "segoe ui";
+  font-size: 16px !important;
+  font-weight: lighter;
+  height: auto;
+  margin: 0 0 0 -8px;
+  padding: 2px;
+  position: relative;
+  top: auto;
+  width: 280px !important;
+}
+body.xd #s4-searcharea .s4-search select.ms-sbscopes {
+  font-family: "segoe ui";
+  font-size: 16px;
+  font-weight: lighter;
+  height: auto;
+  padding: 2px;
+  width: 291px !important;
+}
+body.xd #s4-searcharea .s4-search .srch-gosearchimg {
+  height: auto;
+  padding: 4px !important;
+}
 body.xd .xd-menu {
   background-color: #fff;
   padding: 0 30px;

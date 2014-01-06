@@ -252,13 +252,30 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
   }
 .srch-WPBody
 {
-  .srch-Title3
+  .srch-Title3   
   {
     a{color: #009FD9 !important; font-family: "Segoe UI";}
   }
   .srch-URL2{color:#FF6600 !important; font-family: "Segoe UI";} 
 }
+.ms-searchref-categoryname{height: auto;}
+.ms-osssearch-SearchAreaTd{ background-color: transparent;}
+
+#s4-searcharea 
+{
+    .s4-search
+    {
+        input.ms-sbplain{background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #E3E3E3 !important; box-shadow: 0 0 rgba(0, 0, 0, 0); font-family: "segoe ui"; font-size: 16px !important; font-weight: lighter; height: auto; margin: 0 0 0 -8px; padding: 2px; position: relative; top: auto; width: 280px !important;}
+        select.ms-sbscopes{font-family: "segoe ui"; font-size: 16px; font-weight: lighter; height: auto; padding: 2px; width: 291px !important;}
+        .srch-gosearchimg{height: auto;padding: 4px !important;}
+    } 
+}
+
+
   /* ==========================================================================
+}
+}
+}
 
 ooo        ooooo                                   
 `88.       .888'                                   
