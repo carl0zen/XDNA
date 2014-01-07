@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @charset "IBM437";
-=======
-@charset "UTF-8";
->>>>>>> 7f672ff17b83283ae8a4f8394105b5fed2545e8f
 /* ..-------------------------------------------------------...
   |                         COLOR PALETTE                      |
   |..--------------------------------------------------------..|*/
@@ -472,14 +468,14 @@ body.xd .xd-search td a {
   width: 20px;
 }
 body.xd .srch-WPBody .srch-Title3 a {
-  color: #009FD9 !important;
+  color: #0090C6 !important;
   font-family: "Segoe UI";
 }
 body.xd .srch-WPBody .srch-URL2 {
-  color: #FF6600 !important;
+  color: #009FD9 !important;
   font-family: "Segoe UI";
+  font-size: 10px;
 }
-<<<<<<< HEAD
 body.xd .ms-searchref-categoryname {
   height: auto;
 }
@@ -512,8 +508,6 @@ body.xd #s4-searcharea .s4-search .srch-gosearchimg {
   height: auto;
   padding: 4px !important;
 }
-=======
->>>>>>> 7f672ff17b83283ae8a4f8394105b5fed2545e8f
 body.xd .xd-menu {
   background-color: #fff;
   padding: 0 30px;
