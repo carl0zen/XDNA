@@ -2,12 +2,7 @@
 @import "settings";
 @import "helpers";
 @import "layout";
-<<<<<<< HEAD
   
-=======
-//@import "icons/*.png"; <-- This code generates the sprite!
-// @include all-icons-sprites; // Commented this in order to change image location
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
 
 html{ 
   #s4-ribbonrow{
@@ -90,11 +85,7 @@ o888o   o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b
         color: #fff;
         margin-left: 20px;
         font-size: 0.9em;
-<<<<<<< HEAD
         font-family: $defaultFontFamily; 
-=======
-        font-family: "Segoe UI"; 
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
         font-size: 1.2em;
       }
     }  
@@ -141,11 +132,7 @@ oooooo   oooooo     oooo           oooo
       background: none;
       padding: 0px;
       margin: 0px;
-<<<<<<< HEAD
       font-family:$defaultFontFamily;
-=======
-      font-family:"Segoe UI"
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
     }
     #auth{
        line-height: inherit;
@@ -211,11 +198,7 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
   {
     max-width: inherit; padding: 5px; background: none #0090C7; 
     @include box-sizing(border-box);
-<<<<<<< HEAD
     *{font-family:$defaultFontFamily;}
-=======
-    *{font-family: Segoe UI, Helvetica, Arial;}
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
   }
 
   .xd-search {
@@ -268,7 +251,6 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
   }
 .srch-WPBody
 {
-<<<<<<< HEAD
 
   .srch-Title3   
   {
@@ -306,24 +288,6 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
           width: 28px;
           img{display: none}
         }
-=======
-  .srch-Title3   
-  {
-    a{color: #0090C6 !important; font-family: "Segoe UI";}
-  }
-  .srch-URL2{color:#009FD9 !important; font-family: "Segoe UI"; font-size: 10px;} 
-}
-.ms-searchref-categoryname{height: auto;}
-.ms-osssearch-SearchAreaTd{ background-color: transparent;}
-
-#s4-searcharea 
-{
-    .s4-search
-    {
-        input.ms-sbplain{background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: 1px solid #E3E3E3 !important; box-shadow: 0 0 rgba(0, 0, 0, 0); font-family: "segoe ui"; font-size: 16px !important; font-weight: lighter; height: auto; margin: 0 0 0 -8px; padding: 2px; position: relative; top: auto; width: 280px !important;}
-        select.ms-sbscopes{font-family: "segoe ui"; font-size: 16px; font-weight: lighter; height: auto; padding: 2px; width: 291px !important;}
-        .srch-gosearchimg{height: auto;padding: 4px !important;}
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
     } 
 }
 
@@ -714,11 +678,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
       }
       h3{
           font-size: 18px; 
-<<<<<<< HEAD
           font-family: $defaultFontFamily; 
-=======
-          font-family: Segoe UI; 
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
           font-weight: bold;       
           color:#ffffff; 
           text-indent: 5px; 
@@ -750,21 +710,11 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
   {   
     border-bottom: 2px solid #FE6601;
     h3{
-<<<<<<< HEAD
       font-size: 2.5em; font-family: $defaultFontFamily; font-weight: lighter; 
       > a{color:#ffffff}
     }
     &:hover{ border-bottom: 2px solid  $menuBorderColor;}
   }    
-=======
-      font-size: 2.5em; font-family: Segoe UI; font-weight: lighter; 
-      > a{color:#ffffff}
-    }
-    &:hover{ border-bottom: 2px solid  $menuBorderColor;}
-  }
-  
-   
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
 
 }
 
@@ -781,11 +731,7 @@ o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
     color: #fff;
     text-highlight: none;
     font-weight: lighter;
-<<<<<<< HEAD
     font-family: $defaultFontFamily;
-=======
-    font-family: Segoe UI;
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
     font-family: sans-serif;
     font-size: 1.4em;
     height:auto;
@@ -957,11 +903,7 @@ o888o        `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b
     color: #222222;
     padding: 0;
     margin: 0;
-<<<<<<< HEAD
     font-family: $defaultFontFamily !important;
-=======
-    font-family: Segoe UI, Helvetica, Arial !important;
->>>>>>> 7af5c1f0cbab5afa283df58c3bf14f8a6aa32f69
     font-weight: normal;
     font-style: normal;
     line-height: 1.2;
