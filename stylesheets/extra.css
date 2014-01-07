@@ -1,0 +1,10 @@
+body.xd #SearchBarXD.row .xd-search {
+  display: block;
+  float:right;
+  width:425px;
+  padding:10px;
+}
+
+body.xd  #SearchBarXD.row .xd-search .ms-sbscopes.ms-sbcell .ms-sbscopes {
+margin-right:10px;
+}
