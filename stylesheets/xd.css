@@ -476,6 +476,11 @@ body.xd .srch-WPBody p.srch-Metadata1 {
   line-height: 1.3em;
   margin-top: 0;
 }
+body.xd .srch-WPBody p.srch-Metadata1 span.srch-urllink a:link, body.xd .srch-WPBody p.srch-Metadata1 .srch-urllink a:visited {
+  color: #FE6601 !important;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 11px;
+}
 body.xd .srch-WPBody .srch-Metadata2 {
   color: #999999;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -537,6 +542,16 @@ body.xd #s4-searcharea .s4-search a[id*="_go"] {
 }
 body.xd #s4-searcharea .s4-search a[id*="_go"] img {
   display: none;
+}
+body.xd .srch-refinearea ul, body.xd .srch-refinearea ol, body.xd .srch-refinearea dl {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+body.xd .srch-refinearea li.ms-searchref-selected, body.xd .srch-refinearea li.ms-searchref-filtermsg {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+}
+body.xd .srch-refinearea li.ms-searchref-selected a {
+  font-weight: bold;
 }
 body.xd .xd-menu {
   background-color: #fff;

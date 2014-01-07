@@ -252,11 +252,21 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
 .srch-WPBody
 {
 
-  .srch-Title3   
+.srch-Title3   
   {
     a{color: #0090C6 !important; font-family:$defaultFontFamily;}
   }
-  p.srch-Metadata1{ margin-bottom: 2em; line-height: 1.3em; margin-top: 0}
+  p.srch-Metadata1
+  {
+    margin-bottom: 2em; line-height: 1.3em; margin-top: 0;
+    span.srch-urllink a:link, .srch-urllink a:visited 
+    {
+      color: #FE6601 !important;
+      font-family:$defaultFontFamily;
+      font-size: 11px;
+    }
+
+  }
   .srch-Metadata2{color: #999999;font-family: $defaultFontFamily; font-size: 11px; font-style: italic;}
   .srch-Description2{color: #333333;font-family: $defaultFontFamily; font-size: 11px; font-weight: normal;}
   .srch-URL2{color:#009FD9 !important; font-family: $defaultFontFamily; font-size: 11px;} 
@@ -289,6 +299,18 @@ oo     .d8P 888    .o d8(  888   888     888   .o8  888   888
           img{display: none}
         }
     } 
+}
+.srch-refinearea
+{
+  ul, ol, dl{font-family: $defaultFontFamily}
+  li.ms-searchref-selected, li.ms-searchref-filtermsg
+  {
+    background: none repeat scroll 0 0 transparent;
+    border:0 none;    
+  }
+  li.ms-searchref-selected{
+    a{font-weight: bold;}
+  }
 }
 
 
